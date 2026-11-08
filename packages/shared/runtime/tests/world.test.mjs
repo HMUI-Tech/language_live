@@ -1,3 +1,10 @@
+import {
+  socialId,
+  migrateSocialId,
+  ensureSocialIds,
+  isModerator,
+} from "../lib/world-identity.mjs";
+import { digest } from "../lib/family.mjs";
 import test from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
@@ -67,6 +74,8 @@ function setup() {
       ...extra,
     });
   return {
+    db,
+    sql,
     call,
     ids,
     wallets,
@@ -252,6 +261,76 @@ test("plain-text limits reject contact details; messages expire and calling cann
       0,
     );
     await assert.rejects(t.call("a", { op: "call" }), /Unknown/);
+  } finally {
+    t.close();
+  }
+});
+
+test("social IDs are site-scoped HMACs and moderator access is independent of analytics", async () => {
+  const secret = "test-only-world-key-000000000000000000000";
+  const de = await socialId("same-user", secret, "german"),
+    it = await socialId("same-user", secret, "italian");
+  assert.notEqual(de, it);
+  assert.equal(await socialId("same-user", secret, "german"), de);
+  await assert.rejects(socialId("same-user", "short"));
+  assert.equal(
+    isModerator({ userId: "a", email: "analytics@example.invalid" }, undefined),
+    false,
+  );
+  assert.equal(isModerator({ userId: "a" }, "b, a"), true);
+});
+
+test("existing social graphs migrate transactionally without losing friend rooms or exposing old IDs", async () => {
+  const t = setup();
+  try {
+    const owners = ["supabase:old-a", "supabase:old-b"],
+      old = await Promise.all(owners.map((x) => digest(x + ":world")));
+    const ids = await Promise.all(
+      owners.map((x) =>
+        socialId(x, "test-only-migration-secret-0000000000000000"),
+      ),
+    );
+    const pair = [...old].sort().join(":");
+    for (let i = 0; i < 2; i++)
+      t.sql
+        .prepare(
+          "INSERT INTO world_people VALUES(?, '18+', ?, ?, 9999999999999,1,1)",
+        )
+        .run(old[i], "Alias" + i, "invite" + i);
+    t.sql
+      .prepare("INSERT INTO world_friends VALUES(?,?,?,?,?,1)")
+      .run(pair, old[0], old[1], old[0], "accepted");
+    t.sql
+      .prepare("INSERT INTO world_messages VALUES('m',?,?, 'hello',1,0)")
+      .run("friend:" + pair, old[0]);
+    t.sql
+      .prepare(
+        "INSERT INTO world_rooms VALUES(?,?, '18+','club','code',9999999999999)",
+      )
+      .run("private:" + old[0], old[0]);
+    t.sql
+      .prepare("INSERT INTO world_members VALUES(?,?,?)")
+      .run("private:" + old[0] + ":" + old[1], "private:" + old[0], old[1]);
+    await ensureSocialIds(
+      t.db,
+      ids[0],
+      "test-only-migration-secret-0000000000000000",
+    );
+    const friend = t.sql.prepare("SELECT * FROM world_friends").get();
+    assert.equal(friend.id, [...ids].sort().join(":"));
+    assert.equal(
+      t.sql.prepare("SELECT room FROM world_messages WHERE id='m'").get().room,
+      "friend:" + friend.id,
+    );
+    assert.equal(
+      t.sql.prepare("SELECT owner FROM world_rooms").get().owner,
+      ids[0],
+    );
+    assert.equal(
+      t.sql.prepare("SELECT person FROM world_members").get().person,
+      ids[1],
+    );
+    await migrateSocialId(t.db, owners[0], ids[0]);
   } finally {
     t.close();
   }

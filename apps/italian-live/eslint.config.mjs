@@ -5,7 +5,10 @@ import nextTs from "eslint-config-next/typescript";
 const eslintConfig = defineConfig([
   ...nextVitals,
   ...nextTs,
-  {files:["public/**/*.js","standalone/src/**/*.js"],rules:{"@next/next/no-location-assign-relative-destination":"off"}},
+  {
+    files: ["public/**/*.js", "standalone/src/**/*.js"],
+    rules: { "@next/next/no-location-assign-relative-destination": "off" },
+  },
   globalIgnores([
     "dist/**",
     "legacy/**",

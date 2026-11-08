@@ -28,6 +28,6 @@ Main learning progress and coins use Supabase; the social world uses each site's
 
 ## Shared source and private backend
 
-`packages/shared/runtime/` is canonical for 121 identical source files. The validated manifest and `scripts/materialize-shared.mjs` copy them to the original app-relative paths before tests or development, preserving module resolution. Language-specific content, normalization and configuration remain per app. Independently hosted Sites use the materialized source.
+`packages/shared/runtime/` is canonical for 70 identical source files. The validated manifest and `scripts/materialize-shared.mjs` copy them to the original app-relative paths before tests or development, preserving module resolution. Language-specific content, normalization and configuration remain per app. Independently hosted Sites use the materialized source.
 
 Protected Supabase source is kept outside the public repository and deployment assets. See [backend access](BACKEND_ACCESS.md). Family and rewards bridges have separate server credentials. PIN attempts use database row locks. Progress uploads send changed document chunks after acknowledgment; revision checks still reject conflicting device writes. Reading, shop and game interfaces load on demand.

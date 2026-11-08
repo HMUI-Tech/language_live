@@ -125,8 +125,8 @@ test("text areas retain entered content when the UI re-renders after a failed sa
 });
 
 test("missing accents or umlauts receive explicit feedback and cannot be rated Easy", () => {
-  const item = { pos: "adj", de: "schön" };
-  const answer = "schon";
+  const item = { pos: "adj", de: "Mädchen" };
+  const answer = "madchen";
   assert.equal(C.checkAnswer(item, answer).result, "accent");
   assert.equal(C.gradeForAnswer("easy", "accent"), "hard");
 });
@@ -147,5 +147,24 @@ test("optional screens and story text do not load before the first learning card
   assert.deepEqual(
     ctx.DLReadingIndex.map((s) => [s.id, s.questions.length]),
     ctx.DLReadingStories.map((s) => [s.id, s.questions.length]),
+  );
+});
+
+test("meaning-changing accents are wrong in both directions; combining Unicode remains correct", () => {
+  assert.equal(
+    C.checkAnswer({ de: "schön", pos: "other" }, "schon").result,
+    "wrong",
+  );
+  assert.equal(
+    C.checkAnswer({ de: "schon", pos: "other" }, "schön").result,
+    "wrong",
+  );
+  assert.equal(
+    C.checkAnswer({ de: "zählen", pos: "other" }, "zahlen").result,
+    "wrong",
+  );
+  assert.equal(
+    C.checkAnswer({ de: "zahlen", pos: "other" }, "zählen").result,
+    "wrong",
   );
 });

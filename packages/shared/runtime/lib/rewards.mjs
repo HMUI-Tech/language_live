@@ -1,3 +1,4 @@
+import { clientError } from "./api-errors.mjs";
 import { REWARDS_RPC } from "./language-config.mjs";
 /** @param {object|null} [payload] */
 export async function walletBridge(
@@ -30,12 +31,13 @@ export async function walletBridge(
   });
   if (!r.ok) {
     const t = await r.text();
-    const e = Error(
+    const e = clientError(
       t.includes("wallet_conflict")
         ? "Your wallet changed on another device. Reload the shop before spending."
         : "Rewards are temporarily unavailable.",
     );
     e.status = t.includes("wallet_conflict") ? 409 : 503;
+    e.publicSafe = e.status === 409;
     throw e;
   }
   return r.json();

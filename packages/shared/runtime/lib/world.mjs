@@ -1,10 +1,11 @@
+import { clientError } from "./api-errors.mjs";
 // Server-only social service. Wallet entitlements are loaded from the verified account.
 export const WORLD_TEXT_LIMIT = 280;
 const AGE_BANDS = ["16-17", "18+"];
 const CLUBS = ["cafe-club", "travel-club", "book-club", "world-club"];
 const REASONS = ["Harassment", "Unsafe contact", "Spam", "Other"];
 function fail(message, status = 400) {
-  const e = new Error(message);
+  const e = clientError(message, status);
   e.status = status;
   throw e;
 }
@@ -133,14 +134,20 @@ export async function worldAction({
   if (!person.enabled && op !== "load")
     fail("Social features are paused. Join again to continue.", 403);
   if (!person.enabled) return { enrolled: false, moderator };
-  await db.batch([
-    db
-      .prepare("DELETE FROM world_messages WHERE created_at<?")
-      .bind(now - 30 * 86400000),
-    db
-      .prepare("DELETE FROM world_reports WHERE created_at<?")
-      .bind(now - 90 * 86400000),
-  ]);
+  const cleanup = await run(
+    "INSERT INTO world_maintenance(id,last_cleanup) VALUES('retention',?) ON CONFLICT(id) DO UPDATE SET last_cleanup=excluded.last_cleanup WHERE world_maintenance.last_cleanup<?",
+    now,
+    now - 3600000,
+  );
+  if (cleanup.meta.changes)
+    await db.batch([
+      db
+        .prepare("DELETE FROM world_messages WHERE created_at<?")
+        .bind(now - 30 * 86400000),
+      db
+        .prepare("DELETE FROM world_reports WHERE created_at<?")
+        .bind(now - 90 * 86400000),
+    ]);
   const owns = (item) => wallet.owned.includes(item);
   const blocked = async (other) =>
     !!(await one(

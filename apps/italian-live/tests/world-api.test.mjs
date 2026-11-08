@@ -10,7 +10,8 @@ test("world API authenticates the account and rejects child sessions, forged age
   const previous = globalThis.fetch;
   globalThis.__worldTest = {
     env: {
-      DB: {},
+      DB: { prepare: () => ({ bind: () => ({ first: async () => null }) }) },
+      WORLD_ID_KEY: "test-only-world-secret-000000000000000000000",
       FAMILY_SERVER_KEY: "test",
       REWARDS_SERVER_KEY: "reward-test",
       SUPABASE_URL: "https://db.test",
@@ -82,7 +83,7 @@ test("world API authenticates the account and rejects child sessions, forged age
     );
     assert.equal(
       (await post({ op: "load" }, { origin: "https://evil.test" })).status,
-      503,
+      400,
     );
   } finally {
     globalThis.fetch = previous;

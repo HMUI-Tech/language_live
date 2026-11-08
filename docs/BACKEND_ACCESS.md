@@ -2,7 +2,7 @@
 
 GitHub does not support private folders inside a public repository. This public repository therefore excludes Supabase provisioning SQL, private database-function implementations and protected backend source. Application routes and non-secret RPC names remain reviewable here. The Cloudflare D1 social migrations are separate application schema and remain public.
 
-Protected Supabase source is now maintained in [HMUI-Tech/language_live_backend](https://github.com/HMUI-Tech/language_live_backend), verified **private** before upload. It includes schema-only tables, all 22 live function implementations, policies, permissions, a clean replay test and operator documentation. Authorized reviewers need explicit access to that repository as well as this public application source. Runtime credentials, credential hashes and user rows are excluded from both repositories.
+Protected Supabase source is now maintained in [HMUI-Tech/language_live_backend](https://github.com/HMUI-Tech/language_live_backend), verified **private** before upload. It includes schema-only tables, all 24 live function implementations, policies, permissions, a clean replay test and operator documentation. Authorized reviewers need explicit access to that repository as well as this public application source. Runtime credentials, credential hashes and user rows are excluded from both repositories.
 
 Runtime family and rewards keys are distinct for each language and capability and are stored as secret deployment variables. The previously shared bridge keys have expired. Direct table access is denied using revoked grants and RLS; server-only key checks protect the bridges. Repository privacy supplements these controls and does not replace them.
 

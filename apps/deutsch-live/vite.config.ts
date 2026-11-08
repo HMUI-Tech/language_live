@@ -61,6 +61,9 @@ export default defineConfig(async ({ command }) => {
         inspectorPort: false,
         config: {
           ...localBindingConfig,
+          ...(command === "build"
+            ? { assets: { binding: "ASSETS", run_worker_first: true } }
+            : {}),
           ...(command === "serve"
             ? {
                 services: [

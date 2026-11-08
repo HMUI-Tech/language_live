@@ -1,3 +1,4 @@
+import { clientError } from "./api-errors.mjs";
 import { CHILD_COOKIE, FAMILY_RPC } from "./language-config.mjs";
 // Server-owned records: verified adult identity + PIN; child sessions are opaque and scoped.
 export const EMOJIS = ["🦊", "🐼", "🐸", "🦁", "🐨", "🐧"];
@@ -48,9 +49,9 @@ export function validPin(pin) {
 export function profileSettings(body) {
   const name = String(body.name || "").trim();
   if (name.length < 1 || name.length > 20 || /[<>\x00-\x1f]/.test(name))
-    throw Error("Use a nickname of 1–20 characters.");
+    throw clientError("Use a nickname of 1–20 characters.");
   if (![5, 10, 15, 20].includes(body.minutes) || !EMOJIS.includes(body.avatar))
-    throw Error("Choose a session length and avatar.");
+    throw clientError("Choose a session length and avatar.");
   return { name, minutes: body.minutes, avatar: body.avatar };
 }
 export function publicProfile(p) {
@@ -108,8 +109,9 @@ export async function bridge(vars, op, who, payload = null, expected = 0) {
     } catch {}
     console.warn("family_storage_failure", res.status, code);
     if (text.includes("family_conflict"))
-      throw Error(
+      throw clientError(
         "Your family changed on another device. Reload and try again.",
+        409,
       );
     throw Error("Family services are temporarily unavailable.");
   }
@@ -131,12 +133,16 @@ export async function parentIdentity(request, vars, getChatGPTUser) {
 }
 export async function bodyJSON(request) {
   if (request.headers.get("origin") !== new URL(request.url).origin)
-    throw Error("Invalid origin.");
+    throw clientError("Invalid origin.");
   if (!request.headers.get("content-type")?.includes("application/json"))
-    throw Error("JSON required.");
+    throw clientError("JSON required.");
   const raw = await request.text();
-  if (raw.length > 4000) throw Error("Request too large.");
-  return JSON.parse(raw);
+  if (raw.length > 4000) throw clientError("Request too large.");
+  try {
+    return JSON.parse(raw);
+  } catch {
+    throw clientError("Invalid JSON.");
+  }
 }
 export const reply = (data, status = 200, cookie) =>
   Response.json(data, {

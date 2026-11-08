@@ -1,5 +1,8 @@
 /* Closed learning rewards. Shared deterministic rules; saved wallets are owned by the server. */
 (function (root) {
+  function validationError(message) {
+    return Object.assign(new Error(message), { publicSafe: true, status: 400 });
+  }
   const CATALOG = [
     {
       id: "hat",
@@ -165,21 +168,21 @@
     sport: 160,
     suit: 320,
     royal: 640,
-    bike: 160,
-    compact: 320,
-    electric: 640,
-    "sports-car": 1280,
-    supercar: 2560,
-    studio: 640,
-    cottage: 1280,
-    villa: 2560,
-    mansion: 5120,
-    hotel: 10240,
-    resort: 20480,
-    "cafe-club": 160,
-    "travel-club": 640,
-    "book-club": 2560,
-    "world-club": 10240,
+    bike: 80,
+    compact: 160,
+    electric: 320,
+    "sports-car": 640,
+    supercar: 1280,
+    studio: 64,
+    cottage: 128,
+    villa: 256,
+    mansion: 512,
+    hotel: 1024,
+    resort: 2048,
+    "cafe-club": 80,
+    "travel-club": 160,
+    "book-club": 320,
+    "world-club": 640,
   };
   for (const item of CATALOG) if (prices[item.id]) item.price = prices[item.id];
   CATALOG.push(
@@ -196,7 +199,7 @@
       id: "private-club-pass",
       title: "Private clubhouse charter",
       icon: "🔐",
-      price: 2560,
+      price: 640,
       kind: "social",
       description:
         "Create one private invitation-only club. Members need their own Friends & chat pass.",
@@ -204,7 +207,7 @@
   );
   const catalog = (kids) => (kids ? KIDS_CATALOG : CATALOG);
   const STAR_THRESHOLDS = [0, 100, 240, 420, 660, 980, 1400, 1940, 2620, 3460];
-  const STAGES = ["Beginner", "Intermediate", "Advanced"];
+  const STAGES = ["Explorer", "Voyager", "Navigator"];
   function rank(wallet) {
     const points = Math.max(0, Math.min(3460, wallet.starPoints || 0));
     let completed = 0;
@@ -244,6 +247,7 @@
       w.pointLost -= delta;
     }
     const before = w.starPoints;
+    if (delta > 0) w.lifetimePoints = (w.lifetimePoints || 0) + delta;
     w.starPoints = Math.max(0, Math.min(3460, w.starPoints + delta));
     w.stars = rank(w).completed;
     return w.starPoints - before;
@@ -252,7 +256,7 @@
     const before = rank(w),
       completed = before.completed;
     if (!Number.isSafeInteger(count) || count < 1 || count > completed)
-      throw Error(
+      throw validationError(
         "Not enough completed stars. Partially filled stars cannot be spent.",
       );
     const target = completed - count,
@@ -266,14 +270,10 @@
     w.starsSpent = (w.starsSpent || 0) + count;
     return w;
   }
-  function priceInStars(price) {
-    return Math.min(9, Math.max(1, Math.ceil(Math.log2(price / 40)) + 1));
-  }
-  for (const item of [...CATALOG, ...KIDS_CATALOG])
-    item.starPrice = priceInStars(item.price);
   const empty = () => ({
     v: 3,
     starPoints: 0,
+    lifetimePoints: 0,
     starsSpent: 0,
     pointDay: "",
     pointEarned: 0,
@@ -330,6 +330,12 @@
         ? Math.max(0, Math.min(3460, raw.starPoints))
         : STAR_THRESHOLDS[Math.min(9, legacyStars)];
     if ((raw.v || 0) < 3 && legacyStars > 9) w.earned += (legacyStars - 9) * 20;
+    w.lifetimePoints = Math.max(
+      w.starPoints,
+      Number.isSafeInteger(raw.lifetimePoints)
+        ? raw.lifetimePoints
+        : w.starPoints,
+    );
     w.stars = rank(w).completed;
     w.starsSpent = Number.isSafeInteger(raw.starsSpent)
       ? Math.max(0, raw.starsSpent)
@@ -422,9 +428,11 @@
       eligible = false;
     if (event.op === "age") {
       if (kids || !["16-17", "18+"].includes(event.band))
-        throw Error("This world is for ages 16+. Under 16? Use Kids & Family.");
+        throw validationError(
+          "This world is for ages 16+. Under 16? Use Kids & Family.",
+        );
       if (w.ageBand && w.ageBand !== event.band)
-        throw Error(
+        throw validationError(
           "Your age band is already set. Contact the operator to correct it.",
         );
       w.ageBand = event.band;
@@ -432,35 +440,43 @@
     }
     if (event.op === "avatar") {
       if (!AVATARS.includes(event.id))
-        throw Error("Choose an available avatar.");
+        throw validationError("Choose an available avatar.");
       w.avatar = event.id;
+      return w;
+    }
+    if (event.op === "exchange-stars") {
+      if (!Number.isSafeInteger(event.count) || event.count < 1)
+        throw validationError("Choose completed stars to exchange.");
+      // Revision-aware persistence makes a replay of an already acknowledged revision fail.
+      if (event.expectedPoints !== w.starPoints)
+        throw validationError("Your stars changed. Reload before exchanging.");
+      sacrifice(w, event.count);
+      w.earned += event.count * 40;
+      w.history.push({
+        day,
+        amount: event.count * 40,
+        note: "Exchanged completed stars",
+        id: "star-exchange",
+      });
       return w;
     }
     if (event.op === "buy") {
       const item = catalog(kids).find((x) => x.id === event.id);
-      if (!item) throw Error("Unknown reward.");
+      if (!item) throw validationError("Unknown reward.");
       if (!kids && item.kind !== "content" && !w.ageBand)
-        throw Error("Choose your 16+ age band first.");
+        throw validationError("Choose your 16+ age band first.");
       if (w.owned.includes(item.id)) return w;
-      if (event.currency === "stars") {
-        sacrifice(w, item.starPrice);
-        note =
-          "Unlocked " +
-          item.title +
-          " by sacrificing " +
-          item.starPrice +
-          " stars";
-      } else {
-        if (event.currency && event.currency !== "coins")
-          throw Error("Unknown payment method.");
-        if (balance(w) < item.price)
-          throw Error(
-            "Not enough coins yet. Keep learning; your coins do not expire.",
-          );
-        w.spent += item.price;
-        note = "Unlocked " + item.title;
-        amount = -item.price;
-      }
+      if (event.currency && event.currency !== "coins")
+        throw validationError(
+          "Shop items use coins. Exchange completed stars separately.",
+        );
+      if (balance(w) < item.price)
+        throw validationError(
+          "Not enough coins yet. Keep learning; your coins do not expire.",
+        );
+      w.spent += item.price;
+      note = "Unlocked " + item.title;
+      amount = -item.price;
       w.owned.push(item.id);
       if (!["content", "social"].includes(item.kind))
         w.wear[item.kind] = item.id;
@@ -469,19 +485,20 @@
         !SLOTS.includes(event.slot) ||
         (kids && ["property", "vehicle", "club"].includes(event.slot))
       )
-        throw Error("Unknown accessory slot.");
+        throw validationError("Unknown accessory slot.");
       if (event.id === null) delete w.wear[event.slot];
       else {
         const item = CATALOG.find((x) => x.id === event.id);
         if (!item || item.kind !== event.slot || !w.owned.includes(item.id))
-          throw Error("Unlock this reward first.");
+          throw validationError("Unlock this reward first.");
         w.wear[event.slot] = item.id;
       }
       return w;
     } else if (event.op === "event") {
       if (event.kind === "review") {
         const index = cardIds.includes(event.id) ? reviewKey(event.id) : null;
-        if (kids || index === null) throw Error("Unknown review activity.");
+        if (kids || index === null)
+          throw validationError("Unknown review activity.");
         if (!w.reviews.includes(index)) {
           w.reviews.push(index);
           amount = w.reviews.length % 5 === 0 ? 1 : 0;
@@ -490,11 +507,12 @@
         note = "First successful flashcard review";
       } else if (event.kind === "reading") {
         const s = stories.find((s) => s.id === event.id);
-        if (!s || (kids && !s.kids)) throw Error("Unknown reading activity.");
+        if (!s || (kids && !s.kids))
+          throw validationError("Unknown reading activity.");
         if (s.reward && !w.owned.includes(s.reward))
-          throw Error("Unlock this story collection first.");
+          throw validationError("Unlock this story collection first.");
         if (s.stage > 1 && !(w.reading["journey-" + (s.stage - 1)] > 0))
-          throw Error("Complete the previous stage first.");
+          throw validationError("Complete the previous stage first.");
         if (
           !Array.isArray(event.answers) ||
           event.answers.length !== s.questions.length ||
@@ -505,7 +523,7 @@
               a >= s.questions[i].options.length,
           )
         )
-          throw Error("Complete all questions first.");
+          throw validationError("Complete all questions first.");
         const score = s.questions.filter(
           (q, i) => q.answer === event.answers[i],
         ).length;
@@ -542,7 +560,7 @@
           !word ||
           !["match", "articles", "recall", "mistake"].includes(event.kind)
         )
-          throw Error("Unknown word activity.");
+          throw validationError("Unknown word activity.");
         if (event.kind === "mistake") {
           w.weak[word.id] = Math.min(99, (w.weak[word.id] || 0) + 1);
           const failure = day + ":" + word.id;
@@ -605,7 +623,7 @@
         w.dayCoins += amount;
       }
       w.earned += amount;
-    } else throw Error("Unknown reward action.");
+    } else throw validationError("Unknown reward action.");
     if (amount || note.startsWith("Unlocked"))
       w.history.push({ day, amount, note, id: event.id });
     w.history = w.history.slice(-50);

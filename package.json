@@ -9,6 +9,10 @@
   "scripts": {
     "test": "node scripts/test.mjs",
     "check": "node scripts/check-repository.mjs",
-    "prepare:apps": "node scripts/materialize-shared.mjs"
+    "prepare:apps": "node scripts/materialize-shared.mjs",
+    "format:check": "node scripts/format-check.mjs"
+  },
+  "devDependencies": {
+    "prettier": "3.9.10"
   }
 }

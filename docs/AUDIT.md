@@ -1,3 +1,5 @@
+> Current status: [follow-up to the second audit](THIRD_AUDIT.md). Earlier evidence below is retained as history.
+
 # Audit status and remaining work
 
 This is an engineering review, not an independent security, legal or educational certification. See `SOURCE_SNAPSHOTS.json` for the exact deployed source commits exported to GitHub.

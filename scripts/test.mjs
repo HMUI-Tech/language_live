@@ -13,6 +13,12 @@ const checked = spawnSync(
   { stdio: "inherit" },
 );
 if (checked.status !== 0) process.exit(1);
+const sharedTest = spawnSync(
+  process.execPath,
+  ["--test", "tests/shared-boundary.test.mjs"],
+  { stdio: "inherit" },
+);
+if (sharedTest.status !== 0) process.exit(1);
 let failed = false;
 for (const name of ["deutsch-live", "italian-live"]) {
   const cwd = fileURLToPath(new URL(`../apps/${name}/`, import.meta.url));

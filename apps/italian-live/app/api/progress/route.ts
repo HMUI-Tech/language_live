@@ -77,7 +77,10 @@ export async function PUT(request: Request) {
   if (body?.patch) {
     const current = await gateway(user.userId);
     if (!current.ok) return current;
-    const previous = (await current.json()) as { docs: Record<string, unknown> | null; revision: number };
+    const previous = (await current.json()) as {
+      docs: Record<string, unknown> | null;
+      revision: number;
+    };
     if (!previous.docs || previous.revision !== revision)
       return reply({ error: "Progress changed on another device." }, 409);
     try {

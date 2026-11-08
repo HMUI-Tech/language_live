@@ -121,9 +121,9 @@ test("fixed doubling prices and duplicate purchases ignore client-provided price
   let w = adult();
   w.earned = 1000;
   w = C.apply(w, { op: "buy", id: "compact", price: 0 }, context);
-  assert.equal(C.balance(w), 680);
+  assert.equal(C.balance(w), 840);
   assert.equal(w.wear.vehicle, "compact");
-  assert.equal(C.apply(w, { op: "buy", id: "compact" }, context).spent, 320);
+  assert.equal(C.apply(w, { op: "buy", id: "compact" }, context).spent, 160);
   assert.throws(() => C.apply(w, { op: "buy", id: "hotel" }, context));
   assert.throws(() =>
     C.apply(w, { op: "equip", slot: "vehicle", id: "supercar" }, context),
@@ -188,39 +188,41 @@ test("nine percentage-filled stars have increasing thresholds and spending stars
   let w = adult();
   w.starPoints = 1000;
   w = C.normalize(w);
-  assert.equal(C.rank(w).level, "Intermediate");
+  assert.equal(C.rank(w).level, "Voyager");
   assert.equal(w.stars, 5);
   const before = C.rank(w).percent;
   w = C.sacrifice(w, 3);
   assert.equal(w.stars, 2);
-  assert.equal(C.rank(w).level, "Beginner");
+  assert.equal(C.rank(w).level, "Explorer");
   assert(Math.abs(C.rank(w).percent - before) < 1);
   assert.throws(() => C.sacrifice(w, 3));
   assert.throws(() => C.sacrifice(w, 0));
 });
-test("star purchases are fixed-price, idempotent and preserve coins and language work", () => {
+test("one shop currency and explicit star exchange preserve lifetime progress", () => {
   let w = adult();
   w.starPoints = 3460;
   w = C.normalize(w);
-  const before = w.earned;
+  assert.throws(() =>
+    C.apply(w, { op: "buy", id: "resort", currency: "stars" }, context),
+  );
+  const lifetime = w.lifetimePoints,
+    before = w.earned;
   w = C.apply(
     w,
-    { op: "buy", id: "resort", currency: "stars", starPrice: 0 },
+    { op: "exchange-stars", count: 1, expectedPoints: w.starPoints },
     context,
   );
-  assert(w.owned.includes("resort"));
-  assert.equal(w.stars, 0);
-  assert.equal(w.earned, before);
-  assert.equal(w.spent, 0);
-  assert.equal(C.rank(w).level, "Beginner");
-  assert.equal(
-    C.apply(w, { op: "buy", id: "resort", currency: "stars" }, context)
-      .starsSpent,
-    9,
-  );
+  assert.equal(w.earned, before + 40);
+  assert.equal(w.stars, 8);
+  assert.equal(w.lifetimePoints, lifetime);
   assert.throws(() =>
-    C.apply(w, { op: "buy", id: "hat", currency: "stars" }, context),
+    C.apply(
+      w,
+      { op: "exchange-stars", count: 1, expectedPoints: 3460 },
+      context,
+    ),
   );
+  assert.equal(C.CATALOG.find((i) => i.id === "resort").price, 2048);
 });
 test("mistakes lose partial progress with a daily loss cap; legacy stars migrate once", () => {
   let w = adult();

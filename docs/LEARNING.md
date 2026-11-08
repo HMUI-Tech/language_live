@@ -21,9 +21,11 @@ The daily new-word setting remains a daily allowance. A smaller sitting may intr
 
 ## Economy
 
-Children retain a gentler, separate parent-managed shop with learning activities and accessories, without social access, cars or property. Main accounts use the 16+ world: every five first-success card reviews earn one coin; first correct game activities earn one; a new story with at least two correct answers earns three. All adult awards, including milestones, share a 20-coin calendar-day cap. Excess awards do not carry forward. Higher outfit, vehicle and property tiers double in price. Existing balances and purchases are preserved.
+Children have a separate parent-managed catalog with no social world, property or vehicles. Adult activity awards share a 20-coin daily cap. All items use coins. Completed stars may separately be exchanged for 40 coins each with explicit confirmation; no item has an alternative star price. Saved balances and inventory are preserved. Property tiers double from 64 to 2048 coins; cars from 80 to 1280.
 
-The virtual world has no cash value, transfers, passive income, rent, debt, paid coin purchases, chance-based prizes or calls. Friends need mutual acceptance and an earned pass. Clubs require earned membership; private clubs use invitations. Messaging itself earns no coins. Ages 16–17 and 18+ have separate social spaces, with blocking, reporting and operator moderation.
+The nine-star collection uses Explorer, Voyager and Navigator names. It describes spendable rewards, not language ability. Exchanging stars reduces the collection meter; lifetime reward points and recorded language work do not fall. Lifetime points keep accumulating after the collection fills. Adult mistake losses remain bounded at ten points/day; children lose none. Real learner testing is still needed to assess whether these incentives help practice.
+
+Coins have no cash value, transfers, passive income, rent, debt, paid purchases or chance-based prizes. Friend chat requires earned access and mutual acceptance. The 16–17 and 18+ social cohorts stay separate. Calling is disabled.
 
 ## Further learning evaluation
 

@@ -1,10 +1,10 @@
 [
   {
     "app": "deutsch-live",
-    "commit": "5c71144ac97b25b00081229e75c498a3ae3f8dc2"
+    "commit": "1387dbc3c8fb8a4451b75c41cd61c1974ceb5e96"
   },
   {
     "app": "italian-live",
-    "commit": "9fafed1edb1dd52f8f082db042d31d837de3e49c"
+    "commit": "5c9af31af04ef69aa17ac6870bd5355ab3a66600"
   }
 ]

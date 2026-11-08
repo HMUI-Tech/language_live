@@ -1,0 +1,16 @@
+node_modules
+dist
+.next
+.vinext
+.wrangler
+.sites-runtime
+legacy
+public/auth.js
+public/rewards-data.js
+public/reading-data.js
+public/reading-index.js
+**/*.json
+**/*.yaml
+**/*.yml
+backend-private
+vendor

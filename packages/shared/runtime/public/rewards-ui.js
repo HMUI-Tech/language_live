@@ -592,7 +592,7 @@ window.DLRewardUI = {
           { class: "small" },
           "Current reward stage: " +
             rating.level +
-            " · " +
+            " collection · " +
             rating.starsInLevel +
             "/3 stars. This is not a language-level assessment. Higher stars require more practice. Mistakes lose small amounts of progress, capped at 10 points per day; Kids mistakes cost nothing.",
         ),
@@ -623,10 +623,7 @@ window.DLRewardUI = {
         );
       if (confirmItem) {
         const item = catalog.find((x) => x.id === confirmItem),
-          payStars = confirmCurrency === "stars";
-        let preview = null;
-        if (payStars && w.stars >= item.starPrice)
-          preview = C.rank(C.sacrifice(C.normalize(w), item.starPrice));
+          payStars = false;
         nodes.push(
           h(
             "div",
@@ -636,7 +633,7 @@ window.DLRewardUI = {
               "p",
               {},
               payStars
-                ? `${item.starPrice} completed stars will be sacrificed. ${rating.level} (${rating.completed} total stars) → ${preview?.level || rating.level} (${preview?.completed ?? rating.completed} total stars). Your language progress and existing items stay saved.`
+                ? `${item.starPrice} completed stars will be sacrificed. ${rating.level} (${rating.completed} total stars) → ${rating.level} (${rating.completed} total stars). Your language progress and existing items stay saved.`
                 : `${item.price} coins · balance afterwards: ${C.balance(w) - item.price}. This is a permanent unlock.`,
             ),
             h(
@@ -659,6 +656,43 @@ window.DLRewardUI = {
                 confirmItem = null;
                 paint();
               }),
+            ),
+          ),
+        );
+      }
+      if (mode === "shop") {
+        nodes.push(
+          h(
+            "div",
+            { class: "panel" },
+            h("h2", {}, "Optional star exchange"),
+            h(
+              "p",
+              {},
+              "All shop items use coins. Exchange one completed star for 40 coins. Your collection meter falls; lifetime learning rewards stay recorded.",
+            ),
+            button(
+              "Exchange 1 completed star → 40 coins",
+              () => {
+                if (
+                  window.confirm(
+                    "Exchange one completed star for 40 coins? Your collection meter decreases. Your lifetime progress and language records stay saved.",
+                  )
+                )
+                  run({
+                    op: "exchange-stars",
+                    count: 1,
+                    expectedPoints: w.starPoints,
+                  });
+              },
+              { disabled: busy || w.stars < 1 || !spendingEnabled },
+            ),
+            h(
+              "p",
+              {},
+              "Lifetime reward points: " +
+                (w.lifetimePoints || 0) +
+                ". Keep earning after filling the collection.",
             ),
           ),
         );
@@ -720,20 +754,6 @@ window.DLRewardUI = {
                         class: "btn primary",
                       },
                     ),
-                !has
-                  ? button(
-                      "Sacrifice " + item.starPrice + " stars",
-                      () => {
-                        confirmItem = item.id;
-                        confirmCurrency = "stars";
-                        paint();
-                      },
-                      {
-                        disabled:
-                          busy || w.stars < item.starPrice || !spendingEnabled,
-                      },
-                    )
-                  : null,
               );
             }),
           ),
@@ -811,7 +831,7 @@ window.DLRewardUI = {
             h(
               "p",
               {},
-              "Your first reward is 30 coins. Explore new words and stories to get started.",
+              "Your first reward starts at 40 coins (30 in Kids mode). Explore new words and stories to get started.",
             ),
           );
         nodes.push(
@@ -872,8 +892,8 @@ window.DLRewardUI = {
                   "A new story with at least 2 of 3 correct earns 3 coins. Improving a partial score to perfect earns 1 extra coin. First successful practice of the day adds 1 coin.",
                   "Complete 20 different activities in one calendar day: 5 coins + 25 star points. Completed learning-day milestones (1, 7, 30 and 100): 1, 6, 20 and 60 coins.",
                   "All adult coin awards, including milestones, share a 20-coin daily cap. Excess awards do not carry forward. Learning and stars can continue after the cap.",
-                  "Each different successful daily activity: +2 star points; perfect reading: +10 points once per story. An imperfect story: −5 points once per story; an incorrect word: −2 points at most once per word per day. Losses are capped at 10 points per day and gains at 150. Three stars complete each of Beginner, Intermediate and Advanced. Each successive star needs more points.",
-                  "Completed stars can also pay for items. A separate confirmation shows the stage drop before you sacrifice stars. Existing legacy stars migrate to the new ladder; any stars above nine become 20 coins each once. Prices rise through higher tiers. Existing coins and purchases stay yours. Replays do not earn new first-completion awards. There is no passive property income, real-money value, trading, debt or calling.",
+                  "Each different successful daily activity: +2 star points; perfect reading: +10 points once per story. An imperfect story: −5 points once per story; an incorrect word: −2 points at most once per word per day. Losses are capped at 10 points per day and gains at 150. Three stars complete each collection: Explorer, Voyager and Navigator. Each successive star needs more points.",
+                  "Items use coins only. You can separately exchange a completed star for 40 coins with confirmation. Lifetime reward points never fall when spending. Existing legacy stars migrate to the new ladder; any stars above nine become 20 coins each once. Prices rise through higher tiers. Existing coins and purchases stay yours. Replays do not earn new first-completion awards. There is no passive property income, real-money value, trading, debt or calling.",
                 ]
             ).map((t) => h("p", {}, t)),
             h("h3", {}, "Recent activity"),

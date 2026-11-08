@@ -11,9 +11,9 @@ Free German and Italian learning websites with adult learning, guided reading, g
 
 ## Current implementation and audit
 
-Start a new review with [the second-audit guide](docs/SECOND_AUDIT.md) and, if authorized, [the private backend](https://github.com/HMUI-Tech/language_live_backend).
+Start a new review with [the current audit follow-up](docs/THIRD_AUDIT.md) and, if authorized, [the private backend](https://github.com/HMUI-Tech/language_live_backend).
 
-The latest export includes the separate Kids and 16+ economies, age-separated friend chat and private clubs, moderation controls, modular learning assets, and the reviewed flashcard scheduler. See [architecture](docs/ARCHITECTURE.md), [learning workflow](docs/LEARNING.md), and [audit limitations](docs/AUDIT.md). Calling remains unavailable. Rewards now use nine percentage-filled stars across Beginner, Intermediate and Advanced; spending completed stars can reduce the reward stage without changing recorded learning mastery.
+The latest export includes the separate Kids and 16+ economies, age-separated friend chat and private clubs, moderation controls, modular learning assets, and the reviewed flashcard scheduler. See [architecture](docs/ARCHITECTURE.md), [learning workflow](docs/LEARNING.md), and [audit limitations](docs/AUDIT.md). Calling remains unavailable. Rewards now use nine percentage-filled stars across Explorer, Voyager and Navigator collections; exchanging completed stars for coins can reduce the collection meter without changing recorded learning mastery.
 
 `SOURCE_SNAPSHOTS.json` records exact source provenance; the live Sites and this GitHub repository have separate publishing workflows.
 
@@ -57,7 +57,7 @@ Inside each app:
 | `standalone/` | Earlier independent deployment experiment; see its own README |
 | `STARTER.md` | Original framework documentation and historical notes |
 
-121 identical source modules now live once in `packages/shared/runtime/`. Run `npm run prepare:apps` to materialize them into each independently deployable app; edit the shared originals, not the generated copies. Language content and configuration stay local. Root checks and tests materialize automatically.
+70 identical source modules now live once in `packages/shared/runtime/`. Run `npm run prepare:apps` to materialize them into each independently deployable app; edit the shared originals, not the generated copies. Language content and configuration stay local. Root checks and tests materialize automatically.
 
 ## Run locally
 

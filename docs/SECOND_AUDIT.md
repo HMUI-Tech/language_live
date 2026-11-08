@@ -1,3 +1,5 @@
+> Historical second-audit handoff. See [the current follow-up](THIRD_AUDIT.md) for changes and current test commands.
+
 # Second audit: review both repositories
 
 | Repository | Scope | Access |

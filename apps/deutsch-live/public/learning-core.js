@@ -71,6 +71,7 @@
   // ---------- answer checking ----------
   function normalize(s) {
     return String(s)
+      .normalize("NFC")
       .toLowerCase()
       .replace(/…|\.\.\./g, " ")
       .replace(/[.,!?;:"'()–—-]/g, " ")
@@ -105,6 +106,17 @@
     return row[b.length];
   }
 
+  const DISTINCT_ACCENT_WORDS = [
+    ["schon", "schoen"],
+    ["zahlen", "zaehlen"],
+    ["wurde", "wuerde"],
+    ["fuhren", "fuehren"],
+    ["losen", "loesen"],
+    ["fordern", "foerdern"],
+    ["schwul", "schwuel"],
+    ["rucken", "ruecken"],
+    ["drucken", "druecken"],
+  ];
   /** result: correct | close (one typo) | article (right word, wrong/missing article) | wrong */
   function checkAnswer(item, input) {
     const expected = expectedAnswer(item);
@@ -112,6 +124,20 @@
     const want = normalize(expected);
     if (!got) return { result: "wrong", expected };
     if (got === want) return { result: "correct", expected };
+    const gotWords = got.split(/\s+/),
+      wantWords = want.split(/\s+/);
+    if (
+      gotWords.length === wantWords.length &&
+      DISTINCT_ACCENT_WORDS.some((pair) =>
+        wantWords.some(
+          (word, i) =>
+            pair.includes(word) &&
+            pair.includes(gotWords[i]) &&
+            word !== gotWords[i],
+        ),
+      )
+    )
+      return { result: "wrong", expected };
     if (item.pos === "noun") {
       const bare = got.replace(/^(der|die|das)\s+/, "");
       if (bare === normalize(item.de)) return { result: "article", expected };

@@ -69,7 +69,7 @@ test("parent ownership, PIN lockout, scoped child access and revocation", async 
           : { authorized: false, locked: false },
       );
     }
-    if (b.op === "write") {
+    if (["write", "change-pin"].includes(b.op)) {
       const old = rows.get(b.who);
       if ((old?.revision || 0) !== b.expected)
         return Response.json({ message: "family_conflict" }, { status: 409 });

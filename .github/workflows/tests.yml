@@ -1,17 +1,47 @@
-name: Core tests
+name: Application verification
 on:
   push:
   pull_request:
 permissions:
   contents: read
 jobs:
-  test:
+  core:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+          cache: npm
+      - run: npm ci --ignore-scripts
       - run: npm ci --prefix apps/deutsch-live/standalone --ignore-scripts
       - run: npm ci --prefix apps/italian-live/standalone --ignore-scripts
-      - run: node scripts/test.mjs
+      - run: npm run check
+      - run: npm run format:check
+      - run: npm test
+      - run: git diff --exit-code
+  framework:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        app: [deutsch-live, italian-live]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: pnpm/action-setup@v4
+        with:
+          version: '11.25.0'
+      - run: npm run prepare:apps
+      - run: pnpm install --frozen-lockfile --ignore-scripts
+        working-directory: apps/${{ matrix.app }}
+      - run: pnpm lint
+        working-directory: apps/${{ matrix.app }}
+      - run: pnpm typecheck
+        working-directory: apps/${{ matrix.app }}
+      - run: pnpm build
+        working-directory: apps/${{ matrix.app }}
+      - run: git diff --exit-code

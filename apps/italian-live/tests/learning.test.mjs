@@ -149,3 +149,10 @@ test("optional screens and story text do not load before the first learning card
     ctx.DLReadingStories.map((s) => [s.id, s.questions.length]),
   );
 });
+
+test("meaning-changing accents are wrong in both directions; combining Unicode remains correct", () => {
+  assert.equal(C.checkAnswer({ de: "dà", pos: "other" }, "da").result, "wrong");
+  assert.equal(C.checkAnswer({ de: "da", pos: "other" }, "dà").result, "wrong");
+  assert.equal(C.checkAnswer({ de: "sì", pos: "other" }, "si").result, "wrong");
+  assert.equal(C.checkAnswer({ de: "si", pos: "other" }, "sì").result, "wrong");
+});
