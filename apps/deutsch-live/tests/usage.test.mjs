@@ -7,7 +7,7 @@ test('only fixed aggregate categories and same-origin JSON are accepted',()=>{
  assert(isBot(new Request('https://test.site',{headers:{'user-agent':'LinkedInBot'}})));assert(!isBot(new Request('https://test.site',{headers:{'user-agent':'Mozilla/5.0 Chrome'}})));
 });
 test('owner authorization is independent of browser-supplied metadata',()=>{
- assert(isOwner({email:'IFYTHRONIKS@GMAIL.COM'},'operator@example.invalid'));assert(!isOwner(null,'operator@example.invalid'));assert(!isOwner({email:'someone@example.com'},'operator@example.invalid'));assert(!isOwner({email:'someone@example.com'},''));
+ assert(isOwner({email:'OPERATOR@EXAMPLE.INVALID'},'operator@example.invalid'));assert(!isOwner(null,'operator@example.invalid'));assert(!isOwner({email:'someone@example.com'},'operator@example.invalid'));assert(!isOwner({email:'someone@example.com'},''));
 });
 test('client deduplicates within a page and honours privacy signals',()=>{
  const source=fs.readFileSync('public/usage.js','utf8');
