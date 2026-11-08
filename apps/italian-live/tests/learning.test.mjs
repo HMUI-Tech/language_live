@@ -1,9 +1,151 @@
-import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import vm from 'node:vm';
-const ctx={};vm.runInNewContext(fs.readFileSync('public/learning-core.js','utf8'),ctx);const C=ctx.DLCore;
-test('failed recalls and missing articles cannot be scheduled as Easy; typos are capped at Hard',()=>{const day='2026-11-08',card=C.review(C.newCard(day),'easy',day);for(const result of ['wrong','article'])for(const selected of Object.keys(C.GRADES)){const grade=C.gradeForAnswer(selected,result);assert.equal(grade,'again');const next=C.review(card,grade,day);assert.equal(next.due,day);assert.equal(next.reps,0);}assert.equal(C.gradeForAnswer('easy','close'),'hard');assert.equal(C.gradeForAnswer('again','close'),'again');assert.equal(C.gradeForAnswer('easy','correct'),'easy');assert.throws(()=>C.gradeForAnswer('easy',undefined));});
-test('review sessions bound backlogs and postpone new words without dropping progress',()=>{const queue={due:Array.from({length:500},(_,i)=>'due-'+i),fresh:Array.from({length:40},(_,i)=>'new-'+i)},plan=C.sessionPlan(queue,60);assert.equal(plan.due.length,30);assert.equal(plan.fresh.length,0);assert.equal(plan.remainingReviews,470);assert.equal(plan.pausedNew,true);assert.equal(queue.due.length,500);const normal=C.sessionPlan({due:['old'],fresh:queue.fresh},60);assert.equal(normal.fresh.length,10);assert.equal(normal.due[0],'old');assert.equal(C.sessionPlan(queue,Infinity).due.length,30);assert.equal(C.sessionPlan(queue,100000).due.length,60);});
-test('real browser core preserves correct schedules and noun/article checking',()=>{const day='2026-11-08',noun={pos:'noun',de:'Test',art:fs.readFileSync('public/learn.html','utf8').includes('Italian Live')?'il':'der'};assert.equal(C.checkAnswer(noun,C.expectedAnswer(noun)).result,'correct');assert.equal(C.checkAnswer(noun,'Test').result,'article');const first=C.review(C.newCard(day),'good',day);assert(first.due>day);const repeated=C.review(first,'good',first.due);assert(repeated.ivl>first.ivl);assert.equal(first.reps,1);});
-test('catalogue loading rejects network, HTTP and malformed content failures',async()=>{const c={AbortSignal};vm.runInNewContext(fs.readFileSync('public/learning-content.js','utf8'),c);const valid=JSON.parse(fs.readFileSync('public/content.json','utf8'));let calls=0;const data=await c.DLContent.load({fetcher:async(url,options)=>{calls++;assert.equal(url,'/content.json');assert(options.signal);return {ok:true,json:async()=>valid};}});assert.equal(data.packs.length,valid.packs.length);assert.equal(calls,1);await assert.rejects(c.DLContent.load({fetcher:async()=>({ok:false})}));await assert.rejects(c.DLContent.load({fetcher:async()=>({ok:true,json:async()=>({packs:[]})})}));await assert.rejects(c.DLContent.load({fetcher:async()=>{throw Error('offline');}}));});
-test('learning page references existing assets in dependency order without embedded fonts or duplicated catalogue',()=>{const html=fs.readFileSync('public/learn.html','utf8');assert(Buffer.byteLength(html)<10000);assert(!html.includes('base64,'));assert(!html.includes('id="dl-content"'));for(const m of html.matchAll(/(?:src|href)="(\/[^"#?]+)(?:[?#][^"]*)?"/g))assert(fs.existsSync('public'+m[1]),m[1]);assert(html.indexOf('/learning-core.js')<html.indexOf('/learning-app.js'));assert(html.indexOf('/learning-content.js')<html.indexOf('/learning-app.js'));const css=fs.readFileSync('public/learning.css','utf8');assert(!css.includes('base64,'));for(const m of css.matchAll(/url\((\/fonts\/[^)]+)\)/g))assert(fs.existsSync('public'+m[1]));new vm.Script(fs.readFileSync('public/learning-app.js','utf8'));});
+import test from "node:test";
+import assert from "node:assert/strict";
+import fs from "node:fs";
+import vm from "node:vm";
+const ctx = {};
+vm.runInNewContext(fs.readFileSync("public/learning-core.js", "utf8"), ctx);
+const C = ctx.DLCore;
+test("failed recalls and missing articles cannot be scheduled as Easy; typos are capped at Hard", () => {
+  const day = "2026-11-08",
+    card = C.review(C.newCard(day), "easy", day);
+  for (const result of ["wrong", "article"])
+    for (const selected of Object.keys(C.GRADES)) {
+      const grade = C.gradeForAnswer(selected, result);
+      assert.equal(grade, "again");
+      const next = C.review(card, grade, day);
+      assert.equal(next.due, day);
+      assert.equal(next.reps, 0);
+    }
+  assert.equal(C.gradeForAnswer("easy", "close"), "hard");
+  assert.equal(C.gradeForAnswer("again", "close"), "again");
+  assert.equal(C.gradeForAnswer("easy", "correct"), "easy");
+  assert.throws(() => C.gradeForAnswer("easy", undefined));
+});
+test("review sessions bound backlogs and postpone new words without dropping progress", () => {
+  const queue = {
+      due: Array.from({ length: 500 }, (_, i) => "due-" + i),
+      fresh: Array.from({ length: 40 }, (_, i) => "new-" + i),
+    },
+    plan = C.sessionPlan(queue, 60);
+  assert.equal(plan.due.length, 30);
+  assert.equal(plan.fresh.length, 0);
+  assert.equal(plan.remainingReviews, 470);
+  assert.equal(plan.pausedNew, true);
+  assert.equal(queue.due.length, 500);
+  const normal = C.sessionPlan({ due: ["old"], fresh: queue.fresh }, 60);
+  assert.equal(normal.fresh.length, 10);
+  assert.equal(normal.due[0], "old");
+  assert.equal(C.sessionPlan(queue, Infinity).due.length, 30);
+  assert.equal(C.sessionPlan(queue, 100000).due.length, 60);
+});
+test("real browser core preserves correct schedules and noun/article checking", () => {
+  const day = "2026-11-08",
+    noun = {
+      pos: "noun",
+      de: "Test",
+      art: fs.readFileSync("public/learn.html", "utf8").includes("Italian Live")
+        ? "il"
+        : "der",
+    };
+  assert.equal(C.checkAnswer(noun, C.expectedAnswer(noun)).result, "correct");
+  assert.equal(C.checkAnswer(noun, "Test").result, "article");
+  const first = C.review(C.newCard(day), "good", day);
+  assert(first.due > day);
+  const repeated = C.review(first, "good", first.due);
+  assert(repeated.ivl > first.ivl);
+  assert.equal(first.reps, 1);
+});
+test("catalogue loading rejects network, HTTP and malformed content failures", async () => {
+  const c = { AbortSignal };
+  vm.runInNewContext(fs.readFileSync("public/learning-content.js", "utf8"), c);
+  const valid = JSON.parse(fs.readFileSync("public/content.json", "utf8"));
+  let calls = 0;
+  const data = await c.DLContent.load({
+    fetcher: async (url, options) => {
+      calls++;
+      assert.equal(url, "/content.json");
+      assert(options.signal);
+      return { ok: true, json: async () => valid };
+    },
+  });
+  assert.equal(data.packs.length, valid.packs.length);
+  assert.equal(calls, 1);
+  await assert.rejects(
+    c.DLContent.load({ fetcher: async () => ({ ok: false }) }),
+  );
+  await assert.rejects(
+    c.DLContent.load({
+      fetcher: async () => ({ ok: true, json: async () => ({ packs: [] }) }),
+    }),
+  );
+  await assert.rejects(
+    c.DLContent.load({
+      fetcher: async () => {
+        throw Error("offline");
+      },
+    }),
+  );
+});
+test("learning page references existing assets in dependency order without embedded fonts or duplicated catalogue", () => {
+  const html = fs.readFileSync("public/learn.html", "utf8");
+  assert(Buffer.byteLength(html) < 10000);
+  assert(!html.includes("base64,"));
+  assert(!html.includes('id="dl-content"'));
+  for (const m of html.matchAll(/(?:src|href)="(\/[^"#?]+)(?:[?#][^"]*)?"/g))
+    assert(fs.existsSync("public" + m[1]), m[1]);
+  assert(html.indexOf("/learning-core.js") < html.indexOf("/learning-app.js"));
+  assert(
+    html.indexOf("/learning-content.js") < html.indexOf("/learning-app.js"),
+  );
+  const css = fs.readFileSync("public/learning.css", "utf8");
+  assert(!css.includes("base64,"));
+  for (const m of css.matchAll(/url\((\/fonts\/[^)]+)\)/g))
+    assert(fs.existsSync("public" + m[1]));
+  new vm.Script(fs.readFileSync("public/learning-app.js", "utf8"));
+});
 
-test('text areas retain entered content when the UI re-renders after a failed save',()=>{const source=fs.readFileSync('public/learning-app.js','utf8'),start=source.indexOf('  function h('),end=source.indexOf('  const ICON',start);const c={document:{createElement:()=>({setAttribute(k,v){this[k+'Attribute']=v;},append(){},addEventListener(){}})}};vm.runInNewContext(source.slice(start,end),c);const textarea=c.h('textarea',{value:'Hallo, wie geht es dir?'});assert.equal(textarea.value,'Hallo, wie geht es dir?');});
+test("text areas retain entered content when the UI re-renders after a failed save", () => {
+  const source = fs.readFileSync("public/learning-app.js", "utf8"),
+    start = source.indexOf("  function h("),
+    end = source.indexOf("  const ICON", start);
+  const c = {
+    document: {
+      createElement: () => ({
+        setAttribute(k, v) {
+          this[k + "Attribute"] = v;
+        },
+        append() {},
+        addEventListener() {},
+      }),
+    },
+  };
+  vm.runInNewContext(source.slice(start, end), c);
+  const textarea = c.h("textarea", { value: "Hallo, wie geht es dir?" });
+  assert.equal(textarea.value, "Hallo, wie geht es dir?");
+});
+
+test("missing accents or umlauts receive explicit feedback and cannot be rated Easy", () => {
+  const item = { pos: "adj", de: "città" };
+  const answer = "citta";
+  assert.equal(C.checkAnswer(item, answer).result, "accent");
+  assert.equal(C.gradeForAnswer("easy", "accent"), "hard");
+});
+
+test("optional screens and story text do not load before the first learning card", () => {
+  const html = fs.readFileSync("public/learn.html", "utf8");
+  for (const name of [
+    "rewards-data",
+    "reading-data",
+    "reading-ui",
+    "world-ui",
+    "learning-guides",
+  ])
+    assert(!html.includes('src="/' + name + '.js"'));
+  const ctx = {};
+  vm.runInNewContext(fs.readFileSync("public/reading-data.js", "utf8"), ctx);
+  vm.runInNewContext(fs.readFileSync("public/reading-index.js", "utf8"), ctx);
+  assert.deepEqual(
+    ctx.DLReadingIndex.map((s) => [s.id, s.questions.length]),
+    ctx.DLReadingStories.map((s) => [s.id, s.questions.length]),
+  );
+});

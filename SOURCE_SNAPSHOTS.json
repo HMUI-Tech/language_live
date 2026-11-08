@@ -1,12 +1,10 @@
 [
   {
     "app": "deutsch-live",
-    "commit": "d54cccdba988733c49ed2192982a30ed25a77ca5",
-    "files": 284
+    "commit": "5c71144ac97b25b00081229e75c498a3ae3f8dc2"
   },
   {
     "app": "italian-live",
-    "commit": "27bb4954d09afd33b92819f71adabb597f8a2047",
-    "files": 210
+    "commit": "9fafed1edb1dd52f8f082db042d31d837de3e49c"
   }
 ]

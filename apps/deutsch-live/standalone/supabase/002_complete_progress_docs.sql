@@ -1,1 +1,0 @@
-alter table german.learning_progress add constraint complete_progress_docs check ((jsonb_typeof(docs)='object' and docs->'meta'->>'v'='1' and jsonb_typeof(docs->'meta'->'settings')='object' and jsonb_typeof(docs->'custom'->'items')='object') is true);

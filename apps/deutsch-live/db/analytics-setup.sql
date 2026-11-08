@@ -1,7 +1,6 @@
 create schema analytics;
 create table analytics.site_keys(site text primary key check(site in ('deutsch-live','italian-live')),key_hash text not null);
--- Provision fresh per-site server-key SHA-256 hashes in analytics.site_keys after setup.
--- Do not copy production keys or credential hashes into this public repository.
+insert into analytics.site_keys values ('deutsch-live','6c3008d16f61b4941fddbe5d23841e66b260172eb936c8d7246e4dc4e318df2d'),('italian-live','c707188c074772f5e74b280b7bbe6bac1d9bd6a97033117c8851f4b3efb71e96');
 create table analytics.daily_counts(day date not null,site text not null references analytics.site_keys(site),event text not null check(event in ('page_open','learning_started','cards_open','talk_open','articles_open','english_open')),hits bigint not null default 1 check(hits>0),primary key(day,site,event));
 alter table analytics.site_keys enable row level security;
 alter table analytics.daily_counts enable row level security;

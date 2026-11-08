@@ -5,8 +5,17 @@ import nextTs from "eslint-config-next/typescript";
 const eslintConfig = defineConfig([
   ...nextVitals,
   ...nextTs,
+  {
+    files: ["public/**/*.js", "standalone/src/**/*.js"],
+    rules: { "@next/next/no-location-assign-relative-destination": "off" },
+  },
   globalIgnores([
     "dist/**",
+    "legacy/**",
+    "public/auth.js",
+    "public/rewards-data.js",
+    "public/reading-data.js",
+    "public/reading-index.js",
     ".vinext/**",
     ".wrangler/**",
     ".sites-runtime/**",

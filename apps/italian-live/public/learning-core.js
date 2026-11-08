@@ -54,7 +54,11 @@
       ivl = { hard: 2, good: 3, easy: 6 }[grade];
     } else {
       const base = Math.max(1, c.ivl);
-      ivl = { hard: base * 1.2, good: base * c.ease, easy: base * c.ease * 1.3 }[grade];
+      ivl = {
+        hard: base * 1.2,
+        good: base * c.ease,
+        easy: base * c.ease * 1.3,
+      }[grade];
     }
     if (grade === "hard") c.ease = Math.max(MIN_EASE, c.ease - 0.15);
     if (grade === "easy") c.ease = c.ease + 0.15;
@@ -66,7 +70,9 @@
 
   // ---------- answer checking ----------
   function normalize(s) {
-    return String(s).normalize("NFC").replace(/[’‘]/g, "'")
+    return String(s)
+      .normalize("NFC")
+      .replace(/[’‘]/g, "'")
       .toLowerCase()
       .replace(/…|\.\.\./g, " ")
       .replace(/[.,!?;:"'()–—-]/g, " ")
@@ -76,7 +82,9 @@
   }
 
   function expectedAnswer(item) {
-    return item.pos === "noun" && item.art ? item.art + (item.art.endsWith("'") ? "" : " ") + item.de : item.de;
+    return item.pos === "noun" && item.art
+      ? item.art + (item.art.endsWith("'") ? "" : " ") + item.de
+      : item.de;
   }
 
   function levenshtein(a, b) {
@@ -87,7 +95,11 @@
       row[0] = i;
       for (let j = 1; j <= b.length; j++) {
         const tmp = row[j];
-        row[j] = Math.min(row[j] + 1, row[j - 1] + 1, prev + (a[i - 1] === b[j - 1] ? 0 : 1));
+        row[j] = Math.min(
+          row[j] + 1,
+          row[j - 1] + 1,
+          prev + (a[i - 1] === b[j - 1] ? 0 : 1),
+        );
         prev = tmp;
       }
     }
@@ -105,37 +117,61 @@
       const bare = got.replace(/^(il|lo|la|gli|le|i|l)\s+/, "");
       if (bare === normalize(item.de)) return { result: "article", expected };
     }
+    if (
+      got !== want &&
+      got.normalize("NFD").replace(/[\u0300-\u036f]/g, "") ===
+        want.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    )
+      return { result: "accent", expected };
     const allowed = want.length >= 6 ? 1 : 0;
-    if (allowed && levenshtein(got, want) <= allowed) return { result: "close", expected };
+    if (allowed && levenshtein(got, want) <= allowed)
+      return { result: "close", expected };
     return { result: "wrong", expected };
   }
 
   /** A failed recall must be relearned; a typo cannot be marked Easy. */
   function gradeForAnswer(grade, result) {
-    if (!(grade in GRADES)) throw new Error('Unknown recall grade.');
-    if (result === 'wrong' || result === 'article') return 'again';
-    if (result === 'close') return grade === 'again' ? 'again' : 'hard';
-    if (result === 'correct') return grade;
-    throw new Error('Check the answer before grading.');
+    if (!(grade in GRADES)) throw new Error("Unknown recall grade.");
+    if (result === "wrong" || result === "article") return "again";
+    if (result === "close" || result === "accent")
+      return grade === "again" ? "again" : "hard";
+    if (result === "correct") return grade;
+    throw new Error("Check the answer before grading.");
   }
 
   /** Bound each sitting, prioritising review when a backlog builds up. */
   function sessionPlan(queue, minutes) {
-    if (!queue || !Array.isArray(queue.due) || !Array.isArray(queue.fresh)) throw new Error('Invalid learning queue.');
-    const duration = Number.isFinite(minutes) ? Math.max(15, Math.min(240, minutes)) : 60;
+    if (!queue || !Array.isArray(queue.due) || !Array.isArray(queue.fresh))
+      throw new Error("Invalid learning queue.");
+    const duration = Number.isFinite(minutes)
+      ? Math.max(15, Math.min(240, minutes))
+      : 60;
     const reviewLimit = Math.max(10, Math.min(60, Math.round(duration / 2)));
     const newLimit = Math.max(5, Math.min(20, Math.floor(duration / 6)));
     const pausedNew = queue.due.length > reviewLimit * 2;
-    return {due:queue.due.slice(0,reviewLimit), fresh:pausedNew?[]:queue.fresh.slice(0,newLimit), remainingReviews:Math.max(0,queue.due.length-reviewLimit), pausedNew};
+    return {
+      due: queue.due.slice(0, reviewLimit),
+      fresh: pausedNew ? [] : queue.fresh.slice(0, newLimit),
+      remainingReviews: Math.max(0, queue.due.length - reviewLimit),
+      pausedNew,
+    };
   }
 
-  const SUGGESTED_GRADE = { correct: "good", close: "hard", article: "again", wrong: "again" };
+  const SUGGESTED_GRADE = {
+    correct: "good",
+    close: "hard",
+    accent: "hard",
+    article: "again",
+    wrong: "again",
+  };
 
   // ---------- content helpers ----------
   function indexItems(content, customItems) {
     const byId = {};
-    for (const pack of content.packs) for (const item of pack.items) byId[item.id] = { ...item, pack: pack.id };
-    for (const [id, item] of Object.entries(customItems || {})) byId[id] = { ...item, id, pack: "my" };
+    for (const pack of content.packs)
+      for (const item of pack.items) byId[item.id] = { ...item, pack: pack.id };
+    for (const [id, item] of Object.entries(customItems || {}))
+      byId[id] = { ...item, id, pack: "my" };
     return byId;
   }
 
@@ -143,7 +179,15 @@
   function buildQueue(content, cards, today, newLimit) {
     const due = Object.entries(cards)
       .filter(([, c]) => c.due <= today)
-      .sort((a, b) => (a[1].due < b[1].due ? -1 : a[1].due > b[1].due ? 1 : a[0] < b[0] ? -1 : 1))
+      .sort((a, b) =>
+        a[1].due < b[1].due
+          ? -1
+          : a[1].due > b[1].due
+            ? 1
+            : a[0] < b[0]
+              ? -1
+              : 1,
+      )
       .map(([id]) => id);
     const fresh = [];
     if (newLimit > 0) {
@@ -172,10 +216,16 @@
   ];
 
   function weekOf(startDay, today) {
-    return Math.min(26, Math.max(1, Math.floor(daysBetween(startDay, today) / 7) + 1));
+    return Math.min(
+      26,
+      Math.max(1, Math.floor(daysBetween(startDay, today) / 7) + 1),
+    );
   }
   function phaseFor(week) {
-    return PHASES.find((p) => week >= p.from && week <= p.to) || PHASES[PHASES.length - 1];
+    return (
+      PHASES.find((p) => week >= p.from && week <= p.to) ||
+      PHASES[PHASES.length - 1]
+    );
   }
   /** Words the learner should know by the end of `week` (linear inside each phase). */
   function targetWords(week) {
@@ -183,7 +233,9 @@
     for (const p of PHASES) {
       if (week <= p.to) {
         const span = p.to - prev.to;
-        return Math.round(prev.words + ((week - prev.to) / span) * (p.words - prev.words));
+        return Math.round(
+          prev.words + ((week - prev.to) / span) * (p.words - prev.words),
+        );
       }
       prev = p;
     }
@@ -215,7 +267,14 @@
       const d = addDays(today, -i);
       last14.push({ day: d, reviews: (log[d] && log[d].reviews) || 0 });
     }
-    return { learned, mature, due, seen: list.length, streak: streak(log, today), last14 };
+    return {
+      learned,
+      mature,
+      due,
+      seen: list.length,
+      streak: streak(log, today),
+      last14,
+    };
   }
 
   // ---------- AI tutor prompts ----------
@@ -249,9 +308,19 @@
   function cleanCorrections(list) {
     if (!Array.isArray(list)) return [];
     return list
-      .filter((c) => c && typeof c.wrong === "string" && typeof c.right === "string" && c.right.trim())
+      .filter(
+        (c) =>
+          c &&
+          typeof c.wrong === "string" &&
+          typeof c.right === "string" &&
+          c.right.trim(),
+      )
       .slice(0, 6)
-      .map((c) => ({ wrong: c.wrong.trim(), right: c.right.trim(), rule: String(c.rule || "").trim() }));
+      .map((c) => ({
+        wrong: c.wrong.trim(),
+        right: c.right.trim(),
+        rule: String(c.rule || "").trim(),
+      }));
   }
 
   function parseTutorReply(value) {
@@ -267,21 +336,51 @@
 
   /** A correction becomes a custom card: the learner types the right form from the rule. */
   function correctionToItem(corr) {
-    return { de: corr.right, pos: "phrase", en: corr.rule || `Not: ${corr.wrong}`, ex: corr.right, ex_en: `Instead of: ${corr.wrong}` };
+    return {
+      de: corr.right,
+      pos: "phrase",
+      en: corr.rule || `Not: ${corr.wrong}`,
+      ex: corr.right,
+      ex_en: `Instead of: ${corr.wrong}`,
+    };
   }
 
   function customId(text) {
-    const slug = normalize(text).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 60);
+    const slug = normalize(text)
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-|-$/g, "")
+      .slice(0, 60);
     return `my.${slug || "x"}`;
   }
 
   return {
-    todayStr, addDays, daysBetween,
-    GRADES, newCard, review, gradeForAnswer, sessionPlan,
-    normalize, expectedAnswer, levenshtein, checkAnswer, SUGGESTED_GRADE,
-    indexItems, buildQueue, newIntroducedToday,
-    PHASES, weekOf, phaseFor, targetWords,
-    streak, stats,
-    tutorRules, writingPrompt, parseTutorReply, cleanCorrections, correctionToItem, customId,
+    todayStr,
+    addDays,
+    daysBetween,
+    GRADES,
+    newCard,
+    review,
+    gradeForAnswer,
+    sessionPlan,
+    normalize,
+    expectedAnswer,
+    levenshtein,
+    checkAnswer,
+    SUGGESTED_GRADE,
+    indexItems,
+    buildQueue,
+    newIntroducedToday,
+    PHASES,
+    weekOf,
+    phaseFor,
+    targetWords,
+    streak,
+    stats,
+    tutorRules,
+    writingPrompt,
+    parseTutorReply,
+    cleanCorrections,
+    correctionToItem,
+    customId,
   };
 });

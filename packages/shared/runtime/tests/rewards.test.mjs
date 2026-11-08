@@ -1,0 +1,237 @@
+import test from "node:test";
+import assert from "node:assert/strict";
+import fs from "node:fs";
+import vm from "node:vm";
+const c = {};
+for (const f of ["play-core", "reading-data", "rewards-data", "rewards-core"])
+  vm.runInNewContext(fs.readFileSync("public/" + f + ".js", "utf8"), c);
+const C = c.DLRewardCore,
+  words = c.DLPlayCore.WORDS,
+  stories = c.DLReadingStories.concat(c.DLRewardStories),
+  day = "2026-11-08",
+  context = { day, words, stories, cardIds: c.DLRewardCardIds },
+  word = words[0].id;
+const ev = (kind, id = word) => ({ op: "event", kind, id });
+const adult = () => ({ ...C.empty(), ageBand: "18+" });
+test("adult earnings are lower; flashcard rewards require five unique first reviews", () => {
+  let w = C.apply(adult(), ev("match"), context);
+  assert.equal(w.earned, 2);
+  assert.equal(C.apply(w, ev("match"), context).earned, 2);
+  assert.equal(
+    C.apply(w, ev("match"), { ...context, day: "2026-11-09" }).earned,
+    3,
+  );
+  w = adult();
+  for (let i = 0; i < 5; i++)
+    w = C.apply(w, ev("review", context.cardIds[i]), context);
+  assert.equal(w.earned, 2);
+  w = C.apply(w, ev("review", context.cardIds[0]), context);
+  assert.equal(w.earned, 2);
+  assert.throws(() => C.apply(w, ev("review", "invalid"), context));
+});
+test("adult daily goal pays stars once and all coin awards share a daily cap", () => {
+  let w = adult();
+  for (const x of words)
+    for (const kind of ["match", "articles", "recall"])
+      w = C.apply(w, ev(kind, x.id), context);
+  assert.equal(w.dayCoins, 20);
+  assert.equal(w.earned, 20);
+  assert.equal(w.stars, 1);
+  assert.equal(w.completedDays.length, 1);
+  w = C.apply(w, ev("match"), context);
+  assert.equal(w.earned, 20);
+  assert.equal(w.stars, 1);
+  w = C.apply(w, ev("match"), { ...context, day: "2026-11-09" });
+  assert.equal(w.dayCoins, 1);
+});
+test("kids keep their own gentler economy and cannot buy or equip adult world features", () => {
+  let w = C.apply(null, ev("match"), { ...context, kids: true });
+  assert.equal(w.earned, 5);
+  w.starPoints = 420;
+  w.stars = 3;
+  w = C.apply(w, ev("mistake"), { ...context, kids: true });
+  assert.equal(w.stars, 3);
+  w.earned = 100000;
+  for (const id of [
+    "hotel",
+    "cafe-club",
+    "friends-pass",
+    "private-club-pass",
+    "compact",
+  ])
+    assert.throws(() =>
+      C.apply(w, { op: "buy", id }, { ...context, kids: true }),
+    );
+  assert(
+    C.catalog(true).every(
+      (x) => !["property", "vehicle", "club", "social"].includes(x.kind),
+    ),
+  );
+  assert.equal(C.catalog(true).find((x) => x.id === "hat").price, 30);
+  assert.equal(C.CATALOG.find((x) => x.id === "hat").price, 40);
+});
+test("reading pays for meaningful scores and stars never go below zero or repeat", () => {
+  const s = stories[0],
+    right = s.questions.map((q) => q.answer),
+    wrong = s.questions.map((q) => (q.answer + 1) % q.options.length);
+  let w = C.apply(
+    adult(),
+    { op: "event", kind: "reading", id: s.id, answers: wrong },
+    context,
+  );
+  assert.equal(w.stars, 0);
+  assert.equal(w.earned, 0);
+  w = C.apply(
+    w,
+    {
+      op: "event",
+      kind: "reading",
+      id: s.id,
+      answers: [right[0], right[1], wrong[2]],
+    },
+    context,
+  );
+  assert.equal(w.earned, 4);
+  w = C.apply(
+    w,
+    { op: "event", kind: "reading", id: s.id, answers: right },
+    context,
+  );
+  assert.equal(w.earned, 5);
+  assert.equal(w.stars, 0);
+  assert(w.starPoints > 0);
+  w = C.apply(
+    w,
+    { op: "event", kind: "reading", id: s.id, answers: right },
+    context,
+  );
+  assert.equal(w.earned, 5);
+  assert.equal(w.stars, 0);
+  w = C.apply(w, ev("mistake"), context);
+  assert.equal(w.stars, 0);
+  assert.throws(() =>
+    C.apply(
+      w,
+      { op: "event", kind: "reading", id: s.id, answers: [0] },
+      context,
+    ),
+  );
+});
+test("fixed doubling prices and duplicate purchases ignore client-provided prices", () => {
+  let w = adult();
+  w.earned = 1000;
+  w = C.apply(w, { op: "buy", id: "compact", price: 0 }, context);
+  assert.equal(C.balance(w), 680);
+  assert.equal(w.wear.vehicle, "compact");
+  assert.equal(C.apply(w, { op: "buy", id: "compact" }, context).spent, 320);
+  assert.throws(() => C.apply(w, { op: "buy", id: "hotel" }, context));
+  assert.throws(() =>
+    C.apply(w, { op: "equip", slot: "vehicle", id: "supercar" }, context),
+  );
+  for (const ids of [
+    ["casual", "sport", "suit", "royal"],
+    ["bike", "compact", "electric", "sports-car", "supercar"],
+    ["studio", "cottage", "villa", "mansion", "hotel", "resort"],
+  ])
+    for (let i = 1; i < ids.length; i++)
+      assert.equal(
+        C.CATALOG.find((x) => x.id === ids[i]).price,
+        2 * C.CATALOG.find((x) => x.id === ids[i - 1]).price,
+      );
+});
+test("legacy balances and purchases survive; 16+ age band is immutable and not client-switchable", () => {
+  let w = C.normalize({ earned: 100, spent: 30, owned: ["hat"] });
+  assert.equal(C.balance(w), 70);
+  assert(w.owned.includes("hat"));
+  assert.throws(() => C.apply(w, { op: "buy", id: "compact" }, context));
+  w = C.apply(w, { op: "age", band: "16-17" }, context);
+  assert.equal(w.ageBand, "16-17");
+  assert.throws(() => C.apply(w, { op: "age", band: "18+" }, context));
+  assert.throws(() => C.apply(w, { op: "age", band: "15" }, context));
+  assert.throws(() =>
+    C.apply(w, { op: "age", band: "18+" }, { ...context, kids: true }),
+  );
+  w = C.apply(w, { op: "avatar", id: "🐼" }, context);
+  assert.equal(w.avatar, "🐼");
+});
+test("bonus content is real and travel chapter ownership and order remain enforced", () => {
+  assert.equal(c.DLRewardStories.filter((s) => s.reward === "bonus").length, 3);
+  assert.equal(
+    c.DLRewardStories.filter((s) => s.reward === "journey").length,
+    7,
+  );
+  for (const s of c.DLRewardStories) {
+    assert.equal(s.questions.length, 3);
+    assert(s.sentences.length >= 7);
+  }
+  const s = c.DLRewardStories.find((s) => s.id === "journey-2");
+  assert.throws(() =>
+    C.apply(
+      adult(),
+      {
+        op: "event",
+        kind: "reading",
+        id: s.id,
+        answers: s.questions.map((q) => q.answer),
+      },
+      context,
+    ),
+  );
+});
+
+test("nine percentage-filled stars have increasing thresholds and spending stars lowers the reward stage", () => {
+  for (let i = 2; i < C.STAR_THRESHOLDS.length; i++)
+    assert(
+      C.STAR_THRESHOLDS[i] - C.STAR_THRESHOLDS[i - 1] >
+        C.STAR_THRESHOLDS[i - 1] - C.STAR_THRESHOLDS[i - 2],
+    );
+  let w = adult();
+  w.starPoints = 1000;
+  w = C.normalize(w);
+  assert.equal(C.rank(w).level, "Intermediate");
+  assert.equal(w.stars, 5);
+  const before = C.rank(w).percent;
+  w = C.sacrifice(w, 3);
+  assert.equal(w.stars, 2);
+  assert.equal(C.rank(w).level, "Beginner");
+  assert(Math.abs(C.rank(w).percent - before) < 1);
+  assert.throws(() => C.sacrifice(w, 3));
+  assert.throws(() => C.sacrifice(w, 0));
+});
+test("star purchases are fixed-price, idempotent and preserve coins and language work", () => {
+  let w = adult();
+  w.starPoints = 3460;
+  w = C.normalize(w);
+  const before = w.earned;
+  w = C.apply(
+    w,
+    { op: "buy", id: "resort", currency: "stars", starPrice: 0 },
+    context,
+  );
+  assert(w.owned.includes("resort"));
+  assert.equal(w.stars, 0);
+  assert.equal(w.earned, before);
+  assert.equal(w.spent, 0);
+  assert.equal(C.rank(w).level, "Beginner");
+  assert.equal(
+    C.apply(w, { op: "buy", id: "resort", currency: "stars" }, context)
+      .starsSpent,
+    9,
+  );
+  assert.throws(() =>
+    C.apply(w, { op: "buy", id: "hat", currency: "stars" }, context),
+  );
+});
+test("mistakes lose partial progress with a daily loss cap; legacy stars migrate once", () => {
+  let w = adult();
+  w.starPoints = 500;
+  for (const word of words)
+    w = C.apply(w, { op: "event", kind: "mistake", id: word.id }, context);
+  assert.equal(w.starPoints, 490);
+  assert.equal(w.pointLost, 10);
+  assert.equal(w.stars, 3);
+  let old = C.normalize({ v: 2, earned: 100, spent: 30, stars: 12 });
+  assert.equal(old.stars, 9);
+  assert.equal(old.earned, 160);
+  assert.equal(C.normalize(old).earned, 160);
+});

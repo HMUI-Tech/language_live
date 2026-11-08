@@ -26,6 +26,8 @@ Identity is resolved server-side. Browser-supplied account identifiers, prices, 
 
 Main learning progress and coins use Supabase; the social world uses each site's D1 binding. There is no cross-language friend directory or coin transfer. Acquiring a pass and activating its associated social feature are separate operations: ownership is checked again on social requests. Creating a club is idempotent and limited to one clubhouse per account.
 
-## Deliberate limits
+## Shared source and private backend
 
-This remains two source snapshots rather than a shared-package rewrite. Shared files have tests in both applications; content and language-specific behavior remain local. Backend provisioning is incomplete in the historical Supabase SQL export, so this repository is not a one-command production installer. The GitHub repository does not deploy itself to the existing live Sites.
+`packages/shared/runtime/` is canonical for 121 identical source files. The validated manifest and `scripts/materialize-shared.mjs` copy them to the original app-relative paths before tests or development, preserving module resolution. Language-specific content, normalization and configuration remain per app. Independently hosted Sites use the materialized source.
+
+Protected Supabase source is kept outside the public repository and deployment assets. See [backend access](BACKEND_ACCESS.md). Family and rewards bridges have separate server credentials. PIN attempts use database row locks. Progress uploads send changed document chunks after acknowledgment; revision checks still reject conflicting device writes. Reading, shop and game interfaces load on demand.

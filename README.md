@@ -11,7 +11,7 @@ Free German and Italian learning websites with adult learning, guided reading, g
 
 ## Current implementation and audit
 
-The latest export includes the separate Kids and 16+ economies, age-separated friend chat and private clubs, moderation controls, modular learning assets, and the reviewed flashcard scheduler. See [architecture](docs/ARCHITECTURE.md), [learning workflow](docs/LEARNING.md), and [audit limitations](docs/AUDIT.md). Calling remains unavailable.
+The latest export includes the separate Kids and 16+ economies, age-separated friend chat and private clubs, moderation controls, modular learning assets, and the reviewed flashcard scheduler. See [architecture](docs/ARCHITECTURE.md), [learning workflow](docs/LEARNING.md), and [audit limitations](docs/AUDIT.md). Calling remains unavailable. Rewards now use nine percentage-filled stars across Beginner, Intermediate and Advanced; spending completed stars can reduce the reward stage without changing recorded learning mastery.
 
 `SOURCE_SNAPSHOTS.json` records exact source provenance; the live Sites and this GitHub repository have separate publishing workflows.
 
@@ -49,17 +49,17 @@ Inside each app:
 | `public/` | Learning interface, scripts, styles, fonts, dictionaries and printable rewards |
 | `app/` | Vinext routes, authentication adapters and server endpoints |
 | `lib/` | Family, reward and analytics server logic |
-| `db/`, `drizzle/`, `standalone/supabase/` where present | SQL source available in the original project |
+| `db/`, `drizzle/` | Cloudflare D1 social schema and migrations |
 | `tests/` | Node test suites |
 | `scripts/content/` | Content generation and dictionary adaptation tools |
 | `standalone/` | Earlier independent deployment experiment; see its own README |
 | `STARTER.md` | Original framework documentation and historical notes |
 
-The apps are intentionally kept as independent source snapshots. A future refactor could extract common UI and domain modules; this export does not silently change the live applications.
+121 identical source modules now live once in `packages/shared/runtime/`. Run `npm run prepare:apps` to materialize them into each independently deployable app; edit the shared originals, not the generated copies. Language content and configuration stay local. Root checks and tests materialize automatically.
 
 ## Run locally
 
-Requires Node.js **22.13 or newer** and the package manager declared in each app's `package.json` (`pnpm`). Work from an app directory:
+Requires Node.js **22.13 or newer** and the package manager declared in each app's `package.json` (`pnpm`). First run `npm run prepare:apps` from the repository root, then work from an app directory:
 
 ```sh
 cd apps/deutsch-live
@@ -75,7 +75,7 @@ The browser learning UI can be explored as a guest. Guest progress is held in me
 
 Environment variables are read by server routes. Never commit their values. See each app's `.env.example`. Configure actual secrets in your deployment platform, and keep public browser configuration limited to the Supabase URL and publishable key.
 
-The deployed applications use separate `german` and `italian` schemas in one Supabase project for learning/rewards, with shared aggregate analytics. The new social world uses a separate Cloudflare D1 binding for each language; its ordered migrations are under `drizzle/`. SQL files in this snapshot do **not** constitute a complete, ordered migration history for every production family/reward function. A fresh production installation requires completing and reviewing that schema setup, provider configuration and RLS. No database rows, user accounts, child profiles, PINs, production secrets or database backups are included.
+The deployed applications use separate `german` and `italian` Supabase schemas and separate per-site D1 social databases. Protected Supabase provisioning and function source is intentionally excluded from this public repository. See [backend access and remaining private-repository setup](docs/BACKEND_ACCESS.md). Runtime secrets never belong in either public or private Git repositories.
 
 ChatGPT identity on the hosted Sites edition is supplied by its hosting platform. A generic deployment must provide its own trusted authentication integration; it must not trust client-supplied identity headers.
 
