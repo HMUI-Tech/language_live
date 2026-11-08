@@ -266,3 +266,6 @@
 /apps/italian-live/tests/world-ui.test.mjs
 /apps/deutsch-live/tests/world.test.mjs
 /apps/italian-live/tests/world.test.mjs
+
+# Supabase setup and provisioning SQL belongs in the private backend repo.
+/apps/*/db/*.sql

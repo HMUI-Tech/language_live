@@ -11,6 +11,8 @@ Free German and Italian learning websites with adult learning, guided reading, g
 
 ## Current implementation and audit
 
+Start a new review with [the second-audit guide](docs/SECOND_AUDIT.md) and, if authorized, [the private backend](https://github.com/HMUI-Tech/language_live_backend).
+
 The latest export includes the separate Kids and 16+ economies, age-separated friend chat and private clubs, moderation controls, modular learning assets, and the reviewed flashcard scheduler. See [architecture](docs/ARCHITECTURE.md), [learning workflow](docs/LEARNING.md), and [audit limitations](docs/AUDIT.md). Calling remains unavailable. Rewards now use nine percentage-filled stars across Beginner, Intermediate and Advanced; spending completed stars can reduce the reward stage without changing recorded learning mastery.
 
 `SOURCE_SNAPSHOTS.json` records exact source provenance; the live Sites and this GitHub repository have separate publishing workflows.
@@ -75,7 +77,7 @@ The browser learning UI can be explored as a guest. Guest progress is held in me
 
 Environment variables are read by server routes. Never commit their values. See each app's `.env.example`. Configure actual secrets in your deployment platform, and keep public browser configuration limited to the Supabase URL and publishable key.
 
-The deployed applications use separate `german` and `italian` Supabase schemas and separate per-site D1 social databases. Protected Supabase provisioning and function source is intentionally excluded from this public repository. See [backend access and remaining private-repository setup](docs/BACKEND_ACCESS.md). Runtime secrets never belong in either public or private Git repositories.
+The deployed applications use separate `german` and `italian` Supabase schemas and separate per-site D1 social databases. Protected Supabase provisioning and function source is intentionally excluded from this public repository. See [private backend access](docs/BACKEND_ACCESS.md). Runtime secrets never belong in either public or private Git repositories.
 
 ChatGPT identity on the hosted Sites edition is supplied by its hosting platform. A generic deployment must provide its own trusted authentication integration; it must not trust client-supplied identity headers.
 

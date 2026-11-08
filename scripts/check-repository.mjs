@@ -58,3 +58,33 @@ for (const app of ["deutsch-live", "italian-live"]) {
     }
   }
 }
+
+// D1 social migrations are public; all Supabase provisioning SQL is private.
+function checkSqlBoundary(directory) {
+  for (const entry of readdirSync(directory, { withFileTypes: true })) {
+    if (
+      [
+        "node_modules",
+        "dist",
+        ".next",
+        ".vinext",
+        ".git",
+        ".wrangler",
+        ".sites-runtime",
+      ].includes(entry.name)
+    )
+      continue;
+    const path = directory + "/" + entry.name;
+    if (entry.isSymbolicLink()) continue;
+    if (entry.isDirectory()) checkSqlBoundary(path);
+    else if (entry.name.endsWith(".sql") && !path.includes("/drizzle/")) {
+      console.error(
+        "Non-D1 SQL belongs in the private backend repository: " +
+          path.slice(root.length),
+      );
+      process.exitCode = 1;
+    }
+  }
+}
+checkSqlBoundary(root + "apps");
+checkSqlBoundary(root + "packages");
