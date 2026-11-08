@@ -1,6 +1,10 @@
 import { spawnSync } from 'node:child_process';
 import { readdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
+const [major,minor]=process.versions.node.split('.').map(Number);
+if(major<22||(major===22&&minor<13)){console.error('Node.js 22.13 or newer is required.');process.exit(1);}
+const checked=spawnSync(process.execPath,[fileURLToPath(new URL('./check-repository.mjs',import.meta.url))],{stdio:'inherit'});
+if(checked.status!==0)process.exit(1);
 let failed = false;
 for (const name of ['deutsch-live', 'italian-live']) {
   const cwd = fileURLToPath(new URL(`../apps/${name}/`, import.meta.url));

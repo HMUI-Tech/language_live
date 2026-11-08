@@ -1,0 +1,1 @@
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';test('legacy club endpoint is retired so it cannot bypass world age controls',()=>{const route=fs.readFileSync('app/api/clubs/route.ts','utf8');assert(route.includes('410'));assert(!route.includes('walletBridge'));});

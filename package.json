@@ -1,0 +1,8 @@
+{
+  "name": "language-live",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {"node": ">=22.13.0"},
+  "scripts": {"test": "node scripts/test.mjs", "check": "node scripts/check-repository.mjs"}
+}

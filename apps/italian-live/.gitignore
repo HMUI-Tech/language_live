@@ -43,3 +43,7 @@ yarn-error.log*
 
 # OS metadata
 .DS_Store
+
+# Nested experiments and test dependencies are generated, never source.
+**/node_modules
+**/dist/

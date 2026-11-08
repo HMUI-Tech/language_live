@@ -1,6 +1,8 @@
 import json,re,shutil
 from pathlib import Path
 r=Path(__file__).resolve().parents[2];p=r/'public/learn.html';s=p.read_text()
+if '<script src="/learning-app.js">' in s:
+ raise SystemExit('Historical one-time adapter: this app already uses modular assets. Edit public/learning-app.js and learning-guides.js directly.')
 rules=[
 ('masculine','il → i','Most consonants',[['il libro → i libri','book → books'],['il cane → i cani','dog → dogs']], 'Use il for most masculine singular nouns beginning with a consonant; its plural is i.'),
 ('masculine','lo → gli','Special initial sounds',[['lo studente → gli studenti','student → students'],['lo zaino → gli zaini','backpack → backpacks']], 'Use lo before s + consonant, z, gn, ps and certain other initial sounds. The plural is gli. Learn loanwords with their article.'),

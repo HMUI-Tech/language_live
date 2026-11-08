@@ -2,10 +2,10 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
-const html=fs.readFileSync('public/learn.html','utf8');
+const html=fs.readFileSync('public/learning-app.js','utf8');
 const content=JSON.parse(fs.readFileSync('public/content.json','utf8'));
 const dictionary=JSON.parse(fs.readFileSync('public/data/word-bridges.json','utf8'));
-const scripts=[...html.matchAll(/<script>([\s\S]*?)<\/script>/g)].map(m=>m[1]);
+const scripts=['learning-core','learning-guides','learning-app'].map(f=>fs.readFileSync('public/'+f+'.js','utf8'));
 const context={window:{}};
 for(const script of scripts){new vm.Script(script);if(script.includes('window.DLGuides =')||script.includes('function expectedAnswer'))vm.runInNewContext(script,context);}
 test('Italian content is independent and preserves complete dialogue structure',()=>{

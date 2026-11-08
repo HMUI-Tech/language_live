@@ -8,11 +8,11 @@ test('saved wallet ownership, fixed prices and concurrent purchase protection',a
  const api=await import(pathToFileURL(dir+'/api.mjs'));
  const post=(body,extra={})=>api.POST(new Request('https://site.test/api/rewards',{method:'POST',headers:{origin:'https://site.test','content-type':'application/json',...extra},body:JSON.stringify(body)}));
  let r=await post({op:'load',owner:'someone-else',wallet:{earned:9999}});assert.equal((await r.json()).wallet.earned,0);
- const word=globalThis.DLPlayCore.WORDS[0].id;r=await post({op:'event',kind:'match',id:word,amount:10000});assert.equal((await r.json()).wallet.earned,5);r=await post({op:'event',kind:'match',id:word});assert.equal((await r.json()).wallet.earned,5);
+ const word=globalThis.DLPlayCore.WORDS[0].id;r=await post({op:'event',kind:'match',id:word,amount:10000});assert.equal((await r.json()).wallet.earned,2);r=await post({op:'event',kind:'match',id:word});assert.equal((await r.json()).wallet.earned,2);
  assert.equal((await post({op:'buy',id:'hat',price:0})).status,400);
- const row=rows.get('chatgpt:learner-a');row.data.earned=60;
+ const row=rows.get('chatgpt:learner-a');row.data.earned=100;row.data.ageBand="18+";
  const both=await Promise.all([post({op:'buy',id:'hat',price:0}),post({op:'buy',id:'glasses'})]);assert.deepEqual(both.map(r=>r.status).sort(),[200,409]);
- r=await post({op:'load'});let w=(await r.json()).wallet;assert.equal(w.spent,30);assert.equal(w.owned.length,1);const owned=w.owned[0];r=await post({op:'buy',id:owned});assert.equal((await r.json()).wallet.spent,30);
+ r=await post({op:'load'});let w=(await r.json()).wallet;assert.equal(w.spent,40);assert.equal(w.owned.length,1);const owned=w.owned[0];r=await post({op:'buy',id:owned});assert.equal((await r.json()).wallet.spent,40);
  user='learner-b';r=await post({op:'load'});assert.equal((await r.json()).wallet.earned,0);
  user=null;assert.equal((await post({op:'load'})).status,401);assert.equal((await api.GET()).status,200);
  }finally{globalThis.fetch=oldFetch;delete globalThis.__rewardTest;await rm(dir,{recursive:true,force:true});}

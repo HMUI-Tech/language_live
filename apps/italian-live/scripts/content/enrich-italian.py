@@ -44,14 +44,15 @@ for i in range(0,4000,40):
  idx=i//40;level='A1' if i<800 else 'A2' if i<1700 else 'B1' if i<2900 else 'B2';week=min(26,1+int(idx/100*26));items=[dict(row,id=f'core-{idx+1}.{n+1}') for n,(_,row) in enumerate(ranked[i:i+40])]
  packs.append({'id':f'core-{idx+1:03}','kind':'vocabulary','level':level,'week':week,'title':f'Vocabolario {idx+1}','title_en':f'Vocabulary {idx+1} · frequency band','items':items})
 content['packs']=sorted(packs,key=lambda p:(p['week'],p['kind']!='situation',p['id']));(r/'public/content.json').write_text(json.dumps(content,ensure_ascii=False,separators=(',',':')))
-html=(r/'public/learn.html').read_text();start=html.index('window.DLGuides = ')+len('window.DLGuides = ');end=html.index(';\n</script>',start);guides=json.loads(html[start:end]);head=lambda x:re.sub(r"^(?:il |lo |la |l'|i |gli |le )",'',x);seen={head(row[0]) for row in guides['pairs']}
+ui_path=r/'public/learning-app.js' if (r/'public/learning-app.js').exists() else r/'public/learn.html'
+html=ui_path.read_text();start=html.index('window.DLGuides = ')+len('window.DLGuides = ');end=html.index(';\n</script>',start);guides=json.loads(html[start:end]);head=lambda x:re.sub(r"^(?:il |lo |la |l'|i |gli |le )",'',x);seen={head(row[0]) for row in guides['pairs']}
 new=[row for score,freq,row in sorted(bridges.values(),key=lambda a:(-a[1],-a[0],a[2][0])) if head(row[0]) not in seen][:3960]
 print('Kaikki base forms',len(entries),'bridge candidates',len(bridges),'selected',len(new))
 assert len(new)>=2960
 (r/'public/data/word-bridges.json').write_text(json.dumps(new,ensure_ascii=False,separators=(',',':')))
 html=re.sub(r'(<script[^>]*id="dl-content"[^>]*>)[\s\S]*?(</script>)',lambda m:m[1]+json.dumps(content,ensure_ascii=False,separators=(',',':'))+m[2],html,count=1)
 html=html.replace('rows.length !== 2988','rows.length !== '+str(len(new))).replace('3,028 word pairs available · 40 with original example sentences; 2,988 dictionary-derived spelling matches.',f'{len(new)+40:,} word pairs available · 40 with original example sentences; {len(new):,} dictionary-derived spelling matches.').replace('Dictionary source: FreeDict/WikDict 2025.11.23, from Wiktionary via DBnary, CC BY-SA 3.0.','Dictionary source: Wiktionary contributors via Kaikki/Wiktextract, CC BY-SA 4.0.')
-(r/'public/learn.html').write_text(html)
+ui_path.write_text(html)
 selected={row['de'] for _,row in ranked[:4000]}|{head(row[0]) for row in new}
 with gzip.open(r/'public/data/italian-selected-source.jsonl.gz','wt') as f:
  for w in sorted(selected):f.write(json.dumps(sources[w],ensure_ascii=False,separators=(',',':'))+'\n')

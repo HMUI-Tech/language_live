@@ -9,6 +9,12 @@ Free German and Italian learning websites with adult learning, guided reading, g
 | Deutsch Live | https://deutsch-live.bestaster2.chatgpt.site | [apps/deutsch-live](apps/deutsch-live) |
 | Italian Live | https://italian-live.bestaster2.chatgpt.site | [apps/italian-live](apps/italian-live) |
 
+## Current implementation and audit
+
+The latest export includes the separate Kids and 16+ economies, age-separated friend chat and private clubs, moderation controls, modular learning assets, and the reviewed flashcard scheduler. See [architecture](docs/ARCHITECTURE.md), [learning workflow](docs/LEARNING.md), and [audit limitations](docs/AUDIT.md). Calling remains unavailable.
+
+`SOURCE_SNAPSHOTS.json` records exact source provenance; the live Sites and this GitHub repository have separate publishing workflows.
+
 ## What it demonstrates
 
 - Full-stack web development with a responsive interface and bilingual navigation.
@@ -61,7 +67,7 @@ pnpm install --frozen-lockfile
 pnpm dev
 ```
 
-Use `apps/italian-live` for the Italian app. Open the local URL printed by the development server. Build with `pnpm build`. The framework, Worker entrypoint and Sites hosting integration are included. The existing `.openai/hosting.json` files identify the original deployments; **do not reuse those project IDs to deploy a fork**.
+Use `apps/italian-live` for the Italian app. Open the local URL printed by the development server. Build with `pnpm build`. The framework, Worker entrypoint and Sites hosting integration are included. The exported `.openai/hosting.json` files intentionally omit deployment IDs. Register your own Site and configure its identity before publishing a fork. Operator contact details in legal templates are placeholders and must be completed for your own deployment.
 
 The browser learning UI can be explored as a guest. Guest progress is held in memory and resets on reload. Account sync, analytics, family storage and persistent rewards need your own configured backend and secrets; running the UI alone does not provision them.
 
@@ -69,7 +75,7 @@ The browser learning UI can be explored as a guest. Guest progress is held in me
 
 Environment variables are read by server routes. Never commit their values. See each app's `.env.example`. Configure actual secrets in your deployment platform, and keep public browser configuration limited to the Supabase URL and publishable key.
 
-The deployed applications use separate `german` and `italian` schemas in one Supabase project, with shared aggregate analytics. SQL files in this snapshot do **not** constitute a complete, ordered migration history for every production family/reward function. A fresh production installation requires completing and reviewing that schema setup, provider configuration and RLS. No database rows, user accounts, child profiles, PINs, production secrets or database backups are included.
+The deployed applications use separate `german` and `italian` schemas in one Supabase project for learning/rewards, with shared aggregate analytics. The new social world uses a separate Cloudflare D1 binding for each language; its ordered migrations are under `drizzle/`. SQL files in this snapshot do **not** constitute a complete, ordered migration history for every production family/reward function. A fresh production installation requires completing and reviewing that schema setup, provider configuration and RLS. No database rows, user accounts, child profiles, PINs, production secrets or database backups are included.
 
 ChatGPT identity on the hosted Sites edition is supplied by its hosting platform. A generic deployment must provide its own trusted authentication integration; it must not trust client-supplied identity headers.
 
@@ -78,7 +84,8 @@ ChatGPT identity on the hosted Sites edition is supplied by its hosting platform
 From the repository root:
 
 ```sh
-node scripts/test.mjs
+npm run check
+npm test
 ```
 
 Before the first run, install the test bundler for both apps:
