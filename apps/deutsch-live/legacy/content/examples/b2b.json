@@ -1,0 +1,1819 @@
+{
+ "Notruf": [
+  "Im Notfall wählen Sie den Notruf 112.",
+  "In an emergency, dial 112.",
+  "emergency number, emergency call"
+ ],
+ "Hüfte": [
+  "Meine Oma hat eine neue Hüfte bekommen.",
+  "My grandma got a new hip.",
+  "hip"
+ ],
+ "empfindlich": [
+  "Meine Haut ist sehr empfindlich.",
+  "My skin is very sensitive.",
+  "sensitive"
+ ],
+ "Pfad": [
+  "Ein schmaler Pfad führt zum See.",
+  "A narrow path leads to the lake.",
+  "path"
+ ],
+ "Räuber": [
+  "Die Räuber sind mit dem Geld geflohen.",
+  "The robbers fled with the money.",
+  "robber"
+ ],
+ "dazwischen": [
+  "Ich habe zwei Termine und eine Stunde Pause dazwischen.",
+  "I have two appointments with an hour's break in between.",
+  "in between"
+ ],
+ "Emotion": [
+  "Er zeigt selten Emotionen.",
+  "He rarely shows emotion.",
+  "emotion"
+ ],
+ "Zeremonie": [
+  "Die Zeremonie findet im Garten statt.",
+  "The ceremony takes place in the garden.",
+  "ceremony"
+ ],
+ "Gräfin": [
+  "Die Gräfin lebte im Schloss.",
+  "The countess lived in the castle.",
+  "countess"
+ ],
+ "Qual": [
+  "Die Entscheidung war eine Qual.",
+  "The decision was agony.",
+  "agony, torment"
+ ],
+ "Forderung": [
+  "Die Gewerkschaft stellt hohe Forderungen.",
+  "The union is making high demands.",
+  "demand, claim"
+ ],
+ "Route": [
+  "Wir nehmen die Route über die Berge.",
+  "We're taking the route over the mountains.",
+  "route"
+ ],
+ "Umschlag": [
+  "Leg das Geld in einen Umschlag.",
+  "Put the money in an envelope.",
+  "envelope"
+ ],
+ "hilflos": [
+  "Ohne Handy fühle ich mich hilflos.",
+  "Without my phone I feel helpless.",
+  "helpless"
+ ],
+ "flüchtig": [
+  "Ich kenne ihn nur flüchtig.",
+  "I only know him in passing.",
+  "fleeting, casual(ly)"
+ ],
+ "meist": [
+  "Meist fahre ich mit dem Rad.",
+  "Usually I go by bike.",
+  "usually, mostly"
+ ],
+ "Dosis": [
+  "Nehmen Sie nicht mehr als die empfohlene Dosis.",
+  "Don't take more than the recommended dose.",
+  "dose"
+ ],
+ "Vorbereitung": [
+  "Die Vorbereitung auf die Prüfung dauert Wochen.",
+  "Preparing for the exam takes weeks.",
+  "preparation"
+ ],
+ "vergraben": [
+  "Der Hund hat den Knochen im Garten vergraben.",
+  "The dog buried the bone in the garden.",
+  "to bury"
+ ],
+ "Oper": [
+  "Wir gehen heute in die Oper.",
+  "We're going to the opera tonight.",
+  "opera"
+ ],
+ "büßen": [
+  "Dafür wirst du büßen!",
+  "You'll pay for that!",
+  "to pay for, atone"
+ ],
+ "Trip": [
+  "Wir machen einen Trip nach Amsterdam.",
+  "We're taking a trip to Amsterdam.",
+  "trip"
+ ],
+ "Musiker": [
+  "Ihr Mann ist Musiker.",
+  "Her husband is a musician.",
+  "musician"
+ ],
+ "gefälscht": [
+  "Der Pass war gefälscht.",
+  "The passport was forged.",
+  "forged, fake"
+ ],
+ "göttlich": [
+  "Der Kuchen schmeckt göttlich.",
+  "The cake tastes divine.",
+  "divine"
+ ],
+ "hoffnungslos": [
+  "Die Lage ist nicht hoffnungslos.",
+  "The situation isn't hopeless.",
+  "hopeless"
+ ],
+ "Zeh": [
+  "Ich habe mir den Zeh gestoßen.",
+  "I stubbed my toe.",
+  "toe"
+ ],
+ "demütigen": [
+  "Er wollte sie nicht demütigen.",
+  "He didn't want to humiliate her.",
+  "to humiliate"
+ ],
+ "Agentur": [
+  "Sie arbeitet für eine Werbeagentur, eine große Agentur in Berlin.",
+  "She works for an advertising agency, a big agency in Berlin.",
+  "agency"
+ ],
+ "paranoid": [
+  "Sei nicht so paranoid!",
+  "Don't be so paranoid!",
+  "paranoid"
+ ],
+ "Tourist": [
+  "Im Sommer kommen viele Touristen in die Stadt.",
+  "In summer lots of tourists come to the city.",
+  "tourist"
+ ],
+ "Dinner": [
+  "Wir sind zum Dinner eingeladen.",
+  "We've been invited to dinner.",
+  "dinner"
+ ],
+ "verstärken": [
+  "Das Team wird verstärkt.",
+  "The team is being strengthened.",
+  "to strengthen, amplify"
+ ],
+ "unfassbar": [
+  "Das ist einfach unfassbar!",
+  "That's simply unbelievable!",
+  "unbelievable"
+ ],
+ "unsterblich": [
+  "Er ist unsterblich verliebt.",
+  "He's madly in love.",
+  "immortal; (unsterblich verliebt) madly in love"
+ ],
+ "geschieden": [
+  "Ihre Eltern sind geschieden.",
+  "Her parents are divorced.",
+  "divorced"
+ ],
+ "Nacken": [
+  "Ich habe einen steifen Nacken.",
+  "I have a stiff neck.",
+  "neck (back of)"
+ ],
+ "Verpflichtung": [
+  "Ich habe noch andere Verpflichtungen.",
+  "I have other commitments.",
+  "obligation, commitment"
+ ],
+ "evakuieren": [
+  "Das Gebäude wurde evakuiert.",
+  "The building was evacuated.",
+  "to evacuate"
+ ],
+ "sensibel": [
+  "Er ist ein sehr sensibler Mensch.",
+  "He's a very sensitive person.",
+  "sensitive"
+ ],
+ "Set": [
+  "Ich kaufe ein Set aus vier Gläsern.",
+  "I'm buying a set of four glasses.",
+  "set"
+ ],
+ "westlich": [
+  "Die Stadt liegt westlich von Köln.",
+  "The town lies west of Cologne.",
+  "west(ern)"
+ ],
+ "Sektor": [
+  "Sie arbeitet im öffentlichen Sektor.",
+  "She works in the public sector.",
+  "sector"
+ ],
+ "Mitgefühl": [
+  "Mein Mitgefühl!",
+  "My sympathies!",
+  "compassion, sympathy"
+ ],
+ "behilflich": [
+  "Kann ich Ihnen behilflich sein?",
+  "Can I help you?",
+  "helpful; (behilflich sein) to help"
+ ],
+ "Spannung": [
+  "Wir warten mit Spannung auf das Ergebnis.",
+  "We're waiting eagerly for the result.",
+  "suspense, tension"
+ ],
+ "griechisch": [
+  "Wir gehen heute griechisch essen.",
+  "We're having Greek food tonight.",
+  "Greek"
+ ],
+ "Telegramm": [
+  "Früher schickte man ein Telegramm.",
+  "In the past people sent a telegram.",
+  "telegram"
+ ],
+ "antik": [
+  "Der Schrank ist antik.",
+  "The cupboard is antique.",
+  "antique; ancient"
+ ],
+ "arabisch": [
+  "Sie lernt Arabisch.",
+  "She's learning Arabic.",
+  "Arabic"
+ ],
+ "Ingenieur": [
+  "Er arbeitet als Ingenieur bei einem Autohersteller.",
+  "He works as an engineer at a carmaker.",
+  "engineer"
+ ],
+ "zart": [
+  "Das Fleisch ist sehr zart.",
+  "The meat is very tender.",
+  "tender, delicate"
+ ],
+ "Tausch": [
+  "Ich biete einen Tausch an.",
+  "I'm offering a swap.",
+  "exchange, swap"
+ ],
+ "eiskalt": [
+  "Das Wasser im See ist eiskalt.",
+  "The water in the lake is ice-cold.",
+  "ice-cold"
+ ],
+ "Festung": [
+  "Auf dem Berg steht eine alte Festung.",
+  "There's an old fortress on the hill.",
+  "fortress"
+ ],
+ "Infektion": [
+  "Die Infektion ist harmlos.",
+  "The infection is harmless.",
+  "infection"
+ ],
+ "genetisch": [
+  "Die Krankheit ist genetisch bedingt.",
+  "The illness is genetic.",
+  "genetic"
+ ],
+ "belasten": [
+  "Der Stress belastet mich sehr.",
+  "The stress weighs heavily on me.",
+  "to burden, weigh on"
+ ],
+ "Datum": [
+  "Welches Datum haben wir heute?",
+  "What's the date today?",
+  "date"
+ ],
+ "Pass": [
+  "Vergiss deinen Pass nicht!",
+  "Don't forget your passport!",
+  "passport; pass"
+ ],
+ "Marsch": [
+  "Nach dem Marsch waren alle müde.",
+  "After the march everyone was tired.",
+  "march"
+ ],
+ "Skandal": [
+  "Das ist ein Skandal!",
+  "That's a scandal!",
+  "scandal"
+ ],
+ "Rechte": [
+  "Kennen Sie Ihre Rechte als Mieter?",
+  "Do you know your rights as a tenant?",
+  "rights; (die Rechte) right hand"
+ ],
+ "Windel": [
+  "Ich muss dem Baby die Windel wechseln.",
+  "I have to change the baby's nappy.",
+  "nappy"
+ ],
+ "Manieren": [
+  "Das Kind hat gute Manieren.",
+  "The child has good manners.",
+  "manners"
+ ],
+ "Gebet": [
+  "Vor dem Essen sprechen sie ein Gebet.",
+  "They say a prayer before eating.",
+  "prayer"
+ ],
+ "Kombination": [
+  "Die Kombination aus Ingwer und Zitrone ist lecker.",
+  "Ginger and lemon is a tasty combination.",
+  "combination"
+ ],
+ "entzückend": [
+  "Was für ein entzückendes Kleid!",
+  "What a charming dress!",
+  "charming, delightful"
+ ],
+ "südlich": [
+  "Der Ort liegt südlich von Hamburg.",
+  "The town is south of Hamburg.",
+  "south(ern)"
+ ],
+ "kostbar": [
+  "Unsere Zeit ist kostbar.",
+  "Our time is precious.",
+  "precious"
+ ],
+ "Adler": [
+  "Hoch über uns fliegt ein Adler.",
+  "An eagle is flying high above us.",
+  "eagle"
+ ],
+ "wertlos": [
+  "Das alte Handy ist wertlos.",
+  "The old phone is worthless.",
+  "worthless"
+ ],
+ "Halloween": [
+  "An Halloween verkleiden sich die Kinder.",
+  "At Halloween the children dress up.",
+  "Halloween"
+ ],
+ "historisch": [
+  "Das ist ein historischer Moment.",
+  "This is a historic moment.",
+  "historic(al)"
+ ],
+ "hinunter": [
+  "Wir gehen die Treppe hinunter.",
+  "We go down the stairs.",
+  "down"
+ ],
+ "Metall": [
+  "Der Stuhl ist aus Metall.",
+  "The chair is made of metal.",
+  "metal"
+ ],
+ "bemerkenswert": [
+  "Ihre Leistung ist bemerkenswert.",
+  "Her performance is remarkable.",
+  "remarkable"
+ ],
+ "zwanzig": [
+  "Ich warte schon zwanzig Minuten.",
+  "I've been waiting twenty minutes.",
+  "twenty"
+ ],
+ "Dose": [
+  "Eine Dose Tomaten, bitte.",
+  "A tin of tomatoes, please.",
+  "tin, can"
+ ],
+ "hauptsächlich": [
+  "Ich arbeite hauptsächlich von zu Hause.",
+  "I mainly work from home.",
+  "mainly"
+ ],
+ "November": [
+  "Im November ist es oft grau.",
+  "In November it's often grey.",
+  "November"
+ ],
+ "Sonnenuntergang": [
+  "Wir schauen uns den Sonnenuntergang am Meer an.",
+  "We watch the sunset by the sea.",
+  "sunset"
+ ],
+ "ausflippen": [
+  "Als sie das gehört hat, ist sie total ausgeflippt.",
+  "When she heard that she totally freaked out.",
+  "to freak out"
+ ],
+ "tanken": [
+  "Ich muss noch tanken.",
+  "I still need to get petrol.",
+  "to fill up (fuel)"
+ ],
+ "Passwort": [
+  "Ich habe mein Passwort vergessen.",
+  "I've forgotten my password.",
+  "password"
+ ],
+ "einholen": [
+  "Ich hole dich gleich ein!",
+  "I'll catch up with you in a minute!",
+  "to catch up with"
+ ],
+ "Zahnarzt": [
+  "Morgen muss ich zum Zahnarzt.",
+  "Tomorrow I have to go to the dentist.",
+  "dentist"
+ ],
+ "anzünden": [
+  "Kannst du die Kerzen anzünden?",
+  "Can you light the candles?",
+  "to light"
+ ],
+ "Feiertag": [
+  "Am Montag ist Feiertag.",
+  "Monday is a public holiday.",
+  "public holiday"
+ ],
+ "restlich": [
+  "Die restlichen Gäste kommen später.",
+  "The rest of the guests are coming later.",
+  "remaining"
+ ],
+ "vergiften": [
+  "Er hat sich an Pilzen vergiftet.",
+  "He got poisoned by mushrooms.",
+  "to poison"
+ ],
+ "Laptop": [
+  "Ich arbeite heute mit dem Laptop im Café.",
+  "Today I'm working on my laptop in a café.",
+  "laptop"
+ ],
+ "Reichtum": [
+  "Gesundheit ist mir wichtiger als Reichtum.",
+  "Health matters more to me than wealth.",
+  "wealth"
+ ],
+ "loyal": [
+  "Sie ist eine sehr loyale Kollegin.",
+  "She's a very loyal colleague.",
+  "loyal"
+ ],
+ "Profil": [
+  "Aktualisiere bitte dein Profil.",
+  "Please update your profile.",
+  "profile"
+ ],
+ "blass": [
+  "Du siehst blass aus.",
+  "You look pale.",
+  "pale"
+ ],
+ "Titel": [
+  "Wie ist der Titel des Buches?",
+  "What's the title of the book?",
+  "title"
+ ],
+ "erlösen": [
+  "Endlich bin ich vom Warten erlöst.",
+  "At last I'm released from waiting.",
+  "to release, deliver"
+ ],
+ "lila": [
+  "Sie hat lila Haare.",
+  "She has purple hair.",
+  "purple"
+ ],
+ "weltweit": [
+  "Die Firma ist weltweit bekannt.",
+  "The company is known worldwide.",
+  "worldwide"
+ ],
+ "Dezember": [
+  "Im Dezember gehen wir auf den Weihnachtsmarkt.",
+  "In December we go to the Christmas market.",
+  "December"
+ ],
+ "Flagge": [
+  "Vor dem Rathaus weht eine Flagge.",
+  "A flag is flying outside the town hall.",
+  "flag"
+ ],
+ "Transport": [
+  "Der Transport ist im Preis enthalten.",
+  "Transport is included in the price.",
+  "transport"
+ ],
+ "prächtig": [
+  "Die Blumen blühen prächtig.",
+  "The flowers are blooming splendidly.",
+  "splendid"
+ ],
+ "Farm": [
+  "Sie wohnen auf einer Farm in Kanada.",
+  "They live on a farm in Canada.",
+  "farm"
+ ],
+ "Perle": [
+  "Sie trägt eine Kette mit Perlen.",
+  "She's wearing a pearl necklace.",
+  "pearl"
+ ],
+ "Kommunikation": [
+  "Gute Kommunikation ist im Team wichtig.",
+  "Good communication is important in a team.",
+  "communication"
+ ],
+ "durchhalten": [
+  "Halt durch, es ist bald vorbei!",
+  "Hang in there, it's nearly over!",
+  "to hold out, persevere"
+ ],
+ "Hochzeitstag": [
+  "Heute ist unser zehnter Hochzeitstag.",
+  "Today is our tenth wedding anniversary.",
+  "wedding anniversary"
+ ],
+ "futtern": [
+  "Die Kinder futtern Kekse.",
+  "The kids are tucking into biscuits.",
+  "to eat heartily (colloquial)"
+ ],
+ "biologisch": [
+  "Wir kaufen biologisches Obst.",
+  "We buy organic fruit.",
+  "organic; biological"
+ ],
+ "Nest": [
+  "Im Baum ist ein Vogelnest, ein kleines Nest.",
+  "There's a bird's nest in the tree, a little nest.",
+  "nest"
+ ],
+ "Zeugin": [
+  "Die Zeugin hat alles gesehen.",
+  "The witness saw everything.",
+  "witness (female)"
+ ],
+ "verkünden": [
+  "Sie verkünden ihre Verlobung.",
+  "They're announcing their engagement.",
+  "to announce"
+ ],
+ "Wiederhören": [
+  "Danke für Ihren Anruf, auf Wiederhören!",
+  "Thanks for calling, goodbye!",
+  "(auf Wiederhören) goodbye (on the phone)"
+ ],
+ "schnarchen": [
+  "Mein Mann schnarcht nachts laut.",
+  "My husband snores loudly at night.",
+  "to snore"
+ ],
+ "komplex": [
+  "Das Thema ist sehr komplex.",
+  "The topic is very complex.",
+  "complex"
+ ],
+ "Zeitverschwendung": [
+  "Das Meeting war reine Zeitverschwendung.",
+  "The meeting was a complete waste of time.",
+  "waste of time"
+ ],
+ "einschlagen": [
+  "Wir schlagen einen anderen Weg ein.",
+  "We're taking a different path.",
+  "to take (a route); to smash in"
+ ],
+ "vierte": [
+  "Das ist schon der vierte Anruf heute.",
+  "That's already the fourth call today.",
+  "fourth"
+ ],
+ "winken": [
+  "Sie winkt uns vom Fenster aus.",
+  "She waves to us from the window.",
+  "to wave"
+ ],
+ "Autounfall": [
+  "Er hatte einen kleinen Autounfall.",
+  "He had a minor car accident.",
+  "car accident"
+ ],
+ "Geheimdienst": [
+  "Er arbeitet angeblich für den Geheimdienst.",
+  "Supposedly he works for the secret service.",
+  "secret service"
+ ],
+ "Tankstelle": [
+  "An der Tankstelle kaufe ich noch Milch.",
+  "I'll buy milk at the petrol station.",
+  "petrol station"
+ ],
+ "Uni": [
+  "Sie studiert an der Uni Hamburg.",
+  "She's studying at Hamburg uni.",
+  "uni"
+ ],
+ "kommunizieren": [
+  "Wir kommunizieren meistens per E-Mail.",
+  "We mostly communicate by email.",
+  "to communicate"
+ ],
+ "stur": [
+  "Sei nicht so stur!",
+  "Don't be so stubborn!",
+  "stubborn"
+ ],
+ "Geste": [
+  "Das ist eine nette Geste.",
+  "That's a nice gesture.",
+  "gesture"
+ ],
+ "gegeben": [
+  "Unter den gegebenen Umständen ist das okay.",
+  "Under the circumstances that's okay.",
+  "given"
+ ],
+ "anstrengend": [
+  "Der Tag war sehr anstrengend.",
+  "The day was very tiring.",
+  "tiring, strenuous"
+ ],
+ "arrogant": [
+  "Er wirkt etwas arrogant.",
+  "He seems a bit arrogant.",
+  "arrogant"
+ ],
+ "Einzelheit": [
+  "Ich erzähle dir die Einzelheiten später.",
+  "I'll tell you the details later.",
+  "detail"
+ ],
+ "Funkgerät": [
+  "Die Bergwacht hat ein Funkgerät dabei.",
+  "The mountain rescue team carries a radio.",
+  "two-way radio"
+ ],
+ "Genehmigung": [
+  "Für den Umbau brauchen wir eine Genehmigung.",
+  "We need a permit for the conversion.",
+  "permit, permission"
+ ],
+ "beantragen": [
+  "Ich habe Elterngeld beantragt.",
+  "I've applied for parental allowance.",
+  "to apply for"
+ ],
+ "tippen": [
+  "Ich tippe die Nachricht schnell auf dem Handy.",
+  "I quickly type the message on my phone.",
+  "to type; to tap; to guess"
+ ],
+ "Orden": [
+  "Er bekam einen Orden für seinen Mut.",
+  "He got a medal for his bravery.",
+  "medal; (religious) order"
+ ],
+ "abgelehnt": [
+  "Mein Antrag wurde abgelehnt.",
+  "My application was rejected.",
+  "rejected"
+ ],
+ "Reichweite": [
+  "Das E-Auto hat eine Reichweite von 400 Kilometern.",
+  "The electric car has a range of 400 kilometres.",
+  "range"
+ ],
+ "Statue": [
+  "Auf dem Platz steht eine Statue.",
+  "There's a statue in the square.",
+  "statue"
+ ],
+ "kritisch": [
+  "Sie sieht die Entwicklung kritisch.",
+  "She takes a critical view of the development.",
+  "critical"
+ ],
+ "kleiden": [
+  "Sie kleidet sich immer elegant.",
+  "She always dresses elegantly.",
+  "to dress"
+ ],
+ "Satellit": [
+  "Der Satellit umkreist die Erde.",
+  "The satellite orbits the earth.",
+  "satellite"
+ ],
+ "Burg": [
+  "Auf dem Hügel steht eine alte Burg.",
+  "There's an old castle on the hill.",
+  "castle"
+ ],
+ "Schach": [
+  "Spielst du Schach?",
+  "Do you play chess?",
+  "chess"
+ ],
+ "mahlen": [
+  "Ich mahle den Kaffee frisch.",
+  "I grind the coffee fresh.",
+  "to grind"
+ ],
+ "Kater": [
+  "Unser Kater heißt Felix.",
+  "Our tomcat is called Felix.",
+  "tomcat; hangover"
+ ],
+ "schmuggeln": [
+  "Er hat Zigaretten über die Grenze geschmuggelt.",
+  "He smuggled cigarettes across the border.",
+  "to smuggle"
+ ],
+ "transportieren": [
+  "Wie transportieren wir das Sofa?",
+  "How are we going to transport the sofa?",
+  "to transport"
+ ],
+ "angestellt": [
+  "Sie ist bei einer Bank angestellt.",
+  "She's employed at a bank.",
+  "employed"
+ ],
+ "Division": [
+  "Die Division wurde verlegt.",
+  "The division was relocated.",
+  "division"
+ ],
+ "kreischen": [
+  "Die Kinder kreischen vor Freude.",
+  "The children are screaming with joy.",
+  "to shriek"
+ ],
+ "Datenbank": [
+  "Die Kundendaten sind in einer Datenbank gespeichert.",
+  "The customer data is stored in a database.",
+  "database"
+ ],
+ "Kratzer": [
+  "Das Auto hat einen Kratzer.",
+  "The car has a scratch.",
+  "scratch"
+ ],
+ "römisch": [
+  "In Trier gibt es viele römische Ruinen.",
+  "There are many Roman ruins in Trier.",
+  "Roman"
+ ],
+ "Draht": [
+  "Der Zaun ist aus Draht.",
+  "The fence is made of wire.",
+  "wire"
+ ],
+ "Weltkrieg": [
+  "Ihr Großvater hat den Zweiten Weltkrieg erlebt.",
+  "Her grandfather lived through the Second World War.",
+  "world war"
+ ],
+ "Häftling": [
+  "Ein Häftling ist geflohen.",
+  "A prisoner has escaped.",
+  "prisoner"
+ ],
+ "Intelligenz": [
+  "Künstliche Intelligenz verändert unsere Arbeit.",
+  "Artificial intelligence is changing our work.",
+  "intelligence"
+ ],
+ "Mutti": [
+  "Mutti kocht heute Rouladen.",
+  "Mum is making beef rolls today.",
+  "mum"
+ ],
+ "Rucksack": [
+  "Pack Wasser in den Rucksack.",
+  "Put some water in the rucksack.",
+  "rucksack"
+ ],
+ "Rückzug": [
+  "Er kündigt seinen Rückzug aus der Politik an.",
+  "He announces his retirement from politics.",
+  "retreat, withdrawal"
+ ],
+ "Wal": [
+  "Vor der Küste haben wir einen Wal gesehen.",
+  "We saw a whale off the coast.",
+  "whale"
+ ],
+ "kreativ": [
+  "Sie ist sehr kreativ.",
+  "She's very creative.",
+  "creative"
+ ],
+ "betrinken": [
+  "Er hat sich auf der Party betrunken.",
+  "He got drunk at the party.",
+  "(sich betrinken) to get drunk"
+ ],
+ "trommeln": [
+  "Der Regen trommelt aufs Dach.",
+  "The rain drums on the roof.",
+  "to drum"
+ ],
+ "himmlisch": [
+  "Der Duft ist himmlisch.",
+  "The smell is heavenly.",
+  "heavenly"
+ ],
+ "schmerzhaft": [
+  "Die Spritze war nicht schmerzhaft.",
+  "The injection wasn't painful.",
+  "painful"
+ ],
+ "fiebern": [
+  "Wir fiebern dem Finale entgegen.",
+  "We can't wait for the final.",
+  "to have a fever; (entgegenfiebern) to look forward eagerly"
+ ],
+ "ängstlich": [
+  "Der Hund ist ein bisschen ängstlich.",
+  "The dog is a bit timid.",
+  "anxious, timid"
+ ],
+ "Handtasche": [
+  "Ihr Portemonnaie ist in der Handtasche.",
+  "Her purse is in her handbag.",
+  "handbag"
+ ],
+ "Vorstand": [
+  "Der Vorstand hat entschieden.",
+  "The board has decided.",
+  "board (of directors)"
+ ],
+ "global": [
+  "Das ist ein globales Problem.",
+  "That's a global problem.",
+  "global"
+ ],
+ "durchschauen": [
+  "Ich habe ihn sofort durchschaut.",
+  "I saw through him straight away.",
+  "to see through"
+ ],
+ "rauskriegen": [
+  "Ich krieg das schon raus.",
+  "I'll figure it out.",
+  "to find out (colloquial)"
+ ],
+ "besiegt": [
+  "Die Mannschaft war besiegt, aber stolz.",
+  "The team was beaten but proud.",
+  "defeated"
+ ],
+ "exzellent": [
+  "Der Service war exzellent.",
+  "The service was excellent.",
+  "excellent"
+ ],
+ "verfügbar": [
+  "Das Produkt ist wieder verfügbar.",
+  "The product is available again.",
+  "available"
+ ],
+ "rausschmeißen": [
+  "Der Vermieter will uns rausschmeißen.",
+  "The landlord wants to kick us out.",
+  "to kick out (colloquial)"
+ ],
+ "Studie": [
+  "Eine neue Studie zeigt, dass Schlaf wichtig ist.",
+  "A new study shows that sleep is important.",
+  "study"
+ ],
+ "Ablenkung": [
+  "Ich brauche ein bisschen Ablenkung.",
+  "I need a bit of distraction.",
+  "distraction"
+ ],
+ "intensiv": [
+  "Der Kurs ist sehr intensiv.",
+  "The course is very intensive.",
+  "intensive, intense"
+ ],
+ "bedrohen": [
+  "Der Klimawandel bedroht viele Arten.",
+  "Climate change threatens many species.",
+  "to threaten"
+ ],
+ "abreißen": [
+  "Das alte Haus wird abgerissen.",
+  "The old house is being demolished.",
+  "to tear down; to tear off"
+ ],
+ "Abzug": [
+  "Nach Abzug der Kosten bleibt nicht viel.",
+  "After deducting costs there isn't much left.",
+  "deduction; trigger"
+ ],
+ "Kälte": [
+  "Bei dieser Kälte bleibe ich drinnen.",
+  "I'm staying inside in this cold.",
+  "cold"
+ ],
+ "hintergehen": [
+  "Ich fühle mich hintergangen.",
+  "I feel betrayed.",
+  "to deceive, go behind someone's back"
+ ],
+ "Ufer": [
+  "Wir sitzen am Ufer und angeln.",
+  "We sit on the bank fishing.",
+  "bank, shore"
+ ],
+ "Kammer": [
+  "Die Fahrräder stehen in der Kammer.",
+  "The bikes are in the storeroom.",
+  "storeroom, small room; chamber"
+ ],
+ "Republik": [
+  "Deutschland ist eine Bundesrepublik, eine föderale Republik.",
+  "Germany is a federal republic.",
+  "republic"
+ ],
+ "durchgeknallt": [
+  "Bist du jetzt völlig durchgeknallt?",
+  "Have you completely lost it?",
+  "crazy (colloquial)"
+ ],
+ "Hinsicht": [
+  "In dieser Hinsicht hast du recht.",
+  "In that respect you're right.",
+  "respect, regard"
+ ],
+ "Zeitschrift": [
+  "Ich habe eine Zeitschrift abonniert.",
+  "I've subscribed to a magazine.",
+  "magazine"
+ ],
+ "braten": [
+  "Ich brate die Zwiebeln in Butter.",
+  "I fry the onions in butter.",
+  "to fry, roast"
+ ],
+ "Zeile": [
+  "Lies bitte die erste Zeile vor.",
+  "Please read out the first line.",
+  "line"
+ ],
+ "besetzen": [
+  "Die Rolle ist schon besetzt.",
+  "The role has already been cast.",
+  "to occupy; to fill (a role)"
+ ],
+ "Bestellung": [
+  "Ihre Bestellung ist unterwegs.",
+  "Your order is on its way.",
+  "order"
+ ],
+ "Anhörung": [
+  "Die Anhörung ist nächste Woche.",
+  "The hearing is next week.",
+  "hearing"
+ ],
+ "arbeitslos": [
+  "Er ist seit drei Monaten arbeitslos.",
+  "He's been unemployed for three months.",
+  "unemployed"
+ ],
+ "zitieren": [
+  "Darf ich dich zitieren?",
+  "Can I quote you?",
+  "to quote"
+ ],
+ "Prophet": [
+  "Ich bin doch kein Prophet!",
+  "I'm not a fortune teller!",
+  "prophet"
+ ],
+ "errichten": [
+  "Hier wird ein neues Krankenhaus errichtet.",
+  "A new hospital is being built here.",
+  "to build, erect"
+ ],
+ "Privatsphäre": [
+  "Respektiere bitte meine Privatsphäre.",
+  "Please respect my privacy.",
+  "privacy"
+ ],
+ "verdoppeln": [
+  "Die Preise haben sich verdoppelt.",
+  "Prices have doubled.",
+  "to double"
+ ],
+ "überbringen": [
+  "Ich überbringe Ihnen gute Nachrichten.",
+  "I bring you good news.",
+  "to deliver, convey"
+ ],
+ "Kabine": [
+  "Unsere Kabine auf dem Schiff hat ein Fenster.",
+  "Our cabin on the ship has a window.",
+  "cabin"
+ ],
+ "dulden": [
+  "Das dulde ich nicht!",
+  "I won't tolerate that!",
+  "to tolerate"
+ ],
+ "Mafia": [
+  "Der Film handelt von der Mafia.",
+  "The film is about the Mafia.",
+  "Mafia"
+ ],
+ "durchschneiden": [
+  "Die Bürgermeisterin schneidet das Band durch.",
+  "The mayor cuts the ribbon.",
+  "to cut through"
+ ],
+ "Gauner": [
+  "Dieser Händler ist ein Gauner.",
+  "This dealer is a crook.",
+  "crook"
+ ],
+ "weiterleben": [
+  "Nach dem Verlust muss das Leben weitergehen, wir müssen weiterleben.",
+  "After the loss life must go on; we must live on.",
+  "to live on, carry on living"
+ ],
+ "Konflikt": [
+  "Wir lösen den Konflikt im Gespräch.",
+  "We'll resolve the conflict by talking.",
+  "conflict"
+ ],
+ "inwiefern": [
+  "Inwiefern betrifft mich das?",
+  "In what way does that affect me?",
+  "to what extent, in what way"
+ ],
+ "fliegend": [
+  "Draußen ist ein fliegender Händler.",
+  "There's a street vendor outside.",
+  "flying; (fliegender Händler) street vendor"
+ ],
+ "Begegnung": [
+  "Das war eine schöne Begegnung.",
+  "That was a lovely encounter.",
+  "encounter, meeting"
+ ],
+ "Frequenz": [
+  "Der Radiosender hat eine neue Frequenz.",
+  "The radio station has a new frequency.",
+  "frequency"
+ ],
+ "Vorbild": [
+  "Meine Mutter ist mein Vorbild.",
+  "My mother is my role model.",
+  "role model"
+ ],
+ "auswählen": [
+  "Wähle bitte ein Datum aus.",
+  "Please select a date.",
+  "to choose, select"
+ ],
+ "simpel": [
+  "Die Lösung ist ganz simpel.",
+  "The solution is quite simple.",
+  "simple"
+ ],
+ "Konferenz": [
+  "Nächste Woche bin ich auf einer Konferenz.",
+  "Next week I'm at a conference.",
+  "conference"
+ ],
+ "Kongress": [
+  "Der Kongress findet in Leipzig statt.",
+  "The congress takes place in Leipzig.",
+  "congress, convention"
+ ],
+ "Fotograf": [
+  "Der Fotograf macht Bilder von der Hochzeit.",
+  "The photographer takes pictures at the wedding.",
+  "photographer"
+ ],
+ "Status": [
+  "Was ist der Status des Projekts?",
+  "What's the status of the project?",
+  "status"
+ ],
+ "zweifellos": [
+  "Das ist zweifellos die beste Lösung.",
+  "That's undoubtedly the best solution.",
+  "undoubtedly",
+  "adv"
+ ],
+ "rückwärts": [
+  "Kannst du rückwärts einparken?",
+  "Can you reverse park?",
+  "backwards"
+ ],
+ "Gemeinschaft": [
+  "Im Dorf gibt es eine starke Gemeinschaft.",
+  "There's a strong community in the village.",
+  "community"
+ ],
+ "Papierkram": [
+  "Ich hasse den ganzen Papierkram.",
+  "I hate all the paperwork.",
+  "paperwork"
+ ],
+ "Flitterwochen": [
+  "Für die Flitterwochen fliegen sie nach Bali.",
+  "They're flying to Bali for their honeymoon.",
+  "honeymoon"
+ ],
+ "Fahrstuhl": [
+  "Der Fahrstuhl ist kaputt.",
+  "The lift is broken.",
+  "lift"
+ ],
+ "Autorität": [
+  "Der Lehrer hat keine Autorität.",
+  "The teacher has no authority.",
+  "authority"
+ ],
+ "schmelzen": [
+  "Der Schnee schmilzt in der Sonne.",
+  "The snow is melting in the sun.",
+  "to melt"
+ ],
+ "Banane": [
+  "Zum Frühstück esse ich eine Banane.",
+  "I eat a banana for breakfast.",
+  "banana"
+ ],
+ "grillen": [
+  "Am Wochenende grillen wir im Garten.",
+  "At the weekend we're having a barbecue in the garden.",
+  "to grill, barbecue"
+ ],
+ "Gruß": [
+  "Viele Grüße an deine Familie!",
+  "Best wishes to your family!",
+  "greeting"
+ ],
+ "Kommunist": [
+  "Sein Großvater war Kommunist.",
+  "His grandfather was a communist.",
+  "communist"
+ ],
+ "Vortrag": [
+  "Sie hält einen Vortrag über Klimaschutz.",
+  "She's giving a talk on climate protection.",
+  "talk, lecture"
+ ],
+ "Vertreter": [
+  "Ein Vertreter der Firma kommt vorbei.",
+  "A company representative is dropping by.",
+  "representative"
+ ],
+ "übermorgen": [
+  "Übermorgen fliege ich nach Rom.",
+  "The day after tomorrow I'm flying to Rome.",
+  "the day after tomorrow"
+ ],
+ "allmächtig": [
+  "Der Chef ist nicht allmächtig.",
+  "The boss isn't all-powerful.",
+  "all-powerful"
+ ],
+ "beklagen": [
+  "Die Anwohner beklagen sich über den Lärm.",
+  "The residents complain about the noise.",
+  "(sich beklagen) to complain"
+ ],
+ "Jahrzehnt": [
+  "Seit einem Jahrzehnt wohne ich hier.",
+  "I've lived here for a decade.",
+  "decade"
+ ],
+ "Supermarkt": [
+  "Der Supermarkt hat bis 22 Uhr offen.",
+  "The supermarket is open until 10 pm.",
+  "supermarket"
+ ],
+ "Winkel": [
+  "Im Winkel des Zimmers steht ein Sessel.",
+  "There's an armchair in the corner of the room.",
+  "corner; angle"
+ ],
+ "endlos": [
+  "Die Schlange war endlos lang.",
+  "The queue was endless.",
+  "endless"
+ ],
+ "Herbst": [
+  "Im Herbst fallen die Blätter.",
+  "In autumn the leaves fall.",
+  "autumn"
+ ],
+ "Italiener": [
+  "Wollen wir zum Italiener gehen?",
+  "Shall we go to the Italian restaurant?",
+  "Italian (person); Italian restaurant"
+ ],
+ "heiter": [
+  "Morgen wird es heiter bis wolkig.",
+  "Tomorrow will be fair to cloudy.",
+  "cheerful; fair (weather)"
+ ],
+ "Moor": [
+  "Im Moor wachsen seltene Pflanzen.",
+  "Rare plants grow in the moor.",
+  "moor, bog"
+ ],
+ "Haftbefehl": [
+  "Gegen ihn liegt ein Haftbefehl vor.",
+  "There's an arrest warrant out for him.",
+  "arrest warrant"
+ ],
+ "Zwerg": [
+  "Im Garten steht ein Gartenzwerg, ein lustiger Zwerg.",
+  "There's a garden gnome in the garden, a funny gnome.",
+  "dwarf, gnome"
+ ],
+ "steif": [
+  "Nach dem Sport bin ich ganz steif.",
+  "After sport I'm really stiff.",
+  "stiff"
+ ],
+ "schmeicheln": [
+  "Du willst mir doch nur schmeicheln.",
+  "You're just trying to flatter me.",
+  "to flatter"
+ ],
+ "zumachen": [
+  "Mach bitte die Tür zu.",
+  "Please close the door.",
+  "to close"
+ ],
+ "entsetzlich": [
+  "Der Lärm ist entsetzlich.",
+  "The noise is dreadful.",
+  "dreadful"
+ ],
+ "physisch": [
+  "Die Arbeit ist physisch anstrengend.",
+  "The work is physically demanding.",
+  "physical(ly)"
+ ],
+ "einreichen": [
+  "Ich muss die Unterlagen bis Freitag einreichen.",
+  "I have to submit the documents by Friday.",
+  "to submit, hand in"
+ ],
+ "auftreiben": [
+  "Wo kann ich so schnell einen Anzug auftreiben?",
+  "Where can I get hold of a suit so quickly?",
+  "to get hold of, find"
+ ],
+ "Betracht": [
+  "Das kommt nicht in Betracht.",
+  "That's out of the question.",
+  "(in Betracht kommen) to be considered"
+ ],
+ "Fee": [
+  "Im Märchen erfüllt eine Fee drei Wünsche.",
+  "In the fairy tale a fairy grants three wishes.",
+  "fairy"
+ ],
+ "anwenden": [
+  "Wie wende ich die Creme an?",
+  "How do I apply the cream?",
+  "to apply, use"
+ ],
+ "Bestimmung": [
+  "Bitte beachten Sie die neuen Bestimmungen.",
+  "Please note the new regulations.",
+  "regulation; destiny"
+ ],
+ "Unterhose": [
+  "Ich brauche neue Unterhosen.",
+  "I need new underpants.",
+  "underpants"
+ ],
+ "verärgern": [
+  "Ich wollte dich nicht verärgern.",
+  "I didn't want to annoy you.",
+  "to annoy"
+ ],
+ "Burger": [
+  "Ich nehme einen Burger mit Pommes.",
+  "I'll have a burger and chips.",
+  "burger"
+ ],
+ "verständlich": [
+  "Ihre Reaktion ist verständlich.",
+  "Her reaction is understandable.",
+  "understandable"
+ ],
+ "Würstchen": [
+  "Zum Kartoffelsalat gibt es Würstchen.",
+  "There are sausages with the potato salad.",
+  "small sausage",
+  "other"
+ ],
+ "mittlerweile": [
+  "Mittlerweile spreche ich gut Deutsch.",
+  "By now I speak German well.",
+  "by now, meanwhile"
+ ],
+ "Kolonie": [
+  "Früher war das Land eine Kolonie.",
+  "The country used to be a colony.",
+  "colony"
+ ],
+ "Entdeckung": [
+  "Das war eine wichtige Entdeckung.",
+  "That was an important discovery.",
+  "discovery"
+ ],
+ "Hahn": [
+  "Der Hahn kräht jeden Morgen.",
+  "The rooster crows every morning.",
+  "rooster; tap"
+ ],
+ "Kätzchen": [
+  "Unsere Katze hat drei Kätzchen bekommen.",
+  "Our cat had three kittens.",
+  "kitten"
+ ],
+ "vermitteln": [
+  "Sie vermittelt zwischen den beiden.",
+  "She's mediating between the two.",
+  "to mediate; to arrange"
+ ],
+ "Beförderung": [
+  "Herzlichen Glückwunsch zur Beförderung!",
+  "Congratulations on your promotion!",
+  "promotion; transport"
+ ],
+ "plagen": [
+  "Mich plagt ein schlechtes Gewissen.",
+  "I have a guilty conscience.",
+  "to plague, trouble"
+ ],
+ "Weltraum": [
+  "Sie träumt davon, in den Weltraum zu fliegen.",
+  "She dreams of flying into space.",
+  "(outer) space"
+ ],
+ "abgesagt": [
+  "Das Konzert wurde abgesagt.",
+  "The concert was cancelled.",
+  "cancelled"
+ ],
+ "einbringen": [
+  "Jeder kann seine Ideen einbringen.",
+  "Everyone can contribute their ideas.",
+  "to contribute; to bring in"
+ ],
+ "Anzahl": [
+  "Die Anzahl der Plätze ist begrenzt.",
+  "The number of places is limited.",
+  "number"
+ ],
+ "bestechen": [
+  "Man darf Beamte nicht bestechen.",
+  "You're not allowed to bribe officials.",
+  "to bribe"
+ ],
+ "Standort": [
+  "Die Firma hat einen neuen Standort in Leipzig.",
+  "The company has a new site in Leipzig.",
+  "location, site"
+ ],
+ "entwischen": [
+  "Die Katze ist mir entwischt.",
+  "The cat got away from me.",
+  "to escape, slip away"
+ ],
+ "provozieren": [
+  "Lass dich nicht provozieren.",
+  "Don't let yourself be provoked.",
+  "to provoke"
+ ],
+ "verachten": [
+  "Ich verachte Lügen.",
+  "I despise lies.",
+  "to despise"
+ ],
+ "zurücktreten": [
+  "Der Minister ist zurückgetreten.",
+  "The minister has resigned.",
+  "to resign; to step back"
+ ],
+ "beneiden": [
+  "Ich beneide dich um deinen Job.",
+  "I envy you your job.",
+  "to envy"
+ ],
+ "Ex": [
+  "Ich habe meinen Ex in der Stadt getroffen.",
+  "I ran into my ex in town.",
+  "ex (partner)"
+ ],
+ "erweitern": [
+  "Ich möchte meinen Wortschatz erweitern.",
+  "I'd like to expand my vocabulary.",
+  "to expand"
+ ],
+ "Einsamkeit": [
+  "Im Alter ist Einsamkeit ein großes Problem.",
+  "Loneliness is a big problem in old age.",
+  "loneliness"
+ ],
+ "Schirm": [
+  "Nimm einen Schirm mit, es regnet.",
+  "Take an umbrella, it's raining.",
+  "umbrella"
+ ],
+ "auflösen": [
+  "Die Band hat sich aufgelöst.",
+  "The band has split up.",
+  "to dissolve; (sich auflösen) to break up"
+ ],
+ "krachen": [
+  "Es hat auf der Kreuzung gekracht.",
+  "There was a crash at the crossroads.",
+  "to crash, bang"
+ ],
+ "vertraut": [
+  "Die Stimme kommt mir vertraut vor.",
+  "The voice sounds familiar.",
+  "familiar"
+ ],
+ "Schneider": [
+  "Der Schneider kürzt meine Hose.",
+  "The tailor is taking up my trousers.",
+  "tailor"
+ ],
+ "erhöht": [
+  "Er hat leicht erhöhten Blutdruck.",
+  "He has slightly raised blood pressure.",
+  "increased, raised"
+ ],
+ "intern": [
+  "Das ist nur für den internen Gebrauch.",
+  "That's for internal use only.",
+  "internal"
+ ],
+ "Butler": [
+  "Im Film öffnet der Butler die Tür.",
+  "In the film the butler opens the door.",
+  "butler"
+ ],
+ "möglichst": [
+  "Antworte bitte möglichst schnell.",
+  "Please reply as quickly as possible.",
+  "as … as possible"
+ ],
+ "Saison": [
+  "In der Saison ist das Hotel immer voll.",
+  "In season the hotel is always full.",
+  "season"
+ ],
+ "Gewohnheit": [
+  "Das ist eine schlechte Gewohnheit.",
+  "That's a bad habit.",
+  "habit"
+ ],
+ "Ruhestand": [
+  "Mein Vater ist seit einem Jahr im Ruhestand.",
+  "My father has been retired for a year.",
+  "retirement"
+ ],
+ "Kai": [
+  "Das Schiff legt am Kai an.",
+  "The ship docks at the quay.",
+  "quay"
+ ],
+ "Bunker": [
+  "Unter dem Bahnhof gibt es einen alten Bunker.",
+  "There's an old bunker under the station.",
+  "bunker"
+ ],
+ "Kellnerin": [
+  "Die Kellnerin bringt die Karte.",
+  "The waitress brings the menu.",
+  "waitress"
+ ],
+ "Drohne": [
+  "Die Drohne macht Fotos von oben.",
+  "The drone takes photos from above.",
+  "drone"
+ ],
+ "Schurke": [
+  "Im Film ist er der Schurke.",
+  "He's the villain in the film.",
+  "villain"
+ ],
+ "mexikanisch": [
+  "Heute kochen wir mexikanisch.",
+  "Today we're cooking Mexican food.",
+  "Mexican"
+ ],
+ "verkehrt": [
+  "Du hast den Pullover verkehrt herum an.",
+  "You've got your jumper on inside out.",
+  "wrong; (verkehrt herum) back to front"
+ ],
+ "Erwartung": [
+  "Das Ergebnis hat meine Erwartungen übertroffen.",
+  "The result exceeded my expectations.",
+  "expectation"
+ ],
+ "scannen": [
+  "Bitte scannen Sie den Code an der Kasse.",
+  "Please scan the code at the till.",
+  "to scan"
+ ],
+ "Pilz": [
+  "Im Herbst sammeln wir Pilze.",
+  "In autumn we collect mushrooms.",
+  "mushroom"
+ ],
+ "Tomate": [
+  "Schneid bitte die Tomate klein.",
+  "Please chop the tomato.",
+  "tomato"
+ ],
+ "rumhängen": [
+  "Am Sonntag hänge ich nur rum.",
+  "On Sunday I just hang around.",
+  "to hang around (colloquial)"
+ ],
+ "herauskommen": [
+  "Was ist bei dem Gespräch herausgekommen?",
+  "What came out of the conversation?",
+  "to come out; to result"
+ ],
+ "Geschrei": [
+  "Was ist das für ein Geschrei?",
+  "What's all that shouting?",
+  "shouting"
+ ],
+ "Kaninchen": [
+  "Die Kinder füttern das Kaninchen.",
+  "The children feed the rabbit.",
+  "rabbit"
+ ],
+ "deaktivieren": [
+  "Ich habe die Benachrichtigungen deaktiviert.",
+  "I've turned off notifications.",
+  "to deactivate"
+ ],
+ "schaufeln": [
+  "Wir müssen Schnee schaufeln.",
+  "We have to shovel snow.",
+  "to shovel"
+ ],
+ "Tumor": [
+  "Der Tumor war zum Glück gutartig.",
+  "Luckily the tumour was benign.",
+  "tumour"
+ ],
+ "aufreißen": [
+  "Er reißt das Fenster auf.",
+  "He flings the window open.",
+  "to tear open, fling open"
+ ],
+ "benachrichtigen": [
+  "Wir benachrichtigen Sie per SMS.",
+  "We'll notify you by text.",
+  "to notify"
+ ],
+ "Ballon": [
+  "Das Kind lässt einen Ballon steigen.",
+  "The child lets a balloon float up.",
+  "balloon"
+ ],
+ "Beleidigung": [
+  "Das ist eine Beleidigung!",
+  "That's an insult!",
+  "insult"
+ ],
+ "Klub": [
+  "Er ist Mitglied in einem Schachklub, dem ältesten Klub der Stadt.",
+  "He's a member of a chess club, the oldest club in town.",
+  "club"
+ ],
+ "ausgewählt": [
+  "Nur ausgewählte Produkte sind reduziert.",
+  "Only selected products are reduced.",
+  "selected"
+ ],
+ "Sanitäter": [
+  "Die Sanitäter waren schnell da.",
+  "The paramedics were there quickly.",
+  "paramedic"
+ ],
+ "Institut": [
+  "Sie forscht an einem Institut in Göttingen.",
+  "She does research at an institute in Göttingen.",
+  "institute"
+ ],
+ "Schmetterling": [
+  "Ein Schmetterling sitzt auf der Blume.",
+  "A butterfly is sitting on the flower.",
+  "butterfly"
+ ],
+ "idiotisch": [
+  "Das war eine idiotische Idee.",
+  "That was an idiotic idea.",
+  "idiotic"
+ ],
+ "gratis": [
+  "Der Kaffee ist heute gratis.",
+  "The coffee is free today.",
+  "free (of charge)"
+ ],
+ "zufügen": [
+  "Er hat ihr großen Schaden zugefügt.",
+  "He did her great harm.",
+  "to inflict, cause"
+ ],
+ "zusagen": [
+  "Ich habe für Samstag zugesagt.",
+  "I've said yes for Saturday.",
+  "to accept (an invitation); to appeal to"
+ ],
+ "Befragung": [
+  "Die Befragung dauert zehn Minuten.",
+  "The survey takes ten minutes.",
+  "survey; questioning"
+ ],
+ "elegant": [
+  "Sie trägt ein elegantes Kleid.",
+  "She's wearing an elegant dress.",
+  "elegant"
+ ],
+ "mitgehen": [
+  "Darf ich mitgehen?",
+  "Can I come along?",
+  "to go along"
+ ],
+ "Profit": [
+  "Die Firma macht kaum Profit.",
+  "The company makes hardly any profit.",
+  "profit"
+ ],
+ "anstecken": [
+  "Ich will dich nicht anstecken.",
+  "I don't want to infect you.",
+  "to infect; to pin on"
+ ],
+ "gefesselt": [
+  "Das Buch hat mich total gefesselt.",
+  "The book completely gripped me.",
+  "gripped, captivated; tied up"
+ ],
+ "siegen": [
+  "Am Ende siegt die Liebe.",
+  "In the end love wins.",
+  "to win, triumph"
+ ],
+ "Formel": [
+  "Die Formel steht an der Tafel.",
+  "The formula is on the board.",
+  "formula"
+ ],
+ "bewirken": [
+  "Kleine Schritte können viel bewirken.",
+  "Small steps can achieve a lot.",
+  "to bring about"
+ ],
+ "Pop": [
+  "Sie hört gern Pop.",
+  "She likes listening to pop.",
+  "pop (music)"
+ ],
+ "ausliefern": [
+  "Wir liefern die Ware morgen aus.",
+  "We'll deliver the goods tomorrow.",
+  "to deliver; to extradite"
+ ],
+ "Genick": [
+  "Er hat sich fast das Genick gebrochen.",
+  "He almost broke his neck.",
+  "neck (nape)"
+ ],
+ "Erpressung": [
+  "Das ist ja Erpressung!",
+  "That's blackmail!",
+  "blackmail"
+ ],
+ "derzeit": [
+  "Derzeit sind alle Leitungen besetzt.",
+  "All lines are currently busy.",
+  "currently"
+ ],
+ "vorübergehend": [
+  "Das Geschäft ist vorübergehend geschlossen.",
+  "The shop is temporarily closed.",
+  "temporary, temporarily"
+ ],
+ "Sammlung": [
+  "Das Museum hat eine große Sammlung.",
+  "The museum has a large collection.",
+  "collection"
+ ],
+ "meiden": [
+  "Ich meide die Innenstadt am Samstag.",
+  "I avoid the city centre on Saturdays.",
+  "to avoid"
+ ],
+ "Wärter": [
+  "Der Wärter schließt das Museum ab.",
+  "The attendant locks up the museum.",
+  "attendant, guard"
+ ],
+ "rangehen": [
+  "Das Telefon klingelt, kannst du bitte rangehen?",
+  "The phone's ringing, can you answer it?",
+  "to answer (phone); to tackle"
+ ],
+ "beerdigen": [
+  "Er wurde in seinem Heimatdorf beerdigt.",
+  "He was buried in his home village.",
+  "to bury"
+ ],
+ "katholisch": [
+  "Die Region ist eher katholisch.",
+  "The region is mostly Catholic.",
+  "Catholic"
+ ],
+ "Eifersucht": [
+  "Eifersucht macht alles kaputt.",
+  "Jealousy ruins everything.",
+  "jealousy"
+ ],
+ "Januar": [
+  "Im Januar ist es oft sehr kalt.",
+  "January is often very cold.",
+  "January"
+ ],
+ "Vizepräsident": [
+  "Der Vizepräsident vertritt den Präsidenten.",
+  "The vice president stands in for the president.",
+  "vice president"
+ ],
+ "beraten": [
+  "Die Verkäuferin hat mich gut beraten.",
+  "The sales assistant gave me good advice.",
+  "to advise; to discuss"
+ ],
+ "Brite": [
+  "Mein Nachbar ist Brite.",
+  "My neighbour is British.",
+  "Briton"
+ ],
+ "Empfehlung": [
+  "Auf Empfehlung einer Freundin bin ich hier.",
+  "I'm here on a friend's recommendation.",
+  "recommendation"
+ ],
+ "Göttin": [
+  "Athene war die griechische Göttin der Weisheit.",
+  "Athena was the Greek goddess of wisdom.",
+  "goddess"
+ ],
+ "Tuch": [
+  "Wisch den Tisch mit einem Tuch ab.",
+  "Wipe the table with a cloth.",
+  "cloth"
+ ],
+ "Echo": [
+  "In den Bergen hört man ein Echo.",
+  "You can hear an echo in the mountains.",
+  "echo"
+ ],
+ "Geschlecht": [
+  "Bitte geben Sie Ihr Geschlecht an.",
+  "Please state your gender.",
+  "gender, sex"
+ ],
+ "talentiert": [
+  "Sie ist eine sehr talentierte Musikerin.",
+  "She's a very talented musician.",
+  "talented"
+ ]
+}

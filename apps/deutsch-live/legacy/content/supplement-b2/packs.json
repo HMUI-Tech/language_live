@@ -1,0 +1,1072 @@
+{
+  "level": "B2",
+  "version": "0.4.0",
+  "source": "User-supplied onewholearns.com top-2000 German frequency PDF. Levels are frequency-based navigation bands, not assessed CEFR.",
+  "packs": [
+    {
+      "slug": "pdf-supplement-b2-01",
+      "kind": "core",
+      "title": "Zusatzwortschatz 1",
+      "title_en": "Missing words from your 2,000-word PDF",
+      "week": 26,
+      "items": [
+        {
+          "de": "Vokabel",
+          "en": "vocabulary word",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Muttersprachler",
+          "en": "native speaker",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Wohnort",
+          "en": "place of residence",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Vermieterin",
+          "en": "landlady",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Parkett",
+          "en": "parquet (flooring)",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "ungefährlich",
+          "en": "not dangerous / safe",
+          "pos": "other"
+        },
+        {
+          "de": "Touristeninformation",
+          "en": "tourist information",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Touristin",
+          "en": "tourist (female)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Pilotin",
+          "en": "pilot (female)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Smiley",
+          "en": "smiley, emoji",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Autofahrerin",
+          "en": "car driver (female)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Mobiltelefon",
+          "en": "mobile phone",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Cafeteria",
+          "en": "cafeteria",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Hauptschule",
+          "en": "lower secondary school (D)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Radfahrerin",
+          "en": "cyclist (female)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Schneiderin",
+          "en": "seamstress / tailor (female)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Berufsschule",
+          "en": "vocational school",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Realschule",
+          "en": "intermediate secondary school (D)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Matura",
+          "en": "school-leaving exam",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Feuerwehrfrau",
+          "en": "firefighter (female)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Dosierung",
+          "en": "dosage",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Skydiving",
+          "en": "skydiving",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Cybermobbing",
+          "en": "cyberbullying",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Schönheitsoperation",
+          "en": "cosmetic surgery",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Karteikarte",
+          "en": "flashcard",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Tandem",
+          "en": "tandem (language exchange",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Extremsport",
+          "en": "extreme sport",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Quereinstieg",
+          "en": "career change, lateral entry",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "rezeptpflichtig",
+          "en": "prescription-only",
+          "pos": "other"
+        },
+        {
+          "de": "Cache",
+          "en": "cache (hidden object)",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Backrohr",
+          "en": "oven (Austrian)",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Genitiv",
+          "en": "genitive case",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Einwohnermeldeamt",
+          "en": "registration office",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Komparativ",
+          "en": "comparative",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Dating-Show",
+          "en": "dating show",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Superlativ",
+          "en": "superlative",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Relativsatz",
+          "en": "relative clause",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "trennbar",
+          "en": "separable (prefix)",
+          "pos": "other"
+        },
+        {
+          "de": "Nebensatz",
+          "en": "subordinate clause",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Hauptsatz",
+          "en": "main clause",
+          "pos": "noun",
+          "art": "der"
+        }
+      ]
+    },
+    {
+      "slug": "pdf-supplement-b2-02",
+      "kind": "core",
+      "title": "Zusatzwortschatz 2",
+      "title_en": "Missing words from your 2,000-word PDF",
+      "week": 26,
+      "items": [
+        {
+          "de": "Sprachlernapp",
+          "en": "language learning app",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Schönheitschirurg",
+          "en": "cosmetic surgeon",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Imperativ",
+          "en": "imperative (grammar)",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Geocaching",
+          "en": "geocaching",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "untrennbar",
+          "en": "inseparable (prefix)",
+          "pos": "other"
+        },
+        {
+          "de": "Wortbildung",
+          "en": "word formation",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Reflexivpronomen",
+          "en": "reflexive pronoun",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Demonstrativpronomen",
+          "en": "demonstrative pronoun",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Vorvergangenheit",
+          "en": "narrative past",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "sich erinnern",
+          "en": "to remember",
+          "pos": "verb"
+        },
+        {
+          "de": "Recht",
+          "en": "right, law",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Unterschied",
+          "en": "difference",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "zwar...aber",
+          "en": "it's true that...but / admittedly...but",
+          "pos": "other"
+        },
+        {
+          "de": "sich entschuldigen",
+          "en": "to apologize",
+          "pos": "verb"
+        },
+        {
+          "de": "entweder...oder",
+          "en": "either...or",
+          "pos": "other"
+        },
+        {
+          "de": "Stand",
+          "en": "stand / status",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "sich lohnen",
+          "en": "to be worthwhile",
+          "pos": "verb"
+        },
+        {
+          "de": "Lebensmittel",
+          "en": "food",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Schuld",
+          "en": "guilt, fault",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Nachbarin",
+          "en": "female neighbor",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Vertrauen",
+          "en": "trust",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Unternehmen",
+          "en": "company / undertaking",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "sich verhalten",
+          "en": "to behave",
+          "pos": "verb"
+        },
+        {
+          "de": "voneinander",
+          "en": "from each other",
+          "pos": "other"
+        },
+        {
+          "de": "Grenze",
+          "en": "border",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "deren",
+          "en": "whose (fem./pl.)",
+          "pos": "other"
+        },
+        {
+          "de": "Strafe",
+          "en": "punishment / penalty",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Verhalten",
+          "en": "behavior",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Ausstellung",
+          "en": "exhibition",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "weder...noch",
+          "en": "neither...nor",
+          "pos": "other"
+        },
+        {
+          "de": "Bericht",
+          "en": "report",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "voraussichtlich",
+          "en": "presumably, as expected",
+          "pos": "other"
+        },
+        {
+          "de": "nachfragen",
+          "en": "ask / check",
+          "pos": "verb"
+        },
+        {
+          "de": "Marke",
+          "en": "brand",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Reisen",
+          "en": "traveling (nominalized)",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Voraussetzung",
+          "en": "prerequisite",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Gebiet",
+          "en": "area",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Lesen",
+          "en": "reading (nominalized)",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Betrag",
+          "en": "amount (of money)",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Versprechen",
+          "en": "promise",
+          "pos": "noun",
+          "art": "das"
+        }
+      ]
+    },
+    {
+      "slug": "pdf-supplement-b2-03",
+      "kind": "core",
+      "title": "Zusatzwortschatz 3",
+      "title_en": "Missing words from your 2,000-word PDF",
+      "week": 26,
+      "items": [
+        {
+          "de": "Autobahn",
+          "en": "motorway, highway",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Maßnahme",
+          "en": "measure, step (action)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Aussage",
+          "en": "statement, testimony",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Opfer",
+          "en": "victim",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Schreiben",
+          "en": "writing (nominalized)",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "treiben",
+          "en": "to drive, do",
+          "pos": "verb"
+        },
+        {
+          "de": "Arbeitgeber",
+          "en": "employer",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "sich anpassen",
+          "en": "to adapt",
+          "pos": "verb"
+        },
+        {
+          "de": "Lüge",
+          "en": "lie",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "digital",
+          "en": "digital",
+          "pos": "other"
+        },
+        {
+          "de": "Drucker",
+          "en": "printer",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "wöchentlich",
+          "en": "weekly",
+          "pos": "other"
+        },
+        {
+          "de": "Ausgabe",
+          "en": "expense / edition / output",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Straßenbahn",
+          "en": "tram, streetcar",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Probe",
+          "en": "sample",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Zutat",
+          "en": "ingredient",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Anfrage",
+          "en": "inquiry",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Verlauf",
+          "en": "course / progression",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Landschaft",
+          "en": "landscape",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Trend",
+          "en": "trend",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Vergleich",
+          "en": "comparison",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Motivation",
+          "en": "motivation",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Ablauf",
+          "en": "process / sequence",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Demokratie",
+          "en": "democracy",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "reduzieren",
+          "en": "to reduce",
+          "pos": "verb"
+        },
+        {
+          "de": "ausstellen",
+          "en": "display / issue",
+          "pos": "verb"
+        },
+        {
+          "de": "Mauer",
+          "en": "wall",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Mehrheit",
+          "en": "majority",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "durchlesen",
+          "en": "read through",
+          "pos": "verb"
+        },
+        {
+          "de": "eingeben",
+          "en": "enter / input",
+          "pos": "verb"
+        },
+        {
+          "de": "eintragen",
+          "en": "enter / register",
+          "pos": "verb"
+        },
+        {
+          "de": "weitergeben",
+          "en": "pass on",
+          "pos": "verb"
+        },
+        {
+          "de": "umbringen",
+          "en": "kill",
+          "pos": "verb"
+        },
+        {
+          "de": "weiterkommen",
+          "en": "make progress",
+          "pos": "verb"
+        },
+        {
+          "de": "saufen",
+          "en": "to drink (animals)",
+          "pos": "verb"
+        },
+        {
+          "de": "Fortsetzung",
+          "en": "continuation",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "hingegen",
+          "en": "however",
+          "pos": "other"
+        },
+        {
+          "de": "Bedenken",
+          "en": "concern / reservation",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "überzeugend",
+          "en": "convincing",
+          "pos": "other"
+        },
+        {
+          "de": "Reparatur",
+          "en": "repair",
+          "pos": "noun",
+          "art": "die"
+        }
+      ]
+    },
+    {
+      "slug": "pdf-supplement-b2-04",
+      "kind": "core",
+      "title": "Zusatzwortschatz 4",
+      "title_en": "Missing words from your 2,000-word PDF",
+      "week": 26,
+      "items": [
+        {
+          "de": "Literatur",
+          "en": "literature",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Reiseziel",
+          "en": "destination",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "auskommen",
+          "en": "get by / manage",
+          "pos": "verb"
+        },
+        {
+          "de": "beitragen",
+          "en": "contribute",
+          "pos": "verb"
+        },
+        {
+          "de": "Zeuge",
+          "en": "witness",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Aufenthalt",
+          "en": "stay",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "wiederholt",
+          "en": "repeated",
+          "pos": "other"
+        },
+        {
+          "de": "Gewissen",
+          "en": "conscience",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Hersteller",
+          "en": "manufacturer",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Teilnahme",
+          "en": "participation",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Gipfel",
+          "en": "summit",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Kenntnisse",
+          "en": "skills / knowledge",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Erziehung",
+          "en": "upbringing / education",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "anstehen",
+          "en": "queue / be pending",
+          "pos": "verb"
+        },
+        {
+          "de": "aneinander",
+          "en": "to / against each other",
+          "pos": "other"
+        },
+        {
+          "de": "nachmachen",
+          "en": "imitate",
+          "pos": "verb"
+        },
+        {
+          "de": "Visum",
+          "en": "visa",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Nachfrage",
+          "en": "demand / follow-up question",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "zusammenleben",
+          "en": "live together",
+          "pos": "verb"
+        },
+        {
+          "de": "Eintrag",
+          "en": "entry",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "erheblich",
+          "en": "considerable, significant",
+          "pos": "other"
+        },
+        {
+          "de": "nachhaltig",
+          "en": "sustainable",
+          "pos": "other"
+        },
+        {
+          "de": "atemberaubend",
+          "en": "breathtaking",
+          "pos": "other"
+        },
+        {
+          "de": "Verpackung",
+          "en": "packaging",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Heimatstadt",
+          "en": "home town",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "abschreiben",
+          "en": "copy",
+          "pos": "verb"
+        },
+        {
+          "de": "verarbeiten",
+          "en": "process / cope with",
+          "pos": "verb"
+        },
+        {
+          "de": "zurückzahlen",
+          "en": "repay",
+          "pos": "verb"
+        },
+        {
+          "de": "wiedererkennen",
+          "en": "recognize again",
+          "pos": "verb"
+        },
+        {
+          "de": "Benehmen",
+          "en": "behavior",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "einführen",
+          "en": "to introduce (a system)",
+          "pos": "verb"
+        },
+        {
+          "de": "preiswert",
+          "en": "affordable",
+          "pos": "other"
+        },
+        {
+          "de": "anerkennen",
+          "en": "recognize / acknowledge",
+          "pos": "verb"
+        },
+        {
+          "de": "füreinander",
+          "en": "for each other",
+          "pos": "other"
+        },
+        {
+          "de": "vorausgesetzt",
+          "en": "provided that, assuming",
+          "pos": "other"
+        },
+        {
+          "de": "Techniker",
+          "en": "technician",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Anforderung",
+          "en": "requirement",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "gesetzlich",
+          "en": "legal",
+          "pos": "other"
+        },
+        {
+          "de": "machbar",
+          "en": "feasible",
+          "pos": "other"
+        },
+        {
+          "de": "Arbeitnehmer",
+          "en": "employee",
+          "pos": "noun",
+          "art": "der"
+        }
+      ]
+    },
+    {
+      "slug": "pdf-supplement-b2-05",
+      "kind": "core",
+      "title": "Zusatzwortschatz 5",
+      "title_en": "Missing words from your 2,000-word PDF",
+      "week": 26,
+      "items": [
+        {
+          "de": "zusammenstellen",
+          "en": "compile",
+          "pos": "verb"
+        },
+        {
+          "de": "Gebirge",
+          "en": "mountains",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "nachlesen",
+          "en": "look up / read up",
+          "pos": "verb"
+        },
+        {
+          "de": "Erkenntnis",
+          "en": "insight / finding",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "auffällig",
+          "en": "conspicuous",
+          "pos": "other"
+        },
+        {
+          "de": "Forscher",
+          "en": "researcher",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Künstlerin",
+          "en": "artist (female)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "mitarbeiten",
+          "en": "collaborate",
+          "pos": "verb"
+        },
+        {
+          "de": "überarbeiten",
+          "en": "revise / overwork",
+          "pos": "verb"
+        },
+        {
+          "de": "aktualisieren",
+          "en": "to update",
+          "pos": "verb"
+        },
+        {
+          "de": "Vorstellungsgespräch",
+          "en": "job interview",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Angabe",
+          "en": "information / statement",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "stoßen",
+          "en": "to push",
+          "pos": "verb"
+        },
+        {
+          "de": "Heimweh",
+          "en": "homesickness",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Gasthaus",
+          "en": "guesthouse",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Gastgeber",
+          "en": "host",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Anerkennung",
+          "en": "recognition",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "engagiert",
+          "en": "committed, engaged, active",
+          "pos": "other"
+        },
+        {
+          "de": "Malen",
+          "en": "painting (as activity, nominalized)",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "hochwertig",
+          "en": "high-quality",
+          "pos": "other"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4884 @@
+{
+ "level": "A1",
+ "version": "0.3.0",
+ "source": "Wiktionary via kaikki.org (CC BY-SA 4.0)",
+ "packs": [
+  {
+   "slug": "kern-a1-01",
+   "kind": "core",
+   "title": "Kernwortschatz A1 · 1",
+   "title_en": "Core words A1, set 1 of 16",
+   "week": 1,
+   "items": [
+    {
+     "de": "ich",
+     "pos": "other",
+     "en": "I pronoun)",
+     "ex": "Morgen gehe ich zur Schule.",
+     "ex_en": "Tomorrow, I am going to school."
+    },
+    {
+     "de": "der",
+     "pos": "other",
+     "en": "the (masculine)",
+     "ex": "Der Bus kommt gleich.",
+     "ex_en": "The bus is coming soon."
+    },
+    {
+     "de": "sein",
+     "pos": "verb",
+     "en": "to be; forms the present perfect and past perfect tenses of…",
+     "ex": "Er ist alt geworden.",
+     "ex_en": "He has become old."
+    },
+    {
+     "de": "sie",
+     "pos": "other",
+     "en": "she; it",
+     "ex": "Ist sie noch krank?",
+     "ex_en": "Is she still sick?"
+    },
+    {
+     "de": "du",
+     "pos": "other",
+     "en": "you (informal)",
+     "ex": "Kommst du heute Abend?",
+     "ex_en": "Are you coming tonight?"
+    },
+    {
+     "de": "ein",
+     "pos": "adj",
+     "en": "on",
+     "ex": "Ist der Schalter ein oder aus? (d. h., Ist der Schalter ein- oder ausgeschaltet?)",
+     "ex_en": "Is the switch on or off. (i.e., Is the switch switched on or off.)"
+    },
+    {
+     "de": "nicht",
+     "pos": "adv",
+     "en": "not, non-",
+     "ex": "Bitte nicht stören!",
+     "ex_en": "Please do not disturb!"
+    },
+    {
+     "de": "es",
+     "pos": "other",
+     "en": "it, they; he",
+     "ex": "Wo ist das Buch? Es liegt auf dem Tisch.",
+     "ex_en": "Where's the book? It’s on the table."
+    },
+    {
+     "de": "wir",
+     "pos": "other",
+     "en": "we",
+     "ex": "Wir essen um sieben.",
+     "ex_en": "We eat at seven."
+    },
+    {
+     "de": "und",
+     "pos": "other",
+     "en": "and; links two nouns, often a person and an activity, in…",
+     "ex": "Kaffee und Kuchen",
+     "ex_en": "coffee and cake"
+    },
+    {
+     "de": "was",
+     "pos": "adv",
+     "en": "why, what for",
+     "ex": "Was bist du heute so stumm?",
+     "ex_en": "Why are you so silent today?"
+    },
+    {
+     "de": "er",
+     "pos": "other",
+     "en": "he; it)",
+     "ex": "Wo ist Klaus? Wo ist er?",
+     "ex_en": "Where is Klaus? Where is he?"
+    },
+    {
+     "de": "werden",
+     "pos": "verb",
+     "en": "to be done; will, to be going to, forms the future tense",
+     "ex": "Ich werde nach Hause gehen.",
+     "ex_en": "I will go home."
+    },
+    {
+     "de": "zu",
+     "pos": "adj",
+     "en": "shut, closed; closed",
+     "ex": "Das Geschäft war zu.",
+     "ex_en": "The shop was closed."
+    },
+    {
+     "de": "das",
+     "pos": "other",
+     "en": "who, that, which; this, that, it",
+     "ex": "Ich kenne ein Mädchen, das das kann.",
+     "ex_en": "I know a girl who can do that."
+    },
+    {
+     "de": "ihr",
+     "pos": "other",
+     "en": "you (plural, informal); her",
+     "ex": "Habt ihr Hunger?",
+     "ex_en": "Are you all hungry?"
+    },
+    {
+     "de": "in",
+     "pos": "other",
+     "en": "in, into",
+     "ex": "Ich wohne in Berlin.",
+     "ex_en": "I live in Berlin."
+    },
+    {
+     "de": "können",
+     "pos": "verb",
+     "en": "to be able, to have the possibility of, can; to be able to do something implied",
+     "ex": "Kannst du ihm helfen?",
+     "ex_en": "Are you able to help him?"
+    },
+    {
+     "de": "ja",
+     "pos": "adv",
+     "en": "obviously; under any circumstances, for certain",
+     "ex": "Es kann ja nicht immer so bleiben.",
+     "ex_en": "It obviously cannot always remain so."
+    },
+    {
+     "de": "mit",
+     "pos": "adv",
+     "en": "among; also, too",
+     "ex": "Hier gibt es mit das beste Essen in der Stadt.",
+     "ex_en": "Here they have some of the best food in town."
+    },
+    {
+     "de": "wie",
+     "pos": "adv",
+     "en": "how",
+     "ex": "Wie groß bist du?",
+     "ex_en": "How tall are you?"
+    },
+    {
+     "de": "auf",
+     "pos": "adj",
+     "en": "open",
+     "ex": "Die Tür ist auf.",
+     "ex_en": "The door is open."
+    },
+    {
+     "de": "dass",
+     "pos": "other",
+     "en": "that; so that",
+     "ex": "Ich habe gehört, dass du krank bist.",
+     "ex_en": "I was told that you are sick."
+    },
+    {
+     "de": "aber",
+     "pos": "adv",
+     "en": "rather; nonetheless, nevertheless",
+     "ex": "Das ist aber teuer.",
+     "ex_en": "That's rather expensive. ≈ That's more expensive than I would’ve thought."
+    },
+    {
+     "de": "wollen",
+     "pos": "verb",
+     "en": "to want; to claim something",
+     "ex": "Ich will doch nur das Beste.",
+     "ex_en": "I want only the best."
+    },
+    {
+     "de": "gut",
+     "pos": "adj",
+     "en": "good; all right, fair, proper",
+     "ex": "Wir müssen gut sein, um uns gut zu fühlen.",
+     "ex_en": "We must be good to feel good."
+    },
+    {
+     "de": "hier",
+     "pos": "adv",
+     "en": "here; there",
+     "ex": "Ich bin hier in diesem Dorf geboren.",
+     "ex_en": "I was born here in this village."
+    },
+    {
+     "de": "sagen",
+     "pos": "verb",
+     "en": "to say; to tell verbally)",
+     "ex": "Ich habe nicht verstanden, was sie gesagt hat.",
+     "ex_en": "I didn't understand what she said."
+    },
+    {
+     "de": "für",
+     "pos": "other",
+     "en": "for; for, because of",
+     "ex": "Das Geschenk ist für dich.",
+     "ex_en": "The present is for you."
+    },
+    {
+     "de": "von",
+     "pos": "other",
+     "en": "from; of, belonging to",
+     "ex": "Ich fahre von Köln nach Hamburg.",
+     "ex_en": "I’m travelling from Cologne to Hamburg."
+    },
+    {
+     "de": "wenn",
+     "pos": "other",
+     "en": "when, whenever; if",
+     "ex": "Sag bitte Bescheid, wenn du fertig bist!",
+     "ex_en": "Tell me when you're done!"
+    },
+    {
+     "de": "machen",
+     "pos": "verb",
+     "en": "to make, to produce, to create; to make, prepare",
+     "ex": "Ich hab dir einen Kuchen gemacht!",
+     "ex_en": "I made you a pie!"
+    },
+    {
+     "de": "kein",
+     "pos": "other",
+     "en": "no",
+     "ex": "Das ist kein Bett.",
+     "ex_en": "That is not a bed."
+    },
+    {
+     "de": "müssen",
+     "pos": "verb",
+     "en": "to have to; to have to do something implied",
+     "ex": "Wir müssen es machen.",
+     "ex_en": "We must do it."
+    },
+    {
+     "de": "nein",
+     "pos": "other",
+     "en": "no",
+     "ex": "Hast du morgen Abend Zeit? — Nein, leider nicht.",
+     "ex_en": "“Do you have time tomorrow night?” — “No, unfortunately not.”"
+    },
+    {
+     "de": "sehen",
+     "pos": "verb",
+     "en": "to see; to realize",
+     "ex": "Er sieht nicht gut.",
+     "ex_en": "He doesn’t see well."
+    },
+    {
+     "de": "dieser",
+     "pos": "other",
+     "en": "this, that",
+     "ex": "Dieser Kaffee ist sehr stark.",
+     "ex_en": "This coffee is very strong."
+    },
+    {
+     "de": "noch",
+     "pos": "adv",
+     "en": "still, yet; still, eventually, sometime",
+     "ex": "Magst du mich noch?",
+     "ex_en": "Do you still like me?"
+    },
+    {
+     "de": "tun",
+     "pos": "verb",
+     "en": "to do; to pretend, to play-act",
+     "ex": "Tu es!",
+     "ex_en": "Do it!"
+    },
+    {
+     "de": "nur",
+     "pos": "adv",
+     "en": "only, just, merely, simply; ever",
+     "ex": "Nur reife Kirschen dürfen auf den Kuchen.",
+     "ex_en": "Only ripe cherries may go on the cake."
+    }
+   ]
+  },
+  {
+   "slug": "kern-a1-02",
+   "kind": "core",
+   "title": "Kernwortschatz A1 · 2",
+   "title_en": "Core words A1, set 2 of 16",
+   "week": 1,
+   "items": [
+    {
+     "de": "da",
+     "pos": "adv",
+     "en": "there; then",
+     "ex": "Wir fahren nach Hamburg. Meine Frau hat eine Freundin, die da wohnt.",
+     "ex_en": "We’re going to Hamburg. My wife has a friend who lives there."
+    },
+    {
+     "de": "so",
+     "pos": "adv",
+     "en": "so, such, that; as",
+     "ex": "Die Leute sind so nett.",
+     "ex_en": "People are so nice."
+    },
+    {
+     "de": "sich",
+     "pos": "other",
+     "en": "himself, herself, itself, themselves (reflexive)",
+     "ex": "Er freut sich auf das Wochenende.",
+     "ex_en": "He's looking forward to the weekend."
+    },
+    {
+     "de": "wissen",
+     "pos": "verb",
+     "en": "to know; to be assured that something or someone is in a certain…",
+     "ex": "Ich weiß, wo du bist.",
+     "ex_en": "I know where you are."
+    },
+    {
+     "de": "mein",
+     "pos": "other",
+     "en": "my",
+     "ex": "Das ist mein Fahrrad.",
+     "ex_en": "That's my bike."
+    },
+    {
+     "de": "sollen",
+     "pos": "verb",
+     "en": "to be recommended; to be intended",
+     "ex": "Ich soll das machen.",
+     "ex_en": "I should do that."
+    },
+    {
+     "de": "auch",
+     "pos": "adv",
+     "en": "also, too, as well; To confirm a preceding statement by someone else: really…",
+     "ex": "Ich will auch ein Eis.",
+     "ex_en": "Stress on “auch”: I too want an ice cream."
+    },
+    {
+     "de": "geben",
+     "pos": "verb",
+     "en": "to give; to hand, to pass, to put within reach",
+     "ex": "Meine Frau hat mir eine neue Uhr gegeben.",
+     "ex_en": "My wife gave me a new watch."
+    },
+    {
+     "de": "schon",
+     "pos": "adv",
+     "en": "already; previously, before",
+     "ex": "Es ist erst 11 Uhr und schon über 30 Grad im Schatten.",
+     "ex_en": "It’s only 11 a.m. and already more than 30 degrees (°C) in the shade."
+    },
+    {
+     "de": "als",
+     "pos": "other",
+     "en": "at the same moment, when, while, as; than",
+     "ex": "Als er ankam, öffnete sie die Tür.",
+     "ex_en": "As he arrived, she opened the door."
+    },
+    {
+     "de": "jetzt",
+     "pos": "adv",
+     "en": "now; now, then",
+     "ex": "Ich bin jetzt da.",
+     "ex_en": "I’m here now."
+    },
+    {
+     "de": "ihn",
+     "pos": "other",
+     "en": "dative of sie",
+     "ex": "Den will sie doch und soll ihn haben.",
+     "ex_en": "This is what they want and what they should have."
+    },
+    {
+     "de": "mal",
+     "pos": "adv",
+     "en": "times; alternative form of einmal",
+     "ex": "sechs mal sieben ist zweiundvierzig",
+     "ex_en": "six times seven is forty-two"
+    },
+    {
+     "de": "dann",
+     "pos": "adv",
+     "en": "then, after that; then, in that case",
+     "ex": "Ich ziehe mich erst an, dann frühstücke ich.",
+     "ex_en": "First I'm getting dressed, then I'll have breakfast."
+    },
+    {
+     "de": "aus",
+     "pos": "adj",
+     "en": "over; off",
+     "ex": "Das Spiel ist aus!",
+     "ex_en": "The game is over!"
+    },
+    {
+     "de": "um",
+     "pos": "adj",
+     "en": "up, in the sense of finished",
+     "ex": "Werden dich in kurzem binden/ Erdgeist, deine Zeit ist um",
+     "ex_en": "We will shortly bind you/ Erdgeist, your time is up"
+    },
+    {
+     "de": "dein",
+     "pos": "other",
+     "en": "your (informal)",
+     "ex": "Ist das dein Handy?",
+     "ex_en": "Is that your phone?"
+    },
+    {
+     "de": "doch",
+     "pos": "adv",
+     "en": "after all; used for emphasis",
+     "ex": "Ich bin gestern Abend doch nicht zu der Party gegangen.",
+     "ex_en": "I didn't go to last night's party after all."
+    },
+    {
+     "de": "alles",
+     "pos": "other",
+     "en": "everything; all",
+     "ex": "Alles ist gut.",
+     "ex_en": "All is well."
+    },
+    {
+     "de": "meinen",
+     "pos": "verb",
+     "en": "to opine, to think; to say",
+     "ex": "Ich meine, das war letztes oder vorletztes Jahr.",
+     "ex_en": "I think it was last year or the year before."
+    },
+    {
+     "de": "oder",
+     "pos": "other",
+     "en": "or",
+     "ex": "Danach alles gestr. oder noch 1–2 Wörter?",
+     "ex_en": "Is everything after that crossed out or are there one or two more words?"
+    },
+    {
+     "de": "hören",
+     "pos": "verb",
+     "en": "to hear through the ear); to hear",
+     "ex": "Ich hörte ihn rufen.",
+     "ex_en": "I heard him call."
+    },
+    {
+     "de": "nach",
+     "pos": "other",
+     "en": "after; to (a city or country)",
+     "ex": "Nach dem Essen gehen wir spazieren.",
+     "ex_en": "After the meal we go for a walk."
+    },
+    {
+     "de": "denken",
+     "pos": "verb",
+     "en": "to imagine; to think, to believe, to assume, to conjecture",
+     "ex": "Denk an den Schlüssel!",
+     "ex_en": "Don’t forget the key."
+    },
+    {
+     "de": "lassen",
+     "pos": "verb",
+     "en": "to allow; to have someone",
+     "ex": "Die anderen lassen mich nicht mitmachen!",
+     "ex_en": "The others won't let me join in!"
+    },
+    {
+     "de": "an",
+     "pos": "adj",
+     "en": "on",
+     "ex": "Ist der Schalter an oder aus? [= Ist der Schalter an- oder ausgeschaltet?]",
+     "ex_en": "Is the switch on or off? [Is the switch switched on or off?]"
+    },
+    {
+     "de": "nichts",
+     "pos": "other",
+     "en": "nothing",
+     "ex": "Ich weiß, dass ich nichts weiß.",
+     "ex_en": "I know that I know nothing."
+    },
+    {
+     "de": "man",
+     "pos": "other",
+     "en": "one, you, they",
+     "ex": "Man kann nicht immer kriegen, was man will.",
+     "ex_en": "You can’t always get what you want."
+    },
+    {
+     "de": "wo",
+     "pos": "adv",
+     "en": "where; when, that",
+     "ex": "Wo bist du?",
+     "ex_en": "Where are you?"
+    },
+    {
+     "de": "etwas",
+     "pos": "other",
+     "en": "something; a little",
+     "ex": "Möchtest du etwas trinken?",
+     "ex_en": "Would you like something to drink?"
+    },
+    {
+     "de": "viel",
+     "pos": "adv",
+     "en": "much, a lot",
+     "ex": "Wir haben viel gelacht.",
+     "ex_en": "We laughed a lot."
+    },
+    {
+     "de": "oh",
+     "pos": "other",
+     "en": "oh",
+     "ex": "Oh, das tut mir leid!",
+     "ex_en": "Oh, I'm sorry!"
+    },
+    {
+     "de": "weiß",
+     "pos": "adj",
+     "en": "white",
+     "ex": "Die Wände sind weiß.",
+     "ex_en": "The walls are white."
+    },
+    {
+     "de": "bei",
+     "pos": "other",
+     "en": "by, near; at",
+     "ex": "die Bank bei der Kirche",
+     "ex_en": "the bench/bank by the church"
+    },
+    {
+     "de": "also",
+     "pos": "adv",
+     "en": "then, thus, so, hence; Used to introduce additional information about something…",
+     "ex": "Heute bin ich beschäftigt. Also sollen wir uns morgen treffen?",
+     "ex_en": "I'm busy today. Should we meet tomorrow then?"
+    },
+    {
+     "de": "ganz",
+     "pos": "adj",
+     "en": "entire, whole, complete; all",
+     "ex": "Er hat ein ganzes Hähnchen gegessen.",
+     "ex_en": "He ate a whole chicken."
+    },
+    {
+     "de": "wer",
+     "pos": "other",
+     "en": "who; what, which",
+     "ex": "Wer hat das gesagt?",
+     "ex_en": "Who said that?"
+    },
+    {
+     "de": "warum",
+     "pos": "adv",
+     "en": "why",
+     "ex": "Warum ist die Banane krumm?",
+     "ex_en": "Why are bananas curved?"
+    },
+    {
+     "de": "vor",
+     "pos": "other",
+     "en": "in front of, ahead of; before, prior to, ahead of",
+     "ex": "vor drei Tagen",
+     "ex_en": "three days ago"
+    },
+    {
+     "de": "glauben",
+     "pos": "verb",
+     "en": "to believe something; to believe in",
+     "ex": "Glaubst du diese Geschichte?",
+     "ex_en": "Do you believe this story?"
+    }
+   ]
+  },
+  {
+   "slug": "kern-a1-03",
+   "kind": "core",
+   "title": "Kernwortschatz A1 · 3",
+   "title_en": "Core words A1, set 3 of 16",
+   "week": 1,
+   "items": [
+    {
+     "de": "los",
+     "pos": "adv",
+     "en": "rid of, free of; off, out, used to indicate leaving motion",
+     "ex": "Ich bin meine Erkältung los.",
+     "ex_en": "I've gotten rid of my cold."
+    },
+    {
+     "de": "wieder",
+     "pos": "adv",
+     "en": "again; back",
+     "ex": "Siehst du, jetzt hast du’s schon wieder gesagt!",
+     "ex_en": "See, now you’ve said it again!"
+    },
+    {
+     "de": "bitte",
+     "pos": "adv",
+     "en": "please; you're welcome",
+     "ex": "Ein Wasser, bitte.",
+     "ex_en": "A water, please."
+    },
+    {
+     "de": "leben",
+     "pos": "verb",
+     "en": "to live, to be alive; to dwell, to reside",
+     "ex": "Lebt dein Uropa noch?",
+     "ex_en": "Is your great-grandpa still alive?"
+    },
+    {
+     "de": "sehr",
+     "pos": "adv",
+     "en": "very; a lot, much",
+     "ex": "Ich bin sehr glücklich.",
+     "ex_en": "I am very happy."
+    },
+    {
+     "de": "alle",
+     "pos": "adj",
+     "en": "finished",
+     "ex": "Die Milch ist alle.",
+     "ex_en": "The milk is gone."
+    },
+    {
+     "de": "denn",
+     "pos": "adv",
+     "en": "so, then, ever, but, now; thus, so",
+     "ex": "Wieso denn?",
+     "ex_en": "How so, then?"
+    },
+    {
+     "de": "finden",
+     "pos": "verb",
+     "en": "to find; to think, to consider, to find",
+     "ex": "Ich habe deine Schlüssel gefunden.",
+     "ex_en": "I found your keys."
+    },
+    {
+     "de": "danke",
+     "pos": "other",
+     "en": "thank you, thanks",
+     "ex": "Danke für deine Hilfe!",
+     "ex_en": "Thanks for your help!"
+    },
+    {
+     "de": "zum",
+     "pos": "other",
+     "en": "to the (zu + dem)",
+     "ex": "Ich gehe zum Arzt.",
+     "ex_en": "I'm going to the doctor."
+    },
+    {
+     "de": "vielleicht",
+     "pos": "adv",
+     "en": "perhaps, maybe; frequently replaces bitte in polite questions",
+     "ex": "Vielleicht hat er einen Unfall gehabt.",
+     "ex_en": "Maybe he’s had an accident."
+    },
+    {
+     "de": "mögen",
+     "pos": "verb",
+     "en": "to like; to want to",
+     "ex": "Sie mochte ihn sehr.",
+     "ex_en": "She liked him very much."
+    },
+    {
+     "de": "im",
+     "pos": "other",
+     "en": "in the (in + dem)",
+     "ex": "Die Milch ist im Kühlschrank.",
+     "ex_en": "The milk is in the fridge."
+    },
+    {
+     "de": "über",
+     "pos": "adj",
+     "en": "left over, remaining, replaces übrig in all its predicative…",
+     "ex": "überbleiben",
+     "ex_en": "to be left over, to remain"
+    },
+    {
+     "de": "okay",
+     "pos": "adj",
+     "en": "OK, all right",
+     "ex": "Ist das okay für dich?",
+     "ex_en": "Is that okay for you?"
+    },
+    {
+     "de": "anderer",
+     "pos": "adj",
+     "en": "other, different",
+     "ex": "ein and(e)rer Mann",
+     "ex_en": "another man"
+    },
+    {
+     "de": "unser",
+     "pos": "other",
+     "en": "our",
+     "ex": "Unser Zug fährt um acht.",
+     "ex_en": "Our train leaves at eight."
+    },
+    {
+     "de": "wirklich",
+     "pos": "adv",
+     "en": "really; real",
+     "ex": "Das war wirklich lecker.",
+     "ex_en": "That was really tasty."
+    },
+    {
+     "de": "nie",
+     "pos": "adv",
+     "en": "never, never at all; never, not once",
+     "ex": "Das ist nie passiert!",
+     "ex_en": "That has never happened!"
+    },
+    {
+     "de": "einfach",
+     "pos": "adj",
+     "en": "easy; simple, plain, straightforward",
+     "ex": "Die Hausaufgabe war sehr einfach.",
+     "ex_en": "The homework was very easy."
+    },
+    {
+     "de": "reden",
+     "pos": "verb",
+     "en": "to talk, to speak, to orate; to talk, to reveal",
+     "ex": "Der Präsident wird in seiner Ansprache über die Wirtschaft reden.",
+     "ex_en": "The President will talk about the economy in his address."
+    },
+    {
+     "de": "mehr",
+     "pos": "adv",
+     "en": "more; no longer, never again, nothing more, not anymore",
+     "ex": "immer mehr",
+     "ex_en": "more and more"
+    },
+    {
+     "de": "verstehen",
+     "pos": "verb",
+     "en": "to hear and interpret; to comprehend, to make sense of",
+     "ex": "Ich verstehe dich nicht bei dem Lärm.",
+     "ex_en": "I can't understand you with this noise."
+    },
+    {
+     "de": "bringen",
+     "pos": "verb",
+     "en": "to bring, to fetch, to take, to convey, to bear",
+     "ex": "Ich bringe die Katze ins Haus.",
+     "ex_en": "I'm bringing the cat into the house."
+    },
+    {
+     "de": "warten",
+     "pos": "verb",
+     "en": "to wait",
+     "ex": "Ich warte auf den Bus.",
+     "ex_en": "I'm waiting for the bus."
+    },
+    {
+     "de": "weil",
+     "pos": "other",
+     "en": "because, given that",
+     "ex": "Ich kann nicht kommen, weil ich krank bin.",
+     "ex_en": "I can't come because I'm sick."
+    },
+    {
+     "de": "halten",
+     "pos": "verb",
+     "en": "to hold; to stop, to halt, to hold back",
+     "ex": "einen Elfmeter halten",
+     "ex_en": "to save a penalty kick"
+    },
+    {
+     "de": "schön",
+     "pos": "adj",
+     "en": "beautiful, lovely, pretty, handsome; good, great, splendid",
+     "ex": "Der Sonnenuntergang am Strand war wirklich schön.",
+     "ex_en": "The sunset on the beach was really beautiful."
+    },
+    {
+     "de": "jeder",
+     "pos": "other",
+     "en": "each",
+     "ex": "jedem das Seine",
+     "ex_en": "to each their own"
+    },
+    {
+     "de": "bleiben",
+     "pos": "verb",
+     "en": "to remain; to keep",
+     "ex": "Er blieb sein ganzes Leben ein glühender Anhänger der Monarchie.",
+     "ex_en": "He remained a devoted supporter of the monarchy for all his life."
+    },
+    {
+     "de": "Haus",
+     "pos": "noun",
+     "en": "house, building; home",
+     "ex": "In dem Haus haben wir mal gewohnt.",
+     "ex_en": "We used to live in that house.",
+     "art": "das",
+     "pl": "Häuser"
+    },
+    {
+     "de": "damit",
+     "pos": "other",
+     "en": "so that; with it",
+     "ex": "Ich spare, damit ich reisen kann.",
+     "ex_en": "I'm saving so that I can travel."
+    },
+    {
+     "de": "jemand",
+     "pos": "other",
+     "en": "someone, anyone",
+     "ex": "Hat jemand meinen Schlüssel gesehen?",
+     "ex_en": "Has anyone seen my key?"
+    },
+    {
+     "de": "kennen",
+     "pos": "verb",
+     "en": "to know (a person, place, thing)",
+     "ex": "Kennst du diesen Film?",
+     "ex_en": "Do you know this film?"
+    },
+    {
+     "de": "fragen",
+     "pos": "verb",
+     "en": "to ask; to ask for, to ask after",
+     "ex": "Darf ich dich etwas fragen?",
+     "ex_en": "May I ask you something?"
+    },
+    {
+     "de": "sicher",
+     "pos": "adj",
+     "en": "safe, secure; sure, certain",
+     "ex": "Ich bin (mir) sicher, dass es heute regnen wird.",
+     "ex_en": "I am sure that it will rain today."
+    },
+    {
+     "de": "Gott",
+     "pos": "noun",
+     "en": "God",
+     "ex": "Gott sei Dank, du bist da!",
+     "ex_en": "Thank God, you're here!",
+     "art": "der",
+     "pl": "Götter"
+    },
+    {
+     "de": "nun",
+     "pos": "adv",
+     "en": "now, at this moment; now, then",
+     "ex": "Wir haben abgewaschen, nun müssen wir noch abtrocknen.",
+     "ex_en": "We've washed up, now we must dry [the dishes]."
+    },
+    {
+     "de": "helfen",
+     "pos": "verb",
+     "en": "to help",
+     "ex": "Ich habe ihnen bei der Reparatur des Wagens geholfen.",
+     "ex_en": "I helped them with the repair of the car."
+    },
+    {
+     "de": "bis",
+     "pos": "other",
+     "en": "until; to",
+     "ex": "Wir warten hier, bis das Gewitter vorbei ist.",
+     "ex_en": "We'll wait here until the thunderstorm is over."
+    }
+   ]
+  },
+  {
+   "slug": "kern-a1-04",
+   "kind": "core",
+   "title": "Kernwortschatz A1 · 4",
+   "title_en": "Core words A1, set 4 of 16",
+   "week": 2,
+   "items": [
+    {
+     "de": "leid",
+     "pos": "adj",
+     "en": "(es tut mir leid) I'm sorry",
+     "ex": "Es tut mir leid, ich bin zu spät.",
+     "ex_en": "I'm sorry, I'm late."
+    },
+    {
+     "de": "na",
+     "pos": "other",
+     "en": "well!, so!; oh, hm, huh, och, nu",
+     "ex": "Na, dann fangen wir mal an!",
+     "ex_en": "So, let’s get started!"
+    },
+    {
+     "de": "lieben",
+     "pos": "verb",
+     "en": "to love, to have a strong affection for; to love one another",
+     "ex": "Ich liebe dich.",
+     "ex_en": "I love you."
+    },
+    {
+     "de": "klein",
+     "pos": "adj",
+     "en": "small, little, wee; small, little, young",
+     "ex": "der kleine Mann",
+     "ex_en": "the little man [the average, ordinary man]"
+    },
+    {
+     "de": "groß",
+     "pos": "adj",
+     "en": "big, large, large-scale; great, grand",
+     "ex": "Das ist ein großes Problem.",
+     "ex_en": "That is a big problem."
+    },
+    {
+     "de": "zurück",
+     "pos": "adv",
+     "en": "back",
+     "ex": "Ich bin um sechs zurück.",
+     "ex_en": "I'll be back at six."
+    },
+    {
+     "de": "hallo",
+     "pos": "other",
+     "en": "a general greeting used when meeting someone",
+     "ex": "Hallo, Sie haben Ihr Gepäck vergessen!",
+     "ex_en": "Hello, you've left your luggage behind!"
+    },
+    {
+     "de": "Leute",
+     "pos": "noun",
+     "en": "people",
+     "ex": "Auf der Party waren viele Leute.",
+     "ex_en": "There were lots of people at the party.",
+     "art": "die"
+    },
+    {
+     "de": "zwei",
+     "pos": "other",
+     "en": "two",
+     "ex": "Ich habe zwei Brüder.",
+     "ex_en": "I have two brothers."
+    },
+    {
+     "de": "genau",
+     "pos": "adj",
+     "en": "exactly; exact",
+     "ex": "Genau, das meine ich.",
+     "ex_en": "Exactly, that's what I mean."
+    },
+    {
+     "de": "klar",
+     "pos": "adj",
+     "en": "clear",
+     "ex": "War meine Frage nicht klar genug?",
+     "ex_en": "Was my question not clear enough?"
+    },
+    {
+     "de": "zur",
+     "pos": "other",
+     "en": "to the (zu + der)",
+     "ex": "Ich fahre mit dem Rad zur Arbeit.",
+     "ex_en": "I cycle to work."
+    },
+    {
+     "de": "versuchen",
+     "pos": "verb",
+     "en": "to try, to attempt; to try, to taste",
+     "ex": "Bitte sei still, ich versuche zu schlafen.",
+     "ex_en": "Please be quiet, I'm trying to sleep."
+    },
+    {
+     "de": "dürfen",
+     "pos": "verb",
+     "en": "to be allowed; to be allowed or permitted to do something implied or…",
+     "ex": "Darf ich gehen?",
+     "ex_en": "May I go?"
+    },
+    {
+     "de": "richtig",
+     "pos": "adj",
+     "en": "correct, accurate, right; right, correct, good",
+     "ex": "eine richtige Antwort",
+     "ex_en": "a correct answer"
+    },
+    {
+     "de": "neu",
+     "pos": "adj",
+     "en": "new; modern, recent, latest",
+     "ex": "neue Mode",
+     "ex_en": "new fashion"
+    },
+    {
+     "de": "Freund",
+     "pos": "noun",
+     "en": "friend; boyfriend",
+     "ex": "Lass uns Freunde bleiben.",
+     "ex_en": "Let’s stay friends.",
+     "art": "der",
+     "pl": "Freunde"
+    },
+    {
+     "de": "fallen",
+     "pos": "verb",
+     "en": "to fall, to drop; to die, to fall",
+     "ex": "Der Regen fiel wie aus Eimern.",
+     "ex_en": "It rained cats and dogs. (literally: 'The rain fell as if out of buckets.')"
+    },
+    {
+     "de": "spielen",
+     "pos": "verb",
+     "en": "to play; to play, to engage in",
+     "ex": "Die Kinder spielen draußen.",
+     "ex_en": "The children are playing outside."
+    },
+    {
+     "de": "gerade",
+     "pos": "adj",
+     "en": "even",
+     "ex": "Zahlen, die durch zwei teilbar sind, heißen gerade Zahlen.",
+     "ex_en": "Numbers divisible by two are called even numbers."
+    },
+    {
+     "de": "wohl",
+     "pos": "adv",
+     "en": "possibly, probably; of course, indeed",
+     "ex": "Er ist wohl schon gegangen.",
+     "ex_en": "He must have left already. / I guess he has left already."
+    },
+    {
+     "de": "Geld",
+     "pos": "noun",
+     "en": "money",
+     "ex": "Ich habe kein Geld dabei.",
+     "ex_en": "I don't have any money on me.",
+     "art": "das",
+     "pl": "Gelder"
+    },
+    {
+     "de": "gleich",
+     "pos": "adj",
+     "en": "equal; same",
+     "ex": "Zwei plus zwei ist gleich vier.",
+     "ex_en": "Two plus two is equal to four."
+    },
+    {
+     "de": "durch",
+     "pos": "other",
+     "en": "through",
+     "ex": "Wir gehen durch den Park.",
+     "ex_en": "We're walking through the park."
+    },
+    {
+     "de": "gern",
+     "pos": "adv",
+     "en": "willingly; much",
+     "ex": "Markus fährt gern Fahrrad.",
+     "ex_en": "Markus enjoys biking."
+    },
+    {
+     "de": "essen",
+     "pos": "verb",
+     "en": "to eat",
+     "ex": "Er isst gern Schokolade.",
+     "ex_en": "He likes eating chocolate."
+    },
+    {
+     "de": "raus",
+     "pos": "adv",
+     "en": "out, out of there, outta there; out, out of here, outta here",
+     "ex": "Er kommt jetzt raus.",
+     "ex_en": "He's coming outside now."
+    },
+    {
+     "de": "paar",
+     "pos": "other",
+     "en": "(ein paar) a few",
+     "ex": "Ich brauche ein paar Minuten.",
+     "ex_en": "I need a few minutes."
+    },
+    {
+     "de": "Zeit",
+     "pos": "noun",
+     "en": "time",
+     "ex": "Hast du morgen Zeit?",
+     "ex_en": "Are you free tomorrow?",
+     "art": "die",
+     "pl": "Zeiten"
+    },
+    {
+     "de": "wieso",
+     "pos": "adv",
+     "en": "why",
+     "ex": "Wieso hast du das gemacht?",
+     "ex_en": "Why did you do that?"
+    },
+    {
+     "de": "erzählen",
+     "pos": "verb",
+     "en": "to tell, to narrate, to recount; to tell, to say",
+     "ex": "Erzähl mir ein Märchen.",
+     "ex_en": "Tell me a fairytale."
+    },
+    {
+     "de": "selbst",
+     "pos": "adv",
+     "en": "even",
+     "ex": "Selbst du hast es zugegeben.",
+     "ex_en": "Even you admitted it."
+    },
+    {
+     "de": "sterben",
+     "pos": "verb",
+     "en": "to die",
+     "ex": "Mein Hund ist gestorben.",
+     "ex_en": "My dog has died."
+    },
+    {
+     "de": "bekommen",
+     "pos": "verb",
+     "en": "to receive; to catch",
+     "ex": "Wenn du Männchen machst, bekommst du von mir ein Leckerli.",
+     "ex_en": "If you stand on your hind legs, you'll get a treat from me."
+    },
+    {
+     "de": "kriegen",
+     "pos": "verb",
+     "en": "to get; to catch, to come down with",
+     "ex": "Wirst du es heute fertig kriegen?",
+     "ex_en": "Will you get it ready today?"
+    },
+    {
+     "de": "ohne",
+     "pos": "adv",
+     "en": "without",
+     "ex": "Ich mag Fußball, aber ich kann auch ohne leben.",
+     "ex_en": "I like soccer, but I could live without."
+    },
+    {
+     "de": "Mensch",
+     "pos": "noun",
+     "en": "human, human being, person, man",
+     "ex": "Sie ist ein ganz toller Mensch.",
+     "ex_en": "She is a really awesome person.",
+     "art": "der",
+     "pl": "Menschen"
+    },
+    {
+     "de": "Nacht",
+     "pos": "noun",
+     "en": "night; darkness",
+     "ex": "Die Nacht war lang und frostig.",
+     "ex_en": "The night was long and chilly.",
+     "art": "die",
+     "pl": "Nächte"
+    },
+    {
+     "de": "her",
+     "pos": "adv",
+     "en": "hither, to this place, to here, to me/us; along, on this way",
+     "ex": "Komm her!",
+     "ex_en": "Come here!"
+    },
+    {
+     "de": "jung",
+     "pos": "adj",
+     "en": "young",
+     "ex": "Der Junge ist jung.",
+     "ex_en": "The boy is young."
+    }
+   ]
+  },
+  {
+   "slug": "kern-a1-05",
+   "kind": "core",
+   "title": "Kernwortschatz A1 · 5",
+   "title_en": "Core words A1, set 5 of 16",
+   "week": 2,
+   "items": [
+    {
+     "de": "holen",
+     "pos": "verb",
+     "en": "to get, to fetch; to get, to cop",
+     "ex": "Hol noch einen Stuhl!",
+     "ex_en": "Go get another chair!"
+    },
+    {
+     "de": "schnell",
+     "pos": "adj",
+     "en": "quick, fast",
+     "ex": "Er fährt ein schnelles Auto.",
+     "ex_en": "He is driving a fast car."
+    },
+    {
+     "de": "am",
+     "pos": "other",
+     "en": "contraction of an + dem",
+     "ex": "am Ende",
+     "ex_en": "at the end"
+    },
+    {
+     "de": "natürlich",
+     "pos": "adj",
+     "en": "of course; natural",
+     "ex": "Natürlich helfe ich dir!",
+     "ex_en": "Of course I'll help you!"
+    },
+    {
+     "de": "lang",
+     "pos": "adj",
+     "en": "long; tall",
+     "ex": "Er hat lange Jahre damit verbracht, diese Frage zu erörtern.",
+     "ex_en": "He spent many years reasoning about this question."
+    },
+    {
+     "de": "tot",
+     "pos": "adj",
+     "en": "dead",
+     "ex": "Die Pflanze ist leider tot.",
+     "ex_en": "Unfortunately the plant is dead."
+    },
+    {
+     "de": "Herr",
+     "pos": "noun",
+     "en": "man, gentleman; Mr., mister, sir respectful address towards a man",
+     "ex": "Herrenbekleidung",
+     "ex_en": "gentlemen's wear",
+     "art": "der",
+     "pl": "Herren"
+    },
+    {
+     "de": "ach",
+     "pos": "other",
+     "en": "oh, ah (surprise, understanding)",
+     "ex": "Ach so, jetzt verstehe ich.",
+     "ex_en": "Oh I see, now I understand."
+    },
+    {
+     "de": "gar",
+     "pos": "adv",
+     "en": "(gar nicht) not at all",
+     "ex": "Das ist gar nicht schlimm.",
+     "ex_en": "That's not bad at all."
+    },
+    {
+     "de": "rufen",
+     "pos": "verb",
+     "en": "to call out, to shout, to cry; to call for, to request the presence of",
+     "ex": "um Hilfe rufen",
+     "ex_en": "to cry for help"
+    },
+    {
+     "de": "Sache",
+     "pos": "noun",
+     "en": "matter, affair, case, question, issue; thing, object",
+     "ex": "beschlossene Sache",
+     "ex_en": "done deal",
+     "art": "die",
+     "pl": "Sachen"
+    },
+    {
+     "de": "beide",
+     "pos": "other",
+     "en": "both",
+     "ex": "Wir kommen beide mit.",
+     "ex_en": "We're both coming along."
+    },
+    {
+     "de": "recht",
+     "pos": "adj",
+     "en": "right, right-hand; proper, correct, right",
+     "ex": "die rechte Hand",
+     "ex_en": "the right hand"
+    },
+    {
+     "de": "stellen",
+     "pos": "verb",
+     "en": "to pose, to lodge; to provide, to afford, to place at someone's disposal",
+     "ex": "Die Beklagte stellte den Antrag, die Klage abzuweisen.",
+     "ex_en": "The defendant lodged the application to reject the claim."
+    },
+    {
+     "de": "ins",
+     "pos": "other",
+     "en": "contraction of into”) + das",
+     "ex": "Ich bin ins Kino gegangen.",
+     "ex_en": "I went to the cinema."
+    },
+    {
+     "de": "dort",
+     "pos": "adv",
+     "en": "there",
+     "ex": "Dort drüben ist die Apotheke.",
+     "ex_en": "The pharmacy is over there."
+    },
+    {
+     "de": "niemand",
+     "pos": "other",
+     "en": "nobody, no one",
+     "ex": "Es ist gar niemand da.",
+     "ex_en": "There's no one at all."
+    },
+    {
+     "de": "seit",
+     "pos": "other",
+     "en": "since",
+     "ex": "Seit mich diese Spinne gebissen hat, brauche ich keine Brille mehr.",
+     "ex_en": "Ever since this spider bit me, I don't need glasses anymore."
+    },
+    {
+     "de": "vergessen",
+     "pos": "verb",
+     "en": "to forget; to leave",
+     "ex": "Diese ganzen Geschichten hatte ich ja ganz vergessen.",
+     "ex_en": "I'd completely forgotten all these stories."
+    },
+    {
+     "de": "Problem",
+     "pos": "noun",
+     "en": "problem",
+     "ex": "Das Problem tritt auf, wenn wir viele Mails haben.",
+     "ex_en": "The problem arises when we have lots of mails.",
+     "art": "das",
+     "pl": "Probleme"
+    },
+    {
+     "de": "Ding",
+     "pos": "noun",
+     "en": "thing; thing, prick, penis",
+     "ex": "Was ist das für ein Ding?",
+     "ex_en": "What is that thing?",
+     "art": "das",
+     "pl": "Dinge"
+    },
+    {
+     "de": "Ordnung",
+     "pos": "noun",
+     "en": "order; (in Ordnung) okay",
+     "ex": "Alles in Ordnung?",
+     "ex_en": "Everything okay?",
+     "art": "die",
+     "pl": "Ordnungen"
+    },
+    {
+     "de": "vom",
+     "pos": "other",
+     "en": "from the (von + dem)",
+     "ex": "Ich komme gerade vom Sport.",
+     "ex_en": "I've just come from sport."
+    },
+    {
+     "de": "davon",
+     "pos": "adv",
+     "en": "from it, from that, therefrom, off it, off that",
+     "ex": "Bleibt davon!",
+     "ex_en": "Keep off!"
+    },
+    {
+     "de": "dafür",
+     "pos": "adv",
+     "en": "for that, for it; instead, at least, as a compensation",
+     "ex": "Dafür brauchen wir gut ausgebildete Fachleute wie Sie.",
+     "ex_en": "For that we need well-trained specialists like you."
+    },
+    {
+     "de": "Arbeit",
+     "pos": "noun",
+     "en": "toil, regularly performed work, regularly pursued economic…",
+     "ex": "Seine Arbeit macht ihm Spaß.",
+     "ex_en": "He enjoys his work/job.",
+     "art": "die",
+     "pl": "Arbeiten"
+    },
+    {
+     "de": "zeigen",
+     "pos": "verb",
+     "en": "to point; to exhibit, allow to see",
+     "ex": "Man zeigt nicht mit dem Finger auf die Leute!",
+     "ex_en": "You don’t point your finger at people!"
+    },
+    {
+     "de": "Mädchen",
+     "pos": "noun",
+     "en": "girl",
+     "ex": "Das Mädchen spielt im Garten.",
+     "ex_en": "The girl is playing in the garden.",
+     "art": "das",
+     "pl": "Mädchen"
+    },
+    {
+     "de": "sorgen",
+     "pos": "verb",
+     "en": "to take care of, to care for, to look after",
+     "ex": "Er sorgt für den Haushalt.",
+     "ex_en": "He takes care of the household."
+    },
+    {
+     "de": "rein",
+     "pos": "adv",
+     "en": "in, inside (colloquial); pure",
+     "ex": "Komm doch rein!",
+     "ex_en": "Come on in!"
+    },
+    {
+     "de": "drei",
+     "pos": "other",
+     "en": "three",
+     "ex": "Wir bleiben drei Tage.",
+     "ex_en": "We're staying three days."
+    },
+    {
+     "de": "wegen",
+     "pos": "other",
+     "en": "for, because of; concerning, regarding",
+     "ex": "Wegen des schlechten Wetters werden wir zu Hause bleiben.",
+     "ex_en": "Because of the bad weather, we will stay at home."
+    },
+    {
+     "de": "Welt",
+     "pos": "noun",
+     "en": "world",
+     "ex": "Sie möchte um die Welt reisen.",
+     "ex_en": "She wants to travel around the world.",
+     "art": "die",
+     "pl": "Welten"
+    },
+    {
+     "de": "Angst",
+     "pos": "noun",
+     "en": "fear",
+     "ex": "Ich habe Angst vor Hunden.",
+     "ex_en": "I'm afraid of dogs.",
+     "art": "die",
+     "pl": "Ängste"
+    },
+    {
+     "de": "toll",
+     "pos": "adj",
+     "en": "great, nice, wonderful",
+     "ex": "‚Katjuscha‘ ist ein tolles Lied.",
+     "ex_en": "‘Katyusha’ is a great song."
+    },
+    {
+     "de": "liegen",
+     "pos": "verb",
+     "en": "to lie (be lying)",
+     "ex": "Das Buch liegt auf dem Tisch.",
+     "ex_en": "The book is lying on the table."
+    },
+    {
+     "de": "zusammen",
+     "pos": "adv",
+     "en": "together",
+     "ex": "Wir kochen heute zusammen.",
+     "ex_en": "We're cooking together today."
+    },
+    {
+     "de": "echt",
+     "pos": "adj",
+     "en": "authentic, genuine, true; real",
+     "ex": "Die Jacke ist aus echtem Leder.",
+     "ex_en": "The jacket is made of genuine leather."
+    },
+    {
+     "de": "unter",
+     "pos": "other",
+     "en": "under; below",
+     "ex": "unter Druck",
+     "ex_en": "under pressure"
+    },
+    {
+     "de": "Hand",
+     "pos": "noun",
+     "en": "hand",
+     "ex": "Gib mir deine Hand.",
+     "ex_en": "Give me your hand.",
+     "art": "die",
+     "pl": "Hände"
+    }
+   ]
+  },
+  {
+   "slug": "kern-a1-06",
+   "kind": "core",
+   "title": "Kernwortschatz A1 · 6",
+   "title_en": "Core words A1, set 6 of 16",
+   "week": 2,
+   "items": [
+    {
+     "de": "fühlen",
+     "pos": "verb",
+     "en": "to feel; to touch so as to perceive something",
+     "ex": "Ich fühle den Sonnenschein auf meinem Gesicht.",
+     "ex_en": "I feel the sunshine on my face."
+    },
+    {
+     "de": "wahr",
+     "pos": "adj",
+     "en": "true, real; true, truthful",
+     "ex": "Das ist wahre Liebe.",
+     "ex_en": "This is true love."
+    },
+    {
+     "de": "erst",
+     "pos": "adv",
+     "en": "first, at first; only",
+     "ex": "Sie ist erst 28 Jahre alt.",
+     "ex_en": "She is only 28 years old."
+    },
+    {
+     "de": "Moment",
+     "pos": "noun",
+     "en": "moment",
+     "ex": "Einen Moment, bitte.",
+     "ex_en": "One moment, please.",
+     "art": "der",
+     "pl": "Momente"
+    },
+    {
+     "de": "ziehen",
+     "pos": "verb",
+     "en": "to pull; to draw",
+     "ex": "Fenster zu! Es zieht!",
+     "ex_en": "Shut the window! There’s a draft!"
+    },
+    {
+     "de": "lange",
+     "pos": "adv",
+     "en": "for a long time",
+     "ex": "Ich warte schon lange.",
+     "ex_en": "I've been waiting a long time."
+    },
+    {
+     "de": "schauen",
+     "pos": "verb",
+     "en": "to watch, to view; to decide spontaneously and/or by personal preference",
+     "ex": "Ich schaue gern Fußball.",
+     "ex_en": "I like to watch football/soccer."
+    },
+    {
+     "de": "genug",
+     "pos": "adj",
+     "en": "enough",
+     "ex": "Haben wir genug Brot?",
+     "ex_en": "Do we have enough bread?"
+    },
+    {
+     "de": "stimmt",
+     "pos": "other",
+     "en": "(das stimmt) that's right",
+     "ex": "Das stimmt, du hast recht.",
+     "ex_en": "That's true, you're right."
+    },
+    {
+     "de": "gegen",
+     "pos": "other",
+     "en": "against; toward",
+     "ex": "Die Erklärung der Vereinten Nationen über die Beseitigung der Gewalt gegen Frauen.",
+     "ex_en": "The United Nations Declaration on the Elimination of Violence against Women."
+    },
+    {
+     "de": "setzen",
+     "pos": "verb",
+     "en": "(sich setzen) to sit down; to put",
+     "ex": "Setz dich doch!",
+     "ex_en": "Do sit down!"
+    },
+    {
+     "de": "sonst",
+     "pos": "adv",
+     "en": "otherwise; normally, usually",
+     "ex": "Beeil dich, sonst kommen wir zu spät.",
+     "ex_en": "Hurry up, otherwise we'll be late."
+    },
+    {
+     "de": "Musik",
+     "pos": "noun",
+     "en": "music; music as a school subject, musical instruction",
+     "ex": "Was hörst du für Musik?",
+     "ex_en": "What kind of music do you listen to?",
+     "art": "die",
+     "pl": "Musiken"
+    },
+    {
+     "de": "schaffen",
+     "pos": "verb",
+     "en": "to create, to call into being; to create, make, form, shape",
+     "ex": "Warum hat Gott die Welt geschaffen?",
+     "ex_en": "Why did God create the world?"
+    },
+    {
+     "de": "dabei",
+     "pos": "adv",
+     "en": "with one, on one; indeed, actually",
+     "ex": "Hast du Geld dabei?",
+     "ex_en": "Do you have money on you?"
+    },
+    {
+     "de": "erinnern",
+     "pos": "verb",
+     "en": "(sich erinnern) to remember; to remind",
+     "ex": "Ich erinnere mich an den Urlaub.",
+     "ex_en": "I remember the holiday."
+    },
+    {
+     "de": "sofort",
+     "pos": "adv",
+     "en": "immediately",
+     "ex": "Ich komme sofort.",
+     "ex_en": "I'm coming right away."
+    },
+    {
+     "de": "bevor",
+     "pos": "other",
+     "en": "before",
+     "ex": "Geh, bevor ich rasend werde.",
+     "ex_en": "Go before I lose my temper."
+    },
+    {
+     "de": "entschuldigen",
+     "pos": "verb",
+     "en": "to excuse someone); to offer excuse for someone’s absence, to hand in a sick…",
+     "ex": "Was du getan hast, kann ich nicht entschuldigen.",
+     "ex_en": "I can’t excuse what you did."
+    },
+    {
+     "de": "Schatz",
+     "pos": "noun",
+     "en": "darling; treasure",
+     "ex": "Schatz, wo ist mein Schlüssel?",
+     "ex_en": "Darling, where's my key?",
+     "art": "der"
+    },
+    {
+     "de": "bitten",
+     "pos": "verb",
+     "en": "to ask, to beg, to plead, to bid, to request; to ask, to invite",
+     "ex": "Wir lieben euch–Entschuldigt–Wir bitten um Verzeihung–Vielen Dank",
+     "ex_en": "We love you. We are sorry. We plead for your pardon. Many thanks."
+    },
+    {
+     "de": "nennen",
+     "pos": "verb",
+     "en": "to name; to call, to describe",
+     "ex": "Nennst du mich einen Dummkopf?",
+     "ex_en": "Are you calling me an idiot?"
+    },
+    {
+     "de": "einmal",
+     "pos": "adv",
+     "en": "once, one time; once",
+     "ex": "Ich werde das nur einmal sagen.",
+     "ex_en": "I'm only going to say it once."
+    },
+    {
+     "de": "welcher",
+     "pos": "other",
+     "en": "which",
+     "ex": "Welche Farbe hat dein Kleid?",
+     "ex_en": "What colour is your dress?"
+    },
+    {
+     "de": "laufen",
+     "pos": "verb",
+     "en": "to walk; to flow",
+     "ex": "Wir können mit dem Bus fahren oder laufen.",
+     "ex_en": "We could take the bus or walk."
+    },
+    {
+     "de": "Auge",
+     "pos": "noun",
+     "en": "eye",
+     "ex": "Sie hat blaue Augen.",
+     "ex_en": "She has blue eyes.",
+     "art": "das",
+     "pl": "Augen"
+    },
+    {
+     "de": "wann",
+     "pos": "adv",
+     "en": "when; sometime",
+     "ex": "Wann kommt er?",
+     "ex_en": "When will he arrive?"
+    },
+    {
+     "de": "fertig",
+     "pos": "adj",
+     "en": "ready for use; done",
+     "ex": "Der Kaffee ist fertig.",
+     "ex_en": "The coffee’s ready."
+    },
+    {
+     "de": "allein",
+     "pos": "adj",
+     "en": "alone",
+     "ex": "Er ist ganz allein.",
+     "ex_en": "He is all alone."
+    },
+    {
+     "de": "beim",
+     "pos": "other",
+     "en": "contraction of bei + dem: at the, by the, etc",
+     "ex": "Das Postamt befindet sich beim Hauptbahnhof.",
+     "ex_en": "The post office is near the main train station."
+    },
+    {
+     "de": "einzig",
+     "pos": "adj",
+     "en": "only, sole",
+     "ex": "Du bist der einzige, der das weiß.",
+     "ex_en": "You're the only one who knows."
+    },
+    {
+     "de": "schlecht",
+     "pos": "adj",
+     "en": "bad, evil, wicked; bad",
+     "ex": "ein schlechter Mensch",
+     "ex_en": "a bad person"
+    },
+    {
+     "de": "wichtig",
+     "pos": "adj",
+     "en": "important, relevant, significant, weighty",
+     "ex": "Sport ist wichtig für die Gesundheit.",
+     "ex_en": "Exercising is important for your health."
+    },
+    {
+     "de": "gefallen",
+     "pos": "verb",
+     "en": "to please",
+     "ex": "Diese Hose gefällt mir.",
+     "ex_en": "I like these trousers."
+    },
+    {
+     "de": "wenig",
+     "pos": "adj",
+     "en": "little, not much",
+     "ex": "Ich habe heute wenig Zeit.",
+     "ex_en": "I don't have much time today."
+    },
+    {
+     "de": "Hilfe",
+     "pos": "noun",
+     "en": "the act of helping, assistance; a thing or person that helps",
+     "ex": "Erste Hilfe",
+     "ex_en": "first aid",
+     "art": "die",
+     "pl": "Hilfen"
+    },
+    {
+     "de": "ab",
+     "pos": "adj",
+     "en": "off, detached",
+     "ex": "Der Arm ist ab.",
+     "ex_en": "The arm has been cut off."
+    },
+    {
+     "de": "verlieren",
+     "pos": "verb",
+     "en": "to lose; to shed",
+     "ex": "Ich hab' meinen Pass wieder verloren. Weißt du, wo er ist?",
+     "ex_en": "I lost my passport again. Do you know where it is?"
+    },
+    {
+     "de": "hoch",
+     "pos": "adj",
+     "en": "high, tall",
+     "ex": "Der Berg ist sehr hoch.",
+     "ex_en": "The mountain is very high."
+    },
+    {
+     "de": "darüber",
+     "pos": "adv",
+     "en": "above, above it/this/that; about it/this/that",
+     "ex": "Senioren von 80 Jahren und darüber",
+     "ex_en": "senior citizens of 80 years and over"
+    }
+   ]
+  },
+  {
+   "slug": "kern-a1-07",
+   "kind": "core",
+   "title": "Kernwortschatz A1 · 7",
+   "title_en": "Core words A1, set 7 of 16",
+   "week": 3,
+   "items": [
+    {
+     "de": "lieb",
+     "pos": "adj",
+     "en": "lovable; good",
+     "ex": "Danke! Das ist sehr lieb von dir.",
+     "ex_en": "Thank you! That's very sweet of you."
+    },
+    {
+     "de": "enden",
+     "pos": "verb",
+     "en": "to end",
+     "ex": "Die Frist endete gestern um 22 Uhr.",
+     "ex_en": "The deadline ended yesterday at 10 p.m."
+    },
+    {
+     "de": "verrückt",
+     "pos": "adj",
+     "en": "crazy, mad",
+     "ex": "Das Verrückte ist, dass...",
+     "ex_en": "The crazy thing is that..."
+    },
+    {
+     "de": "nett",
+     "pos": "adj",
+     "en": "nice, kind",
+     "ex": "Deine Nachbarin ist sehr nett.",
+     "ex_en": "Your neighbour is very nice."
+    },
+    {
+     "de": "dazu",
+     "pos": "adv",
+     "en": "with it, in addition",
+     "ex": "Möchtest du Brot dazu?",
+     "ex_en": "Would you like bread with it?"
+    },
+    {
+     "de": "daran",
+     "pos": "adv",
+     "en": "about it, of it, on it",
+     "ex": "Denk bitte daran!",
+     "ex_en": "Please remember that!"
+    },
+    {
+     "de": "schreiben",
+     "pos": "verb",
+     "en": "to write, to write out; to spell",
+     "ex": "Sie schreibt ihren Namen an die Tafel.",
+     "ex_en": "She writes her name on the blackboard."
+    },
+    {
+     "de": "Baby",
+     "pos": "noun",
+     "en": "baby",
+     "ex": "Das Baby schläft gerade.",
+     "ex_en": "The baby is sleeping right now.",
+     "art": "das",
+     "pl": "Babys"
+    },
+    {
+     "de": "hoffen",
+     "pos": "verb",
+     "en": "to hope",
+     "ex": "Ich hoffe auf eine vollständige Heilung.",
+     "ex_en": "I hope for a complete cure."
+    },
+    {
+     "de": "trinken",
+     "pos": "verb",
+     "en": "to drink",
+     "ex": "Ich trinke morgens Kaffee.",
+     "ex_en": "I drink coffee in the morning."
+    },
+    {
+     "de": "verschwinden",
+     "pos": "verb",
+     "en": "to disappear, to vanish, to move out of view; to leave, to go away",
+     "ex": "Die Sonne verschwindet hinter Wolken.",
+     "ex_en": "The sun is disappearing behind clouds."
+    },
+    {
+     "de": "ob",
+     "pos": "other",
+     "en": "Introduces an indirect question, a doubt. if, whether",
+     "ex": "ob ... oder",
+     "ex_en": "if ... or"
+    },
+    {
+     "de": "kurz",
+     "pos": "adj",
+     "en": "short, quick, brief; short",
+     "ex": "Wir haben eine kurze Pause gemacht.",
+     "ex_en": "We had a short break."
+    },
+    {
+     "de": "Kopf",
+     "pos": "noun",
+     "en": "head; crown, top",
+     "ex": "Er fiel die Treppe hinunter, als sie ihm ein Buch an den Kopf warf.",
+     "ex_en": "He fell down the stairs when she threw a book at his head.",
+     "art": "der",
+     "pl": "Köpfe"
+    },
+    {
+     "de": "egal",
+     "pos": "adj",
+     "en": "all the same, unimportant",
+     "ex": "Das ist mir egal.",
+     "ex_en": "That's all the same to me."
+    },
+    {
+     "de": "eigentlich",
+     "pos": "adj",
+     "en": "actual, real, proper",
+     "ex": "Das eigentliche Problem ist doch, dass wir dazu gar nicht in der Lage sind.",
+     "ex_en": "The actual problem is that we don't even have the capabilities for that."
+    },
+    {
+     "de": "verdammt",
+     "pos": "adj",
+     "en": "damn (mild swear)",
+     "ex": "Verdammt, ich habe den Bus verpasst!",
+     "ex_en": "Damn, I missed the bus!"
+    },
+    {
+     "de": "verlassen",
+     "pos": "verb",
+     "en": "to leave, to abandon; to leave, to desert, to dump",
+     "ex": "Die Ratten verlassen das sinkende Schiff.",
+     "ex_en": "The rats are abandoning the sinking ship."
+    },
+    {
+     "de": "Auto",
+     "pos": "noun",
+     "en": "car",
+     "ex": "Das ist das Auto meines Vaters.",
+     "ex_en": "That is my father’s car.",
+     "art": "das",
+     "pl": "Autos"
+    },
+    {
+     "de": "sitzen",
+     "pos": "verb",
+     "en": "to sit; to stay",
+     "ex": "Wir saßen fest!",
+     "ex_en": "We were stuck!"
+    },
+    {
+     "de": "Wort",
+     "pos": "noun",
+     "en": "word as an isolated unit; utterance, word with context",
+     "ex": "Im Deutschen gibt es wenig Wörter, die mit y geschrieben werden.",
+     "ex_en": "In German there are few words spelt with y.",
+     "art": "das",
+     "pl": "Wörter"
+    },
+    {
+     "de": "Typ",
+     "pos": "noun",
+     "en": "type",
+     "ex": "Von diesem Typ Kaffeemaschine haben wir keine mehr auf Lager.",
+     "ex_en": "We don't have any more of this type of coffeemaker in stock.",
+     "art": "der",
+     "pl": "Typen"
+    },
+    {
+     "de": "Grund",
+     "pos": "noun",
+     "en": "ground, land; bottom",
+     "ex": "Es muss einen Grund dafür geben.",
+     "ex_en": "There must be a reason for that.",
+     "art": "der",
+     "pl": "Gründe"
+    },
+    {
+     "de": "falsch",
+     "pos": "adj",
+     "en": "false, unfactual, untrue; wrong",
+     "ex": "eine falsche Beschuldigung",
+     "ex_en": "a false accusation"
+    },
+    {
+     "de": "Tür",
+     "pos": "noun",
+     "en": "door",
+     "ex": "Die Tür ist aus Eichenholz.",
+     "ex_en": "The door is made of oak wood.",
+     "art": "die",
+     "pl": "Türen"
+    },
+    {
+     "de": "schlagen",
+     "pos": "verb",
+     "en": "to hit, beat; to strike (clock)",
+     "ex": "Die Uhr schlägt zwölf.",
+     "ex_en": "The clock strikes twelve."
+    },
+    {
+     "de": "lesen",
+     "pos": "verb",
+     "en": "to read; to select and gather or harvest",
+     "ex": "Er kann nicht lesen.",
+     "ex_en": "He doesn't know how to read."
+    },
+    {
+     "de": "schwer",
+     "pos": "adj",
+     "en": "heavy, weighty; indigestible",
+     "ex": "schwerer Regen",
+     "ex_en": "heavy rain"
+    },
+    {
+     "de": "fangen",
+     "pos": "verb",
+     "en": "to catch; to improve in health",
+     "ex": "Der Torwart fängt den Ball.",
+     "ex_en": "The goalkeeper catches the ball."
+    },
+    {
+     "de": "teilen",
+     "pos": "verb",
+     "en": "to share; to divide",
+     "ex": "Wollen wir uns eine Pizza teilen?",
+     "ex_en": "Shall we share a pizza?"
+    },
+    {
+     "de": "schicken",
+     "pos": "verb",
+     "en": "to send, to dispatch; to hurry",
+     "ex": "Sie hat mir einen Liebesbrief geschickt.",
+     "ex_en": "She sent me a love letter."
+    },
+    {
+     "de": "all",
+     "pos": "other",
+     "en": "all; every",
+     "ex": "Alle Menschen sind gleich.",
+     "ex_en": "All people are equal."
+    },
+    {
+     "de": "retten",
+     "pos": "verb",
+     "en": "to save, to rescue",
+     "ex": "Diese Katze war ein Streuner, der aus einem Tierheim gerettet wurde.",
+     "ex_en": "This cat was a stray that was rescued from an animal shelter."
+    },
+    {
+     "de": "reichen",
+     "pos": "verb",
+     "en": "to reach; to pass, to hand, to serve, to put within reach",
+     "ex": "Der Turm reicht fast bis zum Himmel.",
+     "ex_en": "The tower almost reaches the sky."
+    },
+    {
+     "de": "weiter",
+     "pos": "adv",
+     "en": "further, farther, more; on",
+     "ex": "noch weiter",
+     "ex_en": "even more"
+    },
+    {
+     "de": "bedeuten",
+     "pos": "verb",
+     "en": "to imply, to mean, to signify, to indicate, to spell, to…",
+     "ex": "Ein klarer Himmel bedeutet eine kalte Nacht.",
+     "ex_en": "A clear sky means a cold night."
+    },
+    {
+     "de": "darauf",
+     "pos": "adv",
+     "en": "on it; to it",
+     "ex": "Ich freue mich darauf.",
+     "ex_en": "I'm looking forward to it."
+    },
+    {
+     "de": "tragen",
+     "pos": "verb",
+     "en": "to carry, to bear; to bear, to carry",
+     "ex": "Sie konnten die Kiste nicht mehr tragen und mussten sie abstellen.",
+     "ex_en": "They couldn't carry the box any longer and had to put it down."
+    },
+    {
+     "de": "bald",
+     "pos": "adv",
+     "en": "soon; almost",
+     "ex": "Bald ist der Urlaub vorbei.",
+     "ex_en": "The vacation will soon be over."
+    },
+    {
+     "de": "eins",
+     "pos": "adv",
+     "en": "only used in eins sein and eins werden",
+     "ex": "Wir sind über den Preis nicht eins geworden.",
+     "ex_en": "We couldn't agree on the price."
+    }
+   ]
+  },
+  {
+   "slug": "kern-a1-08",
+   "kind": "core",
+   "title": "Kernwortschatz A1 · 8",
+   "title_en": "Core words A1, set 8 of 16",
+   "week": 3,
+   "items": [
+    {
+     "de": "scheinen",
+     "pos": "verb",
+     "en": "to shine; to seem",
+     "ex": "Es scheint mir, dass …",
+     "ex_en": "It seems to me that …"
+    },
+    {
+     "de": "Kerl",
+     "pos": "noun",
+     "en": "guy, bloke",
+     "ex": "Er ist ein netter Kerl.",
+     "ex_en": "He's a nice guy.",
+     "art": "der",
+     "pl": "Kerle"
+    },
+    {
+     "de": "Junge",
+     "pos": "noun",
+     "en": "boy",
+     "ex": "Der Junge spielt Fußball.",
+     "ex_en": "The boy is playing football.",
+     "art": "der",
+     "pl": "Jungen"
+    },
+    {
+     "de": "kümmern",
+     "pos": "verb",
+     "en": "to take care, to look after; to grieve, to afflict, to trouble, to concern",
+     "ex": "Wer kümmert sich um die Ausbildung der Lehrlinge?",
+     "ex_en": "Who takes care of training the interns?"
+    },
+    {
+     "de": "Idee",
+     "pos": "noun",
+     "en": "idea",
+     "ex": "Gute Idee!",
+     "ex_en": "Good idea!",
+     "art": "die",
+     "pl": "Ideen"
+    },
+    {
+     "de": "bereit",
+     "pos": "adj",
+     "en": "ready",
+     "ex": "bereit und fähig",
+     "ex_en": "ready and able"
+    },
+    {
+     "de": "Waffe",
+     "pos": "noun",
+     "en": "weapon",
+     "ex": "Die Polizei fand keine Waffe.",
+     "ex_en": "The police found no weapon.",
+     "art": "die",
+     "pl": "Waffen"
+    },
+    {
+     "de": "Tod",
+     "pos": "noun",
+     "en": "death",
+     "ex": "Der Tod kam endlich zu ihm her.",
+     "ex_en": "Death finally came to him.",
+     "art": "der",
+     "pl": "Tode"
+    },
+    {
+     "de": "Ahnung",
+     "pos": "noun",
+     "en": "idea, clue",
+     "ex": "Keine Ahnung!",
+     "ex_en": "No idea!",
+     "art": "die",
+     "pl": "Ahnungen"
+    },
+    {
+     "de": "bisschen",
+     "pos": "adv",
+     "en": "bit",
+     "ex": "Er spricht nur ein bisschen Englisch.",
+     "ex_en": "He only speaks a little English."
+    },
+    {
+     "de": "schlimm",
+     "pos": "adj",
+     "en": "bad, terrible, serious, dire, horrible, awful; hurting, ill, infected",
+     "ex": "noch schlimmer",
+     "ex_en": "even worse"
+    },
+    {
+     "de": "legen",
+     "pos": "verb",
+     "en": "to lie down; to castrate",
+     "ex": "Ich lege mich auf das Bett.",
+     "ex_en": "I lie down on the bed."
+    },
+    {
+     "de": "lernen",
+     "pos": "verb",
+     "en": "to learn, to acquire knowledge; to study",
+     "ex": "Ich lerne noch.",
+     "ex_en": "I’m still learning."
+    },
+    {
+     "de": "passieren",
+     "pos": "verb",
+     "en": "to happen; to move beyond",
+     "ex": "Wie konnte das nur passieren?",
+     "ex_en": "How could that have happened?"
+    },
+    {
+     "de": "Polizei",
+     "pos": "noun",
+     "en": "police",
+     "ex": "Die Polizei erwischte den Taschendieb auf frischer Tat.",
+     "ex_en": "The police caught the pickpocket in the act.",
+     "art": "die",
+     "pl": "Polizeien"
+    },
+    {
+     "de": "draußen",
+     "pos": "adv",
+     "en": "outside",
+     "ex": "Lass uns draußen sitzen.",
+     "ex_en": "Let's sit outside."
+    },
+    {
+     "de": "letzte",
+     "pos": "adj",
+     "en": "last",
+     "ex": "Das war der letzte Zug.",
+     "ex_en": "That was the last train."
+    },
+    {
+     "de": "eigen",
+     "pos": "adj",
+     "en": "own",
+     "ex": "Ich hätte gern ein eigenes Zimmer.",
+     "ex_en": "I'd like a room of my own."
+    },
+    {
+     "de": "fast",
+     "pos": "adv",
+     "en": "almost; hardly",
+     "ex": "Fast 60 Spielfilme sind zu sehen.",
+     "ex_en": "There are almost 60 feature films to see."
+    },
+    {
+     "de": "versprechen",
+     "pos": "verb",
+     "en": "to promise; to expect",
+     "ex": "Ich verspreche es dir.",
+     "ex_en": "I promise you."
+    },
+    {
+     "de": "runter",
+     "pos": "adv",
+     "en": "down",
+     "ex": "Komm bitte runter, das Essen ist fertig!",
+     "ex_en": "Come down, dinner's ready!"
+    },
+    {
+     "de": "Geschichte",
+     "pos": "noun",
+     "en": "history; story",
+     "ex": "Geschichte schreiben",
+     "ex_en": "to make history",
+     "art": "die",
+     "pl": "Geschichten"
+    },
+    {
+     "de": "vorbei",
+     "pos": "adj",
+     "en": "over, past, up",
+     "ex": "Es ist vorbei zwischen uns.",
+     "ex_en": "It's over between us."
+    },
+    {
+     "de": "gerne",
+     "pos": "adv",
+     "en": "gladly, with pleasure",
+     "ex": "Ich helfe dir gerne.",
+     "ex_en": "I'm happy to help you."
+    },
+    {
+     "de": "Job",
+     "pos": "noun",
+     "en": "job, position, employment; job, work, profession",
+     "ex": "Wenn ich den Job kriege, kann ich mir vielleicht ein Auto leisten.",
+     "ex_en": "If I get the job, I might be able to afford a car.",
+     "art": "der",
+     "pl": "Jobs"
+    },
+    {
+     "de": "dran",
+     "pos": "adv",
+     "en": "alternative form of daran; to be in a particular situation",
+     "ex": "Ich hab gar nicht dran gedacht.",
+     "ex_en": "I didn't think about that at all."
+    },
+    {
+     "de": "lachen",
+     "pos": "verb",
+     "en": "to laugh; to smile",
+     "ex": "über einen Witz lachen",
+     "ex_en": "to laugh at a joke"
+    },
+    {
+     "de": "hinter",
+     "pos": "other",
+     "en": "behind",
+     "ex": "Das Fahrrad steht hinter dem Haus.",
+     "ex_en": "The bike is behind the house."
+    },
+    {
+     "de": "darum",
+     "pos": "adv",
+     "en": "around it, around that; therefore, for that reason",
+     "ex": "Wir wohnen in dem Haus mit dem weißen Zaun darum.",
+     "ex_en": "We live in the house with the white fence around it."
+    },
+    {
+     "de": "drin",
+     "pos": "adv",
+     "en": "inside, in it",
+     "ex": "Was ist da drin?",
+     "ex_en": "What's in there?"
+    },
+    {
+     "de": "voll",
+     "pos": "adj",
+     "en": "full",
+     "ex": "Der Bus ist total voll.",
+     "ex_en": "The bus is completely full."
+    },
+    {
+     "de": "ziemlich",
+     "pos": "adv",
+     "en": "quite, pretty",
+     "ex": "Es ist ziemlich kalt heute.",
+     "ex_en": "It's pretty cold today."
+    },
+    {
+     "de": "wagen",
+     "pos": "verb",
+     "en": "to dare; to dare to go, to venture",
+     "ex": "Wie können Sie es wagen, so etwas zu tun?",
+     "ex_en": "How dare you do something like this?"
+    },
+    {
+     "de": "klingen",
+     "pos": "verb",
+     "en": "to ring; to sound",
+     "ex": "Alle Glocken klingen unterschiedlich.",
+     "ex_en": "All bells sound differently."
+    },
+    {
+     "de": "sogar",
+     "pos": "adv",
+     "en": "even, actually, in fact",
+     "ex": "Sogar Karl kann es verstehen.",
+     "ex_en": "Even Karl can understand it."
+    },
+    {
+     "de": "Teufel",
+     "pos": "noun",
+     "en": "devil",
+     "ex": "Wo zum Teufel ist mein Handy?",
+     "ex_en": "Where the devil is my phone?",
+     "art": "der",
+     "pl": "Teufel"
+    },
+    {
+     "de": "je",
+     "pos": "adv",
+     "en": "ever; per",
+     "ex": "je mehr, desto besser",
+     "ex_en": "the more the better"
+    },
+    {
+     "de": "hin",
+     "pos": "adj",
+     "en": "gone, left, situated; dead or out of order, kaput",
+     "ex": "Ich sehe mal nach, wo die Pakete hin sind.",
+     "ex_en": "I'll check where the packages went."
+    },
+    {
+     "de": "woher",
+     "pos": "adv",
+     "en": "where from, whence; how",
+     "ex": "Woher kommt ihr? (informal, plural)",
+     "ex_en": "Where do you come from?"
+    },
+    {
+     "de": "Art",
+     "pos": "noun",
+     "en": "kind, sort; way",
+     "ex": "Was für eine Art Musik hörst du?",
+     "ex_en": "What kind of music do you listen to?",
+     "art": "die",
+     "pl": "Arten"
+    }
+   ]
+  },
+  {
+   "slug": "kern-a1-09",
+   "kind": "core",
+   "title": "Kernwortschatz A1 · 9",
+   "title_en": "Core words A1, set 9 of 16",
+   "week": 4,
+   "items": [
+    {
+     "de": "Mama",
+     "pos": "noun",
+     "en": "mum",
+     "ex": "Mama, kann ich ein Eis haben?",
+     "ex_en": "Mum, can I have an ice cream?",
+     "art": "die",
+     "pl": "Mamas"
+    },
+    {
+     "de": "überhaupt",
+     "pos": "adv",
+     "en": "overall, in general; at all",
+     "ex": "Hört ihr mir überhaupt zu?",
+     "ex_en": "Are you listening to me at all?"
+    },
+    {
+     "de": "Seite",
+     "pos": "noun",
+     "en": "side; face, side, surface of any three-dimensional object",
+     "ex": "Ein Dreieck hat drei Seiten.",
+     "ex_en": "A triangle has three sides.",
+     "art": "die",
+     "pl": "Seiten"
+    },
+    {
+     "de": "stecken",
+     "pos": "verb",
+     "en": "to stick; to be hiding",
+     "ex": "Die Katze steckt im Baum.",
+     "ex_en": "The cat is stuck in the tree."
+    },
+    {
+     "de": "Ort",
+     "pos": "noun",
+     "en": "place, location, point, position",
+     "ex": "vor Ort",
+     "ex_en": "on site",
+     "art": "der",
+     "pl": "Orte"
+    },
+    {
+     "de": "vertrauen",
+     "pos": "verb",
+     "en": "to trust, to place confidence in",
+     "ex": "Ich vertraue deinem Instinkt.",
+     "ex_en": "I trust your instinct."
+    },
+    {
+     "de": "ernst",
+     "pos": "adj",
+     "en": "serious",
+     "ex": "Meinst du das ernst?",
+     "ex_en": "Are you serious?"
+    },
+    {
+     "de": "heiraten",
+     "pos": "verb",
+     "en": "to marry; to marry someone",
+     "ex": "Wer würde solche Leute heiraten wollen?",
+     "ex_en": "Who would want to marry such people?"
+    },
+    {
+     "de": "freuen",
+     "pos": "verb",
+     "en": "to gladden, to make glad, to make pleased",
+     "ex": "[Es] freut mich, Sie kennenzulernen.",
+     "ex_en": "I'm pleased to meet you. ([It] pleases me to get to know you. (formal))"
+    },
+    {
+     "de": "frei",
+     "pos": "adj",
+     "en": "free; vacant",
+     "ex": "Ist der Platz noch frei?",
+     "ex_en": "Is this seat free?"
+    },
+    {
+     "de": "Glück",
+     "pos": "noun",
+     "en": "happiness, joy, bliss; luck, success",
+     "ex": "Das größte Glück im Leben ist es, geliebt zu werden.",
+     "ex_en": "The greatest joy in life is to be loved.",
+     "art": "das"
+    },
+    {
+     "de": "oben",
+     "pos": "adv",
+     "en": "up, upstairs, above",
+     "ex": "Das Bad ist oben.",
+     "ex_en": "The bathroom is upstairs."
+    },
+    {
+     "de": "endlich",
+     "pos": "adv",
+     "en": "finally, at last",
+     "ex": "Endlich ist Wochenende!",
+     "ex_en": "Finally it's the weekend!"
+    },
+    {
+     "de": "etwa",
+     "pos": "adv",
+     "en": "approximately; for instance",
+     "ex": "Das Gebäude ist etwa 30 Meter hoch.",
+     "ex_en": "The height of the building is approximately 30 metres."
+    },
+    {
+     "de": "Wasser",
+     "pos": "noun",
+     "en": "water",
+     "ex": "Kann ich ein Glas Wasser haben?",
+     "ex_en": "Can I have a glass of water?",
+     "art": "das",
+     "pl": "Wasser"
+    },
+    {
+     "de": "folgen",
+     "pos": "verb",
+     "en": "to follow; to understand, to be attentive to",
+     "ex": "Der Held folgte dem Drachen zu seiner Höhle.",
+     "ex_en": "The hero followed the dragon to its cave."
+    },
+    {
+     "de": "anders",
+     "pos": "adv",
+     "en": "different, differently; else",
+     "ex": "Ich sehe das anders.",
+     "ex_en": "I see that differently."
+    },
+    {
+     "de": "Chance",
+     "pos": "noun",
+     "en": "chance",
+     "ex": "Das ist deine Chance!",
+     "ex_en": "This is your chance!",
+     "art": "die",
+     "pl": "Chancen"
+    },
+    {
+     "de": "fünf",
+     "pos": "other",
+     "en": "five",
+     "ex": "Der Kurs dauert fünf Wochen.",
+     "ex_en": "The course lasts five weeks."
+    },
+    {
+     "de": "bezahlen",
+     "pos": "verb",
+     "en": "to pay, to balance a bill; to pay a sum of money",
+     "ex": "Ich möchte bitte bezahlen.",
+     "ex_en": "I want to pay please."
+    },
+    {
+     "de": "glücklich",
+     "pos": "adj",
+     "en": "happy",
+     "ex": "Sie sieht sehr glücklich aus.",
+     "ex_en": "She looks very happy."
+    },
+    {
+     "de": "Wahrheit",
+     "pos": "noun",
+     "en": "truth",
+     "ex": "Körnchen Wahrheit",
+     "ex_en": "kernel of truth",
+     "art": "die",
+     "pl": "Wahrheiten"
+    },
+    {
+     "de": "eben",
+     "pos": "adv",
+     "en": "just (now); flat",
+     "ex": "Ich habe eben gegessen.",
+     "ex_en": "I've just eaten."
+    },
+    {
+     "de": "deshalb",
+     "pos": "adv",
+     "en": "that's why, therefore",
+     "ex": "Ich bin krank, deshalb bleibe ich zu Hause.",
+     "ex_en": "I'm ill, so I'm staying home."
+    },
+    {
+     "de": "Zimmer",
+     "pos": "noun",
+     "en": "room",
+     "ex": "Mein Zimmer ist klein, aber hell.",
+     "ex_en": "My room is small but bright.",
+     "art": "das",
+     "pl": "Zimmer"
+    },
+    {
+     "de": "süß",
+     "pos": "adj",
+     "en": "sweet; cute",
+     "ex": "ein süßes Gebäck",
+     "ex_en": "a sweet pastry"
+    },
+    {
+     "de": "bestimmt",
+     "pos": "adj",
+     "en": "definitely, certainly",
+     "ex": "Das klappt bestimmt.",
+     "ex_en": "That will definitely work."
+    },
+    {
+     "de": "wünschen",
+     "pos": "verb",
+     "en": "to wish for; to wish",
+     "ex": "Ich wünsche mir ein Meerschweinchen.",
+     "ex_en": "I want a guinea pig."
+    },
+    {
+     "de": "ah",
+     "pos": "other",
+     "en": "ah",
+     "ex": "Ah, jetzt verstehe ich!",
+     "ex_en": "Ah, now I get it!"
+    },
+    {
+     "de": "Bett",
+     "pos": "noun",
+     "en": "bed",
+     "ex": "Ich gehe früh ins Bett.",
+     "ex_en": "I'm going to bed early.",
+     "art": "das",
+     "pl": "Betten"
+    },
+    {
+     "de": "vier",
+     "pos": "other",
+     "en": "four",
+     "ex": "Wir sind vier Personen.",
+     "ex_en": "There are four of us."
+    },
+    {
+     "de": "niemals",
+     "pos": "adv",
+     "en": "never",
+     "ex": "Das mache ich niemals wieder.",
+     "ex_en": "I'll never do that again."
+    },
+    {
+     "de": "schuld",
+     "pos": "adj",
+     "en": "(schuld sein) to be to blame",
+     "ex": "Das ist nicht deine Schuld.",
+     "ex_en": "It's not your fault."
+    },
+    {
+     "de": "stark",
+     "pos": "adj",
+     "en": "strong; good, great, skilled",
+     "ex": "starker Tobak",
+     "ex_en": "strong stuff"
+    },
+    {
+     "de": "erklären",
+     "pos": "verb",
+     "en": "to explain, to make clear; to declare, assert",
+     "ex": "Der Lehrer erklärte (mir) die quadratische Gleichung sehr gut.",
+     "ex_en": "The teacher explained the quadratic equation (to me) very well."
+    },
+    {
+     "de": "möglich",
+     "pos": "adj",
+     "en": "possible; potential",
+     "ex": "Es ist möglich, ungesund zu essen und trotzdem gesund zu bleiben.",
+     "ex_en": "It is possible to eat unhealthily and stay healthy nonetheless."
+    },
+    {
+     "de": "lügen",
+     "pos": "verb",
+     "en": "to tell a lie; to give false information",
+     "ex": "Wie alt sind Sie? — Ehm... lassen Sie mich nicht lügen... Zweiunddreißig.",
+     "ex_en": "How old are you? — Er... don’t let me tell you something wrong... Thirty-two."
+    },
+    {
+     "de": "hassen",
+     "pos": "verb",
+     "en": "to hate; to mob",
+     "ex": "Es gibt nichts, das ich mehr hasse als Wespen.",
+     "ex_en": "There is nothing I hate more than wasps."
+    },
+    {
+     "de": "Gesicht",
+     "pos": "noun",
+     "en": "face; a facial expression, a look",
+     "ex": "mit einem Lächeln im Gesicht",
+     "ex_en": "with a smile on his/her face",
+     "art": "das",
+     "pl": "Gesichter"
+    },
+    {
+     "de": "gewinnen",
+     "pos": "verb",
+     "en": "to win",
+     "ex": "Wer hat das Spiel gewonnen?",
+     "ex_en": "Who won the game?"
+    }
+   ]
+  },
+  {
+   "slug": "kern-a1-10",
+   "kind": "core",
+   "title": "Kernwortschatz A1 · 10",
+   "title_en": "Core words A1, set 10 of 16",
+   "week": 4,
+   "items": [
+    {
+     "de": "zwischen",
+     "pos": "other",
+     "en": "between; among, amongst",
+     "ex": "die Schere zwischen Arm und Reich",
+     "ex_en": "the gap between the poor and rich"
+    },
+    {
+     "de": "während",
+     "pos": "other",
+     "en": "while; whereas, while",
+     "ex": "Sie sieht immer fern während sie isst.",
+     "ex_en": "She always watches TV while eating."
+    },
+    {
+     "de": "feuern",
+     "pos": "verb",
+     "en": "to fire",
+     "ex": "Es tut mir leid, aber Sie sind gefeuert.",
+     "ex_en": "I'm sorry, but you're fired."
+    },
+    {
+     "de": "fliegen",
+     "pos": "verb",
+     "en": "to fly; to rush",
+     "ex": "Ich fliege morgen in die Vereinigten Staaten.",
+     "ex_en": "I'm flying to the United States tomorrow."
+    },
+    {
+     "de": "ändern",
+     "pos": "verb",
+     "en": "to change, to alter; to change, to vary",
+     "ex": "Früher dachte ich, Botanik sei langweilig, aber ich habe meine Meinung geändert.",
+     "ex_en": "I used to think Botany was boring, but I've changed my opinion."
+    },
+    {
+     "de": "benutzen",
+     "pos": "verb",
+     "en": "to make use",
+     "ex": "Ich benutze soziale Medien, um Nachrichten zu folgen.",
+     "ex_en": "I use social media to follow news."
+    },
+    {
+     "de": "Gefühl",
+     "pos": "noun",
+     "en": "feeling; sense of something, instinct",
+     "ex": "Ein wohltuendes Gefühl kommt auf.",
+     "ex_en": "A soothing feeling arises.",
+     "art": "das",
+     "pl": "Gefühle"
+    },
+    {
+     "de": "solch",
+     "pos": "other",
+     "en": "such",
+     "ex": "Ich habe aber solchen Hunger!",
+     "ex_en": "I am so hungry!"
+    },
+    {
+     "de": "Entschuldigung",
+     "pos": "noun",
+     "en": "excuse me; apology",
+     "ex": "Entschuldigung, wo ist der Bahnhof?",
+     "ex_en": "Excuse me, where is the station?",
+     "art": "die",
+     "pl": "Entschuldigungen"
+    },
+    {
+     "de": "schreien",
+     "pos": "verb",
+     "en": "to shout",
+     "ex": "Warum schreist du?",
+     "ex_en": "Why are you shouting?"
+    },
+    {
+     "de": "wiedersehen",
+     "pos": "verb",
+     "en": "to see again",
+     "ex": "Ich hoffe, wir sehen uns bald wieder.",
+     "ex_en": "I hope we see each other again soon."
+    },
+    {
+     "de": "stimmen",
+     "pos": "verb",
+     "en": "to be right, to be correct, to be proper, to be true; to vote",
+     "ex": "Was stimmt mit dir nicht?",
+     "ex_en": "What's wrong [lit. not right] with you?"
+    },
+    {
+     "de": "ehrlich",
+     "pos": "adj",
+     "en": "honest, truthful, true",
+     "ex": "eine ehrliche Antwort",
+     "ex_en": "an honest answer"
+    },
+    {
+     "de": "schießen",
+     "pos": "verb",
+     "en": "to shoot; to kick",
+     "ex": "auf etwas schießen",
+     "ex_en": "to shoot at something"
+    },
+    {
+     "de": "Blut",
+     "pos": "noun",
+     "en": "blood",
+     "ex": "Beim Arzt nehmen sie mir Blut ab.",
+     "ex_en": "At the doctor's they take a blood sample.",
+     "art": "das",
+     "pl": "Blute"
+    },
+    {
+     "de": "bloß",
+     "pos": "adv",
+     "en": "only, just",
+     "ex": "Ich wollte bloß kurz fragen.",
+     "ex_en": "I just wanted to ask quickly."
+    },
+    {
+     "de": "aufhören",
+     "pos": "verb",
+     "en": "to stop; to stop talking about something",
+     "ex": "Der Regen hört bestimmt gleich auf.",
+     "ex_en": "Surely the rain will stop soon."
+    },
+    {
+     "de": "funktionieren",
+     "pos": "verb",
+     "en": "to work, function; to work, work out",
+     "ex": "Die neue Waschmaschine funktioniert ausgezeichnet.",
+     "ex_en": "The new washing machine works perfectly."
+    },
+    {
+     "de": "äh",
+     "pos": "other",
+     "en": "um, er (hesitation)",
+     "ex": "Äh, wie heißt das noch mal?",
+     "ex_en": "Um, what's it called again?"
+    },
+    {
+     "de": "dauern",
+     "pos": "verb",
+     "en": "to last, to continue, to persist; to last, to be permanent",
+     "ex": "Der Film dauert zwei Stunden.",
+     "ex_en": "The movie lasts two hours."
+    },
+    {
+     "de": "geschehen",
+     "pos": "verb",
+     "en": "to occur; to happen",
+     "ex": "Wie konnte das nur geschehen?",
+     "ex_en": "How could that have happened?"
+    },
+    {
+     "de": "böse",
+     "pos": "adj",
+     "en": "evil; bad",
+     "ex": "Unsere Taten können schlimme Folgen haben, selbst wenn wir keine bösen Absichten hatten.",
+     "ex_en": "Our actions can have terrible consequences even if we didn’t have any evil intentions."
+    },
+    {
+     "de": "hart",
+     "pos": "adj",
+     "en": "hard",
+     "ex": "Das Brot ist hart.",
+     "ex_en": "The bread is hard."
+    },
+    {
+     "de": "weinen",
+     "pos": "verb",
+     "en": "to cry",
+     "ex": "Warum weinst du?",
+     "ex_en": "Why are you crying?"
+    },
+    {
+     "de": "unten",
+     "pos": "adv",
+     "en": "down, downstairs, below",
+     "ex": "Ich warte unten an der Tür.",
+     "ex_en": "I'll wait downstairs at the door."
+    },
+    {
+     "de": "derselbe",
+     "pos": "other",
+     "en": "the same",
+     "ex": "Wir haben denselben Geburtstag.",
+     "ex_en": "We have the same birthday."
+    },
+    {
+     "de": "falls",
+     "pos": "other",
+     "en": "if, in the event that; in case, in order to be prepared if",
+     "ex": "Falls es anfängt zu regnen, müssen wir das Fenster zumachen.",
+     "ex_en": "If it starts raining, we need to close the window."
+    },
+    {
+     "de": "schließen",
+     "pos": "verb",
+     "en": "to shut; to lock",
+     "ex": "Das Geschäft schließt um 18.00 Uhr.",
+     "ex_en": "The store closes at 6 p.m."
+    },
+    {
+     "de": "leicht",
+     "pos": "adj",
+     "en": "light; easy",
+     "ex": "Nur leichte Autos sollten diese Brücke befahren.",
+     "ex_en": "Only light cars should drive on this bridge."
+    },
+    {
+     "de": "beginnen",
+     "pos": "verb",
+     "en": "to begin; to start, to begin",
+     "ex": "Der Vortrag hat begonnen.",
+     "ex_en": "The lecture has begun."
+    },
+    {
+     "de": "Schiff",
+     "pos": "noun",
+     "en": "ship",
+     "ex": "Das Schiff fährt nach Helgoland.",
+     "ex_en": "The ship goes to Heligoland.",
+     "art": "das",
+     "pl": "Schiffe"
+    },
+    {
+     "de": "hauen",
+     "pos": "verb",
+     "en": "to thrust, slash; to cut, hew",
+     "ex": "Er hieb nach meinem Helm.",
+     "ex_en": "He thrust for my helmet."
+    },
+    {
+     "de": "Buch",
+     "pos": "noun",
+     "en": "book",
+     "ex": "Ich lese gerade ein spannendes Buch.",
+     "ex_en": "I'm reading an exciting book.",
+     "art": "das",
+     "pl": "Bücher"
+    },
+    {
+     "de": "langsam",
+     "pos": "adj",
+     "en": "slow",
+     "ex": "Schnecken sind sehr langsam.",
+     "ex_en": "Snails are very slow."
+    },
+    {
+     "de": "dies",
+     "pos": "other",
+     "en": "this",
+     "ex": "Dies ist mein Bruder Paul.",
+     "ex_en": "This is my brother Paul."
+    },
+    {
+     "de": "dumm",
+     "pos": "adj",
+     "en": "stupid",
+     "ex": "Das war eine dumme Idee.",
+     "ex_en": "That was a stupid idea."
+    },
+    {
+     "de": "Nummer",
+     "pos": "noun",
+     "en": "number",
+     "ex": "Gib mir deine Nummer.",
+     "ex_en": "Give me your number.",
+     "art": "die",
+     "pl": "Nummern"
+    },
+    {
+     "de": "drauf",
+     "pos": "adv",
+     "en": "on it (colloquial)",
+     "ex": "Schreib deinen Namen drauf.",
+     "ex_en": "Write your name on it."
+    },
+    {
+     "de": "werfen",
+     "pos": "verb",
+     "en": "to throw; to cast",
+     "ex": "Der Konstruktor mit dem einen Parameter wirft in diesem Falle eine Ausnahme.",
+     "ex_en": "The constructor with this one parameter throws an exception in this case."
+    },
+    {
+     "de": "erwarten",
+     "pos": "verb",
+     "en": "to expect, to consider likely; to await, to expect",
+     "ex": "Keine Sorge, ich erwarte, dass bald Hilfe kommt.",
+     "ex_en": "Don't worry, I'm expecting help to arrive soon."
+    }
+   ]
+  },
+  {
+   "slug": "kern-a1-11",
+   "kind": "core",
+   "title": "Kernwortschatz A1 · 11",
+   "title_en": "Core words A1, set 11 of 16",
+   "week": 4,
+   "items": [
+    {
+     "de": "Papa",
+     "pos": "noun",
+     "en": "dad",
+     "ex": "Papa holt mich vom Bahnhof ab.",
+     "ex_en": "Dad is picking me up from the station.",
+     "art": "der",
+     "pl": "Papas"
+    },
+    {
+     "de": "aussehen",
+     "pos": "verb",
+     "en": "to look, seem; to look good or bad",
+     "ex": "Du siehst müde aus.",
+     "ex_en": "You look tired."
+    },
+    {
+     "de": "irgendwie",
+     "pos": "adv",
+     "en": "somehow; for some reason",
+     "ex": "Der Dieb muss irgendwie über diese Mauer gekommen sein.",
+     "ex_en": "The thief must have managed to get over this wall somehow."
+    },
+    {
+     "de": "König",
+     "pos": "noun",
+     "en": "king",
+     "ex": "Der König wohnt im Schloss.",
+     "ex_en": "The king lives in the castle.",
+     "art": "der",
+     "pl": "Könige"
+    },
+    {
+     "de": "verkaufen",
+     "pos": "verb",
+     "en": "to sell",
+     "ex": "Ich möchte mein Auto verkaufen, willst du es kaufen?",
+     "ex_en": "I want to sell my car, do you want to buy it?"
+    },
+    {
+     "de": "kaum",
+     "pos": "adv",
+     "en": "barely, hardly; barely any, almost no",
+     "ex": "Ich kann das kaum lesen.",
+     "ex_en": "I can barely read this."
+    },
+    {
+     "de": "irgendwas",
+     "pos": "other",
+     "en": "something, anything",
+     "ex": "Möchtest du irgendwas essen?",
+     "ex_en": "Do you want something to eat?"
+    },
+    {
+     "de": "singen",
+     "pos": "verb",
+     "en": "to sing",
+     "ex": "Sie singt in einem Chor.",
+     "ex_en": "She sings in a choir."
+    },
+    {
+     "de": "gehören",
+     "pos": "verb",
+     "en": "to belong to, be the property of; to be a prerequisite for",
+     "ex": "Das Buch gehört mir.",
+     "ex_en": "The book belongs to me."
+    },
+    {
+     "de": "erfahren",
+     "pos": "verb",
+     "en": "to find out, learn, to come to know; to experience",
+     "ex": "Ich habe aus der Zeitung von Helgas Tod erfahren.",
+     "ex_en": "I learned about Helga's death from the newspaper."
+    },
+    {
+     "de": "sondern",
+     "pos": "other",
+     "en": "but (rather), after a negative",
+     "ex": "Nicht heute, sondern morgen.",
+     "ex_en": "Not today, but tomorrow."
+    },
+    {
+     "de": "Telefon",
+     "pos": "noun",
+     "en": "telephone",
+     "ex": "Das Telefon klingelt.",
+     "ex_en": "The phone is ringing.",
+     "art": "das",
+     "pl": "Telefone"
+    },
+    {
+     "de": "Arzt",
+     "pos": "noun",
+     "en": "doctor",
+     "ex": "Ich muss zum Arzt.",
+     "ex_en": "I have to go to the doctor.",
+     "art": "der",
+     "pl": "Ärzte"
+    },
+    {
+     "de": "Dank",
+     "pos": "noun",
+     "en": "thanks",
+     "ex": "Vielen Dank für die Einladung!",
+     "ex_en": "Many thanks for the invitation!",
+     "art": "der"
+    },
+    {
+     "de": "hübsch",
+     "pos": "adj",
+     "en": "pretty, handsome; lovely, nice",
+     "ex": "Das wäre doch hübsch, wenn…",
+     "ex_en": "It would be great if…"
+    },
+    {
+     "de": "wahrscheinlich",
+     "pos": "adj",
+     "en": "likely, probable, plausible",
+     "ex": "Die wahrscheinliche Ursache des Fehlers wurde heute ermittelt.",
+     "ex_en": "The probable cause of the failure was determined today."
+    },
+    {
+     "de": "wohin",
+     "pos": "adv",
+     "en": "where to, whither",
+     "ex": "Wohin geht ihr?",
+     "ex_en": "Where are you going?"
+    },
+    {
+     "de": "außer",
+     "pos": "other",
+     "en": "except; out of",
+     "ex": "Alle außer dir sind schon unterwegs.",
+     "ex_en": "Everyone except for you is already on their way."
+    },
+    {
+     "de": "zuerst",
+     "pos": "adv",
+     "en": "first, firstly; at first",
+     "ex": "Reinigen Sie immer zuerst die Räder.",
+     "ex_en": "Always clean the wheels first."
+    },
+    {
+     "de": "später",
+     "pos": "adv",
+     "en": "later",
+     "ex": "Bis später!",
+     "ex_en": "See you later!"
+    },
+    {
+     "de": "öffnen",
+     "pos": "verb",
+     "en": "to open; to open, get, or answer the door",
+     "ex": "Das Kind öffnete die Fenster.",
+     "ex_en": "The child opened the windows."
+    },
+    {
+     "de": "froh",
+     "pos": "adj",
+     "en": "glad; merry",
+     "ex": "Ich bin froh über alles, was ich erreicht habe.",
+     "ex_en": "I am happy about everything I've achieved."
+    },
+    {
+     "de": "Fehler",
+     "pos": "noun",
+     "en": "mistake, error",
+     "ex": "Jeder macht Fehler.",
+     "ex_en": "Everyone makes mistakes.",
+     "art": "der",
+     "pl": "Fehler"
+    },
+    {
+     "de": "willkommen",
+     "pos": "adj",
+     "en": "welcome",
+     "ex": "Du bist mir immer willkommen.",
+     "ex_en": "You’re always welcome to my house."
+    },
+    {
+     "de": "Dollar",
+     "pos": "noun",
+     "en": "dollar",
+     "ex": "Das kostet zehn Dollar.",
+     "ex_en": "That costs ten dollars.",
+     "art": "der",
+     "pl": "Dollars"
+    },
+    {
+     "de": "Dame",
+     "pos": "noun",
+     "en": "lady",
+     "ex": "Die Dame am Empfang war sehr freundlich.",
+     "ex_en": "The lady at reception was very friendly.",
+     "art": "die",
+     "pl": "Damen"
+    },
+    {
+     "de": "Menge",
+     "pos": "noun",
+     "en": "amount; (eine Menge) a lot",
+     "ex": "Wir haben eine Menge Arbeit.",
+     "ex_en": "We have a lot of work.",
+     "art": "die",
+     "pl": "Mengen"
+    },
+    {
+     "de": "hierher",
+     "pos": "adv",
+     "en": "(to) here",
+     "ex": "Wie bist du hierher gekommen?",
+     "ex_en": "How did you get here?"
+    },
+    {
+     "de": "tanzen",
+     "pos": "verb",
+     "en": "to dance",
+     "ex": "Wollen wir tanzen?",
+     "ex_en": "Shall we dance?"
+    },
+    {
+     "de": "Büro",
+     "pos": "noun",
+     "en": "office; office, bureau, agency",
+     "ex": "Sie sitzt in ihrem Büro.",
+     "ex_en": "She’s sitting in her office.",
+     "art": "das",
+     "pl": "Büros"
+    },
+    {
+     "de": "wär",
+     "pos": "verb",
+     "en": "alternative form of wäre",
+     "ex": "wenn ich ein Junge wär",
+     "ex_en": "if I were a boy"
+    },
+    {
+     "de": "klappen",
+     "pos": "verb",
+     "en": "to clap; to fold",
+     "ex": "Zum Transport muss diese Liege geklappt werden.",
+     "ex_en": "In order to be transportable, this deckchair needs to be folded."
+    },
+    {
+     "de": "laden",
+     "pos": "verb",
+     "en": "to load; to charge (battery)",
+     "ex": "Mein Handy muss laden.",
+     "ex_en": "My phone needs to charge."
+    },
+    {
+     "de": "direkt",
+     "pos": "adj",
+     "en": "direct, straight, without deviation or interruption; direct, candid, forthright",
+     "ex": "direkte Demokratie",
+     "ex_en": "Direct democracy"
+    },
+    {
+     "de": "zehn",
+     "pos": "other",
+     "en": "ten",
+     "ex": "Wir treffen uns um zehn.",
+     "ex_en": "We're meeting at ten."
+    },
+    {
+     "de": "reisen",
+     "pos": "verb",
+     "en": "to travel",
+     "ex": "Im Sommer wollen wir an das Rote Meer reisen.",
+     "ex_en": "We want to travel to the Red Sea in summer."
+    },
+    {
+     "de": "allem",
+     "pos": "other",
+     "en": "(vor allem) above all",
+     "ex": "Vor allem brauche ich Ruhe.",
+     "ex_en": "Above all, I need peace and quiet."
+    },
+    {
+     "de": "befehlen",
+     "pos": "verb",
+     "en": "to order, command",
+     "ex": "Du kannst mir nichts befehlen!",
+     "ex_en": "You can't order me around!"
+    },
+    {
+     "de": "perfekt",
+     "pos": "adj",
+     "en": "perfect",
+     "ex": "Das Wetter ist perfekt zum Grillen.",
+     "ex_en": "The weather is perfect for a barbecue."
+    },
+    {
+     "de": "sechs",
+     "pos": "other",
+     "en": "six",
+     "ex": "Ich stehe um sechs auf.",
+     "ex_en": "I get up at six."
+    }
+   ]
+  },
+  {
+   "slug": "kern-a1-12",
+   "kind": "core",
+   "title": "Kernwortschatz A1 · 12",
+   "title_en": "Core words A1, set 12 of 16",
+   "week": 5,
+   "items": [
+    {
+     "de": "Bild",
+     "pos": "noun",
+     "en": "digital photograph; digital drawing",
+     "ex": "mach ein Bild!",
+     "ex_en": "take a picture!",
+     "art": "das",
+     "pl": "Bilder"
+    },
+    {
+     "de": "bereits",
+     "pos": "adv",
+     "en": "already",
+     "ex": "Ich weiß das bereits.",
+     "ex_en": "I already know that."
+    },
+    {
+     "de": "vorstellen",
+     "pos": "verb",
+     "en": "to introduce, to present; to introduce oneself",
+     "ex": "Ich kann's mir nicht vorstellen!",
+     "ex_en": "I can't imagine this!"
+    },
+    {
+     "de": "behalten",
+     "pos": "verb",
+     "en": "to keep, to retain; to keep [with accusative ‘information, etc.’ and für ‘to…",
+     "ex": "Ich behalte es für mich.",
+     "ex_en": "I'm keeping it secret."
+    },
+    {
+     "de": "erkennen",
+     "pos": "verb",
+     "en": "to recognize, perceive; to realize, detect, see, know, identify, discover…",
+     "ex": "Ich habe dich mit diesem Hut nicht erkannt.",
+     "ex_en": "I didn't recognize you in that hat."
+    },
+    {
+     "de": "hängen",
+     "pos": "verb",
+     "en": "to hang, to be suspended; to be attached to",
+     "ex": "Der Apfel hängt am Baum.",
+     "ex_en": "The apple hangs on the tree."
+    },
+    {
+     "de": "Sekunde",
+     "pos": "noun",
+     "en": "second",
+     "ex": "Warte eine Sekunde!",
+     "ex_en": "Wait a second!",
+     "art": "die",
+     "pl": "Sekunden"
+    },
+    {
+     "de": "Kampf",
+     "pos": "noun",
+     "en": "fight, struggle",
+     "ex": "Der Kampf um den Titel war spannend.",
+     "ex_en": "The fight for the title was exciting.",
+     "art": "der",
+     "pl": "Kämpfe"
+    },
+    {
+     "de": "steigen",
+     "pos": "verb",
+     "en": "to climb, rise",
+     "ex": "Die Preise steigen.",
+     "ex_en": "Prices are going up."
+    },
+    {
+     "de": "stehlen",
+     "pos": "verb",
+     "en": "to steal; to skulk, to move secretly",
+     "ex": "Er hat mir ein Buch gestohlen.",
+     "ex_en": "He stole a book from me."
+    },
+    {
+     "de": "Geschäft",
+     "pos": "noun",
+     "en": "shop; business",
+     "ex": "Das Geschäft schließt um 20 Uhr.",
+     "ex_en": "The shop closes at 8 pm.",
+     "art": "das",
+     "pl": "Geschäfte"
+    },
+    {
+     "de": "entscheiden",
+     "pos": "verb",
+     "en": "to decide, to make a decision; to opt, to decide",
+     "ex": "Ich habe mich für den Deutschkurs entschieden.",
+     "ex_en": "I have decided to take the German course."
+    },
+    {
+     "de": "großartig",
+     "pos": "adj",
+     "en": "terrific, superb, etc",
+     "ex": "Sie hat eine großartige Aufgabe geleistet.",
+     "ex_en": "She's done a terrific job."
+    },
+    {
+     "de": "cool",
+     "pos": "adj",
+     "en": "cool; cool, calm, easy-going",
+     "ex": "Die Musik war echt cool.",
+     "ex_en": "The music was very cool."
+    },
+    {
+     "de": "leider",
+     "pos": "adv",
+     "en": "unfortunately",
+     "ex": "Ich kann leider nicht kommen.",
+     "ex_en": "Unfortunately I can't come."
+    },
+    {
+     "de": "Doktor",
+     "pos": "noun",
+     "en": "doctor",
+     "ex": "Herr Doktor, mir geht es nicht gut.",
+     "ex_en": "Doctor, I'm not feeling well.",
+     "art": "der",
+     "pl": "Doktoren"
+    },
+    {
+     "de": "Foto",
+     "pos": "noun",
+     "en": "photograph",
+     "ex": "ein Foto machen.",
+     "ex_en": "to take a photo.",
+     "art": "das",
+     "pl": "Fotos"
+    },
+    {
+     "de": "Million",
+     "pos": "noun",
+     "en": "million",
+     "ex": "Die Stadt hat eine Million Einwohner.",
+     "ex_en": "The city has a million inhabitants.",
+     "art": "die",
+     "pl": "Millionen"
+    },
+    {
+     "de": "Hölle",
+     "pos": "noun",
+     "en": "hell",
+     "ex": "Der Weg zur Hölle ist mit guten Vorsätzen gepflastert.",
+     "ex_en": "The road to hell is paved with good intentions.",
+     "art": "die",
+     "pl": "Höllen"
+    },
+    {
+     "de": "trotzdem",
+     "pos": "adv",
+     "en": "anyhow, nevertheless",
+     "ex": "Ich verstehe deine Sichtweise. Trotzdem bin ich anderer Meinung.",
+     "ex_en": "I understand your point of view. Nevertheless, I have a different opinion."
+    },
+    {
+     "de": "Kumpel",
+     "pos": "noun",
+     "en": "mate, buddy",
+     "ex": "Ich gehe mit meinen Kumpels ins Kino.",
+     "ex_en": "I'm going to the cinema with my mates.",
+     "art": "der",
+     "pl": "Kumpel"
+    },
+    {
+     "de": "total",
+     "pos": "adj",
+     "en": "total, absolute, complete, utter",
+     "ex": "Es ist kein totales, sondern nur ein partielles Verbot.",
+     "ex_en": "It is not an absolute ban, but merely a partial one."
+    },
+    {
+     "de": "brechen",
+     "pos": "verb",
+     "en": "to break",
+     "ex": "Er hat sich das Bein gebrochen.",
+     "ex_en": "He broke his leg."
+    },
+    {
+     "de": "völlig",
+     "pos": "adj",
+     "en": "completely",
+     "ex": "Ich bin völlig müde.",
+     "ex_en": "I'm completely exhausted."
+    },
+    {
+     "de": "tja",
+     "pos": "other",
+     "en": "well, hmm; Used to express acceptance of one's misfortune",
+     "ex": "Was schlägst du vor? — Tja, ich schlage vor, dass wir ins Kino gehen.",
+     "ex_en": "What do you suggest? — Well, I suggest that we go to the movies."
+    },
+    {
+     "de": "fehlen",
+     "pos": "verb",
+     "en": "to be absent, to be missing [with dative ‘to someone’]",
+     "ex": "Der Suppe fehlt es an Geschmack.",
+     "ex_en": "The soup lacks flavor."
+    },
+    {
+     "de": "überall",
+     "pos": "adv",
+     "en": "everywhere; anywhere",
+     "ex": "Wir haben überall nach dem Ball gesucht.",
+     "ex_en": "We've looked for the ball everywhere."
+    },
+    {
+     "de": "kämpfen",
+     "pos": "verb",
+     "en": "to fight",
+     "ex": "Sie kämpft für ihre Rechte.",
+     "ex_en": "She's fighting for her rights."
+    },
+    {
+     "de": "Himmel",
+     "pos": "noun",
+     "en": "sky; heaven",
+     "ex": "Der Himmel ist heute so blau.",
+     "ex_en": "The sky is so blue today.",
+     "art": "der",
+     "pl": "Himmel"
+    },
+    {
+     "de": "früher",
+     "pos": "adj",
+     "en": "former, erstwhile, previous",
+     "ex": "der frühere Präsident",
+     "ex_en": "the former president"
+    },
+    {
+     "de": "jungen",
+     "pos": "verb",
+     "en": "to give birth",
+     "ex": "Meine Katze wird bald jungen.",
+     "ex_en": "My cat will have offspring soon."
+    },
+    {
+     "de": "normal",
+     "pos": "adj",
+     "en": "ordinary, normal",
+     "ex": "völlig normal.",
+     "ex_en": "completely normal."
+    },
+    {
+     "de": "verdienen",
+     "pos": "verb",
+     "en": "to make money, to earn; to deserve",
+     "ex": "Ich verdiene viel Geld bei meinem Job.",
+     "ex_en": "I make a lot of money at my job."
+    },
+    {
+     "de": "zerstören",
+     "pos": "verb",
+     "en": "to destroy, demolish, devastate, eliminate; to dispel",
+     "ex": "Der Alkohol hat seine Gesundheit zerstört.",
+     "ex_en": "Alcohol has destroyed his health."
+    },
+    {
+     "de": "danach",
+     "pos": "adv",
+     "en": "afterwards",
+     "ex": "Erst arbeiten, danach Pause.",
+     "ex_en": "Work first, break afterwards."
+    },
+    {
+     "de": "deswegen",
+     "pos": "adv",
+     "en": "that's why, so",
+     "ex": "Es regnet, deswegen bleiben wir drinnen.",
+     "ex_en": "It's raining, so we're staying in."
+    },
+    {
+     "de": "Luft",
+     "pos": "noun",
+     "en": "air",
+     "ex": "Ich brauche frische Luft.",
+     "ex_en": "I need some fresh air.",
+     "art": "die",
+     "pl": "Lüfte"
+    },
+    {
+     "de": "hm",
+     "pos": "other",
+     "en": "hmm",
+     "ex": "Hm, ich weiß nicht.",
+     "ex_en": "Hmm, I don't know."
+    },
+    {
+     "de": "alleine",
+     "pos": "adv",
+     "en": "alone",
+     "ex": "Ich wohne alleine.",
+     "ex_en": "I live alone."
+    },
+    {
+     "de": "heiß",
+     "pos": "adj",
+     "en": "hot",
+     "ex": "Vorsicht, der Tee ist heiß!",
+     "ex_en": "Careful, the tea is hot!"
+    }
+   ]
+  },
+  {
+   "slug": "kern-a1-13",
+   "kind": "core",
+   "title": "Kernwortschatz A1 · 13",
+   "title_en": "Core words A1, set 13 of 16",
+   "week": 5,
+   "items": [
+    {
+     "de": "Party",
+     "pos": "noun",
+     "en": "party",
+     "ex": "eine Party schmeißen",
+     "ex_en": "to throw a party",
+     "art": "die",
+     "pl": "Partys"
+    },
+    {
+     "de": "tief",
+     "pos": "adj",
+     "en": "deep; deep, profound",
+     "ex": "Wie tief ist das Wasser?",
+     "ex_en": "How deep is the water?"
+    },
+    {
+     "de": "Plan",
+     "pos": "noun",
+     "en": "plan",
+     "ex": "Was ist dein Plan für morgen?",
+     "ex_en": "What's your plan for tomorrow?",
+     "art": "der",
+     "pl": "Pläne"
+    },
+    {
+     "de": "still",
+     "pos": "adj",
+     "en": "quiet, silent; without carbonation, flat",
+     "ex": "stiller Alarm.",
+     "ex_en": "silent alarm."
+    },
+    {
+     "de": "bewegen",
+     "pos": "verb",
+     "en": "to move",
+     "ex": "Ich muss mich mehr bewegen.",
+     "ex_en": "I need to move more."
+    },
+    {
+     "de": "wert",
+     "pos": "adj",
+     "en": "worth, worthy of; worthy of",
+     "ex": "Gold(es) wert sein",
+     "ex_en": "to be worth gold/worth its weight in gold"
+    },
+    {
+     "de": "ansehen",
+     "pos": "verb",
+     "en": "to look at, to have a look at; to look at",
+     "ex": "Sieh dir diese riesige Tomate an.",
+     "ex_en": "Have a look at this huge tomato."
+    },
+    {
+     "de": "halt",
+     "pos": "adv",
+     "en": "Indicating that something is generally known, or cannot be…",
+     "ex": "Er ist halt ein Idiot.",
+     "ex_en": "Well, he’s an idiot."
+    },
+    {
+     "de": "schrecklich",
+     "pos": "adj",
+     "en": "awful, terrible, horrible",
+     "ex": "schrecklicher Lärm",
+     "ex_en": "awful noise"
+    },
+    {
+     "de": "zwar",
+     "pos": "adv",
+     "en": "Signals a following contrary clause, which is usually…; namely",
+     "ex": "Dieser Rock ist zwar teuer, aber ich kaufe ihn trotzdem.",
+     "ex_en": "This skirt is admittedly expensive, but I’ll buy it anyway."
+    },
+    {
+     "de": "Zeug",
+     "pos": "noun",
+     "en": "stuff",
+     "ex": "Räum bitte dein Zeug auf.",
+     "ex_en": "Please tidy up your stuff.",
+     "art": "das",
+     "pl": "Zeuge"
+    },
+    {
+     "de": "herausfinden",
+     "pos": "verb",
+     "en": "to find out",
+     "ex": "Ich muss herausfinden, wann der Zug fährt.",
+     "ex_en": "I have to find out when the train leaves."
+    },
+    {
+     "de": "Wahl",
+     "pos": "noun",
+     "en": "choice, selection; election",
+     "ex": "eine Wahl treffen.",
+     "ex_en": "to make a choice.",
+     "art": "die",
+     "pl": "Wahlen"
+    },
+    {
+     "de": "Fuß",
+     "pos": "noun",
+     "en": "foot",
+     "ex": "Ich gehe zu Fuß.",
+     "ex_en": "I'm walking.",
+     "art": "der",
+     "pl": "Füße"
+    },
+    {
+     "de": "Onkel",
+     "pos": "noun",
+     "en": "uncle",
+     "ex": "Mein Onkel wohnt in Köln.",
+     "ex_en": "My uncle lives in Cologne.",
+     "art": "der",
+     "pl": "Onkel"
+    },
+    {
+     "de": "komisch",
+     "pos": "adj",
+     "en": "comedic, comic, pertaining to comedy; funny, comical",
+     "ex": "Sie spielt selten komische Rollen.",
+     "ex_en": "She rarely plays comedic roles."
+    },
+    {
+     "de": "lustig",
+     "pos": "adj",
+     "en": "funny, humorous; enjoyable, amusing, fun",
+     "ex": "Der Film war lustig.",
+     "ex_en": "The film was funny."
+    },
+    {
+     "de": "übernehmen",
+     "pos": "verb",
+     "en": "to take over; to take on more than one can handle/master",
+     "ex": "Pass auf, dass du dich nicht übernimmst mit deinem zweiten Job!",
+     "ex_en": "Be careful not to overexert yourself with your second job!"
+    },
+    {
+     "de": "super",
+     "pos": "adj",
+     "en": "great, super",
+     "ex": "Das Konzert war super!",
+     "ex_en": "The concert was great!"
+    },
+    {
+     "de": "gefährlich",
+     "pos": "adj",
+     "en": "dangerous",
+     "ex": "Diese Kreuzung ist gefährlich.",
+     "ex_en": "This crossroads is dangerous."
+    },
+    {
+     "de": "Beweis",
+     "pos": "noun",
+     "en": "proof",
+     "ex": "Hast du einen Beweis dafür?",
+     "ex_en": "Do you have proof of that?",
+     "art": "der",
+     "pl": "Beweise"
+    },
+    {
+     "de": "treten",
+     "pos": "verb",
+     "en": "to step, to walk; to appear",
+     "ex": "Bitte treten Sie hierher.",
+     "ex_en": "Please step over here."
+    },
+    {
+     "de": "Körper",
+     "pos": "noun",
+     "en": "body",
+     "ex": "Sport ist gut für Körper und Geist.",
+     "ex_en": "Sport is good for body and mind.",
+     "art": "der",
+     "pl": "Körper"
+    },
+    {
+     "de": "wunderbar",
+     "pos": "adj",
+     "en": "wonderful",
+     "ex": "Das Essen war wunderbar.",
+     "ex_en": "The food was wonderful."
+    },
+    {
+     "de": "damals",
+     "pos": "adv",
+     "en": "back then, at that time",
+     "ex": "Damals wohnte ich noch in Hamburg.",
+     "ex_en": "Back then I still lived in Hamburg."
+    },
+    {
+     "de": "danken",
+     "pos": "verb",
+     "en": "to thank",
+     "ex": "Peter hat Michaela mit einem großen Blumenstrauß gedankt.",
+     "ex_en": "Peter thanked Michaela with a big bouquet."
+    },
+    {
+     "de": "persönlich",
+     "pos": "adj",
+     "en": "personal; in person",
+     "ex": "Ich möchte mit ihr persönlich sprechen.",
+     "ex_en": "I'd like to speak to her in person."
+    },
+    {
+     "de": "beruhigen",
+     "pos": "verb",
+     "en": "to calm down, to quiet; to become calm",
+     "ex": "Wut beruhigen.",
+     "ex_en": "to soothe (sb's) anger."
+    },
+    {
+     "de": "nachdem",
+     "pos": "other",
+     "en": "after; given that, being that",
+     "ex": "Ich ging aus, nachdem ich mich angezogen hatte.",
+     "ex_en": "I went out after I got dressed."
+    },
+    {
+     "de": "unglaublich",
+     "pos": "adj",
+     "en": "unbelievable",
+     "ex": "Das ist ja unglaublich!",
+     "ex_en": "That's unbelievable!"
+    },
+    {
+     "de": "Rest",
+     "pos": "noun",
+     "en": "rest, remainder",
+     "ex": "Den Rest essen wir morgen.",
+     "ex_en": "We'll eat the rest tomorrow.",
+     "art": "der",
+     "pl": "Reste"
+    },
+    {
+     "de": "Pferd",
+     "pos": "noun",
+     "en": "horse; knight",
+     "ex": "Meine Mutter hat ein Pferd und das ist sehr süß.",
+     "ex_en": "My mother has a horse and it is very cute.",
+     "art": "das",
+     "pl": "Pferde"
+    },
+    {
+     "de": "Antwort",
+     "pos": "noun",
+     "en": "answer",
+     "ex": "Ich warte noch auf eine Antwort.",
+     "ex_en": "I'm still waiting for an answer.",
+     "art": "die",
+     "pl": "Antworten"
+    },
+    {
+     "de": "irgendwo",
+     "pos": "adv",
+     "en": "somewhere",
+     "ex": "Mein Schlüssel muss irgendwo hier sein.",
+     "ex_en": "My key must be here somewhere."
+    },
+    {
+     "de": "genauso",
+     "pos": "adv",
+     "en": "just as, exactly the same",
+     "ex": "Ich sehe das genauso.",
+     "ex_en": "I see it exactly the same way."
+    },
+    {
+     "de": "schwören",
+     "pos": "verb",
+     "en": "to swear; to swear by",
+     "ex": "Du brauchst nicht zu schwören. Ich glaube es dir auch so.",
+     "ex_en": "You don’t need to swear. I believe you already."
+    },
+    {
+     "de": "Zukunft",
+     "pos": "noun",
+     "en": "future; future tense",
+     "ex": "Aufgrund der Krise stehen viele vor einer ungewissen Zukunft.",
+     "ex_en": "Because of the crisis, many face an uncertain future.",
+     "art": "die",
+     "pl": "Zukünfte"
+    },
+    {
+     "de": "Krankenhaus",
+     "pos": "noun",
+     "en": "hospital",
+     "ex": "Sie liegt seit Montag im Krankenhaus.",
+     "ex_en": "She's been in hospital since Monday.",
+     "art": "das",
+     "pl": "Krankenhäuser"
+    },
+    {
+     "de": "stören",
+     "pos": "verb",
+     "en": "to disturb, to interfere, to bother",
+     "ex": "Es stört mich, dass …",
+     "ex_en": "It bothers me that …"
+    },
+    {
+     "de": "Gefängnis",
+     "pos": "noun",
+     "en": "prison, jail; prison sentence",
+     "ex": "im Gefängnis sitzen",
+     "ex_en": "to be in jail",
+     "art": "das",
+     "pl": "Gefängnisse"
+    }
+   ]
+  },
+  {
+   "slug": "kern-a1-14",
+   "kind": "core",
+   "title": "Kernwortschatz A1 · 14",
+   "title_en": "Core words A1, set 14 of 16",
+   "week": 5,
+   "items": [
+    {
+     "de": "bauen",
+     "pos": "verb",
+     "en": "to build, to construct; to rely",
+     "ex": "ein Haus bauen",
+     "ex_en": "to build a house"
+    },
+    {
+     "de": "gucken",
+     "pos": "verb",
+     "en": "to look, to direct one's gaze at something",
+     "ex": "Warum guckst du so traurig?",
+     "ex_en": "Why are you looking so sad?"
+    },
+    {
+     "de": "drüben",
+     "pos": "adv",
+     "en": "over; over there",
+     "ex": "Ich bin's. Hier drüben!",
+     "ex_en": "It's me. Over here!"
+    },
+    {
+     "de": "Wohnung",
+     "pos": "noun",
+     "en": "flat, apartment",
+     "ex": "Die Wohnung hat einen Balkon.",
+     "ex_en": "The flat has a balcony.",
+     "art": "die",
+     "pl": "Wohnungen"
+    },
+    {
+     "de": "Bein",
+     "pos": "noun",
+     "en": "leg",
+     "ex": "Mir tut das Bein weh.",
+     "ex_en": "My leg hurts.",
+     "art": "das",
+     "pl": "Beine"
+    },
+    {
+     "de": "Anwalt",
+     "pos": "noun",
+     "en": "lawyer",
+     "ex": "Ich spreche erst mit meinem Anwalt.",
+     "ex_en": "I'll talk to my lawyer first.",
+     "art": "der",
+     "pl": "Anwälte"
+    },
+    {
+     "de": "stolz",
+     "pos": "adj",
+     "en": "proud; haughty",
+     "ex": "Ich bin stolz auf dich.",
+     "ex_en": "I am proud of you."
+    },
+    {
+     "de": "seltsam",
+     "pos": "adj",
+     "en": "strange",
+     "ex": "Das ist ein seltsames Geräusch.",
+     "ex_en": "That's a strange noise."
+    },
+    {
+     "de": "wach",
+     "pos": "adj",
+     "en": "awake",
+     "ex": "Bist du schon wach?",
+     "ex_en": "Are you awake yet?"
+    },
+    {
+     "de": "blöd",
+     "pos": "adj",
+     "en": "stupid, dim-witted; unfortunate, annoying",
+     "ex": "Dass wir den letzten Zug verpasst haben, ist natürlich blöd.",
+     "ex_en": "Us missing the last train is unfortunate, of course."
+    },
+    {
+     "de": "Team",
+     "pos": "noun",
+     "en": "team",
+     "ex": "Unser Team ist klein, aber gut.",
+     "ex_en": "Our team is small but good.",
+     "art": "das",
+     "pl": "Teams"
+    },
+    {
+     "de": "verzeihen",
+     "pos": "verb",
+     "en": "to forgive",
+     "ex": "Kannst du mir verzeihen?",
+     "ex_en": "Can you forgive me?"
+    },
+    {
+     "de": "verraten",
+     "pos": "verb",
+     "en": "to betray, to be disloyal to; to reveal",
+     "ex": "Deine sogenannten Freunde haben dich verraten.",
+     "ex_en": "Your so-called friends have betrayed you."
+    },
+    {
+     "de": "Entscheidung",
+     "pos": "noun",
+     "en": "decision",
+     "ex": "Das ist deine Entscheidung.",
+     "ex_en": "That's your decision.",
+     "art": "die",
+     "pl": "Entscheidungen"
+    },
+    {
+     "de": "nachdenken",
+     "pos": "verb",
+     "en": "to think, to reflect, to ponder",
+     "ex": "Ich dachte darüber nach und beschloss, das Auto zu kaufen.",
+     "ex_en": "I thought about it and decided to buy the car."
+    },
+    {
+     "de": "träumen",
+     "pos": "verb",
+     "en": "to dream",
+     "ex": "Ich habe von dir geträumt.",
+     "ex_en": "I dreamt about you."
+    },
+    {
+     "de": "vorsichtig",
+     "pos": "adj",
+     "en": "deliberate",
+     "ex": "vorsichtige Schätzung",
+     "ex_en": "conservative/modest estimate"
+    },
+    {
+     "de": "Mist",
+     "pos": "noun",
+     "en": "rubbish, damn (mild)",
+     "ex": "So ein Mist, es regnet!",
+     "ex_en": "Oh rubbish, it's raining!",
+     "art": "der"
+    },
+    {
+     "de": "drehen",
+     "pos": "verb",
+     "en": "to turn; to turn, turn around",
+     "ex": "Dreh den Spiegel etwas nach links!",
+     "ex_en": "Turn the mirror a little to the left!"
+    },
+    {
+     "de": "einig",
+     "pos": "adj",
+     "en": "united; agreed, in agreement",
+     "ex": "Wir sind (uns) darüber einig.",
+     "ex_en": "We agree on that."
+    },
+    {
+     "de": "offen",
+     "pos": "adj",
+     "en": "open",
+     "ex": "Ist die Bäckerei noch offen?",
+     "ex_en": "Is the bakery still open?"
+    },
+    {
+     "de": "klasse",
+     "pos": "adj",
+     "en": "great, awesome",
+     "ex": "Ich fand das Spiel klasse.",
+     "ex_en": "I thought the game was great."
+    },
+    {
+     "de": "kalt",
+     "pos": "adj",
+     "en": "cold",
+     "ex": "Heute ist es richtig kalt.",
+     "ex_en": "It's really cold today."
+    },
+    {
+     "de": "wovon",
+     "pos": "adv",
+     "en": "about what, what ... about",
+     "ex": "Wovon sprichst du?",
+     "ex_en": "What are you talking about?"
+    },
+    {
+     "de": "sobald",
+     "pos": "other",
+     "en": "as soon as, by the time",
+     "ex": "Ich rufe meine Frau an, sobald ich in meinem Hotel bin.",
+     "ex_en": "I'll call my wife as soon as I am in my hotel."
+    },
+    {
+     "de": "Geist",
+     "pos": "noun",
+     "en": "ghost; spirit, mind",
+     "ex": "Glaubst du an Geister?",
+     "ex_en": "Do you believe in ghosts?",
+     "art": "der",
+     "pl": "Geister"
+    },
+    {
+     "de": "nochmal",
+     "pos": "adv",
+     "en": "again",
+     "ex": "Kannst du das nochmal sagen?",
+     "ex_en": "Can you say that again?"
+    },
+    {
+     "de": "nötig",
+     "pos": "adj",
+     "en": "necessary",
+     "ex": "Das ist nicht nötig, danke.",
+     "ex_en": "That's not necessary, thanks."
+    },
+    {
+     "de": "selber",
+     "pos": "other",
+     "en": "self; by oneself, on one's own, alone",
+     "ex": "In den Randgemeinden leben mittlerweile mehr Menschen als in der Stadt selber.",
+     "ex_en": "There are now more people living in the bordering municipalities than in the city itself."
+    },
+    {
+     "de": "weh",
+     "pos": "adj",
+     "en": "sore, painful",
+     "ex": "einen wehen Zeh haben",
+     "ex_en": "to have a sore toe"
+    },
+    {
+     "de": "beeilen",
+     "pos": "verb",
+     "en": "to hurry, to hasten, to rush",
+     "ex": "Sie beeilte sich hinzuzufügen, dass ...",
+     "ex_en": "She hastened to add that ..."
+    },
+    {
+     "de": "ärgern",
+     "pos": "verb",
+     "en": "to annoy, to make angry",
+     "ex": "Die anderen Kinder ärgern ihn immer.",
+     "ex_en": "The other kids keep annoying him."
+    },
+    {
+     "de": "merken",
+     "pos": "verb",
+     "en": "to notice, to sense, to be able to tell; to memorize, remember, learn",
+     "ex": "nichts von etwas merken",
+     "ex_en": "to not notice any hints of something"
+    },
+    {
+     "de": "außerdem",
+     "pos": "adv",
+     "en": "also, besides",
+     "ex": "Außerdem brauchen wir noch Milch.",
+     "ex_en": "We also need milk."
+    },
+    {
+     "de": "Gedanke",
+     "pos": "noun",
+     "en": "thought",
+     "ex": "Das ist ein guter Gedanke.",
+     "ex_en": "That's a good thought.",
+     "art": "der",
+     "pl": "Gedanken"
+    },
+    {
+     "de": "wenigstens",
+     "pos": "adv",
+     "en": "at least",
+     "ex": "Wenigstens war es nicht langweilig.",
+     "ex_en": "At least it wasn't boring."
+    },
+    {
+     "de": "zielen",
+     "pos": "verb",
+     "en": "to aim",
+     "ex": "Er zielt auf das Tor.",
+     "ex_en": "He's aiming at the goal."
+    },
+    {
+     "de": "Handy",
+     "pos": "noun",
+     "en": "mobile phone",
+     "ex": "Mein Handy ist fast leer.",
+     "ex_en": "My phone is almost dead.",
+     "art": "das",
+     "pl": "Handys"
+    },
+    {
+     "de": "Tier",
+     "pos": "noun",
+     "en": "animal; A person who has a quality thought of as animalistic, such…",
+     "ex": "Wenn er getrunken hat, wird er zum Tier.",
+     "ex_en": "When he’s had a drink, he turns into an animal.",
+     "art": "das",
+     "pl": "Tiere"
+    },
+    {
+     "de": "Boden",
+     "pos": "noun",
+     "en": "ground, soil; sea bottom",
+     "ex": "heiliger Boden",
+     "ex_en": "hallowed ground",
+     "art": "der",
+     "pl": "Böden"
+    }
+   ]
+  },
+  {
+   "slug": "kern-a1-15",
+   "kind": "core",
+   "title": "Kernwortschatz A1 · 15",
+   "title_en": "Core words A1, set 15 of 16",
+   "week": 6,
+   "items": [
+    {
+     "de": "Mund",
+     "pos": "noun",
+     "en": "mouth",
+     "ex": "Mach bitte den Mund auf.",
+     "ex_en": "Please open your mouth.",
+     "art": "der",
+     "pl": "Münder"
+    },
+    {
+     "de": "besonders",
+     "pos": "adv",
+     "en": "especially, particularly; very, especially",
+     "ex": "Ich mag Musik, besonders Rock.",
+     "ex_en": "I love music, especially rock."
+    },
+    {
+     "de": "vermissen",
+     "pos": "verb",
+     "en": "to miss; to have something missing",
+     "ex": "Ich vermisse dich!",
+     "ex_en": "I miss you!"
+    },
+    {
+     "de": "Brief",
+     "pos": "noun",
+     "en": "letter",
+     "ex": "Ich habe einen Brief vom Amt bekommen.",
+     "ex_en": "I got a letter from the authorities.",
+     "art": "der",
+     "pl": "Briefe"
+    },
+    {
+     "de": "irgendein",
+     "pos": "other",
+     "en": "some, any",
+     "ex": "Gib mir irgendein Buch.",
+     "ex_en": "Give me any book."
+    },
+    {
+     "de": "solange",
+     "pos": "adv",
+     "en": "meanwhile",
+     "ex": "Mach das ruhig erst fertig, ich lese solang(e) Zeitung.",
+     "ex_en": "Just go ahead and finish that; I'll read the paper in the meantime."
+    },
+    {
+     "de": "General",
+     "pos": "noun",
+     "en": "general",
+     "ex": "Der General gab einen Befehl.",
+     "ex_en": "The general gave an order.",
+     "art": "der",
+     "pl": "Generäle"
+    },
+    {
+     "de": "absolut",
+     "pos": "adj",
+     "en": "absolutely; absolute",
+     "ex": "Das ist absolut richtig.",
+     "ex_en": "That's absolutely right."
+    },
+    {
+     "de": "Sicherheit",
+     "pos": "noun",
+     "en": "certainty; security",
+     "ex": "Niemand wird ihre eigene Sicherheit riskieren, um Lügen zu erzählen.",
+     "ex_en": "No one will risk their own safety to tell you lies.",
+     "art": "die",
+     "pl": "Sicherheiten"
+    },
+    {
+     "de": "interessant",
+     "pos": "adj",
+     "en": "interesting",
+     "ex": "Der Vortrag war sehr interessant.",
+     "ex_en": "The talk was very interesting."
+    },
+    {
+     "de": "bestehen",
+     "pos": "verb",
+     "en": "to succeed, to pass; to consist",
+     "ex": "Er hat die Prüfung bestanden.",
+     "ex_en": "He has passed the exam."
+    },
+    {
+     "de": "beschützen",
+     "pos": "verb",
+     "en": "to protect",
+     "ex": "Der Hund beschützt die Kinder.",
+     "ex_en": "The dog protects the children."
+    },
+    {
+     "de": "verbringen",
+     "pos": "verb",
+     "en": "to spend, to pass; to move, to take, to transport",
+     "ex": "Wo werden Sie die Nacht verbringen?",
+     "ex_en": "Where will you spend the night?"
+    },
+    {
+     "de": "Traum",
+     "pos": "noun",
+     "en": "dream",
+     "ex": "Mein Traum ist ein Haus am Meer.",
+     "ex_en": "My dream is a house by the sea.",
+     "art": "der",
+     "pl": "Träume"
+    },
+    {
+     "de": "angreifen",
+     "pos": "verb",
+     "en": "to attack",
+     "ex": "Der Hund hat die Katze angegriffen.",
+     "ex_en": "The dog attacked the cat."
+    },
+    {
+     "de": "Geheimnis",
+     "pos": "noun",
+     "en": "secret; mystery",
+     "ex": "Das Geheimnis des blauen Eichhörnchens",
+     "ex_en": "The Mystery of the Blue Squirrel",
+     "art": "das",
+     "pl": "Geheimnisse"
+    },
+    {
+     "de": "erwischen",
+     "pos": "verb",
+     "en": "to catch; to board, to catch",
+     "ex": "Die Polizei erwischte den Taschendieb auf frischer Tat.",
+     "ex_en": "The police caught the pickpocket in the act / red-handed."
+    },
+    {
+     "de": "unmöglich",
+     "pos": "adj",
+     "en": "impossible; ridiculous, improper",
+     "ex": "etwas unmöglich machen",
+     "ex_en": "to make something impossible"
+    },
+    {
+     "de": "platzen",
+     "pos": "verb",
+     "en": "to burst, to pop; to burst, to explode",
+     "ex": "Wenn du den Ballon noch weiter aufbläst, platzt er.",
+     "ex_en": "If you blow up that balloon any further, it's going to pop."
+    },
+    {
+     "de": "Schluss",
+     "pos": "noun",
+     "en": "end; (Schluss machen) to break up",
+     "ex": "Jetzt ist Schluss mit dem Streit!",
+     "ex_en": "That's enough arguing now!",
+     "art": "der",
+     "pl": "Schlüsse"
+    },
+    {
+     "de": "verlangen",
+     "pos": "verb",
+     "en": "to demand, ask for",
+     "ex": "Der Vermieter verlangt mehr Miete.",
+     "ex_en": "The landlord is demanding more rent."
+    },
+    {
+     "de": "kennenlernen",
+     "pos": "verb",
+     "en": "to get to know, become acquainted with; to meet",
+     "ex": "Schön, dich kennenzulernen!",
+     "ex_en": "Nice to meet you! (informal)"
+    },
+    {
+     "de": "rennen",
+     "pos": "verb",
+     "en": "to run; to run over",
+     "ex": "So schnell wie Mike rennt niemand in der Klasse.",
+     "ex_en": "In this class, nobody runs as fast as Mike."
+    },
+    {
+     "de": "erste",
+     "pos": "adj",
+     "en": "first",
+     "ex": "Das ist mein erster Tag hier.",
+     "ex_en": "This is my first day here."
+    },
+    {
+     "de": "aufhalten",
+     "pos": "verb",
+     "en": "to hold up, stop",
+     "ex": "Ich will dich nicht aufhalten.",
+     "ex_en": "I don't want to hold you up."
+    },
+    {
+     "de": "Hotel",
+     "pos": "noun",
+     "en": "hotel",
+     "ex": "Wir übernachten in einem Hotel.",
+     "ex_en": "We're staying in a hotel.",
+     "art": "das",
+     "pl": "Hotels"
+    },
+    {
+     "de": "wetten",
+     "pos": "verb",
+     "en": "to bet; to bet, guess",
+     "ex": "wetten, dass…",
+     "ex_en": "(try to) make sure that something is safe"
+    },
+    {
+     "de": "berichten",
+     "pos": "verb",
+     "en": "to relate, to tell, to give an account of; to report",
+     "ex": "Die Zeitungen berichteten der Welt gestern die ganze Geschichte.",
+     "ex_en": "The newspapers reported the whole story to the world yesterday."
+    },
+    {
+     "de": "plötzlich",
+     "pos": "adj",
+     "en": "suddenly",
+     "ex": "Plötzlich ging das Licht aus.",
+     "ex_en": "Suddenly the lights went out."
+    },
+    {
+     "de": "ähm",
+     "pos": "other",
+     "en": "um (hesitation)",
+     "ex": "Ähm, ich glaube, das ist falsch.",
+     "ex_en": "Um, I think that's wrong."
+    },
+    {
+     "de": "handeln",
+     "pos": "verb",
+     "en": "to act; to negotiate",
+     "ex": "Jeder ist dafür verantwortlich, wie er handelt.",
+     "ex_en": "Everybody is responsible for the way they act."
+    },
+    {
+     "de": "Anruf",
+     "pos": "noun",
+     "en": "phone call",
+     "ex": "Danke für deinen Anruf!",
+     "ex_en": "Thanks for your call!",
+     "art": "der",
+     "pl": "Anrufe"
+    },
+    {
+     "de": "Verzeihung",
+     "pos": "noun",
+     "en": "pardon, excuse me",
+     "ex": "Verzeihung, ist hier noch frei?",
+     "ex_en": "Excuse me, is this seat taken?",
+     "art": "die"
+    },
+    {
+     "de": "Punkt",
+     "pos": "noun",
+     "en": "dot; full stop, period",
+     "ex": "einen Punkt haben",
+     "ex_en": "have a point",
+     "art": "der",
+     "pl": "Punkte"
+    },
+    {
+     "de": "aufs",
+     "pos": "other",
+     "en": "contraction of auf + das [with accusative] on the, upon…",
+     "ex": "Ich muss aufs Klo.",
+     "ex_en": "I need to go to the toilet."
+    },
+    {
+     "de": "traurig",
+     "pos": "adj",
+     "en": "sad",
+     "ex": "Warum bist du so traurig?",
+     "ex_en": "Why are you so sad?"
+    },
+    {
+     "de": "vorher",
+     "pos": "adv",
+     "en": "before, beforehand",
+     "ex": "Ruf mich bitte vorher an.",
+     "ex_en": "Please call me beforehand."
+    },
+    {
+     "de": "welche",
+     "pos": "other",
+     "en": "which",
+     "ex": "Welche Farbe magst du?",
+     "ex_en": "Which colour do you like?"
+    },
+    {
+     "de": "Meister",
+     "pos": "noun",
+     "en": "champion; master craftsman",
+     "ex": "Bayern ist wieder Meister.",
+     "ex_en": "Bayern are champions again.",
+     "art": "der",
+     "pl": "Meister"
+    },
+    {
+     "de": "gewiss",
+     "pos": "adj",
+     "en": "certain(ly)",
+     "ex": "Das weiß ich nicht gewiss.",
+     "ex_en": "I don't know that for certain."
+    }
+   ]
+  },
+  {
+   "slug": "kern-a1-16",
+   "kind": "core",
+   "title": "Kernwortschatz A1 · 16",
+   "title_en": "Core words A1, set 16 of 16",
+   "week": 6,
+   "items": [
+    {
+     "de": "zählen",
+     "pos": "verb",
+     "en": "to count; to have, comprise, span",
+     "ex": "Ich habe gerade gezählt, dass wir nur noch zwölf Tomaten haben.",
+     "ex_en": "I have just counted and seen us to have only twelve tomatoes in total."
+    },
+    {
+     "de": "wunderschön",
+     "pos": "adj",
+     "en": "beautiful, gorgeous",
+     "ex": "Der Blick ist wunderschön.",
+     "ex_en": "The view is gorgeous."
+    },
+    {
+     "de": "Geschenk",
+     "pos": "noun",
+     "en": "present, gift",
+     "ex": "Das ist ein Geschenk für dich.",
+     "ex_en": "This is a present for you.",
+     "art": "das",
+     "pl": "Geschenke"
+    },
+    {
+     "de": "sieben",
+     "pos": "other",
+     "en": "seven",
+     "ex": "Die Woche hat sieben Tage.",
+     "ex_en": "The week has seven days."
+    },
+    {
+     "de": "hinten",
+     "pos": "adv",
+     "en": "behind; over",
+     "ex": "Das Kind sitzt hinten im Auto.",
+     "ex_en": "The child is sitting in the back of the car."
+    },
+    {
+     "de": "lauten",
+     "pos": "verb",
+     "en": "to be, to read",
+     "ex": "Wie lautet Ihre Adresse?",
+     "ex_en": "What is your address?"
+    },
+    {
+     "de": "schnappen",
+     "pos": "verb",
+     "en": "to snap; to breathe, gasp",
+     "ex": "frische Luft schnappen",
+     "ex_en": "to get a take of fresh air"
+    },
+    {
+     "de": "tatsächlich",
+     "pos": "adj",
+     "en": "actually, really",
+     "ex": "Er ist tatsächlich gekommen!",
+     "ex_en": "He actually came!"
+    },
+    {
+     "de": "greifen",
+     "pos": "verb",
+     "en": "to grab; to reach",
+     "ex": "an etwas greifen",
+     "ex_en": "to touch something"
+    },
+    {
+     "de": "Soldat",
+     "pos": "noun",
+     "en": "soldier",
+     "ex": "Sein Opa war Soldat.",
+     "ex_en": "His grandpa was a soldier.",
+     "art": "der",
+     "pl": "Soldaten"
+    },
+    {
+     "de": "acht",
+     "pos": "other",
+     "en": "eight",
+     "ex": "Der Laden öffnet um acht.",
+     "ex_en": "The shop opens at eight."
+    },
+    {
+     "de": "beweisen",
+     "pos": "verb",
+     "en": "to prove; to display, to show, to demonstrate",
+     "ex": "(etwas) einwandfrei beweisen.",
+     "ex_en": "to undeniably prove (sth)."
+    },
+    {
+     "de": "Liebling",
+     "pos": "noun",
+     "en": "darling; favourite",
+     "ex": "Was ist dein Lieblingsessen, Liebling?",
+     "ex_en": "What's your favourite food, darling?",
+     "art": "der",
+     "pl": "Lieblinge"
+    },
+    {
+     "de": "besondere",
+     "pos": "adj",
+     "en": "special, particular, extraordinary",
+     "ex": "Das Besondere dabei ist...",
+     "ex_en": "The special thing about it is..."
+    },
+    {
+     "de": "riechen",
+     "pos": "verb",
+     "en": "to smell; to use the sense of smell",
+     "ex": "Ich rieche dein Parfüm.",
+     "ex_en": "I smell your perfume."
+    },
+    {
+     "de": "schwarz",
+     "pos": "adj",
+     "en": "black",
+     "ex": "Ich trinke den Kaffee schwarz.",
+     "ex_en": "I drink my coffee black."
+    },
+    {
+     "de": "deutsch",
+     "pos": "adj",
+     "en": "German",
+     "ex": "Meine Mutter ist deutscher Herkunft, aber mein Vater ist Schwede.",
+     "ex_en": "My mother is of German origin, but my father is a Swede."
+    },
+    {
+     "de": "heraus",
+     "pos": "adv",
+     "en": "out",
+     "ex": "Komm heraus, die Sonne scheint!",
+     "ex_en": "Come out, the sun's shining!"
+    },
+    {
+     "de": "Beziehung",
+     "pos": "noun",
+     "en": "relation, relationship, connection; interpersonal relationship, terms, relations",
+     "ex": "eine gute Beziehung haben (mit)",
+     "ex_en": "to be on good terms (with)",
+     "art": "die",
+     "pl": "Beziehungen"
+    },
+    {
+     "de": "Partner",
+     "pos": "noun",
+     "en": "partner",
+     "ex": "Mein Partner kocht heute.",
+     "ex_en": "My partner is cooking today.",
+     "art": "der",
+     "pl": "Partner"
+    },
+    {
+     "de": "fürchten",
+     "pos": "verb",
+     "en": "to fear; (ich fürchte) I'm afraid",
+     "ex": "Ich fürchte, das klappt nicht.",
+     "ex_en": "I'm afraid that won't work."
+    },
+    {
+     "de": "Anfang",
+     "pos": "noun",
+     "en": "start, beginning, origin",
+     "ex": "Es ist ein guter Anfang.",
+     "ex_en": "It's a good place to start. (spatially)",
+     "art": "der",
+     "pl": "Anfänge"
+    },
+    {
+     "de": "überleben",
+     "pos": "verb",
+     "en": "to survive",
+     "ex": "Die Pflanze hat den Winter überlebt.",
+     "ex_en": "The plant survived the winter."
+    },
+    {
+     "de": "feiern",
+     "pos": "verb",
+     "en": "to celebrate; to love",
+     "ex": "In dieser Kirche wird jeden Abend die Heilige Messe gefeiert.",
+     "ex_en": "In this church, Holy Mass is celebrated every evening."
+    },
+    {
+     "de": "Seele",
+     "pos": "noun",
+     "en": "soul",
+     "ex": "Musik ist gut für die Seele.",
+     "ex_en": "Music is good for the soul.",
+     "art": "die",
+     "pl": "Seelen"
+    },
+    {
+     "de": "wundern",
+     "pos": "verb",
+     "en": "to surprise, to astonish; to be surprised",
+     "ex": "Das wundert mich nicht.",
+     "ex_en": "That doesn't surprise me."
+    },
+    {
+     "de": "erhalten",
+     "pos": "verb",
+     "en": "to receive; to receive, to win",
+     "ex": "Ich habe diese Kaffeemaschine als Geschenk erhalten.",
+     "ex_en": "I received this coffeemaker as a gift."
+    },
+    {
+     "de": "überlegen",
+     "pos": "verb",
+     "en": "to think about, to think over",
+     "ex": "Ich überlege es mir.",
+     "ex_en": "I'll think about it."
+    },
+    {
+     "de": "Präsident",
+     "pos": "noun",
+     "en": "president",
+     "ex": "Der Präsident hält eine Rede.",
+     "ex_en": "The president is giving a speech.",
+     "art": "der",
+     "pl": "Präsidenten"
+    },
+    {
+     "de": "ständig",
+     "pos": "adj",
+     "en": "permanent, constant; persistent, incessant, constant",
+     "ex": "Er ist ein ständiger Gast im Hotel.",
+     "ex_en": "He's a permanent guest at the hotel."
+    },
+    {
+     "de": "beenden",
+     "pos": "verb",
+     "en": "to finish, to complete, to end; to terminate",
+     "ex": "Die Ankündigung beendete die Spekulationen über die Zukunft des Unternehmens.",
+     "ex_en": "The announcement put an end to speculation about the company's future."
+    },
+    {
+     "de": "bekannt",
+     "pos": "adj",
+     "en": "known, familiar",
+     "ex": "Mittelmeerländer sind für ihr gutes Olivenöl bekannt.",
+     "ex_en": "Mediterranean countries are known for their good olive oil."
+    },
+    {
+     "de": "Gefahr",
+     "pos": "noun",
+     "en": "danger",
+     "ex": "Achtung, Gefahr!",
+     "ex_en": "Careful, danger!",
+     "art": "die",
+     "pl": "Gefahren"
+    },
+    {
+     "de": "jemals",
+     "pos": "adv",
+     "en": "ever",
+     "ex": "Warst du jemals in Wien?",
+     "ex_en": "Have you ever been to Vienna?"
+    },
+    {
+     "de": "spüren",
+     "pos": "verb",
+     "en": "to sense, to detect, to perceive",
+     "ex": "Warte! Ich spüre Gefahr.",
+     "ex_en": "Wait! I sense danger."
+    },
+    {
+     "de": "eher",
+     "pos": "adv",
+     "en": "fairly, relatively, somewhat; sooner, more readily, preferably",
+     "ex": "Es scheint eher unwahrscheinlich, dass sie je ins Ausland geht.",
+     "ex_en": "It seems fairly unlikely that she will ever go abroad."
+    },
+    {
+     "de": "Bewegung",
+     "pos": "noun",
+     "en": "movement; exercise",
+     "ex": "Bewegung ist wichtig für die Gesundheit.",
+     "ex_en": "Exercise is important for your health.",
+     "art": "die",
+     "pl": "Bewegungen"
+    },
+    {
+     "de": "springen",
+     "pos": "verb",
+     "en": "to jump",
+     "ex": "Die Kinder springen ins Wasser.",
+     "ex_en": "The children jump into the water."
+    },
+    {
+     "de": "Bescheid",
+     "pos": "noun",
+     "en": "(Bescheid sagen) to let someone know",
+     "ex": "Sag mir Bescheid, wenn du da bist.",
+     "ex_en": "Let me know when you're there.",
+     "art": "der",
+     "pl": "Bescheide"
+    },
+    {
+     "de": "ha",
+     "pos": "other",
+     "en": "ha",
+     "ex": "Ha, ich habe gewonnen!",
+     "ex_en": "Ha, I won!"
+    },
+    {
+     "de": "verhaften",
+     "pos": "verb",
+     "en": "to stop moving and instead stick, or make or become bound",
+     "ex": "verhaftet und eingesperrt.",
+     "ex_en": "arrested and detained."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,348 @@
+{
+  "level": "B1",
+  "version": "0.3.0",
+  "packs": [
+    {
+      "slug": "buero",
+      "title": "Im Büro",
+      "title_en": "At the office",
+      "week": 13,
+      "items": [
+        {"de": "Kollege", "art": "der", "pl": "Kollegen", "pos": "noun", "en": "colleague (male)", "ex": "Mein Kollege hilft mir mit der Software.", "ex_en": "My colleague helps me with the software."},
+        {"de": "Kollegin", "art": "die", "pl": "Kolleginnen", "pos": "noun", "en": "colleague (female)", "ex": "Eine Kollegin hat heute Geburtstag.", "ex_en": "A colleague has her birthday today."},
+        {"de": "Besprechung", "art": "die", "pl": "Besprechungen", "pos": "noun", "en": "meeting", "ex": "Die Besprechung dauert länger als geplant.", "ex_en": "The meeting is running longer than planned."},
+        {"de": "Abteilung", "art": "die", "pl": "Abteilungen", "pos": "noun", "en": "department", "ex": "In welcher Abteilung arbeitest du?", "ex_en": "Which department do you work in?"},
+        {"de": "Teamleiter", "art": "der", "pl": "Teamleiter", "pos": "noun", "en": "team lead", "ex": "Ich muss das erst mit meinem Teamleiter klären.", "ex_en": "I need to check that with my team lead first."},
+        {"de": "Aufgabe", "art": "die", "pl": "Aufgaben", "pos": "noun", "en": "task", "ex": "Diese Aufgabe hat heute Priorität.", "ex_en": "This task has priority today."},
+        {"de": "Frist", "art": "die", "pl": "Fristen", "pos": "noun", "en": "deadline", "ex": "Die Frist endet am Freitag um zwölf.", "ex_en": "The deadline is Friday at noon."},
+        {"de": "Überstunden", "art": "die", "pos": "noun", "en": "overtime (plural only)", "ex": "Diese Woche habe ich viele Überstunden gemacht.", "ex_en": "I've done a lot of overtime this week."},
+        {"de": "Urlaub", "art": "der", "pl": "Urlaube", "pos": "noun", "en": "holiday, leave", "ex": "Im August nehme ich zwei Wochen Urlaub.", "ex_en": "I'm taking two weeks off in August."},
+        {"de": "Homeoffice", "art": "das", "pos": "noun", "en": "working from home", "ex": "Freitags arbeite ich im Homeoffice.", "ex_en": "On Fridays I work from home."},
+        {"de": "erledigen", "pos": "verb", "en": "to get done, to deal with", "ex": "Ich erledige das bis morgen.", "ex_en": "I'll get it done by tomorrow."},
+        {"de": "vereinbaren", "pos": "verb", "en": "to arrange, agree on", "ex": "Lass uns einen Termin für nächste Woche vereinbaren.", "ex_en": "Let's arrange a meeting for next week."},
+        {"de": "verschieben", "pos": "verb", "en": "to postpone, move", "ex": "Können wir die Besprechung auf Donnerstag verschieben?", "ex_en": "Can we move the meeting to Thursday?"},
+        {"de": "teilnehmen", "pos": "verb", "en": "to take part (separable)", "ex": "Ich kann leider nicht an der Schulung teilnehmen.", "ex_en": "Unfortunately I can't take part in the training."},
+        {"de": "zuständig", "pos": "adj", "en": "responsible (for), in charge", "ex": "Wer ist für die Rechnungen zuständig?", "ex_en": "Who is responsible for invoices?"},
+        {"de": "Hast du kurz Zeit?", "pos": "phrase", "en": "Have you got a minute?", "ex": "Hast du kurz Zeit? Ich habe eine Frage.", "ex_en": "Have you got a minute? I have a question."},
+        {"de": "Ich kümmere mich darum.", "pos": "phrase", "en": "I'll take care of it.", "ex": "Keine Sorge, ich kümmere mich darum.", "ex_en": "Don't worry, I'll take care of it."},
+        {"de": "Ich melde mich bei dir.", "pos": "phrase", "en": "I'll get back to you.", "ex": "Ich schaue mir das an und melde mich bei dir.", "ex_en": "I'll look at it and get back to you."},
+        {"de": "Kannst du mir das bis morgen schicken?", "pos": "phrase", "en": "Can you send me that by tomorrow?", "ex": "Kannst du mir die Zahlen bis morgen schicken?", "ex_en": "Can you send me the figures by tomorrow?"},
+        {"de": "Lass uns das kurz besprechen.", "pos": "phrase", "en": "Let's talk it through quickly.", "ex": "Das ist kompliziert. Lass uns das kurz besprechen.", "ex_en": "That's complicated. Let's talk it through quickly."}
+      ],
+      "dialogue": {
+        "setting": "Monday morning. A colleague stops by your desk.",
+        "steps": [
+          {"npc": "Hast du kurz Zeit? Es geht um die Besprechung morgen.", "npc_en": "Have you got a minute? It's about tomorrow's meeting.",
+           "options": [
+             {"de": "Klar, worum geht's?", "ok": true},
+             {"de": "Klar, was geht es um?", "ok": false, "why": "The phrase is es geht um …, so ask with worum: Worum geht's?"},
+             {"de": "Klar, worüber geht es?", "ok": false, "why": "es geht um takes um, so the question word is worum."}
+           ]},
+          {"npc": "Der Kunde kann erst am Donnerstag. Können wir die Besprechung verschieben?", "npc_en": "The client can't make it until Thursday. Can we move the meeting?",
+           "options": [
+             {"de": "Ja, Donnerstag passt mir. Soll ich den Raum neu buchen?", "ok": true},
+             {"de": "Ja, Donnerstag passt mich. Soll ich den Raum neu buchen?", "ok": false, "why": "passen takes the dative: Das passt mir."},
+             {"de": "Ja, Donnerstag passt mir. Soll ich buchen den Raum neu?", "ok": false, "why": "The infinitive goes to the end: … den Raum neu buchen?"}
+           ]},
+          {"npc": "Das wäre super. Und könntest du die Präsentation bis Mittwoch fertig machen?", "npc_en": "That would be great. And could you finish the presentation by Wednesday?",
+           "options": [
+             {"de": "Ich versuche es, aber ich habe diese Woche schon viele Aufgaben.", "ok": true},
+             {"de": "Ich versuche es, aber ich habe diese Woche schon viel Aufgaben.", "ok": false, "why": "With countable plurals use viele: viele Aufgaben."},
+             {"de": "Ich versuche es, aber diese Woche ich habe schon viele Aufgaben.", "ok": false, "why": "After a time phrase at the start the verb comes next: … diese Woche habe ich …"}
+           ]},
+          {"npc": "Verstehe. Wenn es zu viel wird, sag Bescheid.", "npc_en": "I understand. If it gets too much, let me know.",
+           "options": [
+             {"de": "Danke. Ich melde mich spätestens morgen bei dir.", "ok": true},
+             {"de": "Danke. Ich melde mich spätestens morgen an dir.", "ok": false, "why": "The phrase is sich bei jemandem melden."},
+             {"de": "Danke. Ich melde dir spätestens morgen.", "ok": false, "why": "It is reflexive: Ich melde mich bei dir."}
+           ]}
+        ]
+      }
+    },
+    {
+      "slug": "telefon",
+      "title": "Am Telefon",
+      "title_en": "On the phone",
+      "week": 14,
+      "items": [
+        {"de": "anrufen", "pos": "verb", "en": "to call (separable)", "ex": "Ich rufe dich heute Abend an.", "ex_en": "I'll call you tonight."},
+        {"de": "zurückrufen", "pos": "verb", "en": "to call back (separable)", "ex": "Kann ich Sie in zehn Minuten zurückrufen?", "ex_en": "Can I call you back in ten minutes?"},
+        {"de": "erreichen", "pos": "verb", "en": "to reach, get hold of", "ex": "Ich habe Sie gestern leider nicht erreicht.", "ex_en": "Unfortunately I couldn't reach you yesterday."},
+        {"de": "verbinden", "pos": "verb", "en": "to put through, connect", "ex": "Einen Moment, ich verbinde Sie.", "ex_en": "One moment, I'll put you through."},
+        {"de": "hinterlassen", "pos": "verb", "en": "to leave (a message)", "ex": "Möchten Sie eine Nachricht hinterlassen?", "ex_en": "Would you like to leave a message?"},
+        {"de": "ausrichten", "pos": "verb", "en": "to pass on (a message) (separable)", "ex": "Ich richte ihr aus, dass Sie angerufen haben.", "ex_en": "I'll tell her you called."},
+        {"de": "Nachricht", "art": "die", "pl": "Nachrichten", "pos": "noun", "en": "message", "ex": "Ich habe dir eine Nachricht geschrieben.", "ex_en": "I sent you a message."},
+        {"de": "Durchwahl", "art": "die", "pl": "Durchwahlen", "pos": "noun", "en": "direct-dial extension", "ex": "Meine Durchwahl ist die 234.", "ex_en": "My extension is 234."},
+        {"de": "Anrufbeantworter", "art": "der", "pl": "Anrufbeantworter", "pos": "noun", "en": "answering machine, voicemail", "ex": "Bitte sprechen Sie auf den Anrufbeantworter.", "ex_en": "Please leave a message on the answering machine."},
+        {"de": "Verbindung", "art": "die", "pl": "Verbindungen", "pos": "noun", "en": "connection, line", "ex": "Die Verbindung ist schlecht, ich höre Sie kaum.", "ex_en": "The line is bad, I can hardly hear you."},
+        {"de": "Leitung", "art": "die", "pl": "Leitungen", "pos": "noun", "en": "(phone) line", "ex": "Bleiben Sie bitte in der Leitung.", "ex_en": "Please hold the line."},
+        {"de": "Anliegen", "art": "das", "pl": "Anliegen", "pos": "noun", "en": "concern, matter, request", "ex": "Worum geht es bei Ihrem Anliegen?", "ex_en": "What is your request about?"},
+        {"de": "Rückruf", "art": "der", "pl": "Rückrufe", "pos": "noun", "en": "call back", "ex": "Ich bitte um einen kurzen Rückruf.", "ex_en": "Please give me a quick call back."},
+        {"de": "besetzt", "pos": "adj", "en": "busy, engaged (line); occupied", "ex": "Ich versuche es später, die Leitung ist besetzt.", "ex_en": "I'll try later, the line is busy."},
+        {"de": "Hier spricht …", "pos": "phrase", "en": "This is … speaking", "ex": "Guten Tag, hier spricht Anna Weber.", "ex_en": "Hello, this is Anna Weber speaking."},
+        {"de": "Mit wem spreche ich?", "pos": "phrase", "en": "Who am I speaking to?", "ex": "Entschuldigung, mit wem spreche ich?", "ex_en": "Sorry, who am I speaking to?"},
+        {"de": "Ich rufe wegen … an.", "pos": "phrase", "en": "I'm calling about …", "ex": "Ich rufe wegen Ihrer Anzeige an.", "ex_en": "I'm calling about your advert."},
+        {"de": "Sie haben sich verwählt.", "pos": "phrase", "en": "You've got the wrong number.", "ex": "Tut mir leid, Sie haben sich verwählt.", "ex_en": "Sorry, you've got the wrong number."},
+        {"de": "Ich verstehe Sie schlecht.", "pos": "phrase", "en": "I can't hear you well.", "ex": "Ich verstehe Sie schlecht. Können Sie lauter sprechen?", "ex_en": "I can't hear you well. Can you speak up?"},
+        {"de": "Kann ich etwas ausrichten?", "pos": "phrase", "en": "Can I take a message?", "ex": "Sie ist gerade nicht da. Kann ich etwas ausrichten?", "ex_en": "She isn't in right now. Can I take a message?"}
+      ],
+      "dialogue": {
+        "setting": "You call a company to speak to Ms Keller about an invoice.",
+        "steps": [
+          {"npc": "Firma Brandt, Sie sprechen mit Herrn Yilmaz. Was kann ich für Sie tun?", "npc_en": "Brandt company, you're speaking to Mr Yilmaz. What can I do for you?",
+           "options": [
+             {"de": "Guten Tag, hier spricht Sam Taylor. Ich rufe wegen einer Rechnung an.", "ok": true},
+             {"de": "Guten Tag, hier spricht Sam Taylor. Ich rufe wegen eine Rechnung an.", "ok": false, "why": "wegen takes the genitive: wegen einer Rechnung."},
+             {"de": "Guten Tag, hier spricht Sam Taylor. Ich anrufe wegen einer Rechnung.", "ok": false, "why": "anrufen is separable: Ich rufe … an."}
+           ]},
+          {"npc": "Da ist Frau Keller zuständig. Einen Moment … Tut mir leid, ihre Leitung ist besetzt.", "npc_en": "Ms Keller handles that. One moment… Sorry, her line is busy.",
+           "options": [
+             {"de": "Kann ich eine Nachricht für sie hinterlassen?", "ok": true},
+             {"de": "Kann ich eine Nachricht für ihr hinterlassen?", "ok": false, "why": "für takes the accusative: für sie."},
+             {"de": "Kann ich hinterlassen eine Nachricht für sie?", "ok": false, "why": "The infinitive goes to the end: … für sie hinterlassen?"}
+           ]},
+          {"npc": "Natürlich. Wie ist Ihre Telefonnummer?", "npc_en": "Of course. What's your phone number?",
+           "options": [
+             {"de": "0171 2345678. Könnte sie mich bitte heute noch zurückrufen?", "ok": true},
+             {"de": "0171 2345678. Könnte sie mir bitte heute noch zurückrufen?", "ok": false, "why": "zurückrufen takes the accusative: mich zurückrufen."},
+             {"de": "0171 2345678. Könnte sie mich bitte heute noch zurückruft?", "ok": false, "why": "After a modal verb use the infinitive: zurückrufen."}
+           ]},
+          {"npc": "Ich richte es ihr aus. Auf Wiederhören!", "npc_en": "I'll pass it on to her. Goodbye!",
+           "options": [
+             {"de": "Vielen Dank für Ihre Hilfe. Auf Wiederhören!", "ok": true},
+             {"de": "Vielen Dank für Ihrer Hilfe. Auf Wiederhören!", "ok": false, "why": "für takes the accusative: für Ihre Hilfe."},
+             {"de": "Vielen Dank für Ihre Hilfe. Auf Wiedersehen am Telefon!", "ok": false, "why": "On the phone Germans say Auf Wiederhören."}
+           ]}
+        ]
+      }
+    },
+    {
+      "slug": "reklamation",
+      "title": "Beschweren und reklamieren",
+      "title_en": "Complaints and returns",
+      "week": 15,
+      "items": [
+        {"de": "Beschwerde", "art": "die", "pl": "Beschwerden", "pos": "noun", "en": "complaint", "ex": "Ich habe eine Beschwerde über den Lärm.", "ex_en": "I have a complaint about the noise."},
+        {"de": "Reklamation", "art": "die", "pl": "Reklamationen", "pos": "noun", "en": "complaint about a faulty product, return", "ex": "Für Reklamationen gehen Sie bitte zur Kasse drei.", "ex_en": "For returns, please go to till three."},
+        {"de": "Garantie", "art": "die", "pl": "Garantien", "pos": "noun", "en": "guarantee, warranty", "ex": "Das Gerät hat zwei Jahre Garantie.", "ex_en": "The appliance has a two-year warranty."},
+        {"de": "Quittung", "art": "die", "pl": "Quittungen", "pos": "noun", "en": "receipt", "ex": "Haben Sie die Quittung noch?", "ex_en": "Do you still have the receipt?"},
+        {"de": "Ersatz", "art": "der", "pos": "noun", "en": "replacement", "ex": "Wir schicken Ihnen kostenlos Ersatz.", "ex_en": "We'll send you a replacement free of charge."},
+        {"de": "Gutschein", "art": "der", "pl": "Gutscheine", "pos": "noun", "en": "voucher", "ex": "Statt Geld bekommen Sie einen Gutschein.", "ex_en": "Instead of cash you get a voucher."},
+        {"de": "Lieferung", "art": "die", "pl": "Lieferungen", "pos": "noun", "en": "delivery", "ex": "Die Lieferung ist immer noch nicht angekommen.", "ex_en": "The delivery still hasn't arrived."},
+        {"de": "Kundenservice", "art": "der", "pos": "noun", "en": "customer service", "ex": "Der Kundenservice ist nur vormittags erreichbar.", "ex_en": "Customer service can only be reached in the mornings."},
+        {"de": "Umtausch", "art": "der", "pos": "noun", "en": "exchange (of goods)", "ex": "Ein Umtausch ist innerhalb von 14 Tagen möglich.", "ex_en": "Exchanges are possible within 14 days."},
+        {"de": "beschweren", "pos": "verb", "en": "(sich) to complain", "ex": "Ich möchte mich über den Service beschweren.", "ex_en": "I'd like to complain about the service."},
+        {"de": "reklamieren", "pos": "verb", "en": "to return a faulty item, complain about", "ex": "Ich möchte diesen Toaster reklamieren.", "ex_en": "I'd like to return this faulty toaster."},
+        {"de": "erstatten", "pos": "verb", "en": "to refund, reimburse", "ex": "Wir erstatten Ihnen den vollen Preis.", "ex_en": "We'll refund the full price."},
+        {"de": "defekt", "pos": "adj", "en": "faulty, defective", "ex": "Der Akku ist nach zwei Wochen schon defekt.", "ex_en": "The battery is already faulty after two weeks."},
+        {"de": "beschädigt", "pos": "adj", "en": "damaged", "ex": "Das Paket kam beschädigt an.", "ex_en": "The parcel arrived damaged."},
+        {"de": "enttäuscht", "pos": "adj", "en": "disappointed", "ex": "Ich bin von der Qualität sehr enttäuscht.", "ex_en": "I'm very disappointed with the quality."},
+        {"de": "Das ist nicht in Ordnung.", "pos": "phrase", "en": "That's not acceptable.", "ex": "Drei Wochen warten? Das ist nicht in Ordnung.", "ex_en": "Wait three weeks? That's not acceptable."},
+        {"de": "Ich hätte gern mein Geld zurück.", "pos": "phrase", "en": "I'd like my money back.", "ex": "Ich möchte keinen Gutschein. Ich hätte gern mein Geld zurück.", "ex_en": "I don't want a voucher. I'd like my money back."},
+        {"de": "Was können Sie mir anbieten?", "pos": "phrase", "en": "What can you offer me?", "ex": "Das Gerät ist kaputt. Was können Sie mir anbieten?", "ex_en": "The device is broken. What can you offer me?"},
+        {"de": "Das funktioniert nicht mehr.", "pos": "phrase", "en": "It doesn't work any more.", "ex": "Seit gestern funktioniert das Display nicht mehr.", "ex_en": "The display stopped working yesterday."},
+        {"de": "Ich möchte mit Ihrem Vorgesetzten sprechen.", "pos": "phrase", "en": "I'd like to speak to your manager.", "ex": "Das hilft mir nicht. Ich möchte mit Ihrem Vorgesetzten sprechen.", "ex_en": "That doesn't help me. I'd like to speak to your manager."}
+      ],
+      "dialogue": {
+        "setting": "You bought a kettle last week. Today it stopped working, so you take it back to the shop.",
+        "steps": [
+          {"npc": "Guten Tag, kann ich Ihnen helfen?", "npc_en": "Hello, can I help you?",
+           "options": [
+             {"de": "Ja, ich möchte diesen Wasserkocher reklamieren. Er funktioniert seit gestern nicht mehr.", "ok": true},
+             {"de": "Ja, ich möchte diesen Wasserkocher reklamieren. Es funktioniert seit gestern nicht mehr.", "ok": false, "why": "Wasserkocher is masculine, so the pronoun is er."},
+             {"de": "Ja, ich möchte reklamieren diesen Wasserkocher.", "ok": false, "why": "The infinitive goes to the end: … diesen Wasserkocher reklamieren."}
+           ]},
+          {"npc": "Oh, das tut mir leid. Haben Sie die Quittung dabei?", "npc_en": "Oh, I'm sorry. Do you have the receipt with you?",
+           "options": [
+             {"de": "Ja, hier. Ich habe ihn letzten Freitag gekauft.", "ok": true},
+             {"de": "Ja, hier. Ich habe ihn letzter Freitag gekauft.", "ok": false, "why": "A time phrase without a preposition is accusative: letzten Freitag."},
+             {"de": "Ja, hier. Ich habe es letzten Freitag gekauft.", "ok": false, "why": "Wasserkocher is masculine: ihn."}
+           ]},
+          {"npc": "Wir können ihn einschicken und reparieren lassen. Das dauert etwa drei Wochen.", "npc_en": "We can send it off for repair. That takes about three weeks.",
+           "options": [
+             {"de": "Drei Wochen sind mir zu lang. Könnten Sie mir nicht einfach ein neues Gerät geben?", "ok": true},
+             {"de": "Drei Wochen sind mir zu lang. Könnten Sie mir nicht einfach einen neuen Gerät geben?", "ok": false, "why": "Gerät is neuter: ein neues Gerät."},
+             {"de": "Drei Wochen sind mir zu lang. Könnten Sie mich nicht einfach ein neues Gerät geben?", "ok": false, "why": "The person you give something to is dative: mir."}
+           ]},
+          {"npc": "Na gut. Weil Sie noch Garantie haben, tauschen wir ihn direkt um.", "npc_en": "All right. Since it's still under warranty, we'll exchange it straight away.",
+           "options": [
+             {"de": "Super, vielen Dank. Das ist sehr kulant von Ihnen.", "ok": true},
+             {"de": "Super, vielen Dank. Das ist sehr kulant für Ihnen.", "ok": false, "why": "The phrase is kulant/nett von Ihnen (von + dative)."},
+             {"de": "Super, vielen Dank. Das ist sehr kulant von Sie.", "ok": false, "why": "von takes the dative: von Ihnen."}
+           ]}
+        ]
+      }
+    },
+    {
+      "slug": "bank",
+      "title": "Bank und Versicherung",
+      "title_en": "Banking and insurance",
+      "week": 16,
+      "items": [
+        {"de": "Konto", "art": "das", "pl": "Konten", "pos": "noun", "en": "bank account", "ex": "Ich habe mein Konto bei einer Onlinebank.", "ex_en": "My account is with an online bank."},
+        {"de": "Überweisung", "art": "die", "pl": "Überweisungen", "pos": "noun", "en": "bank transfer", "ex": "Die Überweisung dauert meistens einen Tag.", "ex_en": "The transfer usually takes a day."},
+        {"de": "Kontoauszug", "art": "der", "pl": "Kontoauszüge", "pos": "noun", "en": "bank statement", "ex": "Den Kontoauszug sehe ich in der App.", "ex_en": "I see the bank statement in the app."},
+        {"de": "IBAN", "art": "die", "pl": "IBANs", "pos": "noun", "en": "IBAN (bank account number)", "ex": "Schick mir bitte deine IBAN.", "ex_en": "Please send me your IBAN."},
+        {"de": "Geldautomat", "art": "der", "pl": "Geldautomaten", "pos": "noun", "en": "cash machine, ATM", "ex": "Gibt es hier in der Nähe einen Geldautomaten?", "ex_en": "Is there a cash machine near here?"},
+        {"de": "Zinsen", "art": "die", "pos": "noun", "en": "interest (plural only)", "ex": "Für das Sparkonto gibt es kaum Zinsen.", "ex_en": "The savings account pays hardly any interest."},
+        {"de": "Versicherung", "art": "die", "pl": "Versicherungen", "pos": "noun", "en": "insurance; insurance company", "ex": "Die Versicherung übernimmt die Kosten.", "ex_en": "The insurance covers the costs."},
+        {"de": "Haftpflichtversicherung", "art": "die", "pl": "Haftpflichtversicherungen", "pos": "noun", "en": "personal liability insurance", "ex": "In Deutschland hat fast jeder eine Haftpflichtversicherung.", "ex_en": "In Germany almost everyone has liability insurance."},
+        {"de": "Schaden", "art": "der", "pl": "Schäden", "pos": "noun", "en": "damage", "ex": "Der Schaden ist zum Glück nicht groß.", "ex_en": "Luckily the damage isn't serious."},
+        {"de": "Vertrag", "art": "der", "pl": "Verträge", "pos": "noun", "en": "contract", "ex": "Der Vertrag läuft zwölf Monate.", "ex_en": "The contract runs for twelve months."},
+        {"de": "Beitrag", "art": "der", "pl": "Beiträge", "pos": "noun", "en": "contribution, premium", "ex": "Der Beitrag wird jeden Monat abgebucht.", "ex_en": "The premium is debited every month."},
+        {"de": "eröffnen", "pos": "verb", "en": "to open (an account)", "ex": "Ich möchte ein Girokonto eröffnen.", "ex_en": "I'd like to open a current account."},
+        {"de": "überweisen", "pos": "verb", "en": "to transfer (money)", "ex": "Ich überweise dir das Geld heute noch.", "ex_en": "I'll transfer the money to you today."},
+        {"de": "abheben", "pos": "verb", "en": "to withdraw (cash) (separable)", "ex": "Ich hebe am Automaten 50 Euro ab.", "ex_en": "I'm taking 50 euros out at the machine."},
+        {"de": "melden", "pos": "verb", "en": "to report", "ex": "Ich möchte einen Schaden melden.", "ex_en": "I'd like to report a claim."},
+        {"de": "kündigen", "pos": "verb", "en": "to cancel (a contract); to resign", "ex": "Ich habe meinen Handyvertrag gekündigt.", "ex_en": "I've cancelled my phone contract."},
+        {"de": "Meine Karte ist gesperrt.", "pos": "phrase", "en": "My card is blocked.", "ex": "Ich kann nicht bezahlen, meine Karte ist gesperrt.", "ex_en": "I can't pay, my card is blocked."},
+        {"de": "Was kostet das Konto im Monat?", "pos": "phrase", "en": "What does the account cost per month?", "ex": "Was kostet das Konto im Monat? – Vier Euro.", "ex_en": "What's the monthly fee? – Four euros."},
+        {"de": "Ab wann gilt der Vertrag?", "pos": "phrase", "en": "From when is the contract valid?", "ex": "Ab wann gilt der Vertrag? – Ab dem ersten Juni.", "ex_en": "When does the contract start? – From June 1st."},
+        {"de": "Ich habe meine PIN vergessen.", "pos": "phrase", "en": "I've forgotten my PIN.", "ex": "So ein Mist, ich habe meine PIN vergessen.", "ex_en": "Oh no, I've forgotten my PIN."}
+      ],
+      "dialogue": {
+        "setting": "You accidentally broke a friend's phone and call your liability insurance.",
+        "steps": [
+          {"npc": "Guten Tag, Schadensabteilung. Wie kann ich Ihnen helfen?", "npc_en": "Hello, claims department. How can I help you?",
+           "options": [
+             {"de": "Guten Tag, ich möchte einen Schaden melden. Ich habe das Handy einer Freundin kaputt gemacht.", "ok": true},
+             {"de": "Guten Tag, ich möchte einen Schaden melden. Ich habe das Handy einer Freundin kaputt gegangen.", "ok": false, "why": "kaputtgehen has no object and uses sein. With an object: kaputt gemacht."},
+             {"de": "Guten Tag, ich möchte einen Schaden melden. Ich habe das Handy eine Freundin kaputt gemacht.", "ok": false, "why": "Possession uses the genitive: das Handy einer Freundin."}
+           ]},
+          {"npc": "Das ist ärgerlich. Wann und wie ist das passiert?", "npc_en": "That's annoying. When and how did it happen?",
+           "options": [
+             {"de": "Gestern Abend. Es ist mir aus der Hand gefallen.", "ok": true},
+             {"de": "Gestern Abend. Es hat mir aus der Hand gefallen.", "ok": false, "why": "fallen forms the perfect with sein: Es ist … gefallen."},
+             {"de": "Gestern Abend. Es ist mir aus die Hand gefallen.", "ok": false, "why": "aus always takes the dative: aus der Hand."}
+           ]},
+          {"npc": "Haben Sie schon einen Kostenvoranschlag für die Reparatur?", "npc_en": "Do you already have a repair quote?",
+           "options": [
+             {"de": "Noch nicht, aber ich kann Ihnen den Kostenvoranschlag morgen schicken.", "ok": true},
+             {"de": "Noch nicht, aber ich kann Sie den Kostenvoranschlag morgen schicken.", "ok": false, "why": "The person you send something to is dative: Ihnen."},
+             {"de": "Noch nicht, aber ich kann morgen schicken Ihnen den Kostenvoranschlag.", "ok": false, "why": "The infinitive schicken goes to the end."}
+           ]},
+          {"npc": "Gut. Bitte geben Sie dabei Ihre Versicherungsnummer an.", "npc_en": "Fine. Please include your policy number.",
+           "options": [
+             {"de": "Natürlich. Die Nummer steht auf meinem Vertrag, oder?", "ok": true},
+             {"de": "Natürlich. Die Nummer steht auf mein Vertrag, oder?", "ok": false, "why": "auf (where?) takes the dative: auf meinem Vertrag."},
+             {"de": "Natürlich. Die Nummer stellt auf meinem Vertrag, oder?", "ok": false, "why": "Written text steht somewhere: Die Nummer steht auf …"}
+           ]}
+        ]
+      }
+    },
+    {
+      "slug": "gesundheit",
+      "title": "Gesundheit und Krankmeldung",
+      "title_en": "Health and calling in sick",
+      "week": 17,
+      "items": [
+        {"de": "Krankmeldung", "art": "die", "pl": "Krankmeldungen", "pos": "noun", "en": "sick note, notice of illness", "ex": "Die Krankmeldung schicke ich an die Personalabteilung.", "ex_en": "I send the sick note to HR."},
+        {"de": "Krankschreibung", "art": "die", "pl": "Krankschreibungen", "pos": "noun", "en": "doctor's sick note", "ex": "Ab dem dritten Tag brauchen Sie eine Krankschreibung.", "ex_en": "From the third day you need a doctor's note."},
+        {"de": "Hausarzt", "art": "der", "pl": "Hausärzte", "pos": "noun", "en": "family doctor, GP", "ex": "Zuerst gehen Sie bitte zum Hausarzt.", "ex_en": "Please see your GP first."},
+        {"de": "Facharzt", "art": "der", "pl": "Fachärzte", "pos": "noun", "en": "specialist (doctor)", "ex": "Auf einen Termin beim Facharzt wartet man oft Wochen.", "ex_en": "You often wait weeks for a specialist appointment."},
+        {"de": "Krankenkasse", "art": "die", "pl": "Krankenkassen", "pos": "noun", "en": "health insurance fund", "ex": "Bei welcher Krankenkasse sind Sie versichert?", "ex_en": "Which health insurance fund are you with?"},
+        {"de": "Symptom", "art": "das", "pl": "Symptome", "pos": "noun", "en": "symptom", "ex": "Die Symptome sind schon besser geworden.", "ex_en": "The symptoms have already improved."},
+        {"de": "Allergie", "art": "die", "pl": "Allergien", "pos": "noun", "en": "allergy", "ex": "Haben Sie Allergien gegen Medikamente?", "ex_en": "Are you allergic to any medication?"},
+        {"de": "Blutdruck", "art": "der", "pos": "noun", "en": "blood pressure", "ex": "Die Ärztin misst meinen Blutdruck.", "ex_en": "The doctor takes my blood pressure."},
+        {"de": "Untersuchung", "art": "die", "pl": "Untersuchungen", "pos": "noun", "en": "examination, check-up", "ex": "Vor der Untersuchung sollen Sie nichts essen.", "ex_en": "You shouldn't eat before the examination."},
+        {"de": "Impfung", "art": "die", "pl": "Impfungen", "pos": "noun", "en": "vaccination", "ex": "Die Impfung gegen Grippe bekomme ich jedes Jahr.", "ex_en": "I get the flu vaccination every year."},
+        {"de": "Verletzung", "art": "die", "pl": "Verletzungen", "pos": "noun", "en": "injury", "ex": "Die Verletzung am Knie heilt langsam.", "ex_en": "The knee injury is healing slowly."},
+        {"de": "Notaufnahme", "art": "die", "pl": "Notaufnahmen", "pos": "noun", "en": "A&E, emergency room", "ex": "Mit dem Arm musst du in die Notaufnahme.", "ex_en": "With that arm you need to go to A&E."},
+        {"de": "krankschreiben", "pos": "verb", "en": "to sign someone off sick (separable)", "ex": "Die Ärztin hat mich für drei Tage krankgeschrieben.", "ex_en": "The doctor signed me off for three days."},
+        {"de": "erholen", "pos": "verb", "en": "(sich) to recover, rest", "ex": "Am Wochenende will ich mich richtig erholen.", "ex_en": "At the weekend I want to properly recover."},
+        {"de": "schwindelig", "pos": "adj", "en": "dizzy", "ex": "Wenn ich aufstehe, wird mir schwindelig.", "ex_en": "When I stand up I get dizzy."},
+        {"de": "übel", "pos": "adj", "en": "sick, nauseous", "ex": "Nach dem Essen war mir übel.", "ex_en": "I felt sick after eating."},
+        {"de": "Ich fühle mich nicht wohl.", "pos": "phrase", "en": "I don't feel well.", "ex": "Ich gehe heute früher, ich fühle mich nicht wohl.", "ex_en": "I'm leaving early today, I don't feel well."},
+        {"de": "Ich bin allergisch gegen …", "pos": "phrase", "en": "I'm allergic to …", "ex": "Ich bin allergisch gegen Nüsse.", "ex_en": "I'm allergic to nuts."},
+        {"de": "Ich melde mich krank.", "pos": "phrase", "en": "I'm calling in sick.", "ex": "Ich habe Fieber und melde mich für heute krank.", "ex_en": "I've got a fever and I'm calling in sick today."},
+        {"de": "Wo tut es weh?", "pos": "phrase", "en": "Where does it hurt?", "ex": "Zeigen Sie mal: Wo tut es weh?", "ex_en": "Show me: where does it hurt?"}
+      ],
+      "dialogue": {
+        "setting": "You wake up with a fever and call your team lead before work.",
+        "steps": [
+          {"npc": "Guten Morgen, Bauer hier.", "npc_en": "Good morning, Bauer speaking.",
+           "options": [
+             {"de": "Guten Morgen, Frau Bauer. Ich muss mich leider krankmelden.", "ok": true},
+             {"de": "Guten Morgen, Frau Bauer. Ich muss leider krankmelden mich.", "ok": false, "why": "The reflexive pronoun comes before the infinitive: mich krankmelden."},
+             {"de": "Guten Morgen, Frau Bauer. Ich muss mich leider krankgemeldet.", "ok": false, "why": "After müssen use the infinitive: krankmelden."}
+           ]},
+          {"npc": "Oh nein, was haben Sie denn?", "npc_en": "Oh no, what's wrong?",
+           "options": [
+             {"de": "Ich habe hohes Fieber und mir ist schwindelig.", "ok": true},
+             {"de": "Ich habe hohes Fieber und ich bin schwindelig.", "ok": false, "why": "This feeling is expressed with the dative: Mir ist schwindelig."},
+             {"de": "Ich habe hoches Fieber und mir ist schwindelig.", "ok": false, "why": "hoch drops the c before an ending: hohes Fieber."}
+           ]},
+          {"npc": "Gehen Sie zum Arzt? Ab dem dritten Tag brauchen wir eine Krankschreibung.", "npc_en": "Are you going to the doctor? From day three we need a sick note.",
+           "options": [
+             {"de": "Ja, ich habe um zehn einen Termin beim Hausarzt.", "ok": true},
+             {"de": "Ja, ich habe um zehn einen Termin zum Hausarzt.", "ok": false, "why": "An appointment is beim Arzt (bei + dative)."},
+             {"de": "Ja, ich habe um zehn ein Termin beim Hausarzt.", "ok": false, "why": "Termin is masculine: einen Termin."}
+           ]},
+          {"npc": "Gut, erholen Sie sich. Wer übernimmt heute Ihre Termine?", "npc_en": "Fine, get some rest. Who's covering your appointments today?",
+           "options": [
+             {"de": "Herr Lang weiß Bescheid. Ich habe ihm gestern alle Unterlagen geschickt.", "ok": true},
+             {"de": "Herr Lang weiß Bescheid. Ich habe ihn gestern alle Unterlagen geschickt.", "ok": false, "why": "The person you send something to is dative: ihm."},
+             {"de": "Herr Lang weiß Bescheid. Ich habe ihm gestern alle Unterlagen schicken.", "ok": false, "why": "The perfect tense needs the participle: geschickt."}
+           ]}
+        ]
+      }
+    },
+    {
+      "slug": "meinung",
+      "title": "Meinung sagen",
+      "title_en": "Giving your opinion",
+      "week": 18,
+      "items": [
+        {"de": "Meinung", "art": "die", "pl": "Meinungen", "pos": "noun", "en": "opinion", "ex": "Da habe ich eine andere Meinung.", "ex_en": "I see that differently."},
+        {"de": "Ansicht", "art": "die", "pl": "Ansichten", "pos": "noun", "en": "view, opinion", "ex": "Meiner Ansicht nach ist das zu teuer.", "ex_en": "In my view that's too expensive."},
+        {"de": "Vorteil", "art": "der", "pl": "Vorteile", "pos": "noun", "en": "advantage", "ex": "Der größte Vorteil ist die Lage.", "ex_en": "The biggest advantage is the location."},
+        {"de": "Nachteil", "art": "der", "pl": "Nachteile", "pos": "noun", "en": "disadvantage", "ex": "Ein Nachteil ist der lange Arbeitsweg.", "ex_en": "One disadvantage is the long commute."},
+        {"de": "Argument", "art": "das", "pl": "Argumente", "pos": "noun", "en": "argument, point", "ex": "Das ist ein gutes Argument.", "ex_en": "That's a good point."},
+        {"de": "zustimmen", "pos": "verb", "en": "to agree (separable)", "ex": "Da stimme ich dir völlig zu.", "ex_en": "I completely agree with you there."},
+        {"de": "widersprechen", "pos": "verb", "en": "to disagree, contradict", "ex": "Da muss ich dir widersprechen.", "ex_en": "I have to disagree with you there."},
+        {"de": "überzeugt", "pos": "adj", "en": "convinced", "ex": "Ich bin davon überzeugt, dass es klappt.", "ex_en": "I'm convinced it will work."},
+        {"de": "sinnvoll", "pos": "adj", "en": "sensible, worthwhile", "ex": "Ein Sprachkurs ist auf jeden Fall sinnvoll.", "ex_en": "A language course definitely makes sense."},
+        {"de": "übertrieben", "pos": "adj", "en": "exaggerated, over the top", "ex": "Die Reaktion fand ich ziemlich übertrieben.", "ex_en": "I found the reaction a bit over the top."},
+        {"de": "einerseits … andererseits", "pos": "phrase", "en": "on the one hand … on the other hand", "ex": "Einerseits ist es teuer, andererseits spart man Zeit.", "ex_en": "On the one hand it's expensive, on the other you save time."},
+        {"de": "Ich bin der Meinung, dass …", "pos": "phrase", "en": "I'm of the opinion that …", "ex": "Ich bin der Meinung, dass wir mehr Pausen brauchen.", "ex_en": "I think we need more breaks."},
+        {"de": "Meiner Meinung nach …", "pos": "phrase", "en": "In my opinion …", "ex": "Meiner Meinung nach ist der Film zu lang.", "ex_en": "In my opinion the film is too long."},
+        {"de": "Da hast du recht.", "pos": "phrase", "en": "You're right there.", "ex": "Da hast du recht, das habe ich vergessen.", "ex_en": "You're right, I forgot that."},
+        {"de": "Das sehe ich anders.", "pos": "phrase", "en": "I see it differently.", "ex": "Das sehe ich anders. Für mich ist das wichtig.", "ex_en": "I see it differently. That matters to me."},
+        {"de": "Kommt drauf an.", "pos": "phrase", "en": "It depends.", "ex": "Ob ich mitkomme? Kommt drauf an, wann ihr fahrt.", "ex_en": "Whether I'm coming? Depends when you're leaving."},
+        {"de": "Ich bin mir nicht sicher.", "pos": "phrase", "en": "I'm not sure.", "ex": "Ich bin mir nicht sicher, ob das stimmt.", "ex_en": "I'm not sure whether that's true."},
+        {"de": "Was hältst du davon?", "pos": "phrase", "en": "What do you think of it?", "ex": "Ich will kündigen. Was hältst du davon?", "ex_en": "I want to quit. What do you think?"},
+        {"de": "Im Gegenteil.", "pos": "phrase", "en": "On the contrary.", "ex": "Langweilig? Im Gegenteil, es war super spannend!", "ex_en": "Boring? On the contrary, it was really exciting!"},
+        {"de": "Das stimmt schon, aber …", "pos": "phrase", "en": "That's true, but …", "ex": "Das stimmt schon, aber es ist trotzdem zu teuer.", "ex_en": "That's true, but it's still too expensive."}
+      ],
+      "dialogue": {
+        "setting": "Over coffee, a friend asks what you think about buying a car.",
+        "steps": [
+          {"npc": "Ich überlege, ob ich mir ein Auto kaufe. Was hältst du davon?", "npc_en": "I'm thinking about buying a car. What do you think?",
+           "options": [
+             {"de": "Kommt drauf an. Wie oft brauchst du denn ein Auto?", "ok": true},
+             {"de": "Kommt drauf an. Wie oft brauchst du denn eines Auto?", "ok": false, "why": "Auto is neuter, accusative: ein Auto."},
+             {"de": "Es kommt drauf. Wie oft brauchst du denn ein Auto?", "ok": false, "why": "The phrase is Es kommt darauf an (an at the end)."}
+           ]},
+          {"npc": "Eigentlich nur am Wochenende. Unter der Woche fahre ich mit dem Rad.", "npc_en": "Really only at weekends. During the week I cycle.",
+           "options": [
+             {"de": "Dann finde ich ein Auto nicht sinnvoll, weil es ziemlich teuer ist.", "ok": true},
+             {"de": "Dann finde ich ein Auto nicht sinnvoll, weil es ist ziemlich teuer.", "ok": false, "why": "In a weil clause the verb goes to the end: weil es ziemlich teuer ist."},
+             {"de": "Dann ich finde ein Auto nicht sinnvoll, weil es ziemlich teuer ist.", "ok": false, "why": "After dann the verb comes next: Dann finde ich …"}
+           ]},
+          {"npc": "Einerseits hast du recht. Andererseits ist der Zug am Wochenende oft stressig.", "npc_en": "On the one hand you're right. On the other, the train is often stressful at weekends.",
+           "options": [
+             {"de": "Das stimmt schon, aber du könntest dir ja ab und zu ein Auto leihen.", "ok": true},
+             {"de": "Das stimmt schon, aber du könntest dich ja ab und zu ein Auto leihen.", "ok": false, "why": "sich (dative) etwas leihen: dir ein Auto leihen."},
+             {"de": "Das stimmt schon, aber du könntest leihen ab und zu ein Auto.", "ok": false, "why": "The infinitive goes to the end: … ein Auto leihen."}
+           ]},
+          {"npc": "Carsharing? Das ist eigentlich keine schlechte Idee.", "npc_en": "Car sharing? That's actually not a bad idea.",
+           "options": [
+             {"de": "Eben. Ich bin der Meinung, dass das für dich am günstigsten ist.", "ok": true},
+             {"de": "Eben. Ich bin der Meinung, dass das ist für dich am günstigsten.", "ok": false, "why": "In a dass clause the verb goes to the end: … am günstigsten ist."},
+             {"de": "Eben. Ich bin die Meinung, dass das für dich am günstigsten ist.", "ok": false, "why": "The fixed phrase is der Meinung sein: Ich bin der Meinung …"}
+           ]}
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "level": "A1",
+  "version": "0.4.0",
+  "source": "User-supplied onewholearns.com top-2000 German frequency PDF. Levels are frequency-based navigation bands, not assessed CEFR.",
+  "packs": [
+    {
+      "slug": "pdf-supplement-a1-01",
+      "kind": "core",
+      "title": "Zusatzwortschatz 1",
+      "title_en": "Missing words from your 2,000-word PDF",
+      "week": 6,
+      "items": [
+        {
+          "de": "mir",
+          "en": "me (dative)",
+          "pos": "other"
+        },
+        {
+          "de": "mich",
+          "en": "me (accusative)",
+          "pos": "other"
+        },
+        {
+          "de": "keine",
+          "en": "no, not a",
+          "pos": "other"
+        },
+        {
+          "de": "uns",
+          "en": "us (accusative)",
+          "pos": "other"
+        },
+        {
+          "de": "ihm",
+          "en": "him (dative)",
+          "pos": "other"
+        },
+        {
+          "de": "dich",
+          "en": "you (accusative, informal)",
+          "pos": "other"
+        },
+        {
+          "de": "aller",
+          "en": "all",
+          "pos": "other"
+        },
+        {
+          "de": "ihnen",
+          "en": "them (dative)",
+          "pos": "other"
+        },
+        {
+          "de": "dir",
+          "en": "you (dative, informal)",
+          "pos": "other"
+        },
+        {
+          "de": "Freundin",
+          "en": "friend (female)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "einem",
+          "en": "a/an (dative, masc./neut.)",
+          "pos": "other"
+        },
+        {
+          "de": "Leben",
+          "en": "life",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Essen",
+          "en": "food, meal",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Liebe",
+          "en": "love",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Hund",
+          "en": "dog",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "besser",
+          "en": "better",
+          "pos": "other"
+        },
+        {
+          "de": "Deutschland",
+          "en": "Germany",
+          "pos": "other"
+        },
+        {
+          "de": "euch",
+          "en": "you all (accusative)",
+          "pos": "other"
+        },
+        {
+          "de": "Schule",
+          "en": "school",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "letzter",
+          "en": "last",
+          "pos": "other"
+        },
+        {
+          "de": "Hunger",
+          "en": "hunger",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Sonne",
+          "en": "sun",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Person",
+          "en": "person",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Bad",
+          "en": "bathroom",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Lehrer",
+          "en": "teacher",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Frage",
+          "en": "question",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Zahl",
+          "en": "number",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Fahrt",
+          "en": "trip",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "meinem",
+          "en": "my (dative, masc./neut.)",
+          "pos": "other"
+        },
+        {
+          "de": "Wein",
+          "en": "wine",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "sich anziehen",
+          "en": "to get dressed",
+          "pos": "verb"
+        },
+        {
+          "de": "Bahn",
+          "en": "train, railway",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "sich kümmern",
+          "en": "to take care (of)",
+          "pos": "verb"
+        },
+        {
+          "de": "Klasse",
+          "en": "class (school)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Wurst",
+          "en": "sausage / cold cuts",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Teil",
+          "en": "part",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "rot",
+          "en": "red",
+          "pos": "other"
+        },
+        {
+          "de": "Grad",
+          "en": "degree",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Nachrichten",
+          "en": "news (always plural)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "arm",
+          "en": "poor",
+          "pos": "other"
+        }
+      ]
+    },
+    {
+      "slug": "pdf-supplement-a1-02",
+      "kind": "core",
+      "title": "Zusatzwortschatz 2",
+      "title_en": "Missing words from your 2,000-word PDF",
+      "week": 6,
+      "items": [
+        {
+          "de": "Kosten",
+          "en": "costs",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Kindergarten",
+          "en": "kindergarten",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Bar",
+          "en": "bar (pub)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Verwandte",
+          "en": "relative",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Österreich",
+          "en": "Austria",
+          "pos": "other"
+        },
+        {
+          "de": "Bäckerei",
+          "en": "bakery",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "sich waschen",
+          "en": "to wash (oneself)",
+          "pos": "verb"
+        },
+        {
+          "de": "Post",
+          "en": "post office",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Laden",
+          "en": "store",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "keinem",
+          "en": "no (dative, masc./neut.)",
+          "pos": "other"
+        },
+        {
+          "de": "Dusche",
+          "en": "shower",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Erwachsene",
+          "en": "adult",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "selbstständig",
+          "en": "independent",
+          "pos": "other"
+        },
+        {
+          "de": "Ruhe",
+          "en": "rest, quiet",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Blick",
+          "en": "view, glance",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Wissen",
+          "en": "knowledge",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Hausaufgabe",
+          "en": "homework",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "braun",
+          "en": "brown",
+          "pos": "other"
+        },
+        {
+          "de": "Reis",
+          "en": "rice",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Bekannte",
+          "en": "acquaintance",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "geöffnet",
+          "en": "open (of a shop/restaurant)",
+          "pos": "other"
+        },
+        {
+          "de": "Butter",
+          "en": "butter",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Akku",
+          "en": "battery (device)",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Pasta",
+          "en": "pasta",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "bio",
+          "en": "organic",
+          "pos": "other"
+        },
+        {
+          "de": "Regel",
+          "en": "rule",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "meiste",
+          "en": "most",
+          "pos": "other"
+        },
+        {
+          "de": "Praktikum",
+          "en": "internship",
+          "pos": "noun",
+          "art": "das"
+        }
+      ]
+    }
+  ]
+}

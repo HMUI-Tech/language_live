@@ -1,0 +1,1296 @@
+{
+  "level": "B1",
+  "version": "0.4.0",
+  "source": "User-supplied onewholearns.com top-2000 German frequency PDF. Levels are frequency-based navigation bands, not assessed CEFR.",
+  "packs": [
+    {
+      "slug": "pdf-supplement-b1-01",
+      "kind": "core",
+      "title": "Zusatzwortschatz 1",
+      "title_en": "Missing words from your 2,000-word PDF",
+      "week": 19,
+      "items": [
+        {
+          "de": "Freizeit",
+          "en": "free time, leisure",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Fahrer",
+          "en": "driver (male)",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Stau",
+          "en": "traffic jam",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Pflanze",
+          "en": "plant",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "nass",
+          "en": "wet",
+          "pos": "other"
+        },
+        {
+          "de": "sympathisch",
+          "en": "likeable / pleasant",
+          "pos": "other"
+        },
+        {
+          "de": "sich entspannen",
+          "en": "to relax",
+          "pos": "verb"
+        },
+        {
+          "de": "Geduld",
+          "en": "patience",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "speichern",
+          "en": "to save (data)",
+          "pos": "verb"
+        },
+        {
+          "de": "Kopfschmerz",
+          "en": "headache",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "sich anmelden",
+          "en": "to register",
+          "pos": "verb"
+        },
+        {
+          "de": "sich wohlfühlen",
+          "en": "to feel comfortable",
+          "pos": "verb"
+        },
+        {
+          "de": "Blatt",
+          "en": "leaf, sheet (of paper)",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Smartphone",
+          "en": "smartphone",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "malen",
+          "en": "to paint",
+          "pos": "verb"
+        },
+        {
+          "de": "Schlange",
+          "en": "queue / snake",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "übersetzen",
+          "en": "to translate",
+          "pos": "verb"
+        },
+        {
+          "de": "Balkon",
+          "en": "balcony",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "sich duschen",
+          "en": "to shower",
+          "pos": "verb"
+        },
+        {
+          "de": "sich verlieben",
+          "en": "to fall in love with",
+          "pos": "verb"
+        },
+        {
+          "de": "Tennis",
+          "en": "tennis",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Note",
+          "en": "grade (school)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Star",
+          "en": "star (celebrity)",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Jeans",
+          "en": "jeans",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Umzug",
+          "en": "move",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Grippe",
+          "en": "flu",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Löffel",
+          "en": "spoon",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Zitrone",
+          "en": "lemon",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Geschirr",
+          "en": "dishes, crockery",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Kalender",
+          "en": "calendar",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "ungesund",
+          "en": "unhealthy",
+          "pos": "other"
+        },
+        {
+          "de": "Erkältung",
+          "en": "cold (illness)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "zurückfahren",
+          "en": "drive back",
+          "pos": "verb"
+        },
+        {
+          "de": "sich bewerben",
+          "en": "to apply (for a job)",
+          "pos": "verb"
+        },
+        {
+          "de": "Zettel",
+          "en": "note, slip of paper",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "gestresst",
+          "en": "stressed",
+          "pos": "other"
+        },
+        {
+          "de": "sich beschweren",
+          "en": "to complain",
+          "pos": "verb"
+        },
+        {
+          "de": "sich verabreden",
+          "en": "to arrange to meet",
+          "pos": "verb"
+        },
+        {
+          "de": "Mode",
+          "en": "fashion",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Handwerker",
+          "en": "craftsman / tradesman",
+          "pos": "noun",
+          "art": "der"
+        }
+      ]
+    },
+    {
+      "slug": "pdf-supplement-b1-02",
+      "kind": "core",
+      "title": "Zusatzwortschatz 2",
+      "title_en": "Missing words from your 2,000-word PDF",
+      "week": 19,
+      "items": [
+        {
+          "de": "Lauf",
+          "en": "run / course",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Gabel",
+          "en": "fork",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Pullover",
+          "en": "pullover / jumper",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Orange",
+          "en": "orange (fruit)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Baustelle",
+          "en": "construction site",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "bunt",
+          "en": "colorful",
+          "pos": "other"
+        },
+        {
+          "de": "Hauptstadt",
+          "en": "capital city",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "sich erholen",
+          "en": "to recover",
+          "pos": "verb"
+        },
+        {
+          "de": "Nudel",
+          "en": "noodle",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Ring",
+          "en": "ring",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Topf",
+          "en": "pot",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Leser",
+          "en": "reader",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Seife",
+          "en": "soap",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "fleißig",
+          "en": "hardworking",
+          "pos": "other"
+        },
+        {
+          "de": "fressen",
+          "en": "to eat (animals)",
+          "pos": "verb"
+        },
+        {
+          "de": "Lehrerin",
+          "en": "teacher (female)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "schneien",
+          "en": "to snow",
+          "pos": "verb"
+        },
+        {
+          "de": "sportlich",
+          "en": "sporty / athletic",
+          "pos": "other"
+        },
+        {
+          "de": "Regenschirm",
+          "en": "umbrella",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "sich ausruhen",
+          "en": "to rest, to relax",
+          "pos": "verb"
+        },
+        {
+          "de": "Sportler",
+          "en": "athlete (male)",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Veranstaltung",
+          "en": "event",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Fach",
+          "en": "subject (school)",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Regal",
+          "en": "shelf / bookcase",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Einkauf",
+          "en": "shopping / purchase",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Rentner",
+          "en": "retiree (male)",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "ungeduldig",
+          "en": "impatient",
+          "pos": "other"
+        },
+        {
+          "de": "Arbeitsplatz",
+          "en": "workplace",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Fitnessstudio",
+          "en": "gym, fitness studio",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "husten",
+          "en": "to cough",
+          "pos": "verb"
+        },
+        {
+          "de": "Gewitter",
+          "en": "thunderstorm",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Haushalt",
+          "en": "household",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Sonnenbrille",
+          "en": "sunglasses",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Reifen",
+          "en": "tire",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Schere",
+          "en": "scissors",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "gießen",
+          "en": "to pour",
+          "pos": "verb"
+        },
+        {
+          "de": "Portion",
+          "en": "portion",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Aussehen",
+          "en": "appearance / looks",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "SMS",
+          "en": "text message",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "T-Shirt",
+          "en": "T-shirt",
+          "pos": "noun",
+          "art": "das"
+        }
+      ]
+    },
+    {
+      "slug": "pdf-supplement-b1-03",
+      "kind": "core",
+      "title": "Zusatzwortschatz 3",
+      "title_en": "Missing words from your 2,000-word PDF",
+      "week": 19,
+      "items": [
+        {
+          "de": "Zeugnis",
+          "en": "report card, certificate",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Studentin",
+          "en": "student (female, university)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Verkäufer",
+          "en": "salesman",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "sich erkälten",
+          "en": "to catch a cold",
+          "pos": "verb"
+        },
+        {
+          "de": "sonnig",
+          "en": "sunny",
+          "pos": "other"
+        },
+        {
+          "de": "Festival",
+          "en": "festival",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Grundschule",
+          "en": "primary school",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "besichtigen",
+          "en": "to visit, to sightsee",
+          "pos": "verb"
+        },
+        {
+          "de": "psychisch",
+          "en": "psychological, mental",
+          "pos": "other"
+        },
+        {
+          "de": "Reservierung",
+          "en": "reservation",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Schülerin",
+          "en": "pupil (female)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Sessel",
+          "en": "armchair",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Chat",
+          "en": "chat",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Kauf",
+          "en": "purchase",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "reiten",
+          "en": "to ride (horse)",
+          "pos": "verb"
+        },
+        {
+          "de": "geduldig",
+          "en": "patient",
+          "pos": "other"
+        },
+        {
+          "de": "Einkommen",
+          "en": "income",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "renovieren",
+          "en": "to renovate",
+          "pos": "verb"
+        },
+        {
+          "de": "optimistisch",
+          "en": "optimistic",
+          "pos": "other"
+        },
+        {
+          "de": "Messe",
+          "en": "trade fair",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "blond",
+          "en": "blond",
+          "pos": "other"
+        },
+        {
+          "de": "Rekord",
+          "en": "record",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "montags",
+          "en": "on Mondays",
+          "pos": "other"
+        },
+        {
+          "de": "notieren",
+          "en": "to note down",
+          "pos": "verb"
+        },
+        {
+          "de": "schimpfen",
+          "en": "to scold, grumble",
+          "pos": "verb"
+        },
+        {
+          "de": "Abitur",
+          "en": "school-leaving exam / A-levels (D)",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Mineralwasser",
+          "en": "mineral water",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Creme",
+          "en": "cream (lotion)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Zahlung",
+          "en": "payment",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Übernachtung",
+          "en": "overnight stay",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Abkürzung",
+          "en": "abbreviation",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Fett",
+          "en": "fat, grease",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Länge",
+          "en": "length",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Fußgänger",
+          "en": "pedestrian (male)",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Autofahrer",
+          "en": "car driver (male)",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Basketball",
+          "en": "basketball",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "schriftlich",
+          "en": "in writing, written",
+          "pos": "other"
+        },
+        {
+          "de": "weiterlesen",
+          "en": "continue reading",
+          "pos": "verb"
+        },
+        {
+          "de": "Plakat",
+          "en": "poster",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Parfüm",
+          "en": "perfume",
+          "pos": "noun",
+          "art": "das"
+        }
+      ]
+    },
+    {
+      "slug": "pdf-supplement-b1-04",
+      "kind": "core",
+      "title": "Zusatzwortschatz 4",
+      "title_en": "Missing words from your 2,000-word PDF",
+      "week": 19,
+      "items": [
+        {
+          "de": "Flohmarkt",
+          "en": "flea market",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Radfahrer",
+          "en": "cyclist (male)",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "kulturell",
+          "en": "cultural",
+          "pos": "other"
+        },
+        {
+          "de": "Ehrlichkeit",
+          "en": "honesty",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "sich ernähren",
+          "en": "to eat, to nourish oneself",
+          "pos": "verb"
+        },
+        {
+          "de": "Maler",
+          "en": "painter (decorator)",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "windig",
+          "en": "windy",
+          "pos": "other"
+        },
+        {
+          "de": "überholen",
+          "en": "to overtake",
+          "pos": "verb"
+        },
+        {
+          "de": "Vitamin",
+          "en": "vitamin",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Kaufhaus",
+          "en": "department store",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Pflaster",
+          "en": "plaster, band-aid",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Entzündung",
+          "en": "inflammation, infection",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Nachspeise",
+          "en": "dessert",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "ruhen",
+          "en": "to rest",
+          "pos": "verb"
+        },
+        {
+          "de": "blasen",
+          "en": "to blow",
+          "pos": "verb"
+        },
+        {
+          "de": "chatten",
+          "en": "to chat",
+          "pos": "verb"
+        },
+        {
+          "de": "unvergesslich",
+          "en": "unforgettable",
+          "pos": "other"
+        },
+        {
+          "de": "Klettern",
+          "en": "climbing (as activity noun)",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Absage",
+          "en": "cancellation, decline",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Camping",
+          "en": "camping",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "bewölkt",
+          "en": "cloudy",
+          "pos": "other"
+        },
+        {
+          "de": "Fahrerin",
+          "en": "driver (female)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Taschengeld",
+          "en": "pocket money",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Sonderangebot",
+          "en": "special offer",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "begründen",
+          "en": "to justify",
+          "pos": "verb"
+        },
+        {
+          "de": "Rind",
+          "en": "cattle",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "regnerisch",
+          "en": "rainy",
+          "pos": "other"
+        },
+        {
+          "de": "Käufer",
+          "en": "buyer",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "formell",
+          "en": "formal",
+          "pos": "other"
+        },
+        {
+          "de": "Postkarte",
+          "en": "postcard",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Aussprache",
+          "en": "pronunciation",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Unterkunft",
+          "en": "accommodation",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "schädlich",
+          "en": "harmful",
+          "pos": "other"
+        },
+        {
+          "de": "indirekt",
+          "en": "indirect",
+          "pos": "other"
+        },
+        {
+          "de": "Traumberuf",
+          "en": "dream job",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Bluse",
+          "en": "blouse",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Kundin",
+          "en": "customer (female)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Vorspeise",
+          "en": "starter",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Portemonnaie",
+          "en": "wallet, purse",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Quiz",
+          "en": "quiz",
+          "pos": "noun",
+          "art": "das"
+        }
+      ]
+    },
+    {
+      "slug": "pdf-supplement-b1-05",
+      "kind": "core",
+      "title": "Zusatzwortschatz 5",
+      "title_en": "Missing words from your 2,000-word PDF",
+      "week": 19,
+      "items": [
+        {
+          "de": "Ansage",
+          "en": "announcement, outgoing message",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Aspirin",
+          "en": "aspirin",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "basteln",
+          "en": "to do crafts",
+          "pos": "verb"
+        },
+        {
+          "de": "Gymnasium",
+          "en": "grammar school",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "inklusive",
+          "en": "inclusive, included",
+          "pos": "other"
+        },
+        {
+          "de": "Ermäßigung",
+          "en": "discount",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Volleyball",
+          "en": "volleyball",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Weltrekord",
+          "en": "world record",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Sehenswürdigkeit",
+          "en": "sight, tourist attraction",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Surfen",
+          "en": "surfing (as activity noun)",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Souvenir",
+          "en": "souvenir",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Reinigung",
+          "en": "cleaning, dry cleaner's",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "ausreichend",
+          "en": "sufficiently",
+          "pos": "other"
+        },
+        {
+          "de": "Hauptgericht",
+          "en": "main course",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "unregelmäßig",
+          "en": "irregular",
+          "pos": "other"
+        },
+        {
+          "de": "sich begeistern",
+          "en": "to be enthusiastic about",
+          "pos": "verb"
+        },
+        {
+          "de": "Braten",
+          "en": "roast",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "werben",
+          "en": "to advertise",
+          "pos": "verb"
+        },
+        {
+          "de": "Geldbörse",
+          "en": "wallet, purse",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Bücherregal",
+          "en": "bookshelf",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Schlagsahne",
+          "en": "whipped cream",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Blog",
+          "en": "blog",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Charme",
+          "en": "charm",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "energisch",
+          "en": "energetic",
+          "pos": "other"
+        },
+        {
+          "de": "informell",
+          "en": "informal",
+          "pos": "other"
+        },
+        {
+          "de": "pessimistisch",
+          "en": "pessimistic",
+          "pos": "other"
+        },
+        {
+          "de": "unsympathisch",
+          "en": "unpleasant / unlikeable",
+          "pos": "other"
+        },
+        {
+          "de": "Verkehrsmittel",
+          "en": "means of transport",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "neblig",
+          "en": "foggy",
+          "pos": "other"
+        },
+        {
+          "de": "Zusage",
+          "en": "acceptance (of an invitation)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Stockwerk",
+          "en": "floor, storey",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Treffpunkt",
+          "en": "meeting point",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Sprechstunde",
+          "en": "consultation hours",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Krankenversicherung",
+          "en": "health insurance",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Lesebrille",
+          "en": "reading glasses",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Feuerwehrmann",
+          "en": "firefighter (male)",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Breite",
+          "en": "width",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Mailbox",
+          "en": "voicemail / mailbox",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Einzelzimmer",
+          "en": "single room",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Ausdauer",
+          "en": "endurance, stamina",
+          "pos": "noun",
+          "art": "die"
+        }
+      ]
+    },
+    {
+      "slug": "pdf-supplement-b1-06",
+      "kind": "core",
+      "title": "Zusatzwortschatz 6",
+      "title_en": "Missing words from your 2,000-word PDF",
+      "week": 19,
+      "items": [
+        {
+          "de": "Jugendherberge",
+          "en": "youth hostel",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Salbe",
+          "en": "ointment, cream",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Läufer",
+          "en": "runner",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Rentnerin",
+          "en": "retiree (female)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "sich kämmen",
+          "en": "to comb (hair)",
+          "pos": "verb"
+        },
+        {
+          "de": "Campingplatz",
+          "en": "campsite",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Gehweg",
+          "en": "pavement, sidewalk",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "reiben",
+          "en": "to rub",
+          "pos": "verb"
+        },
+        {
+          "de": "Hustensaft",
+          "en": "cough syrup",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Sportlerin",
+          "en": "athlete (female)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Doppelzimmer",
+          "en": "double room",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Hostel",
+          "en": "hostel",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Rauchverbot",
+          "en": "smoking ban",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Fundbüro",
+          "en": "lost property office",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Astronaut",
+          "en": "astronaut (male)",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Polizistin",
+          "en": "police officer (female)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Fotoapparat",
+          "en": "camera",
+          "pos": "noun",
+          "art": "der"
+        }
+      ]
+    }
+  ]
+}

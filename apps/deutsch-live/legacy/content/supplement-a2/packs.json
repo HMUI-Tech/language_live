@@ -1,0 +1,904 @@
+{
+  "level": "A2",
+  "version": "0.4.0",
+  "source": "User-supplied onewholearns.com top-2000 German frequency PDF. Levels are frequency-based navigation bands, not assessed CEFR.",
+  "packs": [
+    {
+      "slug": "pdf-supplement-a2-01",
+      "kind": "core",
+      "title": "Zusatzwortschatz 1",
+      "title_en": "Missing words from your 2,000-word PDF",
+      "week": 12,
+      "items": [
+        {
+          "de": "Nachtisch",
+          "en": "dessert",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Menü",
+          "en": "set menu / menu",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Aufzug",
+          "en": "elevator",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Podcast",
+          "en": "podcast",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Vormittag",
+          "en": "late morning",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Schinken",
+          "en": "ham",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Großeltern",
+          "en": "grandparents",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Koch",
+          "en": "cook, chef (male)",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Fernsehen",
+          "en": "television",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Uhrzeit",
+          "en": "time (clock time)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "mittags",
+          "en": "at midday, at lunchtime",
+          "pos": "other"
+        },
+        {
+          "de": "Partnerin",
+          "en": "partner (female)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Chefin",
+          "en": "boss, manager (female)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Schwimmbad",
+          "en": "swimming pool",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Jugendliche",
+          "en": "teenager",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Türkei",
+          "en": "Turkey",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Schnitzel",
+          "en": "schnitzel (breaded meat cutlet)",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "sich umziehen",
+          "en": "to change clothes",
+          "pos": "verb"
+        },
+        {
+          "de": "Anzeige",
+          "en": "advertisement",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "erkältet",
+          "en": "having a cold",
+          "pos": "other"
+        },
+        {
+          "de": "Halle",
+          "en": "hall",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "S-Bahn",
+          "en": "suburban train",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Beamte",
+          "en": "official (civil servant)",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Ukraine",
+          "en": "Ukraine",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Zoll",
+          "en": "customs",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Karneval",
+          "en": "Carnival / Mardi Gras",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Tanz",
+          "en": "dance",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Altstadt",
+          "en": "old town",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Familienname",
+          "en": "family name, surname",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Rathaus",
+          "en": "city hall",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Rezeption",
+          "en": "reception, front desk",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Oktoberfest",
+          "en": "Oktoberfest",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Mam",
+          "en": "mom",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Kiosk",
+          "en": "kiosk, newsstand",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Tablet",
+          "en": "tablet",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Haustier",
+          "en": "pet",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Kuli",
+          "en": "ballpoint pen",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Handschuhe",
+          "en": "gloves (plural)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Bankautomat",
+          "en": "ATM",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Ausländer",
+          "en": "foreigner",
+          "pos": "noun",
+          "art": "der"
+        }
+      ]
+    },
+    {
+      "slug": "pdf-supplement-a2-02",
+      "kind": "core",
+      "title": "Zusatzwortschatz 2",
+      "title_en": "Missing words from your 2,000-word PDF",
+      "week": 12,
+      "items": [
+        {
+          "de": "vorgestern",
+          "en": "the day before yesterday",
+          "pos": "other"
+        },
+        {
+          "de": "Bleistift",
+          "en": "pencil",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "frustriert",
+          "en": "frustrated",
+          "pos": "other"
+        },
+        {
+          "de": "Lokal",
+          "en": "restaurant, pub",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "kostenfrei",
+          "en": "free of charge",
+          "pos": "other"
+        },
+        {
+          "de": "ausgenommen",
+          "en": "except",
+          "pos": "other"
+        },
+        {
+          "de": "abbiegen",
+          "en": "to turn (direction)",
+          "pos": "verb"
+        },
+        {
+          "de": "Niederlande",
+          "en": "the Netherlands",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Birne",
+          "en": "pear",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "vermieten",
+          "en": "to rent out",
+          "pos": "verb"
+        },
+        {
+          "de": "Backofen",
+          "en": "oven",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Kugelschreiber",
+          "en": "ballpoint pen",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Heft",
+          "en": "notebook, exercise book",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Schalter",
+          "en": "counter",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Briefmarke",
+          "en": "stamp",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "durstig",
+          "en": "thirsty",
+          "pos": "other"
+        },
+        {
+          "de": "Weihnachtsmarkt",
+          "en": "Christmas market",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Puzzle",
+          "en": "puzzle",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Musikerin",
+          "en": "musician (female)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "anklicken",
+          "en": "to click (on)",
+          "pos": "verb"
+        },
+        {
+          "de": "Tafel",
+          "en": "blackboard",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Verband",
+          "en": "bandage",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Prospekt",
+          "en": "brochure",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "selbständig",
+          "en": "independent, self-employed",
+          "pos": "other"
+        },
+        {
+          "de": "Architekt",
+          "en": "architect (male)",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Auskunft",
+          "en": "information (desk)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Managerin",
+          "en": "manager (female)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Informatiker",
+          "en": "IT specialist (male)",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Bahnsteig",
+          "en": "platform",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Köchin",
+          "en": "cook, chef (female)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Reisebüro",
+          "en": "travel agency",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "angeboten",
+          "en": "offered",
+          "pos": "verb"
+        },
+        {
+          "de": "Hauptspeise",
+          "en": "main course",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Stadtplan",
+          "en": "city map",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Automat",
+          "en": "machine, vending machine",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Schal",
+          "en": "scarf",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Durchsage",
+          "en": "announcement",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "surfen",
+          "en": "to surf (internet)",
+          "pos": "verb"
+        },
+        {
+          "de": "Speise",
+          "en": "dish, food item",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Designer",
+          "en": "designer (male)",
+          "pos": "noun",
+          "art": "der"
+        }
+      ]
+    },
+    {
+      "slug": "pdf-supplement-a2-03",
+      "kind": "core",
+      "title": "Zusatzwortschatz 3",
+      "title_en": "Missing words from your 2,000-word PDF",
+      "week": 12,
+      "items": [
+        {
+          "de": "Postleitzahl",
+          "en": "postal code",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Halbpension",
+          "en": "half board (hotel)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Ingenieurin",
+          "en": "engineer (female)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Bogen",
+          "en": "sheet (of paper)",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Designerin",
+          "en": "designer (female)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Architektin",
+          "en": "architect (female)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Singular",
+          "en": "singular",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Empfänger",
+          "en": "recipient",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "downloaden",
+          "en": "to download",
+          "pos": "verb"
+        },
+        {
+          "de": "Tagesablauf",
+          "en": "daily routine",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "WLAN-Verbindung",
+          "en": "WiFi connection",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Vorwahl",
+          "en": "area code",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Stewardess",
+          "en": "flight attendant (female)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Absender",
+          "en": "sender",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Informatikerin",
+          "en": "IT specialist (female)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Plural",
+          "en": "plural",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Einzelkind",
+          "en": "only child",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Anrede",
+          "en": "form of address",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Schlagrahm",
+          "en": "whipped cream (Swiss)",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "neutral",
+          "en": "neuter",
+          "pos": "other"
+        },
+        {
+          "de": "Wortstellung",
+          "en": "word order",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Verb",
+          "en": "verb",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Steward",
+          "en": "flight attendant (male)",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Familienstand",
+          "en": "marital status",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "niederlassen",
+          "en": "settle",
+          "pos": "verb"
+        },
+        {
+          "de": "Konjugation",
+          "en": "conjugation",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Nomen",
+          "en": "noun",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Präsens",
+          "en": "present",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "maskulin",
+          "en": "masculine",
+          "pos": "other"
+        },
+        {
+          "de": "Lieblingsthema",
+          "en": "favorite topic",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "feminin",
+          "en": "feminine",
+          "pos": "other"
+        },
+        {
+          "de": "Satzklammer",
+          "en": "sentence bracket (grammar term)",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "jedes / jede",
+          "en": "every, each",
+          "pos": "other"
+        },
+        {
+          "de": "weg",
+          "en": "away, gone",
+          "pos": "other"
+        },
+        {
+          "de": "einige",
+          "en": "some",
+          "pos": "other"
+        },
+        {
+          "de": "sich freuen",
+          "en": "to be happy",
+          "pos": "verb"
+        },
+        {
+          "de": "sich treffen",
+          "en": "to meet up",
+          "pos": "verb"
+        },
+        {
+          "de": "Spaß",
+          "en": "fun",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "sich fühlen",
+          "en": "to feel",
+          "pos": "verb"
+        },
+        {
+          "de": "Schuhe",
+          "en": "shoes",
+          "pos": "noun",
+          "art": "die"
+        }
+      ]
+    },
+    {
+      "slug": "pdf-supplement-a2-04",
+      "kind": "core",
+      "title": "Zusatzwortschatz 4",
+      "title_en": "Missing words from your 2,000-word PDF",
+      "week": 12,
+      "items": [
+        {
+          "de": "lieber",
+          "en": "rather / preferably",
+          "pos": "other"
+        },
+        {
+          "de": "E-Mail",
+          "en": "email",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "sich setzen",
+          "en": "to sit down",
+          "pos": "verb"
+        },
+        {
+          "de": "Paar",
+          "en": "pair, couple",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Wand",
+          "en": "wall",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Reise",
+          "en": "trip, journey",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "sich verstehen",
+          "en": "to get along",
+          "pos": "verb"
+        },
+        {
+          "de": "sich interessieren",
+          "en": "to be interested in",
+          "pos": "verb"
+        },
+        {
+          "de": "Stimme",
+          "en": "voice",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "sich entscheiden",
+          "en": "to decide",
+          "pos": "verb"
+        },
+        {
+          "de": "sich wünschen",
+          "en": "to wish for",
+          "pos": "verb"
+        },
+        {
+          "de": "sich beeilen",
+          "en": "to hurry",
+          "pos": "verb"
+        },
+        {
+          "de": "Besuch",
+          "en": "visit",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "mancher",
+          "en": "some, many a",
+          "pos": "other"
+        },
+        {
+          "de": "sich kennenlernen",
+          "en": "to get to know each other",
+          "pos": "verb"
+        },
+        {
+          "de": "fest",
+          "en": "firm, solid",
+          "pos": "other"
+        },
+        {
+          "de": "Nähe",
+          "en": "vicinity, nearness",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "sich vorstellen",
+          "en": "to introduce oneself",
+          "pos": "verb"
+        },
+        {
+          "de": "sich bewegen",
+          "en": "to move, to exercise",
+          "pos": "verb"
+        },
+        {
+          "de": "App",
+          "en": "app",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Knie",
+          "en": "knee",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Berge",
+          "en": "mountains",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Witz",
+          "en": "joke",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Wagen",
+          "en": "car, wagon",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "Ärger",
+          "en": "annoyance, anger",
+          "pos": "noun",
+          "art": "der"
+        },
+        {
+          "de": "sich ärgern",
+          "en": "to be annoyed about",
+          "pos": "verb"
+        },
+        {
+          "de": "sich bedanken",
+          "en": "to say thank you",
+          "pos": "verb"
+        },
+        {
+          "de": "Taxi",
+          "en": "taxi",
+          "pos": "noun",
+          "art": "das"
+        },
+        {
+          "de": "Feier",
+          "en": "celebration, party",
+          "pos": "noun",
+          "art": "die"
+        },
+        {
+          "de": "Reihe",
+          "en": "row",
+          "pos": "noun",
+          "art": "die"
+        }
+      ]
+    }
+  ]
+}

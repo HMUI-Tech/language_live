@@ -1,0 +1,360 @@
+{
+  "level": "B2",
+  "version": "0.3.0",
+  "packs": [
+    {
+      "slug": "vorstellungsgespraech",
+      "title": "Das Vorstellungsgespräch",
+      "title_en": "The job interview",
+      "week": 20,
+      "items": [
+        {"de": "Bewerbung", "art": "die", "pl": "Bewerbungen", "pos": "noun", "en": "job application", "ex": "Vielen Dank für Ihre Bewerbung.", "ex_en": "Thank you for your application."},
+        {"de": "Stelle", "art": "die", "pl": "Stellen", "pos": "noun", "en": "position, job", "ex": "Die Stelle ist ab sofort zu besetzen.", "ex_en": "The position is to be filled immediately."},
+        {"de": "Lebenslauf", "art": "der", "pl": "Lebensläufe", "pos": "noun", "en": "CV, résumé", "ex": "In Ihrem Lebenslauf fehlt das letzte Jahr.", "ex_en": "Your CV is missing the last year."},
+        {"de": "Berufserfahrung", "art": "die", "pos": "noun", "en": "work experience", "ex": "Ich habe fünf Jahre Berufserfahrung im Vertrieb.", "ex_en": "I have five years of sales experience."},
+        {"de": "Stärke", "art": "die", "pl": "Stärken", "pos": "noun", "en": "strength", "ex": "Eine meiner Stärken ist die Organisation.", "ex_en": "One of my strengths is organisation."},
+        {"de": "Schwäche", "art": "die", "pl": "Schwächen", "pos": "noun", "en": "weakness", "ex": "Jeder hat Schwächen, wichtig ist, daran zu arbeiten.", "ex_en": "Everyone has weaknesses; what matters is working on them."},
+        {"de": "Gehalt", "art": "das", "pl": "Gehälter", "pos": "noun", "en": "salary", "ex": "Das Gehalt wird am Monatsende überwiesen.", "ex_en": "The salary is paid at the end of the month."},
+        {"de": "Gehaltsvorstellung", "art": "die", "pl": "Gehaltsvorstellungen", "pos": "noun", "en": "salary expectation", "ex": "Bitte nennen Sie uns Ihre Gehaltsvorstellung.", "ex_en": "Please tell us your salary expectations."},
+        {"de": "Kündigungsfrist", "art": "die", "pl": "Kündigungsfristen", "pos": "noun", "en": "notice period", "ex": "Wie lang ist Ihre Kündigungsfrist?", "ex_en": "How long is your notice period?"},
+        {"de": "Probezeit", "art": "die", "pl": "Probezeiten", "pos": "noun", "en": "probation period", "ex": "Die Probezeit beträgt sechs Monate.", "ex_en": "The probation period is six months."},
+        {"de": "Verantwortung", "art": "die", "pos": "noun", "en": "responsibility", "ex": "In meiner Position trage ich Verantwortung für acht Leute.", "ex_en": "In my role I'm responsible for eight people."},
+        {"de": "Weiterbildung", "art": "die", "pl": "Weiterbildungen", "pos": "noun", "en": "further training, professional development", "ex": "Die Firma bezahlt eine Weiterbildung pro Jahr.", "ex_en": "The company pays for one training course a year."},
+        {"de": "bewerben", "pos": "verb", "en": "(sich) to apply", "ex": "Ich bewerbe mich um die Stelle als Projektleiterin.", "ex_en": "I'm applying for the project manager position."},
+        {"de": "belastbar", "pos": "adj", "en": "resilient, able to work under pressure", "ex": "Wir suchen jemanden, der belastbar und flexibel ist.", "ex_en": "We're looking for someone resilient and flexible."},
+        {"de": "zuverlässig", "pos": "adj", "en": "reliable", "ex": "Meine Kollegen beschreiben mich als zuverlässig.", "ex_en": "My colleagues describe me as reliable."},
+        {"de": "Was reizt Sie an dieser Stelle?", "pos": "phrase", "en": "What attracts you to this position?", "ex": "Was reizt Sie an dieser Stelle besonders?", "ex_en": "What particularly attracts you to this position?"},
+        {"de": "Wo sehen Sie sich in fünf Jahren?", "pos": "phrase", "en": "Where do you see yourself in five years?", "ex": "Und wo sehen Sie sich in fünf Jahren?", "ex_en": "And where do you see yourself in five years?"},
+        {"de": "Ich könnte frühestens zum … anfangen.", "pos": "phrase", "en": "The earliest I could start is …", "ex": "Ich könnte frühestens zum ersten März anfangen.", "ex_en": "The earliest I could start is March 1st."},
+        {"de": "Haben Sie noch Fragen an uns?", "pos": "phrase", "en": "Do you have any questions for us?", "ex": "Zum Schluss: Haben Sie noch Fragen an uns?", "ex_en": "Finally: do you have any questions for us?"},
+        {"de": "Ich habe Ihre Anzeige gelesen.", "pos": "phrase", "en": "I've read your job advert.", "ex": "Ich habe Ihre Anzeige mit großem Interesse gelesen.", "ex_en": "I read your advert with great interest."}
+      ],
+      "dialogue": {
+        "setting": "A job interview for a project coordinator role. The HR manager begins.",
+        "steps": [
+          {"npc": "Schön, dass Sie da sind. Erzählen Sie doch kurz etwas über sich.", "npc_en": "Nice to have you here. Tell us a bit about yourself.",
+           "options": [
+             {"de": "Gern. Ich arbeite seit vier Jahren als Projektkoordinator und bin für die Planung mehrerer Teams verantwortlich.", "ok": true},
+             {"de": "Gern. Ich arbeite seit vier Jahren als Projektkoordinator und bin für die Planung mehreren Teams verantwortlich.", "ok": false, "why": "Genitive plural without an article: mehrerer Teams."},
+             {"de": "Gern. Ich arbeite seit vier Jahren als ein Projektkoordinator und bin für die Planung mehrerer Teams verantwortlich.", "ok": false, "why": "No article after als for a job: als Projektkoordinator."}
+           ]},
+          {"npc": "Warum möchten Sie sich beruflich verändern?", "npc_en": "Why do you want to change jobs?",
+           "options": [
+             {"de": "Ich suche eine neue Herausforderung, bei der ich mehr Verantwortung übernehmen kann.", "ok": true},
+             {"de": "Ich suche eine neue Herausforderung, bei die ich mehr Verantwortung übernehmen kann.", "ok": false, "why": "bei takes the dative: bei der."},
+             {"de": "Ich suche eine neue Herausforderung, bei der ich kann mehr Verantwortung übernehmen.", "ok": false, "why": "In a relative clause the conjugated verb goes to the end: … übernehmen kann."}
+           ]},
+          {"npc": "Was würden Sie als Ihre größte Schwäche bezeichnen?", "npc_en": "What would you call your biggest weakness?",
+           "options": [
+             {"de": "Ich neige dazu, Aufgaben selbst zu erledigen, statt sie abzugeben. Daran arbeite ich gerade.", "ok": true},
+             {"de": "Ich neige dazu, Aufgaben selbst erledigen, statt sie abgeben. Daran arbeite ich gerade.", "ok": false, "why": "Infinitive clauses need zu: selbst zu erledigen, statt sie abzugeben."},
+             {"de": "Ich neige zu, Aufgaben selbst zu erledigen, statt sie abzugeben. Daran arbeite ich gerade.", "ok": false, "why": "Point forward with da-: Ich neige dazu, …"}
+           ]},
+          {"npc": "Und was wäre Ihre Gehaltsvorstellung?", "npc_en": "And what would your salary expectation be?",
+           "options": [
+             {"de": "Ich stelle mir ein Jahresgehalt von etwa 58.000 Euro brutto vor.", "ok": true},
+             {"de": "Ich stelle mich ein Jahresgehalt von etwa 58.000 Euro brutto vor.", "ok": false, "why": "sich (dative) etwas vorstellen: Ich stelle mir … vor."},
+             {"de": "Ich vorstelle mir ein Jahresgehalt von etwa 58.000 Euro brutto.", "ok": false, "why": "vorstellen is separable: Ich stelle mir … vor."}
+           ]},
+          {"npc": "Gut. Wann könnten Sie bei uns anfangen?", "npc_en": "Good. When could you start with us?",
+           "options": [
+             {"de": "Meine Kündigungsfrist beträgt vier Wochen zum Monatsende, also frühestens zum ersten März.", "ok": true},
+             {"de": "Meinen Kündigungsfrist beträgt vier Wochen zum Monatsende, also frühestens zum ersten März.", "ok": false, "why": "Frist is feminine and the subject: meine Kündigungsfrist."},
+             {"de": "Meine Kündigungsfrist beträgt vier Wochen zum Monatsende, also frühestens zum erste März.", "ok": false, "why": "After zum the ordinal takes -en: zum ersten März."}
+           ]}
+        ]
+      }
+    },
+    {
+      "slug": "nachrichten",
+      "title": "Über Nachrichten sprechen",
+      "title_en": "Talking about the news",
+      "week": 21,
+      "items": [
+        {"de": "Schlagzeile", "art": "die", "pl": "Schlagzeilen", "pos": "noun", "en": "headline", "ex": "Die Schlagzeile klingt dramatischer als der Artikel.", "ex_en": "The headline sounds more dramatic than the article."},
+        {"de": "Medien", "art": "die", "pos": "noun", "en": "media (plural only)", "ex": "In den Medien wird viel darüber berichtet.", "ex_en": "It's widely reported in the media."},
+        {"de": "Quelle", "art": "die", "pl": "Quellen", "pos": "noun", "en": "source", "ex": "Aus welcher Quelle hast du das?", "ex_en": "Where did you get that from?"},
+        {"de": "Umfrage", "art": "die", "pl": "Umfragen", "pos": "noun", "en": "survey, poll", "ex": "Laut einer aktuellen Umfrage ist die Mehrheit dafür.", "ex_en": "According to a recent poll, the majority is in favour."},
+        {"de": "Entwicklung", "art": "die", "pl": "Entwicklungen", "pos": "noun", "en": "development", "ex": "Diese Entwicklung macht mir Sorgen.", "ex_en": "This development worries me."},
+        {"de": "Folge", "art": "die", "pl": "Folgen", "pos": "noun", "en": "consequence; episode", "ex": "Die Folgen sind noch nicht absehbar.", "ex_en": "The consequences can't be foreseen yet."},
+        {"de": "Ursache", "art": "die", "pl": "Ursachen", "pos": "noun", "en": "cause", "ex": "Die Ursache des Unfalls ist noch unklar.", "ex_en": "The cause of the accident is still unclear."},
+        {"de": "Klimawandel", "art": "der", "pos": "noun", "en": "climate change", "ex": "Der Klimawandel betrifft uns alle.", "ex_en": "Climate change affects all of us."},
+        {"de": "Inflation", "art": "die", "pos": "noun", "en": "inflation", "ex": "Wegen der Inflation ist das Einkaufen teurer geworden.", "ex_en": "Shopping has got more expensive because of inflation."},
+        {"de": "Streik", "art": "der", "pl": "Streiks", "pos": "noun", "en": "strike", "ex": "Wegen des Streiks fallen heute viele Züge aus.", "ex_en": "Many trains are cancelled today because of the strike."},
+        {"de": "betreffen", "pos": "verb", "en": "to affect, concern", "ex": "Die neue Regel betrifft vor allem Familien.", "ex_en": "The new rule mainly affects families."},
+        {"de": "zunehmen", "pos": "verb", "en": "to increase; to gain weight (separable)", "ex": "Der Verkehr in der Stadt hat stark zugenommen.", "ex_en": "Traffic in the city has increased a lot."},
+        {"de": "sinken", "pos": "verb", "en": "to fall, decrease", "ex": "Die Arbeitslosigkeit ist leicht gesunken.", "ex_en": "Unemployment has fallen slightly."},
+        {"de": "umstritten", "pos": "adj", "en": "controversial", "ex": "Das neue Gesetz ist sehr umstritten.", "ex_en": "The new law is very controversial."},
+        {"de": "glaubwürdig", "pos": "adj", "en": "credible", "ex": "Ich finde die Quelle nicht besonders glaubwürdig.", "ex_en": "I don't find the source very credible."},
+        {"de": "Hast du schon gehört, dass …?", "pos": "phrase", "en": "Have you heard that …?", "ex": "Hast du schon gehört, dass die Mieten wieder steigen?", "ex_en": "Have you heard that rents are going up again?"},
+        {"de": "Laut einer Umfrage …", "pos": "phrase", "en": "According to a survey …", "ex": "Laut einer Umfrage arbeiten viele gern im Homeoffice.", "ex_en": "According to a survey, many people like working from home."},
+        {"de": "Das wirkt sich auf … aus.", "pos": "phrase", "en": "That has an effect on …", "ex": "Das wirkt sich direkt auf die Preise aus.", "ex_en": "That has a direct effect on prices."},
+        {"de": "Ich habe gelesen, dass …", "pos": "phrase", "en": "I've read that …", "ex": "Ich habe gelesen, dass die Bahn neue Züge bestellt.", "ex_en": "I've read that the railway is ordering new trains."},
+        {"de": "Das ist nur die halbe Wahrheit.", "pos": "phrase", "en": "That's only half the story.", "ex": "Das klingt gut, aber das ist nur die halbe Wahrheit.", "ex_en": "That sounds good, but it's only half the story."}
+      ],
+      "dialogue": {
+        "setting": "At lunch, a colleague brings up the news about a train strike.",
+        "steps": [
+          {"npc": "Hast du schon gehört, dass die Lokführer ab Mittwoch wieder streiken?", "npc_en": "Have you heard that the train drivers are striking again from Wednesday?",
+           "options": [
+             {"de": "Ja, ich habe es heute Morgen gelesen. Das betrifft viele Pendler.", "ok": true},
+             {"de": "Ja, ich habe es heute Morgen gelesen. Das betrifft vielen Pendlern.", "ok": false, "why": "betreffen takes an accusative object: viele Pendler."},
+             {"de": "Ja, ich habe es heute Morgen gelesen. Das betrifft auf viele Pendler.", "ok": false, "why": "betreffen has no preposition: Das betrifft viele Pendler."}
+           ]},
+          {"npc": "Genau. Ich verstehe zwar, dass sie mehr Geld wollen, aber es nervt trotzdem.", "npc_en": "Exactly. I get that they want more money, but it's still annoying.",
+           "options": [
+             {"de": "Das kann ich nachvollziehen. Andererseits sind die Preise in den letzten Jahren stark gestiegen.", "ok": true},
+             {"de": "Das kann ich nachvollziehen. Andererseits haben die Preise in den letzten Jahren stark gestiegen.", "ok": false, "why": "steigen forms the perfect with sein: sind gestiegen."},
+             {"de": "Das kann ich nachvollziehen. Andererseits sind die Preise in den letzten Jahren stark gesteigt.", "ok": false, "why": "steigen is irregular: gestiegen."}
+           ]},
+          {"npc": "Stimmt. Laut einer Umfrage unterstützt sogar die Hälfte der Leute den Streik.", "npc_en": "True. According to a poll, half of people even support the strike.",
+           "options": [
+             {"de": "Das überrascht mich. Ich hätte gedacht, dass die meisten dagegen sind.", "ok": true},
+             {"de": "Das überrascht mich. Ich hätte gedacht, dass die meisten sind dagegen.", "ok": false, "why": "In a dass clause the verb goes to the end."},
+             {"de": "Das überrascht mich. Ich würde gedacht haben, dass die meisten dagegen sind.", "ok": false, "why": "For the past subjunctive use hätte + participle: Ich hätte gedacht."}
+           ]},
+          {"npc": "Na ja, es kommt immer darauf an, welche Quelle man liest.", "npc_en": "Well, it always depends on which source you read.",
+           "options": [
+             {"de": "Da hast du recht. Deshalb lese ich lieber mehrere Zeitungen.", "ok": true},
+             {"de": "Da hast du recht. Deshalb ich lese lieber mehrere Zeitungen.", "ok": false, "why": "After deshalb the verb comes next: Deshalb lese ich …"},
+             {"de": "Da hast du recht. Deshalb lese ich lieber mehreren Zeitungen.", "ok": false, "why": "Accusative plural without an article: mehrere Zeitungen."}
+           ]}
+        ]
+      }
+    },
+    {
+      "slug": "vermieter",
+      "title": "Mit dem Vermieter verhandeln",
+      "title_en": "Dealing with your landlord",
+      "week": 22,
+      "items": [
+        {"de": "Mietvertrag", "art": "der", "pl": "Mietverträge", "pos": "noun", "en": "tenancy agreement, lease", "ex": "Laut Mietvertrag ist das Haustier erlaubt.", "ex_en": "According to the lease, pets are allowed."},
+        {"de": "Mieterhöhung", "art": "die", "pl": "Mieterhöhungen", "pos": "noun", "en": "rent increase", "ex": "Heute kam ein Brief wegen einer Mieterhöhung.", "ex_en": "A letter about a rent increase arrived today."},
+        {"de": "Kaution", "art": "die", "pl": "Kautionen", "pos": "noun", "en": "deposit", "ex": "Die Kaution beträgt drei Monatsmieten.", "ex_en": "The deposit is three months' rent."},
+        {"de": "Mangel", "art": "der", "pl": "Mängel", "pos": "noun", "en": "defect, fault", "ex": "Bitte melden Sie Mängel sofort schriftlich.", "ex_en": "Please report defects in writing straight away."},
+        {"de": "Schimmel", "art": "der", "pos": "noun", "en": "mould", "ex": "Im Bad hat sich Schimmel gebildet.", "ex_en": "Mould has formed in the bathroom."},
+        {"de": "Mietminderung", "art": "die", "pl": "Mietminderungen", "pos": "noun", "en": "rent reduction (for defects)", "ex": "Bei starkem Lärm ist eine Mietminderung möglich.", "ex_en": "With heavy noise, a rent reduction is possible."},
+        {"de": "Mieterverein", "art": "der", "pl": "Mietervereine", "pos": "noun", "en": "tenants' association", "ex": "Der Mieterverein hat mich kostenlos beraten.", "ex_en": "The tenants' association advised me for free."},
+        {"de": "Nebenkostenabrechnung", "art": "die", "pl": "Nebenkostenabrechnungen", "pos": "noun", "en": "annual utility bill statement", "ex": "Die Nebenkostenabrechnung kommt meistens im Frühjahr.", "ex_en": "The utility statement usually arrives in spring."},
+        {"de": "Nachzahlung", "art": "die", "pl": "Nachzahlungen", "pos": "noun", "en": "additional payment, top-up", "ex": "Dieses Jahr haben wir eine hohe Nachzahlung.", "ex_en": "This year we have a big top-up to pay."},
+        {"de": "Renovierung", "art": "die", "pl": "Renovierungen", "pos": "noun", "en": "renovation, redecorating", "ex": "Wer zahlt die Renovierung beim Auszug?", "ex_en": "Who pays for redecorating when moving out?"},
+        {"de": "Eigenbedarf", "art": "der", "pos": "noun", "en": "landlord's own use (reason to end a lease)", "ex": "Der Vermieter hat wegen Eigenbedarf gekündigt.", "ex_en": "The landlord gave notice because he needs the flat himself."},
+        {"de": "beseitigen", "pos": "verb", "en": "to remove, fix (a problem)", "ex": "Der Schaden muss bis Ende des Monats beseitigt werden.", "ex_en": "The damage must be fixed by the end of the month."},
+        {"de": "verhandeln", "pos": "verb", "en": "to negotiate", "ex": "Über die Miete kann man manchmal verhandeln.", "ex_en": "You can sometimes negotiate the rent."},
+        {"de": "fristgerecht", "pos": "adj", "en": "on time, within the deadline", "ex": "Ich habe den Vertrag fristgerecht gekündigt.", "ex_en": "I gave notice on the contract within the deadline."},
+        {"de": "angemessen", "pos": "adj", "en": "appropriate, reasonable", "ex": "Ich finde die Erhöhung nicht angemessen.", "ex_en": "I don't think the increase is reasonable."},
+        {"de": "Ich möchte Sie darauf hinweisen, dass …", "pos": "phrase", "en": "I'd like to point out that …", "ex": "Ich möchte Sie darauf hinweisen, dass die Heizung seit Tagen ausfällt.", "ex_en": "I'd like to point out that the heating has been off for days."},
+        {"de": "Laut Mietvertrag …", "pos": "phrase", "en": "According to the lease …", "ex": "Laut Mietvertrag sind kleine Reparaturen Ihre Sache.", "ex_en": "According to the lease, minor repairs are your job."},
+        {"de": "Wären Sie bereit, …?", "pos": "phrase", "en": "Would you be willing to …?", "ex": "Wären Sie bereit, die Hälfte der Kosten zu übernehmen?", "ex_en": "Would you be willing to cover half the costs?"},
+        {"de": "Können wir uns darauf einigen?", "pos": "phrase", "en": "Can we agree on that?", "ex": "Ende Juni statt Ende Mai. Können wir uns darauf einigen?", "ex_en": "End of June instead of end of May. Can we agree on that?"},
+        {"de": "Bitte bestätigen Sie mir das schriftlich.", "pos": "phrase", "en": "Please confirm that in writing.", "ex": "Danke für die Zusage. Bitte bestätigen Sie mir das schriftlich.", "ex_en": "Thanks for agreeing. Please confirm it in writing."}
+      ],
+      "dialogue": {
+        "setting": "There's been mould in your bathroom for weeks. You call your landlord.",
+        "steps": [
+          {"npc": "Hallo, Weber hier. Sie hatten mir geschrieben?", "npc_en": "Hello, Weber speaking. You wrote to me?",
+           "options": [
+             {"de": "Ja, genau. Im Bad ist seit einigen Wochen Schimmel, und er wird immer schlimmer.", "ok": true},
+             {"de": "Ja, genau. Im Bad ist seit einige Wochen Schimmel, und er wird immer schlimmer.", "ok": false, "why": "seit takes the dative: seit einigen Wochen."},
+             {"de": "Ja, genau. Im Bad ist seit einigen Wochen Schimmel, und er wird immer mehr schlimm.", "ok": false, "why": "Use the comparative: immer schlimmer."}
+           ]},
+          {"npc": "Hm. Haben Sie denn regelmäßig gelüftet?", "npc_en": "Hm. Have you been airing the room regularly?",
+           "options": [
+             {"de": "Ja, natürlich. Ein Gutachter meinte, die Ursache sei eine undichte Wand.", "ok": true},
+             {"de": "Ja, natürlich. Ein Gutachter meinte, dass die Ursache sei eine undichte Wand.", "ok": false, "why": "With dass the verb goes to the end: dass die Ursache eine undichte Wand sei."},
+             {"de": "Ja, natürlich. Ein Gutachter meinte, die Ursache ist sei eine undichte Wand.", "ok": false, "why": "Reported speech needs one verb: die Ursache sei …"}
+           ]},
+          {"npc": "Na gut. Ich schicke nächsten Monat einen Handwerker vorbei.", "npc_en": "All right. I'll send a tradesman round next month.",
+           "options": [
+             {"de": "Das ist mir leider zu spät. Wären Sie bereit, den Mangel bis Ende dieses Monats beseitigen zu lassen?", "ok": true},
+             {"de": "Das ist mir leider zu spät. Wären Sie bereit, den Mangel bis Ende dieses Monats beseitigen lassen?", "ok": false, "why": "bereit sein needs zu: beseitigen zu lassen."},
+             {"de": "Das ist mir leider zu spät. Wären Sie bereit, der Mangel bis Ende dieses Monats beseitigen zu lassen?", "ok": false, "why": "Mangel is the object here: den Mangel."}
+           ]},
+          {"npc": "Das wird knapp. Und wenn es nicht klappt?", "npc_en": "That's tight. And if it doesn't work out?",
+           "options": [
+             {"de": "Dann müsste ich die Miete leider mindern. Ich habe mich beim Mieterverein beraten lassen.", "ok": true},
+             {"de": "Dann müsste ich die Miete leider mindern. Ich habe mich beim Mieterverein beraten gelassen.", "ok": false, "why": "With lassen + infinitive the perfect keeps the infinitive: beraten lassen."},
+             {"de": "Dann müsste ich die Miete leider zu mindern. Ich habe mich beim Mieterverein beraten lassen.", "ok": false, "why": "No zu after a modal verb: müsste … mindern."}
+           ]},
+          {"npc": "Gut, ich sorge dafür, dass der Handwerker nächste Woche kommt.", "npc_en": "All right, I'll make sure the tradesman comes next week.",
+           "options": [
+             {"de": "Vielen Dank. Können Sie mir den Termin bitte schriftlich bestätigen?", "ok": true},
+             {"de": "Vielen Dank. Können Sie mich den Termin bitte schriftlich bestätigen?", "ok": false, "why": "The person something is confirmed to is dative: mir."},
+             {"de": "Vielen Dank. Können Sie mir den Termin bitte schriftlich bestätigt?", "ok": false, "why": "After a modal verb use the infinitive: bestätigen."}
+           ]}
+        ]
+      }
+    },
+    {
+      "slug": "problem-job",
+      "title": "Ein Problem im Job erklären",
+      "title_en": "Explaining a problem at work",
+      "week": 23,
+      "items": [
+        {"de": "Verzögerung", "art": "die", "pl": "Verzögerungen", "pos": "noun", "en": "delay", "ex": "Es gibt leider eine Verzögerung bei der Lieferung.", "ex_en": "Unfortunately there's a delay with the delivery."},
+        {"de": "Engpass", "art": "der", "pl": "Engpässe", "pos": "noun", "en": "bottleneck, shortage", "ex": "Im Dezember haben wir einen personellen Engpass.", "ex_en": "In December we're short-staffed."},
+        {"de": "Ressource", "art": "die", "pl": "Ressourcen", "pos": "noun", "en": "resource", "ex": "Dafür fehlen uns im Moment die Ressourcen.", "ex_en": "We don't have the resources for that right now."},
+        {"de": "Priorität", "art": "die", "pl": "Prioritäten", "pos": "noun", "en": "priority", "ex": "Wir müssen klare Prioritäten setzen.", "ex_en": "We need to set clear priorities."},
+        {"de": "Lösungsvorschlag", "art": "der", "pl": "Lösungsvorschläge", "pos": "noun", "en": "proposed solution", "ex": "Ich habe zwei Lösungsvorschläge vorbereitet.", "ex_en": "I've prepared two proposed solutions."},
+        {"de": "Auswirkung", "art": "die", "pl": "Auswirkungen", "pos": "noun", "en": "effect, impact", "ex": "Welche Auswirkungen hat das auf das Budget?", "ex_en": "What impact does that have on the budget?"},
+        {"de": "Missverständnis", "art": "das", "pl": "Missverständnisse", "pos": "noun", "en": "misunderstanding", "ex": "Das war ein Missverständnis, tut mir leid.", "ex_en": "That was a misunderstanding, sorry."},
+        {"de": "Rücksprache", "art": "die", "pos": "noun", "en": "consultation, checking back", "ex": "Nach Rücksprache mit dem Kunden verschieben wir den Start.", "ex_en": "After checking with the client, we're moving the start date."},
+        {"de": "Zeitplan", "art": "der", "pl": "Zeitpläne", "pos": "noun", "en": "schedule, timeline", "ex": "Der Zeitplan ist sehr ehrgeizig.", "ex_en": "The schedule is very ambitious."},
+        {"de": "eskalieren", "pos": "verb", "en": "to escalate", "ex": "Wenn sich nichts ändert, müssen wir das eskalieren.", "ex_en": "If nothing changes, we'll have to escalate it."},
+        {"de": "abstimmen", "pos": "verb", "en": "(sich) to coordinate, align (separable)", "ex": "Wir sollten uns vorher mit dem Vertrieb abstimmen.", "ex_en": "We should coordinate with sales beforehand."},
+        {"de": "gewährleisten", "pos": "verb", "en": "to ensure, guarantee", "ex": "Wir können die Qualität nur so gewährleisten.", "ex_en": "That's the only way we can ensure quality."},
+        {"de": "umsetzen", "pos": "verb", "en": "to implement (separable)", "ex": "Den Plan setzen wir ab Januar um.", "ex_en": "We'll implement the plan from January."},
+        {"de": "realistisch", "pos": "adj", "en": "realistic", "ex": "Ist dieser Termin überhaupt realistisch?", "ex_en": "Is that deadline even realistic?"},
+        {"de": "kurzfristig", "pos": "adj", "en": "at short notice; short-term", "ex": "Die Besprechung wurde kurzfristig abgesagt.", "ex_en": "The meeting was cancelled at short notice."},
+        {"de": "Es hat sich herausgestellt, dass …", "pos": "phrase", "en": "It has turned out that …", "ex": "Es hat sich herausgestellt, dass die Daten fehlerhaft sind.", "ex_en": "It turned out that the data is faulty."},
+        {"de": "Wir sind im Verzug.", "pos": "phrase", "en": "We're behind schedule.", "ex": "Wir sind zwei Wochen im Verzug.", "ex_en": "We're two weeks behind schedule."},
+        {"de": "Ich schlage vor, dass wir …", "pos": "phrase", "en": "I suggest that we …", "ex": "Ich schlage vor, dass wir uns jeden Montag kurz abstimmen.", "ex_en": "I suggest we have a quick sync every Monday."},
+        {"de": "Das liegt nicht in meiner Hand.", "pos": "phrase", "en": "That's out of my hands.", "ex": "Ich würde gern helfen, aber das liegt nicht in meiner Hand.", "ex_en": "I'd like to help, but it's out of my hands."},
+        {"de": "Wie gehen wir jetzt weiter vor?", "pos": "phrase", "en": "How do we proceed now?", "ex": "Gut, die Lage ist klar. Wie gehen wir jetzt weiter vor?", "ex_en": "OK, the situation is clear. How do we proceed now?"}
+      ],
+      "dialogue": {
+        "setting": "You have to tell your manager that a system migration will be late.",
+        "steps": [
+          {"npc": "Sie wollten mich sprechen?", "npc_en": "You wanted to talk to me?",
+           "options": [
+             {"de": "Ja, es geht um die Systemumstellung. Es hat sich herausgestellt, dass wir den Termin nicht halten können.", "ok": true},
+             {"de": "Ja, es geht um die Systemumstellung. Es hat sich herausgestellt, dass wir können den Termin nicht halten.", "ok": false, "why": "In a dass clause the verbs go to the end: … nicht halten können."},
+             {"de": "Ja, es geht um die Systemumstellung. Es hat herausgestellt, dass wir den Termin nicht halten können.", "ok": false, "why": "sich herausstellen is reflexive: Es hat sich herausgestellt."}
+           ]},
+          {"npc": "Das ist ärgerlich. Woran liegt das?", "npc_en": "That's annoying. What's the reason?",
+           "options": [
+             {"de": "Die Daten des Altsystems sind fehlerhafter, als wir erwartet hatten.", "ok": true},
+             {"de": "Die Daten des Altsystems sind fehlerhafter, wie wir erwartet hatten.", "ok": false, "why": "After a comparative use als: fehlerhafter, als …"},
+             {"de": "Die Daten von dem Altsystems sind fehlerhafter, als wir erwartet hatten.", "ok": false, "why": "Either des Altsystems (genitive) or von dem Altsystem (dative)."}
+           ]},
+          {"npc": "Und welche Auswirkungen hat das auf den Zeitplan?", "npc_en": "And what impact does that have on the timeline?",
+           "options": [
+             {"de": "Wir bräuchten etwa zwei Wochen mehr. Ich schlage vor, dass wir die Datenbereinigung priorisieren.", "ok": true},
+             {"de": "Wir bräuchten etwa zwei Wochen mehr. Ich schlage vor, dass wir priorisieren die Datenbereinigung.", "ok": false, "why": "In a dass clause the verb goes to the end: … die Datenbereinigung priorisieren."},
+             {"de": "Wir würden etwa zwei Wochen mehr brauchen haben. Ich schlage vor, dass wir die Datenbereinigung priorisieren.", "ok": false, "why": "Konjunktiv II: Wir bräuchten … or Wir würden … brauchen."}
+           ]},
+          {"npc": "Gut. Was brauchen Sie dafür von mir?", "npc_en": "OK. What do you need from me for that?",
+           "options": [
+             {"de": "Es wäre hilfreich, wenn Sie den neuen Termin kurzfristig mit dem Kunden abstimmen könnten.", "ok": true},
+             {"de": "Es wäre hilfreich, wenn Sie den neuen Termin kurzfristig mit dem Kunden abstimmen können würden.", "ok": false, "why": "One subjunctive verb is enough: … abstimmen könnten."},
+             {"de": "Es wäre hilfreich, wenn könnten Sie den neuen Termin kurzfristig mit dem Kunden abstimmen.", "ok": false, "why": "wenn sends the verb to the end."}
+           ]}
+        ]
+      }
+    },
+    {
+      "slug": "diskutieren",
+      "title": "Diskutieren und überzeugen",
+      "title_en": "Debating and persuading",
+      "week": 24,
+      "items": [
+        {"de": "Standpunkt", "art": "der", "pl": "Standpunkte", "pos": "noun", "en": "point of view, position", "ex": "Ich kann deinen Standpunkt nachvollziehen.", "ex_en": "I can understand your point of view."},
+        {"de": "Einwand", "art": "der", "pl": "Einwände", "pos": "noun", "en": "objection", "ex": "Gibt es noch Einwände?", "ex_en": "Are there any more objections?"},
+        {"de": "These", "art": "die", "pl": "Thesen", "pos": "noun", "en": "thesis, claim", "ex": "Diese These ist wissenschaftlich nicht belegt.", "ex_en": "This claim isn't scientifically proven."},
+        {"de": "Kompromiss", "art": "der", "pl": "Kompromisse", "pos": "noun", "en": "compromise", "ex": "Am Ende haben wir einen Kompromiss gefunden.", "ex_en": "In the end we found a compromise."},
+        {"de": "Aspekt", "art": "der", "pl": "Aspekte", "pos": "noun", "en": "aspect", "ex": "Diesen Aspekt haben wir noch gar nicht bedacht.", "ex_en": "We haven't even considered that aspect yet."},
+        {"de": "überzeugen", "pos": "verb", "en": "to convince, persuade", "ex": "Dein Argument hat mich überzeugt.", "ex_en": "Your argument convinced me."},
+        {"de": "einräumen", "pos": "verb", "en": "to concede, admit (separable)", "ex": "Ich muss einräumen, dass du recht hattest.", "ex_en": "I have to admit you were right."},
+        {"de": "bezweifeln", "pos": "verb", "en": "to doubt", "ex": "Ich bezweifle, dass das so schnell geht.", "ex_en": "I doubt it'll go that quickly."},
+        {"de": "hervorheben", "pos": "verb", "en": "to emphasise, highlight (separable)", "ex": "Ich möchte einen Punkt besonders hervorheben.", "ex_en": "I'd like to highlight one point in particular."},
+        {"de": "berücksichtigen", "pos": "verb", "en": "to take into account", "ex": "Wir müssen auch die Kosten berücksichtigen.", "ex_en": "We also have to take the costs into account."},
+        {"de": "nachvollziehbar", "pos": "adj", "en": "understandable, comprehensible", "ex": "Deine Entscheidung ist für mich nachvollziehbar.", "ex_en": "I can understand your decision."},
+        {"de": "fragwürdig", "pos": "adj", "en": "questionable", "ex": "Die Methode finde ich ethisch fragwürdig.", "ex_en": "I find the method ethically questionable."},
+        {"de": "entscheidend", "pos": "adj", "en": "decisive, crucial", "ex": "Der entscheidende Punkt ist der Preis.", "ex_en": "The crucial point is the price."},
+        {"de": "Darf ich kurz einhaken?", "pos": "phrase", "en": "May I jump in for a moment?", "ex": "Darf ich kurz einhaken? Das stimmt so nicht ganz.", "ex_en": "May I jump in? That's not quite right."},
+        {"de": "Lassen Sie mich bitte ausreden.", "pos": "phrase", "en": "Please let me finish.", "ex": "Moment, lassen Sie mich bitte ausreden.", "ex_en": "Hold on, please let me finish."},
+        {"de": "Das ist ein berechtigter Einwand.", "pos": "phrase", "en": "That's a fair objection.", "ex": "Das ist ein berechtigter Einwand, aber …", "ex_en": "That's a fair objection, but …"},
+        {"de": "Unterm Strich …", "pos": "phrase", "en": "All things considered, at the end of the day …", "ex": "Unterm Strich lohnt sich die Investition.", "ex_en": "All things considered, the investment pays off."},
+        {"de": "Ich gebe zu bedenken, dass …", "pos": "phrase", "en": "I'd ask you to consider that …", "ex": "Ich gebe zu bedenken, dass nicht alle Kunden digital sind.", "ex_en": "Please bear in mind that not all customers are online."},
+        {"de": "Worauf ich hinauswill, ist …", "pos": "phrase", "en": "What I'm getting at is …", "ex": "Worauf ich hinauswill, ist, dass wir mehr Zeit brauchen.", "ex_en": "What I'm getting at is that we need more time."},
+        {"de": "Da muss ich Ihnen widersprechen.", "pos": "phrase", "en": "I have to disagree with you there.", "ex": "Da muss ich Ihnen widersprechen, die Zahlen sagen etwas anderes.", "ex_en": "I have to disagree; the numbers say otherwise."}
+      ],
+      "dialogue": {
+        "setting": "In a team meeting you discuss whether to trial a four-day week.",
+        "steps": [
+          {"npc": "Ich finde, die Vier-Tage-Woche würde uns allen guttun.", "npc_en": "I think a four-day week would do us all good.",
+           "options": [
+             {"de": "Darf ich kurz einhaken? Ich bezweifle, dass wir dieselbe Arbeit in vier Tagen schaffen.", "ok": true},
+             {"de": "Darf ich kurz einhaken? Ich bezweifle, dass wir schaffen dieselbe Arbeit in vier Tagen.", "ok": false, "why": "In a dass clause the verb goes to the end: … in vier Tagen schaffen."},
+             {"de": "Darf ich kurz einhaken? Ich bezweifle, dass wir dieselben Arbeit in vier Tagen schaffen.", "ok": false, "why": "Arbeit is feminine singular: dieselbe Arbeit."}
+           ]},
+          {"npc": "Das ist ein berechtigter Einwand. Aber Studien zeigen, dass die Produktivität oft steigt.", "npc_en": "That's a fair objection. But studies show productivity often rises.",
+           "options": [
+             {"de": "Das mag sein. Trotzdem sollten wir berücksichtigen, dass unsere Kunden fünf Tage erreichbar sein wollen.", "ok": true},
+             {"de": "Das mag sein. Trotzdem wir sollten berücksichtigen, dass unsere Kunden fünf Tage erreichbar sein wollen.", "ok": false, "why": "After trotzdem the verb comes next: Trotzdem sollten wir …"},
+             {"de": "Das mag sein. Trotzdem sollten wir berücksichtigen, dass unsere Kunden fünf Tage erreichbar wollen sein.", "ok": false, "why": "The modal goes last in the clause: erreichbar sein wollen."}
+           ]},
+          {"npc": "Man könnte ja abwechselnd freinehmen.", "npc_en": "We could take turns having the day off.",
+           "options": [
+             {"de": "Das wäre ein Kompromiss, über den ich nachdenken würde.", "ok": true},
+             {"de": "Das wäre ein Kompromiss, über dem ich nachdenken würde.", "ok": false, "why": "nachdenken über takes the accusative: über den."},
+             {"de": "Das wäre ein Kompromiss, worüber den ich nachdenken würde.", "ok": false, "why": "Use über den or worüber, not both."}
+           ]},
+          {"npc": "Also, sollen wir es drei Monate testen?", "npc_en": "So, shall we test it for three months?",
+           "options": [
+             {"de": "Unterm Strich spricht nichts dagegen, es auszuprobieren, solange wir es danach auswerten.", "ok": true},
+             {"de": "Unterm Strich spricht nichts dagegen, es ausprobieren, solange wir es danach auswerten.", "ok": false, "why": "The infinitive clause needs zu: es auszuprobieren."},
+             {"de": "Unterm Strich spricht nichts dagegen, es auszuprobieren, solange wir es danach auswerten würden werden.", "ok": false, "why": "Keep it in the present: solange wir es danach auswerten."}
+           ]}
+        ]
+      }
+    },
+    {
+      "slug": "erzaehlen",
+      "title": "Etwas erzählen",
+      "title_en": "Telling a story",
+      "week": 25,
+      "items": [
+        {"de": "Erlebnis", "art": "das", "pl": "Erlebnisse", "pos": "noun", "en": "experience, adventure", "ex": "Die Reise war ein tolles Erlebnis.", "ex_en": "The trip was a great experience."},
+        {"de": "Vorfall", "art": "der", "pl": "Vorfälle", "pos": "noun", "en": "incident", "ex": "Nach dem Vorfall hat sich der Chef entschuldigt.", "ex_en": "After the incident the boss apologised."},
+        {"de": "Missgeschick", "art": "das", "pl": "Missgeschicke", "pos": "noun", "en": "mishap", "ex": "Mir ist heute ein kleines Missgeschick passiert.", "ex_en": "I had a little mishap today."},
+        {"de": "Pointe", "art": "die", "pl": "Pointen", "pos": "noun", "en": "punchline", "ex": "Die Pointe kam leider nicht an.", "ex_en": "Unfortunately the punchline fell flat."},
+        {"de": "Anekdote", "art": "die", "pl": "Anekdoten", "pos": "noun", "en": "anecdote", "ex": "Mein Opa erzählt gern Anekdoten aus seiner Jugend.", "ex_en": "My grandpa likes telling anecdotes from his youth."},
+        {"de": "daraufhin", "pos": "adv", "en": "thereupon, as a result", "ex": "Daraufhin hat sie sofort angerufen.", "ex_en": "Thereupon she called straight away."},
+        {"de": "anschließend", "pos": "adv", "en": "afterwards", "ex": "Anschließend sind wir noch etwas trinken gegangen.", "ex_en": "Afterwards we went for a drink."},
+        {"de": "herausstellen", "pos": "verb", "en": "(sich) to turn out (separable)", "ex": "Später stellte sich heraus, dass alles ein Irrtum war.", "ex_en": "Later it turned out it was all a mistake."},
+        {"de": "übertreiben", "pos": "verb", "en": "to exaggerate", "ex": "Jetzt übertreibst du aber!", "ex_en": "Now you're exaggerating!"},
+        {"de": "staunen", "pos": "verb", "en": "to be amazed", "ex": "Wir haben gestaunt, wie schnell sie Deutsch gelernt hat.", "ex_en": "We were amazed how fast she learned German."},
+        {"de": "erleichtert", "pos": "adj", "en": "relieved", "ex": "Als der Anruf kam, war ich total erleichtert.", "ex_en": "When the call came, I was so relieved."},
+        {"de": "verblüfft", "pos": "adj", "en": "astonished, baffled", "ex": "Alle waren verblüfft über die Antwort.", "ex_en": "Everyone was astonished at the answer."},
+        {"de": "auf einmal", "pos": "phrase", "en": "all of a sudden", "ex": "Auf einmal ging das Licht aus.", "ex_en": "All of a sudden the lights went out."},
+        {"de": "Stell dir vor, …", "pos": "phrase", "en": "Imagine …, guess what …", "ex": "Stell dir vor, ich habe im Lotto gewonnen!", "ex_en": "Guess what, I won the lottery!"},
+        {"de": "Du wirst es nicht glauben, aber …", "pos": "phrase", "en": "You won't believe it, but …", "ex": "Du wirst es nicht glauben, aber der Zug war pünktlich.", "ex_en": "You won't believe it, but the train was on time."},
+        {"de": "Wie sich später herausstellte, …", "pos": "phrase", "en": "As it later turned out, …", "ex": "Wie sich später herausstellte, war es nur ein Fehlalarm.", "ex_en": "As it later turned out, it was only a false alarm."},
+        {"de": "Am Ende war alles halb so schlimm.", "pos": "phrase", "en": "In the end it wasn't that bad.", "ex": "Ich hatte Angst vor der Prüfung, aber am Ende war alles halb so schlimm.", "ex_en": "I was scared of the exam, but in the end it wasn't that bad."},
+        {"de": "Das erinnert mich an …", "pos": "phrase", "en": "That reminds me of …", "ex": "Das erinnert mich an unseren Urlaub in Italien.", "ex_en": "That reminds me of our holiday in Italy."},
+        {"de": "Ich war total baff.", "pos": "phrase", "en": "I was totally gobsmacked.", "ex": "Als ich die Rechnung sah, war ich total baff.", "ex_en": "When I saw the bill I was gobsmacked."},
+        {"de": "Langer Rede kurzer Sinn: …", "pos": "phrase", "en": "To cut a long story short: …", "ex": "Langer Rede kurzer Sinn: Wir ziehen nach Hamburg.", "ex_en": "To cut a long story short: we're moving to Hamburg."}
+      ],
+      "dialogue": {
+        "setting": "A friend asks how your trip to Hamburg went.",
+        "steps": [
+          {"npc": "Und, wie war's in Hamburg?", "npc_en": "So, how was Hamburg?",
+           "options": [
+             {"de": "Stell dir vor, ich hätte fast meinen Zug verpasst! Ich bin im letzten Moment eingestiegen.", "ok": true},
+             {"de": "Stell dir vor, ich hätte fast meinen Zug verpasst! Ich habe im letzten Moment eingestiegen.", "ok": false, "why": "einsteigen forms the perfect with sein: Ich bin … eingestiegen."},
+             {"de": "Stell dir vor, ich hatte fast meinen Zug verpasst! Ich bin im letzten Moment eingestiegen.", "ok": false, "why": "For something that nearly happened use Konjunktiv II: Ich hätte fast … verpasst."}
+           ]},
+          {"npc": "Oh nein! Was war denn los?", "npc_en": "Oh no! What happened?",
+           "options": [
+             {"de": "Als ich aus der Wohnung ging, merkte ich, dass ich meinen Geldbeutel vergessen hatte.", "ok": true},
+             {"de": "Wenn ich aus der Wohnung ging, merkte ich, dass ich meinen Geldbeutel vergessen hatte.", "ok": false, "why": "For a single event in the past use als, not wenn."},
+             {"de": "Als ich ging aus der Wohnung, merkte ich, dass ich meinen Geldbeutel vergessen hatte.", "ok": false, "why": "als sends the verb to the end: Als ich aus der Wohnung ging, …"}
+           ]},
+          {"npc": "Und dann?", "npc_en": "And then?",
+           "options": [
+             {"de": "Ich bin zurückgerannt, und auf einmal stand mein Nachbar mit dem Geldbeutel vor der Tür.", "ok": true},
+             {"de": "Ich bin zurückgerannt, und auf einmal mein Nachbar stand mit dem Geldbeutel vor der Tür.", "ok": false, "why": "After auf einmal the verb comes next: … stand mein Nachbar …"},
+             {"de": "Ich bin zurückgerannt, und auf einmal stand mein Nachbar mit dem Geldbeutel vor die Tür.", "ok": false, "why": "Where? takes the dative: vor der Tür."}
+           ]},
+          {"npc": "Wie bitte? Wie kam der denn zu deinem Geldbeutel?", "npc_en": "Sorry? How did he end up with your wallet?",
+           "options": [
+             {"de": "Wie sich herausstellte, hatte ich ihn im Treppenhaus verloren. Ich war total erleichtert.", "ok": true},
+             {"de": "Wie sich herausstellte, hatte ich ihn im Treppenhaus verlieren. Ich war total erleichtert.", "ok": false, "why": "The past perfect needs the participle: hatte … verloren."},
+             {"de": "Wie sich herausstellte, hatte ich ihn im Treppenhaus verloren. Ich war total erleichternd.", "ok": false, "why": "erleichtert is how you feel; erleichternd means giving relief."}
+           ]}
+        ]
+      }
+    }
+  ]
+}

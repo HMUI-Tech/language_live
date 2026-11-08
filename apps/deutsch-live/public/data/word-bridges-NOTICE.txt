@@ -1,0 +1,12 @@
+Expanded word bridges — Deutsch Live, 2026-11-05
+Derived from Ding German-English dictionary 1.9 (2020-12-22).
+Copyright (c) Frank Richter, 1995–2020.
+Source: https://ftp.tu-chemnitz.de/pub/Local/urz/ding/de-en/de-en.txt.gz
+Dictionary and derived word-bridges.json: GPL version 2 or later.
+A copy of GPL version 2 is provided as GPL-2.txt. No warranty.
+Changes: select base headwords with dictionary-attested translations and similar spelling;
+remove annotated plurals and selected unsuitable domains, add German articles from source
+annotations, deduplicate, rank by frequency, and select 3,820 entries.
+This is an automated selection, not an individually reviewed teaching dictionary.
+Original source is provided as ding-1.9-source.txt.gz; build script as build-word-bridges.py.
+The app's separate editorial examples are not imported from Ding.

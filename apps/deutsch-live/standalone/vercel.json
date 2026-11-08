@@ -1,0 +1,1 @@
+{"buildCommand":"npm ci --prefix standalone && npm run build --prefix standalone","outputDirectory":"standalone/dist","framework":null}

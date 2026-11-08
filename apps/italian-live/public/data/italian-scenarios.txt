@@ -1,0 +1,155 @@
+A1|1|presentarsi|Presentarsi|Introducing yourself
+Ciao! Come ti chiami?|Hi! What is your name?|Mi chiamo Sam. Piacere!|My name is Sam. Nice to meet you!|Mi chiami Sam.|Use mi chiamo for my name is; mi chiami means you call me.
+Di dove sei?|Where are you from?|Sono del Canada.|I am from Canada.|Sono Canada.|Use di with the country; di + il becomes del.
+Dove abiti adesso?|Where do you live now?|Abito a Roma.|I live in Rome.|Abito di Roma.|Use a before a city where you live.
+Che lavoro fai?|What do you do for work?|Lavoro come infermiere.|I work as a nurse.|Lavoro come infermieri.|Use the singular infermiere for one male nurse.
+
+A1|1|tempo|Orari e appuntamenti|Time and appointments
+Che ore sono?|What time is it?|Sono le nove.|It is nine o'clock.|È le nove.|Use sono le for hours other than one: è l'una.
+Quando ci vediamo?|When shall we meet?|Ci vediamo domani alle dieci.|We will meet tomorrow at ten.|Ci vediamo domani a dieci.|Use alle before most clock times.
+Sei libero lunedì?|Are you free on Monday?|Sì, sono libero lunedì.|Yes, I am free on Monday.|Sì, essere libero lunedì.|Use the conjugated verb sono with io.
+Quanto dura la lezione?|How long is the lesson?|Dura un'ora.|It lasts an hour.|Dura uno ora.|Ora is feminine: una ora contracts to un'ora.
+
+A1|2|panetteria|In panetteria|At the bakery
+Buongiorno! Che cosa desidera?|Good morning! What would you like?|Vorrei due panini, per favore.|I would like two bread rolls, please.|Vorrei due panino.|Use the plural panini after due.
+Vuole anche del pane?|Would you also like some bread?|Sì, un chilo di pane.|Yes, a kilogram of bread.|Sì, un chilo da pane.|Use di after a quantity: un chilo di pane.
+Preferisce questo?|Do you prefer this one?|Sì, prendo questo.|Yes, I will take this one.|Sì, prende questo.|With io use prendo; prende is third person.
+Sono quattro euro.|That is four euros.|Posso pagare con la carta?|Can I pay by card?|Posso pago con la carta?|Use an infinitive after posso: posso pagare.
+
+A1|2|supermercato|Al supermercato|At the supermarket
+Posso aiutarla?|Can I help you?|Dove sono le mele?|Where are the apples?|Dove è le mele?|Le mele is plural, so use sono.
+Quante mele vuole?|How many apples would you like?|Vorrei un chilo di mele.|I would like a kilogram of apples.|Vorrei un chilo di mela.|Use plural mele for apples in this quantity.
+Ha una borsa?|Do you have a bag?|Sì, ho una borsa.|Yes, I have a bag.|Sì, ha una borsa.|With io use ho; ha is third person.
+Serve altro?|Anything else?|No, grazie. Quanto costa?|No, thanks. How much does it cost?|No, grazie. Quanto costare?|Use the conjugated form costa in the question.
+
+A1|3|famiglia|La famiglia|Family
+Hai fratelli o sorelle?|Do you have siblings?|Ho una sorella.|I have a sister.|Ho un sorella.|Sorella is feminine: una sorella.
+Come si chiama tua madre?|What is your mother's name?|Mia madre si chiama Anna.|My mother's name is Anna.|Mia madre mi chiamo Anna.|Use si chiama for another person's name.
+Dove vive la tua famiglia?|Where does your family live?|La mia famiglia vive a Milano.|My family lives in Milan.|La mia famiglia vivono a Milano.|Famiglia is singular: vive.
+Avete un animale?|Do you have a pet?|Abbiamo un gatto.|We have a cat.|Abbiamo una gatto.|Gatto is masculine: un gatto.
+
+A1|3|indicazioni|Chiedere indicazioni|Asking for directions
+Mi scusi, cerca qualcosa?|Excuse me, are you looking for something?|Dov'è la stazione?|Where is the station?|Dov'è il stazione?|Stazione is feminine: la stazione.
+Può andare a piedi.|You can walk.|Quanto tempo ci vuole?|How long does it take?|Quanti tempo ci vuole?|Tempo is singular: quanto tempo.
+Vada dritto, poi giri a destra.|Go straight, then turn right.|Devo girare a destra qui?|Do I have to turn right here?|Devo giro a destra qui?|Use the infinitive girare after devo.
+La stazione è vicino al parco.|The station is near the park.|Grazie per l'aiuto!|Thanks for your help!|Grazie da l'aiuto!|Use grazie per to thank someone for something.
+
+A1|4|bar|Al bar|At the café
+Che cosa prende?|What would you like?|Un caffè, per favore.|A coffee, please.|Una caffè, per favore.|Caffè is masculine: un caffè.
+Vuole anche qualcosa da mangiare?|Would you also like something to eat?|Vorrei un cornetto.|I would like a croissant.|Vorrei una cornetto.|Cornetto is masculine: un cornetto.
+Lo vuole caldo?|Would you like it hot?|Sì, grazie.|Yes, please.|Sì, grazio.|The fixed expression is grazie.
+Altro?|Anything else?|Il conto, per favore.|The bill, please.|La conto, per favore.|Conto is masculine: il conto.
+
+A1|4|giornata|La mia giornata|My daily routine
+A che ora ti svegli?|What time do you wake up?|Mi sveglio alle sette.|I wake up at seven.|Mi sveglia alle sette.|With io use mi sveglio.
+Che cosa fai dopo?|What do you do afterwards?|Faccio colazione.|I have breakfast.|Fai colazione.|Faccio is first person; fai means you do.
+Come vai al lavoro?|How do you go to work?|Vado al lavoro in autobus.|I go to work by bus.|Vado al lavoro con autobus.|Use in autobus for the means of transport.
+Quando vai a letto?|When do you go to bed?|Vado a letto alle undici.|I go to bed at eleven.|Vado in letto alle undici.|The usual expression is andare a letto.
+
+A2|7|casa|Casa e vicini|Your flat and neighbours
+Come ti trovi nella nuova casa?|How are you finding the new home?|Mi trovo bene, è luminosa.|I like it; it is bright.|Mi trovo bene, è luminoso.|Casa is feminine, so luminosa agrees with it.
+Hai conosciuto i vicini?|Have you met the neighbours?|Sì, li ho conosciuti ieri.|Yes, I met them yesterday.|Sì, li ho conosciuto ieri.|The past participle agrees with preceding direct pronoun li: conosciuti.
+C'è un problema con il riscaldamento?|Is there a problem with the heating?|Il riscaldamento non funziona.|The heating does not work.|Il riscaldamento non funzionano.|Riscaldamento is singular: funziona.
+Quando può venire il tecnico?|When can the technician come?|Può venire domani mattina.|He can come tomorrow morning.|Può viene domani mattina.|Use the infinitive venire after può.
+
+A2|8|trasporti|In treno e in autobus|By train and bus
+Dove vuole andare?|Where would you like to go?|Vorrei andare a Firenze.|I would like to go to Florence.|Vorrei andare in Firenze.|Use a before a city.
+Solo andata o andata e ritorno?|One-way or return?|Andata e ritorno, grazie.|Return, please.|Andare e ritorno, grazie.|Use the noun andata in the ticket expression.
+A che ora parte il treno?|What time does the train leave?|Parte alle quattordici.|It leaves at two p.m.|Partono alle quattordici.|Il treno is singular: parte.
+Ha già il biglietto?|Do you already have the ticket?|Sì, l'ho comprato online.|Yes, I bought it online.|Sì, l'ho comprare online.|Use the past participle comprato with ho.
+
+A2|9|medico|Dal medico e in farmacia|At the doctor's and the pharmacy
+Come si sente?|How are you feeling?|Ho mal di gola da due giorni.|I have had a sore throat for two days.|Sono mal di gola da due giorni.|Use avere in the expression avere mal di gola.
+Ha la febbre?|Do you have a fever?|Sì, ho anche la febbre.|Yes, I also have a fever.|Sì, sono anche la febbre.|Use ho la febbre, not sono la febbre.
+Prende altre medicine?|Do you take other medicines?|No, non prendo altre medicine.|No, I do not take other medicines.|No, non prendere altre medicine.|Use the conjugated verb prendo with io.
+Vuole parlare con il farmacista?|Would you like to speak to the pharmacist?|Sì, vorrei chiedere un consiglio.|Yes, I would like to ask for advice.|Sì, vorrei chiedo un consiglio.|Use the infinitive chiedere after vorrei.
+
+A2|10|comune|In comune|At the town hall
+Ha un appuntamento?|Do you have an appointment?|Sì, ho un appuntamento alle nove.|Yes, I have an appointment at nine.|Sì, ho uno appuntamento alle nove.|Use un before a masculine noun beginning with a vowel.
+Ha portato un documento?|Have you brought an ID document?|Sì, ecco la mia carta d'identità.|Yes, here is my identity card.|Sì, ecco il mio carta d'identità.|Carta is feminine: la mia carta.
+Deve compilare questo modulo.|You need to fill out this form.|Può spiegarmi questa domanda?|Can you explain this question to me?|Può spiega questa domanda?|Use an infinitive after può: spiegarmi.
+Dove abita?|Where do you live?|Abito in via Roma, al numero dieci.|I live at number ten, Via Roma.|Abito a via Roma, il numero dieci.|Use in via and al numero for an Italian street address.
+
+A2|11|tempo-libero|Il tempo libero|Free time and weekends
+Che cosa hai fatto sabato?|What did you do on Saturday?|Sono andato al cinema.|I went to the cinema.|Ho andato al cinema.|Andare uses essere in the passato prossimo.
+Ti è piaciuto il film?|Did you like the film?|Sì, mi è piaciuto molto.|Yes, I liked it a lot.|Sì, mi ha piaciuto molto.|Piacere uses essere in this past tense.
+Che cosa facciamo domenica?|What shall we do on Sunday?|Potremmo fare una passeggiata.|We could go for a walk.|Potremmo facciamo una passeggiata.|Use the infinitive fare after potremmo.
+A che ora ci incontriamo?|What time shall we meet?|Incontriamoci alle dieci al parco.|Let's meet at ten in the park.|Incontriamoci a dieci al parco.|Use alle before most clock times.
+
+A2|12|vestiti|Comprare vestiti|Buying clothes
+Posso aiutarla?|Can I help you?|Cerco una camicia bianca.|I am looking for a white shirt.|Cerco una camicia bianco.|Bianca agrees with the feminine noun camicia.
+Che taglia porta?|What size do you wear?|Porto la taglia media.|I wear a medium.|Porto il taglia media.|Taglia is feminine: la taglia.
+Vuole provarla?|Would you like to try it on?|Sì, dov'è il camerino?|Yes, where is the fitting room?|Sì, dov'è la camerino?|Camerino is masculine: il camerino.
+Come le sta?|How does it fit?|È troppo grande. Ne ha una più piccola?|It is too big. Do you have a smaller one?|È troppo grande. Ne ha uno più piccolo?|Una refers to the feminine noun camicia.
+
+B1|13|ufficio|In ufficio|At the office
+Come procede il progetto?|How is the project going?|Abbiamo completato la prima fase.|We have completed the first phase.|Abbiamo completare la prima fase.|Use the past participle completato after abbiamo.
+Riusciamo a rispettare la scadenza?|Can we meet the deadline?|Sì, se riceviamo i dati oggi.|Yes, if we receive the data today.|Sì, se riceviamo i dato oggi.|Use the plural dati with i.
+Puoi inviarmi il documento?|Can you send me the document?|Te lo mando entro mezzogiorno.|I will send it to you by noon.|Ti lo mando entro mezzogiorno.|Ti changes to te before lo: te lo mando.
+Quando ne parliamo?|When shall we discuss it?|Ne parliamo durante la riunione.|We will discuss it during the meeting.|Ne parliamo durante il riunione.|Riunione is feminine: la riunione.
+
+B1|14|telefono|Al telefono|On the phone
+Pronto, con chi desidera parlare?|Hello, whom would you like to speak to?|Vorrei parlare con la signora Rossi.|I would like to speak to Ms Rossi.|Vorrei parlare alla la signora Rossi.|Use parlare con; do not combine alla and la.
+Chi devo annunciare?|Who shall I say is calling?|Sono Sam, chiamo per il preventivo.|This is Sam, calling about the quotation.|Sono Sam, chiamare per il preventivo.|Use the conjugated form chiamo.
+Al momento non è disponibile.|She is not available at the moment.|Potrebbe richiamarmi nel pomeriggio?|Could she call me back in the afternoon?|Potrebbe richiama nel pomeriggio?|Use the infinitive richiamarmi after potrebbe.
+Vuole lasciare un messaggio?|Would you like to leave a message?|Sì, le dica che ho chiamato.|Yes, tell her that I called.|Sì, le dica che ho chiamare.|Use the past participle chiamato after ho.
+
+B1|15|reclami|Reclami e resi|Complaints and returns
+Qual è il problema?|What is the problem?|Il prodotto che ho comprato non funziona.|The product I bought does not work.|Il prodotto che ho comprare non funziona.|Use the past participle comprato.
+Ha lo scontrino?|Do you have the receipt?|Sì, l'ho conservato.|Yes, I kept it.|Sì, l'ho conservare.|Use conservato after ho.
+Preferisce una sostituzione?|Would you prefer a replacement?|Preferirei ricevere un rimborso.|I would prefer a refund.|Preferirei ricevo un rimborso.|Use ricevere after preferirei.
+Possiamo controllare il difetto?|Can we check the defect?|Certo, le mostro cosa succede.|Certainly, I will show you what happens.|Certo, le mostra cosa succede.|With io use mostro.
+
+B1|16|banca|Banca e assicurazioni|Banking and insurance
+Come posso aiutarla?|How can I help you?|Vorrei aprire un conto corrente.|I would like to open a current account.|Vorrei apro un conto corrente.|Use aprire after vorrei.
+Ha già confrontato le offerte?|Have you already compared the offers?|Sì, ma vorrei chiarire le commissioni.|Yes, but I would like to clarify the fees.|Sì, ma vorrei chiarisco le commissioni.|Use chiarire after vorrei.
+Preferisce una carta di debito?|Would you prefer a debit card?|Sì, purché non ci siano costi aggiuntivi.|Yes, provided there are no additional costs.|Sì, purché non ci sono costi aggiuntivi.|Purché normally introduces the subjunctive: siano.
+Ha domande sull'assicurazione?|Do you have questions about the insurance?|Quali danni copre questa polizza?|What damage does this policy cover?|Quale danni copre questa polizza?|Danni is plural: quali danni.
+
+B1|17|salute|Salute e assenze|Health and calling in sick
+Buongiorno, come stai?|Good morning, how are you?|Purtroppo non mi sento bene.|Unfortunately, I do not feel well.|Purtroppo non mi sente bene.|With io use mi sento.
+Riesci a lavorare oggi?|Can you work today?|No, devo restare a casa.|No, I need to stay at home.|No, devo resto a casa.|Use restare after devo.
+Hai già avvisato il responsabile?|Have you already informed the manager?|Sì, gli ho mandato un messaggio.|Yes, I sent him a message.|Sì, gli ho mandare un messaggio.|Use the past participle mandato.
+Quando pensi di tornare?|When do you think you will return?|Spero di tornare domani.|I hope to return tomorrow.|Spero di torno domani.|Use the infinitive tornare after di.
+
+B1|18|opinioni|Esprimere opinioni|Giving your opinion
+Che ne pensi del lavoro da casa?|What do you think about working from home?|Secondo me offre più flessibilità.|In my opinion it offers more flexibility.|Secondo io offre più flessibilità.|Use me after secondo: secondo me.
+Sei d'accordo con questa proposta?|Do you agree with this proposal?|Sono d'accordo solo in parte.|I agree only partly.|Ho d'accordo solo in parte.|Use essere d'accordo: sono d'accordo.
+Qual è il vantaggio principale?|What is the main advantage?|Il vantaggio è che si risparmia tempo.|The advantage is that it saves time.|La vantaggio è che si risparmia tempo.|Vantaggio is masculine: il vantaggio.
+Ci sono anche degli svantaggi?|Are there also disadvantages?|Sì, può essere difficile separare lavoro e vita privata.|Yes, separating work and private life can be difficult.|Sì, può è difficile separare lavoro e vita privata.|Use essere after può.
+
+B2|20|colloquio|Il colloquio di lavoro|The job interview
+Ci parli della sua esperienza.|Tell us about your experience.|Mi sono occupato dell'analisi dei dati.|I was responsible for data analysis.|Mi ho occupato dell'analisi dei dati.|Occuparsi uses essere in the passato prossimo.
+Perché vorrebbe lavorare con noi?|Why would you like to work with us?|Vorrei contribuire allo sviluppo del vostro prodotto.|I would like to contribute to developing your product.|Vorrei contribuisco allo sviluppo del vostro prodotto.|Use contribuire after vorrei.
+Come affronta una difficoltà?|How do you approach a difficulty?|Prima individuo la causa, poi propongo una soluzione.|First I identify the cause, then I propose a solution.|Prima individuo la causa, poi propongo un soluzione.|Soluzione is feminine: una soluzione.
+Ha delle domande per noi?|Do you have any questions for us?|Vorrei sapere quali opportunità di formazione offrite.|I would like to know what training opportunities you offer.|Vorrei sapere quale opportunità di formazione offrite.|Use plural quali with plural opportunità.
+
+B2|21|notizie|Parlare delle notizie|Talking about the news
+Hai letto l'articolo di oggi?|Have you read today's article?|Sì, mi sembra che presenti un punto di vista interessante.|Yes, it seems to me that it presents an interesting viewpoint.|Sì, mi sembra che presentare un punto di vista interessante.|After mi sembra che, use a conjugated verb, here presenti.
+La fonte ti sembra affidabile?|Does the source seem reliable to you?|Prima di giudicare, vorrei confrontarla con altre fonti.|Before judging, I would like to compare it with other sources.|Prima di giudicare, vorrei confrontarlo con altre fonti.|La refers to the feminine noun fonte: confrontarla.
+Quali conseguenze potrebbe avere?|What consequences could it have?|Potrebbe influenzare le decisioni del governo.|It could influence the government's decisions.|Potrebbe influenza le decisioni del governo.|Use influenzare after potrebbe.
+Sei convinto della conclusione?|Are you convinced by the conclusion?|Non del tutto: mancano alcuni dati importanti.|Not entirely: some important data are missing.|Non del tutto: manca alcuni dati importanti.|Alcuni dati is plural: mancano.
+
+B2|22|proprietario|Parlare con il proprietario|Dealing with your landlord
+Mi ha scritto per una riparazione?|Did you write to me about a repair?|Sì, vorrei segnalare un problema che persiste da una settimana.|Yes, I would like to report a problem that has persisted for a week.|Sì, vorrei segnalo un problema che persiste da una settimana.|Use segnalare after vorrei.
+Di quale problema si tratta?|What problem is it?|Si tratta di una perdita d'acqua in cucina.|It is a water leak in the kitchen.|Si tratta da una perdita d'acqua in cucina.|The expression is si tratta di.
+Quando sarebbe disponibile?|When would you be available?|Sarei disponibile venerdì, purché mi avvisi prima.|I would be available on Friday, provided you let me know beforehand.|Sarei disponibile venerdì, purché mi avvisare prima.|Purché requires a conjugated subjunctive verb, here avvisi.
+Le va bene una conferma scritta?|Would written confirmation suit you?|Sì, le sarei grato se potesse confermare l'orario.|Yes, I would be grateful if you could confirm the time.|Sì, le sarei grato se può confermare l'orario.|With this hypothetical request use se potesse.
+
+B2|23|problema-lavoro|Spiegare un problema al lavoro|Explaining a problem at work
+Qual è la causa del ritardo?|What is causing the delay?|Il ritardo è dovuto a un errore nell'importazione dei dati.|The delay is due to an error in the data import.|Il ritardo è dovuta a un errore nell'importazione dei dati.|Dovuto agrees with masculine ritardo.
+Avete già individuato una soluzione?|Have you already identified a solution?|Abbiamo individuato il problema e stiamo verificando la correzione.|We identified the problem and are checking the correction.|Abbiamo individuare il problema e stiamo verificando la correzione.|Use the past participle individuato.
+Che cosa proponi di fare?|What do you suggest doing?|Propongo di rinviare il rilascio finché i controlli non saranno completati.|I suggest postponing the release until the checks are complete.|Propongo di rinvio il rilascio finché i controlli non saranno completati.|Use rinviare after propongo di.
+Come possiamo evitare che ricapiti?|How can we prevent it from recurring?|È essenziale che ogni modifica venga verificata.|It is essential that every change be checked.|È essenziale che ogni modifica vengono verificata.|Ogni modifica is singular: venga verificata.
+
+B2|24|discutere|Discutere e convincere|Debating and persuading
+Perché dovremmo cambiare metodo?|Why should we change the method?|Sebbene quello attuale funzioni, potremmo ridurre gli errori.|Although the current one works, we could reduce errors.|Sebbene quello attuale funzionare, potremmo ridurre gli errori.|Sebbene introduces a conjugated subjunctive verb: funzioni.
+Non sarebbe troppo costoso?|Would it not be too expensive?|Dipende da quali costi prendiamo in considerazione.|It depends on which costs we consider.|Dipende di quali costi prendiamo in considerazione.|Use dipendere da.
+Hai un esempio concreto?|Do you have a concrete example?|Se avessimo automatizzato il controllo, avremmo risparmiato tempo.|If we had automated the check, we would have saved time.|Se avremmo automatizzato il controllo, avremmo risparmiato tempo.|Use the pluperfect subjunctive after se: avessimo automatizzato.
+Come procederesti?|How would you proceed?|Inizierei con una prova limitata, in modo da valutare i risultati.|I would begin with a limited trial to assess the results.|Inizierei con una prova limitato, in modo da valutare i risultati.|Limitata agrees with feminine prova.
+
+B2|25|raccontare|Raccontare una storia|Telling a story
+Che cosa è successo durante il viaggio?|What happened during the trip?|Mentre aspettavo il treno, ho incontrato un vecchio amico.|While I was waiting for the train, I met an old friend.|Mentre aspettare il treno, ho incontrato un vecchio amico.|Use aspettavo for the ongoing past background action.
+Non lo vedevi da molto?|Had you not seen him for a long time?|Non lo vedevo da quando avevamo finito la scuola.|I had not seen him since we finished school.|Non lo vedevo da quando avevamo finire la scuola.|Use the past participle finito after avevamo.
+Come avete reagito?|How did you react?|Eravamo così sorpresi che all'inizio non sapevamo cosa dire.|We were so surprised that at first we did not know what to say.|Eravamo così sorpreso che all'inizio non sapevamo cosa dire.|Sorpresi agrees with the plural subject noi.
+Come si è conclusa la giornata?|How did the day end?|Alla fine abbiamo deciso di rivederci la settimana successiva.|In the end we decided to meet again the following week.|Alla fine abbiamo deciso di rivediamo la settimana successiva.|Use rivederci after deciso di.

@@ -1,0 +1,254 @@
+[
+  {
+    "id": "cane",
+    "article": "il",
+    "word": "cane",
+    "en": "dog",
+    "emoji": "🐕"
+  },
+  {
+    "id": "gatto",
+    "article": "il",
+    "word": "gatto",
+    "en": "cat",
+    "emoji": "🐈"
+  },
+  {
+    "id": "casa",
+    "article": "la",
+    "word": "casa",
+    "en": "house",
+    "emoji": "🏠"
+  },
+  {
+    "id": "albero",
+    "article": "l'",
+    "word": "albero",
+    "en": "tree",
+    "emoji": "🌳"
+  },
+  {
+    "id": "fiore",
+    "article": "il",
+    "word": "fiore",
+    "en": "flower",
+    "emoji": "🌼"
+  },
+  {
+    "id": "libro",
+    "article": "il",
+    "word": "libro",
+    "en": "book",
+    "emoji": "📖"
+  },
+  {
+    "id": "mela",
+    "article": "la",
+    "word": "mela",
+    "en": "apple",
+    "emoji": "🍎"
+  },
+  {
+    "id": "banana",
+    "article": "la",
+    "word": "banana",
+    "en": "banana",
+    "emoji": "🍌"
+  },
+  {
+    "id": "pane",
+    "article": "il",
+    "word": "pane",
+    "en": "bread",
+    "emoji": "🍞"
+  },
+  {
+    "id": "tavolo",
+    "article": "il",
+    "word": "tavolo",
+    "en": "table",
+    "emoji": "🪑"
+  },
+  {
+    "id": "lampada",
+    "article": "la",
+    "word": "lampada",
+    "en": "lamp",
+    "emoji": "💡"
+  },
+  {
+    "id": "letto",
+    "article": "il",
+    "word": "letto",
+    "en": "bed",
+    "emoji": "🛏️"
+  },
+  {
+    "id": "sedia",
+    "article": "la",
+    "word": "sedia",
+    "en": "chair",
+    "emoji": "🪑"
+  },
+  {
+    "id": "porta",
+    "article": "la",
+    "word": "porta",
+    "en": "door",
+    "emoji": "🚪"
+  },
+  {
+    "id": "finestra",
+    "article": "la",
+    "word": "finestra",
+    "en": "window",
+    "emoji": "🪟"
+  },
+  {
+    "id": "pallone",
+    "article": "il",
+    "word": "pallone",
+    "en": "ball",
+    "emoji": "⚽"
+  },
+  {
+    "id": "orologio",
+    "article": "l'",
+    "word": "orologio",
+    "en": "clock",
+    "emoji": "🕒"
+  },
+  {
+    "id": "bicicletta",
+    "article": "la",
+    "word": "bicicletta",
+    "en": "bicycle",
+    "emoji": "🚲"
+  },
+  {
+    "id": "pesce",
+    "article": "il",
+    "word": "pesce",
+    "en": "fish",
+    "emoji": "🐟"
+  },
+  {
+    "id": "sole",
+    "article": "il",
+    "word": "sole",
+    "en": "sun",
+    "emoji": "☀️"
+  },
+  {
+    "id": "auto",
+    "article": "l'",
+    "word": "auto",
+    "en": "car",
+    "emoji": "🚗"
+  },
+  {
+    "id": "uccello",
+    "article": "l'",
+    "word": "uccello",
+    "en": "bird",
+    "emoji": "🐦"
+  },
+  {
+    "id": "nuvola",
+    "article": "la",
+    "word": "nuvola",
+    "en": "cloud",
+    "emoji": "☁️"
+  },
+  {
+    "id": "bambino",
+    "article": "il",
+    "word": "bambino",
+    "en": "child",
+    "emoji": "🧒"
+  },
+  {
+    "id": "treno",
+    "article": "il",
+    "word": "treno",
+    "en": "train",
+    "emoji": "🚆"
+  },
+  {
+    "id": "borsa",
+    "article": "la",
+    "word": "borsa",
+    "en": "bag",
+    "emoji": "👜"
+  },
+  {
+    "id": "uovo",
+    "article": "l'",
+    "word": "uovo",
+    "en": "egg",
+    "emoji": "🥚"
+  },
+  {
+    "id": "luna",
+    "article": "la",
+    "word": "luna",
+    "en": "moon",
+    "emoji": "🌙"
+  },
+  {
+    "id": "scuola",
+    "article": "la",
+    "word": "scuola",
+    "en": "school",
+    "emoji": "🏫"
+  },
+  {
+    "id": "acqua",
+    "article": "l'",
+    "word": "acqua",
+    "en": "water",
+    "emoji": "💧"
+  },
+  {
+    "id": "stella",
+    "article": "la",
+    "word": "stella",
+    "en": "star",
+    "emoji": "⭐"
+  },
+  {
+    "id": "strada",
+    "article": "la",
+    "word": "strada",
+    "en": "street",
+    "emoji": "🛣️"
+  },
+  {
+    "id": "telefono",
+    "article": "il",
+    "word": "telefono",
+    "en": "telephone",
+    "emoji": "☎️"
+  },
+  {
+    "id": "giardino",
+    "article": "il",
+    "word": "giardino",
+    "en": "garden",
+    "emoji": "🌱"
+  },
+  {
+    "id": "bottiglia",
+    "article": "la",
+    "word": "bottiglia",
+    "en": "bottle",
+    "emoji": "🍶"
+  },
+  {
+    "id": "zaino",
+    "article": "lo",
+    "word": "zaino",
+    "en": "backpack",
+    "emoji": "🎒"
+  }
+]

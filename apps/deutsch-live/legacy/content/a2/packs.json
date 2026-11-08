@@ -1,0 +1,348 @@
+{
+  "level": "A2",
+  "version": "0.3.0",
+  "packs": [
+    {
+      "slug": "wohnung",
+      "title": "Wohnung und Nachbarn",
+      "title_en": "Your flat and neighbours",
+      "week": 7,
+      "items": [
+        {"de": "Miete", "art": "die", "pl": "Mieten", "pos": "noun", "en": "rent", "ex": "Die Miete zahle ich immer am Monatsanfang.", "ex_en": "I always pay the rent at the start of the month."},
+        {"de": "Vermieter", "art": "der", "pl": "Vermieter", "pos": "noun", "en": "landlord", "ex": "Mein Vermieter wohnt im Erdgeschoss.", "ex_en": "My landlord lives on the ground floor."},
+        {"de": "Nachbar", "art": "der", "pl": "Nachbarn", "pos": "noun", "en": "neighbour", "ex": "Unser Nachbar gießt im Urlaub unsere Blumen.", "ex_en": "Our neighbour waters our plants when we're away."},
+        {"de": "Nebenkosten", "art": "die", "pos": "noun", "en": "utility and service charges (plural only)", "ex": "Die Nebenkosten sind dieses Jahr gestiegen.", "ex_en": "The utility charges went up this year."},
+        {"de": "Stock", "art": "der", "pos": "noun", "en": "floor, storey", "ex": "Ich wohne im dritten Stock.", "ex_en": "I live on the third floor."},
+        {"de": "Treppenhaus", "art": "das", "pl": "Treppenhäuser", "pos": "noun", "en": "stairwell", "ex": "Im Treppenhaus ist das Licht kaputt.", "ex_en": "The light in the stairwell is broken."},
+        {"de": "Schlüssel", "art": "der", "pl": "Schlüssel", "pos": "noun", "en": "key", "ex": "Ich habe meinen Schlüssel in der Wohnung vergessen.", "ex_en": "I left my key in the flat."},
+        {"de": "Heizung", "art": "die", "pl": "Heizungen", "pos": "noun", "en": "heating, radiator", "ex": "Die Heizung im Bad wird nicht warm.", "ex_en": "The radiator in the bathroom isn't getting warm."},
+        {"de": "Müll", "art": "der", "pos": "noun", "en": "rubbish, waste", "ex": "Wir trennen den Müll: Papier, Plastik und Restmüll.", "ex_en": "We separate our rubbish: paper, plastic and general waste."},
+        {"de": "Hausordnung", "art": "die", "pl": "Hausordnungen", "pos": "noun", "en": "house rules", "ex": "Die Hausordnung hängt unten im Flur.", "ex_en": "The house rules are posted downstairs in the hall."},
+        {"de": "umziehen", "pos": "verb", "en": "to move (house) (separable)", "ex": "Wir ziehen im Mai in eine größere Wohnung um.", "ex_en": "We're moving to a bigger flat in May."},
+        {"de": "mieten", "pos": "verb", "en": "to rent", "ex": "Ich möchte eine Zweizimmerwohnung mieten.", "ex_en": "I'd like to rent a two-room flat."},
+        {"de": "kaputt", "pos": "adj", "en": "broken", "ex": "Die Waschmaschine ist schon wieder kaputt.", "ex_en": "The washing machine is broken again."},
+        {"de": "laut", "pos": "adj", "en": "loud, noisy", "ex": "Die Straße vor dem Haus ist sehr laut.", "ex_en": "The street outside the building is very noisy."},
+        {"de": "ruhig", "pos": "adj", "en": "quiet, calm", "ex": "Das Schlafzimmer liegt ruhig zum Hof.", "ex_en": "The bedroom faces the quiet courtyard."},
+        {"de": "Könnten Sie bitte leiser sein?", "pos": "phrase", "en": "Could you please be quieter?", "ex": "Entschuldigung, könnten Sie bitte leiser sein?", "ex_en": "Excuse me, could you please be quieter?"},
+        {"de": "Wie viele Zimmer hat die Wohnung?", "pos": "phrase", "en": "How many rooms does the flat have?", "ex": "Wie viele Zimmer hat die Wohnung? – Drei und eine Küche.", "ex_en": "How many rooms? – Three plus a kitchen."},
+        {"de": "Darf ich kurz stören?", "pos": "phrase", "en": "Sorry to bother you, have you got a moment?", "ex": "Hallo, darf ich kurz stören?", "ex_en": "Hi, sorry to bother you, have you got a moment?"},
+        {"de": "Ab 22 Uhr ist Nachtruhe.", "pos": "phrase", "en": "Quiet hours start at 10 pm.", "ex": "Bitte denkt daran: Ab 22 Uhr ist Nachtruhe.", "ex_en": "Please remember: quiet hours start at 10 pm."},
+        {"de": "Können Sie das reparieren lassen?", "pos": "phrase", "en": "Can you have that repaired?", "ex": "Der Wasserhahn tropft. Können Sie das reparieren lassen?", "ex_en": "The tap is dripping. Can you have that repaired?"}
+      ],
+      "dialogue": {
+        "setting": "It's 11 pm. Loud music is coming from the flat above you. You ring your neighbour's bell.",
+        "steps": [
+          {"npc": "Ja? Hallo?", "npc_en": "Yes? Hello?",
+           "options": [
+             {"de": "Guten Abend, entschuldigen Sie die Störung. Ich wohne unter Ihnen.", "ok": true},
+             {"de": "Guten Abend, entschuldigen Sie die Störung. Ich wohne unter Sie.", "ok": false, "why": "unter (where?) takes the dative: unter Ihnen."},
+             {"de": "Guten Abend, Entschuldigung für stören.", "ok": false, "why": "Use the noun: Entschuldigen Sie die Störung."}
+           ]},
+          {"npc": "Oh, hallo. Was gibt's?", "npc_en": "Oh, hi. What's up?",
+           "options": [
+             {"de": "Die Musik ist ziemlich laut. Könnten Sie sie bitte leiser machen?", "ok": true},
+             {"de": "Die Musik ist ziemlich laut. Könnten Sie bitte leiser machen die Musik?", "ok": false, "why": "The infinitive goes to the end: … die Musik leiser machen?"},
+             {"de": "Die Musik ist ziemlich laut. Machen leiser, bitte!", "ok": false, "why": "Too blunt and missing Sie: Könnten Sie sie bitte leiser machen?"}
+           ]},
+          {"npc": "Tut mir leid, wir feiern Geburtstag. Ich mache sie sofort leiser.", "npc_en": "Sorry, we're celebrating a birthday. I'll turn it down right away.",
+           "options": [
+             {"de": "Danke, das ist nett. Ich muss morgen früh aufstehen.", "ok": true},
+             {"de": "Danke, das ist nett. Ich muss morgen früh aufzustehen.", "ok": false, "why": "No zu after müssen: Ich muss … aufstehen."},
+             {"de": "Danke, das ist nett. Ich muss morgen früh stehen auf.", "ok": false, "why": "After a modal verb the infinitive stays in one piece at the end: aufstehen."}
+           ]},
+          {"npc": "Kein Problem. Gute Nacht!", "npc_en": "No problem. Good night!",
+           "options": [
+             {"de": "Gute Nacht, und feiern Sie noch schön!", "ok": true},
+             {"de": "Gute Nacht, und feiern Sie noch schöne!", "ok": false, "why": "schön is an adverb here, so it has no ending."},
+             {"de": "Gute Nacht, und Sie feiern noch schön!", "ok": false, "why": "The Sie imperative starts with the verb: Feiern Sie …!"}
+           ]}
+        ]
+      }
+    },
+    {
+      "slug": "bahn",
+      "title": "Mit Bahn und Bus",
+      "title_en": "By train and bus",
+      "week": 8,
+      "items": [
+        {"de": "Fahrkarte", "art": "die", "pl": "Fahrkarten", "pos": "noun", "en": "ticket", "ex": "Die Fahrkarte kaufe ich in der App.", "ex_en": "I buy the ticket in the app."},
+        {"de": "Gleis", "art": "das", "pl": "Gleise", "pos": "noun", "en": "platform, track", "ex": "Der Zug fährt heute von Gleis 5 ab.", "ex_en": "Today the train leaves from platform 5."},
+        {"de": "Abfahrt", "art": "die", "pl": "Abfahrten", "pos": "noun", "en": "departure", "ex": "Die Abfahrt ist um 8:15 Uhr.", "ex_en": "Departure is at 8:15."},
+        {"de": "Ankunft", "art": "die", "pl": "Ankünfte", "pos": "noun", "en": "arrival", "ex": "Die Ankunft in München ist um zwölf.", "ex_en": "Arrival in Munich is at twelve."},
+        {"de": "Verspätung", "art": "die", "pl": "Verspätungen", "pos": "noun", "en": "delay", "ex": "Der Zug hat 20 Minuten Verspätung.", "ex_en": "The train is 20 minutes late."},
+        {"de": "Anschluss", "art": "der", "pl": "Anschlüsse", "pos": "noun", "en": "connection (train/bus)", "ex": "Wegen der Verspätung habe ich meinen Anschluss verpasst.", "ex_en": "Because of the delay I missed my connection."},
+        {"de": "Fahrplan", "art": "der", "pl": "Fahrpläne", "pos": "noun", "en": "timetable", "ex": "Laut Fahrplan kommt der Bus in drei Minuten.", "ex_en": "According to the timetable the bus comes in three minutes."},
+        {"de": "Platz", "art": "der", "pl": "Plätze", "pos": "noun", "en": "seat; place, square", "ex": "Ist dieser Platz noch frei?", "ex_en": "Is this seat free?"},
+        {"de": "Deutschlandticket", "art": "das", "pl": "Deutschlandtickets", "pos": "noun", "en": "monthly ticket for all local transport in Germany", "ex": "Mit dem Deutschlandticket fahre ich in allen Regionalzügen.", "ex_en": "With the Deutschlandticket I can ride all regional trains."},
+        {"de": "umsteigen", "pos": "verb", "en": "to change (trains, buses) (separable)", "ex": "In Würzburg müssen Sie umsteigen.", "ex_en": "You have to change in Würzburg."},
+        {"de": "abfahren", "pos": "verb", "en": "to depart (separable)", "ex": "Wann fährt der letzte Bus ab?", "ex_en": "When does the last bus leave?"},
+        {"de": "einsteigen", "pos": "verb", "en": "to get on (separable)", "ex": "Bitte schnell einsteigen, die Türen schließen!", "ex_en": "Please get on quickly, the doors are closing!"},
+        {"de": "aussteigen", "pos": "verb", "en": "to get off (separable)", "ex": "Ich steige an der nächsten Haltestelle aus.", "ex_en": "I'm getting off at the next stop."},
+        {"de": "ausfallen", "pos": "verb", "en": "to be cancelled (separable)", "ex": "Der Zug um 7:40 Uhr fällt heute aus.", "ex_en": "The 7:40 train is cancelled today."},
+        {"de": "pünktlich", "pos": "adj", "en": "on time", "ex": "Heute ist der Zug ausnahmsweise pünktlich.", "ex_en": "For once, the train is on time today."},
+        {"de": "Hin- und Rückfahrt", "pos": "phrase", "en": "return trip", "ex": "Einmal Hin- und Rückfahrt nach Köln, bitte.", "ex_en": "A return ticket to Cologne, please."},
+        {"de": "Fährt dieser Zug nach …?", "pos": "phrase", "en": "Does this train go to …?", "ex": "Entschuldigung, fährt dieser Zug nach Nürnberg?", "ex_en": "Excuse me, does this train go to Nuremberg?"},
+        {"de": "Wo muss ich umsteigen?", "pos": "phrase", "en": "Where do I have to change?", "ex": "Wo muss ich umsteigen, um nach Bonn zu kommen?", "ex_en": "Where do I change to get to Bonn?"},
+        {"de": "Wie lange dauert die Fahrt?", "pos": "phrase", "en": "How long does the journey take?", "ex": "Wie lange dauert die Fahrt? – Ungefähr zwei Stunden.", "ex_en": "How long is the journey? – About two hours."},
+        {"de": "Ich habe den Zug verpasst.", "pos": "phrase", "en": "I missed the train.", "ex": "Mist, ich habe den Zug verpasst!", "ex_en": "Damn, I missed the train!"}
+      ],
+      "dialogue": {
+        "setting": "At the station. Your train is late and you ask at the DB service desk.",
+        "steps": [
+          {"npc": "Guten Tag, wie kann ich Ihnen helfen?", "npc_en": "Hello, how can I help you?",
+           "options": [
+             {"de": "Mein Zug nach Nürnberg hat Verspätung. Erreiche ich meinen Anschluss noch?", "ok": true},
+             {"de": "Mein Zug nach Nürnberg hat Verspätung. Erreiche ich mein Anschluss noch?", "ok": false, "why": "Anschluss is masculine: meinen Anschluss (accusative)."},
+             {"de": "Mein Zug nach Nürnberg ist Verspätung.", "ok": false, "why": "A train hat Verspätung."}
+           ]},
+          {"npc": "Leider nicht. Aber Sie können eine Stunde später fahren und in Würzburg umsteigen.", "npc_en": "Unfortunately not. But you can travel an hour later and change in Würzburg.",
+           "options": [
+             {"de": "Okay. Von welchem Gleis fährt der Zug ab?", "ok": true},
+             {"de": "Okay. Von welches Gleis fährt der Zug ab?", "ok": false, "why": "von takes the dative: von welchem Gleis."},
+             {"de": "Okay. Von welchem Gleis abfährt der Zug?", "ok": false, "why": "abfahren is separable: … fährt der Zug ab?"}
+           ]},
+          {"npc": "Von Gleis 4. Brauchen Sie noch etwas?", "npc_en": "From platform 4. Do you need anything else?",
+           "options": [
+             {"de": "Gilt meine Fahrkarte auch für diesen Zug?", "ok": true},
+             {"de": "Gilt meine Fahrkarte auch für diesem Zug?", "ok": false, "why": "für takes the accusative: für diesen Zug."},
+             {"de": "Ist meine Fahrkarte auch gelten für diesen Zug?", "ok": false, "why": "gelten is the main verb: Gilt meine Fahrkarte …?"}
+           ]},
+          {"npc": "Ja, die Zugbindung ist aufgehoben. Gute Reise!", "npc_en": "Yes, the ticket is no longer tied to a specific train. Have a good trip!",
+           "options": [
+             {"de": "Super, vielen Dank für die Auskunft!", "ok": true},
+             {"de": "Super, vielen Dank für der Auskunft!", "ok": false, "why": "für takes the accusative: für die Auskunft."},
+             {"de": "Super, danke für informieren!", "ok": false, "why": "Use a noun: Danke für die Auskunft."}
+           ]}
+        ]
+      }
+    },
+    {
+      "slug": "arzt",
+      "title": "Beim Arzt und in der Apotheke",
+      "title_en": "At the doctor's and the pharmacy",
+      "week": 9,
+      "items": [
+        {"de": "Praxis", "art": "die", "pl": "Praxen", "pos": "noun", "en": "doctor's practice, surgery", "ex": "Die Praxis öffnet um acht Uhr.", "ex_en": "The practice opens at eight."},
+        {"de": "Versichertenkarte", "art": "die", "pl": "Versichertenkarten", "pos": "noun", "en": "health insurance card", "ex": "Haben Sie Ihre Versichertenkarte dabei?", "ex_en": "Do you have your health insurance card with you?"},
+        {"de": "Schmerz", "art": "der", "pl": "Schmerzen", "pos": "noun", "en": "pain", "ex": "Ich habe Schmerzen im Rücken.", "ex_en": "I have pain in my back."},
+        {"de": "Kopfschmerzen", "art": "die", "pos": "noun", "en": "headache (plural only)", "ex": "Seit heute Morgen habe ich Kopfschmerzen.", "ex_en": "I've had a headache since this morning."},
+        {"de": "Fieber", "art": "das", "pos": "noun", "en": "fever, temperature", "ex": "Mein Sohn hat seit gestern Fieber.", "ex_en": "My son has had a temperature since yesterday."},
+        {"de": "Husten", "art": "der", "pos": "noun", "en": "cough", "ex": "Der Husten ist nachts am schlimmsten.", "ex_en": "The cough is worst at night."},
+        {"de": "Rezept", "art": "das", "pl": "Rezepte", "pos": "noun", "en": "prescription; recipe", "ex": "Für dieses Medikament brauchen Sie ein Rezept.", "ex_en": "You need a prescription for this medicine."},
+        {"de": "Medikament", "art": "das", "pl": "Medikamente", "pos": "noun", "en": "medicine, medication", "ex": "Nehmen Sie regelmäßig Medikamente?", "ex_en": "Do you take any medication regularly?"},
+        {"de": "Tablette", "art": "die", "pl": "Tabletten", "pos": "noun", "en": "tablet, pill", "ex": "Nehmen Sie eine Tablette nach dem Essen.", "ex_en": "Take one tablet after meals."},
+        {"de": "Apotheke", "art": "die", "pl": "Apotheken", "pos": "noun", "en": "pharmacy", "ex": "Die Apotheke am Markt hat heute Notdienst.", "ex_en": "The pharmacy by the market is on emergency duty today."},
+        {"de": "Wartezimmer", "art": "das", "pl": "Wartezimmer", "pos": "noun", "en": "waiting room", "ex": "Bitte nehmen Sie im Wartezimmer Platz.", "ex_en": "Please take a seat in the waiting room."},
+        {"de": "krank", "pos": "adj", "en": "ill, sick", "ex": "Ich bin seit Montag krank.", "ex_en": "I've been ill since Monday."},
+        {"de": "wehtun", "pos": "verb", "en": "to hurt (separable)", "ex": "Mein Hals tut beim Schlucken weh.", "ex_en": "My throat hurts when I swallow."},
+        {"de": "untersuchen", "pos": "verb", "en": "to examine", "ex": "Die Ärztin untersucht mich gründlich.", "ex_en": "The doctor examines me thoroughly."},
+        {"de": "verschreiben", "pos": "verb", "en": "to prescribe", "ex": "Der Arzt verschreibt mir ein Antibiotikum.", "ex_en": "The doctor prescribes me an antibiotic."},
+        {"de": "Was fehlt Ihnen?", "pos": "phrase", "en": "What's the matter? (doctor to patient)", "ex": "Guten Tag, was fehlt Ihnen denn?", "ex_en": "Hello, what seems to be the problem?"},
+        {"de": "Seit wann haben Sie die Beschwerden?", "pos": "phrase", "en": "How long have you had the symptoms?", "ex": "Seit wann haben Sie die Beschwerden? – Seit einer Woche.", "ex_en": "How long have you had the symptoms? – For a week."},
+        {"de": "Gute Besserung!", "pos": "phrase", "en": "Get well soon!", "ex": "Ruh dich aus. Gute Besserung!", "ex_en": "Get some rest. Get well soon!"},
+        {"de": "Ist das rezeptfrei?", "pos": "phrase", "en": "Is that available without a prescription?", "ex": "Ist das Nasenspray rezeptfrei?", "ex_en": "Is the nasal spray available without a prescription?"},
+        {"de": "Wie oft soll ich das nehmen?", "pos": "phrase", "en": "How often should I take it?", "ex": "Wie oft soll ich das nehmen? – Zweimal am Tag.", "ex_en": "How often should I take it? – Twice a day."}
+      ],
+      "dialogue": {
+        "setting": "At your family doctor's. The doctor calls you in.",
+        "steps": [
+          {"npc": "Guten Tag. Was fehlt Ihnen denn?", "npc_en": "Hello. What seems to be the problem?",
+           "options": [
+             {"de": "Ich habe seit drei Tagen Fieber und Halsschmerzen.", "ok": true},
+             {"de": "Ich habe seit drei Tage Fieber und Halsschmerzen.", "ok": false, "why": "seit takes the dative: seit drei Tagen."},
+             {"de": "Ich bin seit drei Tagen Fieber.", "ok": false, "why": "Use haben: Ich habe Fieber."}
+           ]},
+          {"npc": "Haben Sie auch Husten?", "npc_en": "Do you have a cough as well?",
+           "options": [
+             {"de": "Ja, vor allem nachts. Dann kann ich nicht schlafen.", "ok": true},
+             {"de": "Ja, vor allem nachts. Dann ich kann nicht schlafen.", "ok": false, "why": "After dann the verb comes next: Dann kann ich …"},
+             {"de": "Ja, vor allem nachts. Dann kann ich nicht zu schlafen.", "ok": false, "why": "No zu after können."}
+           ]},
+          {"npc": "Ich verschreibe Ihnen ein Medikament. Nehmen Sie dreimal täglich eine Tablette.", "npc_en": "I'll prescribe you some medicine. Take one tablet three times a day.",
+           "options": [
+             {"de": "Soll ich die Tabletten vor oder nach dem Essen nehmen?", "ok": true},
+             {"de": "Soll ich die Tabletten vor oder nach das Essen nehmen?", "ok": false, "why": "vor and nach take the dative here: nach dem Essen."},
+             {"de": "Ich soll nehmen die Tabletten vor dem Essen?", "ok": false, "why": "In a question the modal verb comes first and the infinitive goes last."}
+           ]},
+          {"npc": "Nach dem Essen. Und bleiben Sie ein paar Tage zu Hause. Gute Besserung!", "npc_en": "After meals. And stay at home for a few days. Get well soon!",
+           "options": [
+             {"de": "Vielen Dank, Frau Doktor. Auf Wiedersehen!", "ok": true},
+             {"de": "Vielen Dank, Frau Doktorin. Auf Wiedersehen!", "ok": false, "why": "The spoken title is Frau Doktor."},
+             {"de": "Danke, ich bleibe ein paar Tage zu Hause gehen.", "ok": false, "why": "zu Hause bleiben needs no second verb: Ich bleibe zu Hause."}
+           ]}
+        ]
+      }
+    },
+    {
+      "slug": "amt",
+      "title": "Auf dem Amt",
+      "title_en": "At the town hall",
+      "week": 10,
+      "items": [
+        {"de": "Amt", "art": "das", "pl": "Ämter", "pos": "noun", "en": "public office, authority", "ex": "Morgen muss ich zum Amt.", "ex_en": "Tomorrow I have to go to the authorities."},
+        {"de": "Formular", "art": "das", "pl": "Formulare", "pos": "noun", "en": "form", "ex": "Das Formular gibt es auch online.", "ex_en": "The form is also available online."},
+        {"de": "Antrag", "art": "der", "pl": "Anträge", "pos": "noun", "en": "application", "ex": "Ich möchte einen Antrag auf Kindergeld stellen.", "ex_en": "I'd like to apply for child benefit."},
+        {"de": "Anmeldung", "art": "die", "pl": "Anmeldungen", "pos": "noun", "en": "registration (of your address)", "ex": "Für die Anmeldung brauchen Sie einen Termin.", "ex_en": "You need an appointment to register your address."},
+        {"de": "Ausweis", "art": "der", "pl": "Ausweise", "pos": "noun", "en": "ID card", "ex": "Bitte zeigen Sie mir Ihren Ausweis.", "ex_en": "Please show me your ID."},
+        {"de": "Reisepass", "art": "der", "pl": "Reisepässe", "pos": "noun", "en": "passport", "ex": "Mein Reisepass läuft nächstes Jahr ab.", "ex_en": "My passport expires next year."},
+        {"de": "Unterschrift", "art": "die", "pl": "Unterschriften", "pos": "noun", "en": "signature", "ex": "Hier fehlt noch Ihre Unterschrift.", "ex_en": "Your signature is still missing here."},
+        {"de": "Gebühr", "art": "die", "pl": "Gebühren", "pos": "noun", "en": "fee", "ex": "Die Gebühr beträgt zwölf Euro.", "ex_en": "The fee is twelve euros."},
+        {"de": "Wohnungsgeberbestätigung", "art": "die", "pl": "Wohnungsgeberbestätigungen", "pos": "noun", "en": "landlord's confirmation (needed to register)", "ex": "Die Wohnungsgeberbestätigung bekommen Sie vom Vermieter.", "ex_en": "You get the landlord's confirmation from your landlord."},
+        {"de": "Unterlagen", "art": "die", "pos": "noun", "en": "documents, paperwork (plural only)", "ex": "Haben Sie alle Unterlagen dabei?", "ex_en": "Do you have all the documents with you?"},
+        {"de": "Wartenummer", "art": "die", "pl": "Wartenummern", "pos": "noun", "en": "queue number", "ex": "Ziehen Sie bitte eine Wartenummer.", "ex_en": "Please take a queue number."},
+        {"de": "ausfüllen", "pos": "verb", "en": "to fill in (separable)", "ex": "Füllen Sie bitte dieses Formular aus.", "ex_en": "Please fill in this form."},
+        {"de": "anmelden", "pos": "verb", "en": "to register (separable)", "ex": "Nach dem Umzug müssen Sie sich innerhalb von zwei Wochen anmelden.", "ex_en": "After moving you must register within two weeks."},
+        {"de": "unterschreiben", "pos": "verb", "en": "to sign", "ex": "Bitte unterschreiben Sie hier unten.", "ex_en": "Please sign down here."},
+        {"de": "gültig", "pos": "adj", "en": "valid", "ex": "Der Ausweis ist noch zwei Jahre gültig.", "ex_en": "The ID card is valid for two more years."},
+        {"de": "Welche Unterlagen brauche ich?", "pos": "phrase", "en": "Which documents do I need?", "ex": "Welche Unterlagen brauche ich für den Antrag?", "ex_en": "Which documents do I need for the application?"},
+        {"de": "Wo muss ich unterschreiben?", "pos": "phrase", "en": "Where do I have to sign?", "ex": "Wo muss ich unterschreiben? – Hier und hier.", "ex_en": "Where do I sign? – Here and here."},
+        {"de": "Ich verstehe das Formular nicht.", "pos": "phrase", "en": "I don't understand the form.", "ex": "Entschuldigung, ich verstehe das Formular nicht.", "ex_en": "Excuse me, I don't understand the form."},
+        {"de": "Können Sie das bitte langsamer sagen?", "pos": "phrase", "en": "Could you say that more slowly, please?", "ex": "Können Sie das bitte langsamer sagen? Mein Deutsch ist noch nicht so gut.", "ex_en": "Could you say that more slowly? My German isn't great yet."},
+        {"de": "Bis wann muss ich das abgeben?", "pos": "phrase", "en": "By when do I have to hand it in?", "ex": "Bis wann muss ich das abgeben? – Bis Ende des Monats.", "ex_en": "When is it due? – By the end of the month."}
+      ],
+      "dialogue": {
+        "setting": "You've just moved and are registering your new address at the Bürgeramt.",
+        "steps": [
+          {"npc": "Guten Morgen. Was kann ich für Sie tun?", "npc_en": "Good morning. What can I do for you?",
+           "options": [
+             {"de": "Guten Morgen. Ich möchte mich anmelden. Ich bin gerade hergezogen.", "ok": true},
+             {"de": "Guten Morgen. Ich möchte mich anmelden. Ich bin gerade hergezieht.", "ok": false, "why": "The participle of ziehen is gezogen: hergezogen."},
+             {"de": "Guten Morgen. Ich möchte anmelden mich.", "ok": false, "why": "The reflexive pronoun comes before the infinitive: mich anmelden."}
+           ]},
+          {"npc": "Haben Sie die Wohnungsgeberbestätigung dabei?", "npc_en": "Do you have the landlord's confirmation with you?",
+           "options": [
+             {"de": "Ja, hier ist sie. Und das ist mein Reisepass.", "ok": true},
+             {"de": "Ja, hier ist er. Und das ist mein Reisepass.", "ok": false, "why": "Bestätigung is feminine, so the pronoun is sie."},
+             {"de": "Ja, hier ist sie. Und das ist meine Reisepass.", "ok": false, "why": "Reisepass is masculine: mein Reisepass."}
+           ]},
+          {"npc": "Danke. Füllen Sie bitte noch dieses Formular aus.", "npc_en": "Thanks. Please also fill in this form.",
+           "options": [
+             {"de": "Können Sie mir kurz helfen? Ich verstehe dieses Feld nicht.", "ok": true},
+             {"de": "Können Sie mich kurz helfen? Ich verstehe dieses Feld nicht.", "ok": false, "why": "helfen takes the dative: mir helfen."},
+             {"de": "Können Sie mir kurz helfen? Ich verstehe diesen Feld nicht.", "ok": false, "why": "Feld is neuter: dieses Feld."}
+           ]},
+          {"npc": "Hier tragen Sie Ihr Geburtsdatum ein. So, fertig. Hier ist Ihre Meldebestätigung.", "npc_en": "Your date of birth goes here. Done. Here's your registration certificate.",
+           "options": [
+             {"de": "Super, das ging ja schnell. Vielen Dank!", "ok": true},
+             {"de": "Super, das ging ja schnelle. Vielen Dank!", "ok": false, "why": "schnell is an adverb here, so it has no ending."},
+             {"de": "Super, das ist schnell gegangen worden. Vielen Dank!", "ok": false, "why": "No passive here: Das ging schnell or Das ist schnell gegangen."}
+           ]}
+        ]
+      }
+    },
+    {
+      "slug": "freizeit",
+      "title": "Freizeit und Wochenende",
+      "title_en": "Free time and weekends",
+      "week": 11,
+      "items": [
+        {"de": "Hobby", "art": "das", "pl": "Hobbys", "pos": "noun", "en": "hobby", "ex": "Mein Hobby ist Fotografieren.", "ex_en": "My hobby is photography."},
+        {"de": "Verein", "art": "der", "pl": "Vereine", "pos": "noun", "en": "club, association", "ex": "Ich spiele in einem Verein Volleyball.", "ex_en": "I play volleyball in a club."},
+        {"de": "Ausflug", "art": "der", "pl": "Ausflüge", "pos": "noun", "en": "day trip, outing", "ex": "Am Sonntag machen wir einen Ausflug an den See.", "ex_en": "On Sunday we're going on a trip to the lake."},
+        {"de": "Fahrrad", "art": "das", "pl": "Fahrräder", "pos": "noun", "en": "bicycle", "ex": "Ich fahre mit dem Fahrrad zur Arbeit.", "ex_en": "I cycle to work."},
+        {"de": "Konzert", "art": "das", "pl": "Konzerte", "pos": "noun", "en": "concert", "ex": "Kommst du mit ins Konzert?", "ex_en": "Are you coming to the concert?"},
+        {"de": "Kino", "art": "das", "pl": "Kinos", "pos": "noun", "en": "cinema", "ex": "Wollen wir heute Abend ins Kino gehen?", "ex_en": "Shall we go to the cinema tonight?"},
+        {"de": "Eintritt", "art": "der", "pos": "noun", "en": "entry, admission (fee)", "ex": "Der Eintritt kostet zehn Euro.", "ex_en": "Admission is ten euros."},
+        {"de": "Lust", "art": "die", "pos": "noun", "en": "desire; (Lust haben) to feel like", "ex": "Ich habe keine Lust auf Fernsehen.", "ex_en": "I don't feel like watching TV."},
+        {"de": "Spaziergang", "art": "der", "pl": "Spaziergänge", "pos": "noun", "en": "walk, stroll", "ex": "Nach dem Essen machen wir einen Spaziergang.", "ex_en": "After lunch we go for a walk."},
+        {"de": "Biergarten", "art": "der", "pl": "Biergärten", "pos": "noun", "en": "beer garden", "ex": "Im Sommer sitzen wir oft im Biergarten.", "ex_en": "In summer we often sit in the beer garden."},
+        {"de": "wandern", "pos": "verb", "en": "to hike", "ex": "Am Wochenende wandern wir in den Bergen.", "ex_en": "At the weekend we hike in the mountains."},
+        {"de": "schwimmen", "pos": "verb", "en": "to swim", "ex": "Im Sommer schwimme ich gern im See.", "ex_en": "In summer I like swimming in the lake."},
+        {"de": "treffen", "pos": "verb", "en": "to meet", "ex": "Wir treffen uns um sieben vor dem Kino.", "ex_en": "We're meeting at seven outside the cinema."},
+        {"de": "vorhaben", "pos": "verb", "en": "to plan, to have planned (separable)", "ex": "Was hast du am Samstag vor?", "ex_en": "What are you doing on Saturday?"},
+        {"de": "langweilig", "pos": "adj", "en": "boring", "ex": "Der Film war ziemlich langweilig.", "ex_en": "The film was pretty boring."},
+        {"de": "spannend", "pos": "adj", "en": "exciting, gripping", "ex": "Das Buch ist total spannend.", "ex_en": "The book is really gripping."},
+        {"de": "Hast du Lust mitzukommen?", "pos": "phrase", "en": "Do you fancy coming along?", "ex": "Wir gehen bouldern. Hast du Lust mitzukommen?", "ex_en": "We're going bouldering. Fancy coming along?"},
+        {"de": "Wie wäre es mit …?", "pos": "phrase", "en": "How about …?", "ex": "Wie wäre es mit Samstagnachmittag?", "ex_en": "How about Saturday afternoon?"},
+        {"de": "Da kann ich leider nicht.", "pos": "phrase", "en": "I can't make it then, unfortunately.", "ex": "Freitag? Da kann ich leider nicht.", "ex_en": "Friday? I can't make it then, unfortunately."},
+        {"de": "Das klingt gut!", "pos": "phrase", "en": "That sounds good!", "ex": "Grillen am See? Das klingt gut!", "ex_en": "A barbecue by the lake? That sounds good!"}
+      ],
+      "dialogue": {
+        "setting": "A friend calls on Thursday evening to make plans for the weekend.",
+        "steps": [
+          {"npc": "Hi! Hast du am Samstag schon was vor?", "npc_en": "Hi! Have you got plans for Saturday?",
+           "options": [
+             {"de": "Nein, noch nicht. Warum fragst du?", "ok": true},
+             {"de": "Nein, ich habe nichts vorhaben.", "ok": false, "why": "vorhaben is separable: Ich habe nichts vor."},
+             {"de": "Nein, noch nicht. Warum fragst?", "ok": false, "why": "The subject is missing: Warum fragst du?"}
+           ]},
+          {"npc": "Wir wollen wandern gehen. Hast du Lust mitzukommen?", "npc_en": "We want to go hiking. Do you fancy coming along?",
+           "options": [
+             {"de": "Ja, gern! Wohin wollt ihr denn wandern?", "ok": true},
+             {"de": "Ja, gern! Wohin wollen ihr denn wandern?", "ok": false, "why": "With ihr the verb ends in -t: ihr wollt."},
+             {"de": "Ja, gern! Wo wollt ihr denn wandern hin?", "ok": false, "why": "Put wohin together at the start: Wohin wollt ihr wandern?"}
+           ]},
+          {"npc": "Zu einem See in der Nähe. Danach gehen wir in den Biergarten.", "npc_en": "To a lake nearby. Afterwards we're going to the beer garden.",
+           "options": [
+             {"de": "Das klingt super. Wann treffen wir uns?", "ok": true},
+             {"de": "Das klingt super. Wann treffen uns wir?", "ok": false, "why": "The reflexive pronoun comes after the subject: treffen wir uns."},
+             {"de": "Das klingt super. Wann wir treffen uns?", "ok": false, "why": "In W-questions the verb comes second: Wann treffen wir uns?"}
+           ]},
+          {"npc": "Um neun am Bahnhof. Bring was zu trinken mit!", "npc_en": "At nine at the station. Bring something to drink!",
+           "options": [
+             {"de": "Mach ich. Bis Samstag!", "ok": true},
+             {"de": "Mach ich. Bis am Samstag!", "ok": false, "why": "No am after bis: Bis Samstag!"},
+             {"de": "Ich bringe mit was zu trinken. Bis Samstag!", "ok": false, "why": "The prefix mit goes to the end: Ich bringe was zu trinken mit."}
+           ]}
+        ]
+      }
+    },
+    {
+      "slug": "kleidung",
+      "title": "Kleidung kaufen",
+      "title_en": "Buying clothes",
+      "week": 12,
+      "items": [
+        {"de": "Kleidung", "art": "die", "pos": "noun", "en": "clothes, clothing", "ex": "Kleidung kaufe ich meistens online.", "ex_en": "I mostly buy clothes online."},
+        {"de": "Hose", "art": "die", "pl": "Hosen", "pos": "noun", "en": "trousers", "ex": "Die Hose ist mir zu lang.", "ex_en": "The trousers are too long for me."},
+        {"de": "Hemd", "art": "das", "pl": "Hemden", "pos": "noun", "en": "shirt", "ex": "Für das Vorstellungsgespräch brauche ich ein neues Hemd.", "ex_en": "I need a new shirt for the interview."},
+        {"de": "Jacke", "art": "die", "pl": "Jacken", "pos": "noun", "en": "jacket", "ex": "Nimm eine Jacke mit, es wird kalt.", "ex_en": "Take a jacket, it's getting cold."},
+        {"de": "Schuh", "art": "der", "pl": "Schuhe", "pos": "noun", "en": "shoe", "ex": "Die Schuhe sind neu und noch etwas hart.", "ex_en": "The shoes are new and still a bit stiff."},
+        {"de": "Größe", "art": "die", "pl": "Größen", "pos": "noun", "en": "size", "ex": "Welche Größe haben Sie?", "ex_en": "What size are you?"},
+        {"de": "Umkleidekabine", "art": "die", "pl": "Umkleidekabinen", "pos": "noun", "en": "changing room", "ex": "Die Umkleidekabinen sind hinten links.", "ex_en": "The changing rooms are at the back on the left."},
+        {"de": "Farbe", "art": "die", "pl": "Farben", "pos": "noun", "en": "colour", "ex": "Haben Sie das auch in einer anderen Farbe?", "ex_en": "Do you have this in another colour?"},
+        {"de": "Rabatt", "art": "der", "pl": "Rabatte", "pos": "noun", "en": "discount", "ex": "Heute gibt es 20 Prozent Rabatt auf alle Jacken.", "ex_en": "Today there's 20 percent off all jackets."},
+        {"de": "anprobieren", "pos": "verb", "en": "to try on (separable)", "ex": "Kann ich die Hose anprobieren?", "ex_en": "Can I try on the trousers?"},
+        {"de": "passen", "pos": "verb", "en": "to fit; to suit (a plan)", "ex": "Die Jacke passt mir perfekt.", "ex_en": "The jacket fits me perfectly."},
+        {"de": "stehen", "pos": "verb", "en": "to stand; to suit (someone)", "ex": "Die Farbe steht dir gut.", "ex_en": "That colour suits you."},
+        {"de": "umtauschen", "pos": "verb", "en": "to exchange (separable)", "ex": "Kann ich das Hemd umtauschen, wenn es nicht passt?", "ex_en": "Can I exchange the shirt if it doesn't fit?"},
+        {"de": "zurückgeben", "pos": "verb", "en": "to return, give back (separable)", "ex": "Ich möchte diese Schuhe zurückgeben.", "ex_en": "I'd like to return these shoes."},
+        {"de": "eng", "pos": "adj", "en": "tight, narrow", "ex": "Die Hose ist an den Beinen zu eng.", "ex_en": "The trousers are too tight in the legs."},
+        {"de": "bequem", "pos": "adj", "en": "comfortable", "ex": "Diese Schuhe sind wirklich bequem.", "ex_en": "These shoes are really comfortable."},
+        {"de": "Ich schaue mich nur um.", "pos": "phrase", "en": "I'm just looking.", "ex": "Danke, ich schaue mich nur um.", "ex_en": "Thanks, I'm just looking."},
+        {"de": "Haben Sie das eine Nummer größer?", "pos": "phrase", "en": "Do you have this a size bigger?", "ex": "Haben Sie das eine Nummer größer? Die ist zu klein.", "ex_en": "Do you have this a size bigger? This one's too small."},
+        {"de": "Ich nehme es.", "pos": "phrase", "en": "I'll take it.", "ex": "Das passt super. Ich nehme es.", "ex_en": "That fits great. I'll take it."},
+        {"de": "Gibt es das auch in Schwarz?", "pos": "phrase", "en": "Is this also available in black?", "ex": "Schöner Pullover! Gibt es das auch in Schwarz?", "ex_en": "Nice jumper! Is it also available in black?"}
+      ],
+      "dialogue": {
+        "setting": "In a clothes shop. A sales assistant comes over to you.",
+        "steps": [
+          {"npc": "Hallo! Suchen Sie etwas Bestimmtes?", "npc_en": "Hello! Are you looking for anything in particular?",
+           "options": [
+             {"de": "Danke, ich schaue mich nur um.", "ok": true},
+             {"de": "Danke, ich schaue nur um.", "ok": false, "why": "sich umschauen is reflexive: Ich schaue mich um."},
+             {"de": "Danke, ich umschaue mich nur.", "ok": false, "why": "umschauen is separable: Ich schaue mich nur um."}
+           ]},
+          {"npc": "Gerne. Sagen Sie Bescheid, wenn Sie Hilfe brauchen.", "npc_en": "Sure. Let me know if you need help.",
+           "options": [
+             {"de": "Ach, doch: Haben Sie diese Hose eine Nummer größer?", "ok": true},
+             {"de": "Ach, doch: Haben Sie diese Hose ein Nummer größer?", "ok": false, "why": "Nummer is feminine: eine Nummer."},
+             {"de": "Ach, doch: Haben Sie diese Hose eine Nummer großer?", "ok": false, "why": "The comparative of groß has an umlaut: größer."}
+           ]},
+          {"npc": "Ja, hier, in 34. Die Umkleidekabinen sind dort hinten.", "npc_en": "Yes, here, in a 34. The changing rooms are back there.",
+           "options": [
+             {"de": "Danke. … Hm, sie passt mir leider nicht. Sie ist zu eng.", "ok": true},
+             {"de": "Danke. … Hm, sie passt mich leider nicht. Sie ist zu eng.", "ok": false, "why": "passen takes the dative: Sie passt mir."},
+             {"de": "Danke. … Hm, sie passt mir leider nicht. Sie ist zu enge.", "ok": false, "why": "After sein the adjective has no ending: zu eng."}
+           ]},
+          {"npc": "Schade. Wir haben sie auch in 36, aber nur in Blau.", "npc_en": "Shame. We also have them in a 36, but only in blue.",
+           "options": [
+             {"de": "Okay, dann probiere ich die blaue an.", "ok": true},
+             {"de": "Okay, dann probiere ich die blau an.", "ok": false, "why": "Standing in for the noun, the adjective needs an ending: die blaue."},
+             {"de": "Okay, dann anprobiere ich die blaue.", "ok": false, "why": "anprobieren is separable: Ich probiere … an."}
+           ]}
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+[
+  {
+    "id": "hund",
+    "article": "der",
+    "word": "Hund",
+    "en": "dog",
+    "emoji": "🐕"
+  },
+  {
+    "id": "katze",
+    "article": "die",
+    "word": "Katze",
+    "en": "cat",
+    "emoji": "🐈"
+  },
+  {
+    "id": "haus",
+    "article": "das",
+    "word": "Haus",
+    "en": "house",
+    "emoji": "🏠"
+  },
+  {
+    "id": "baum",
+    "article": "der",
+    "word": "Baum",
+    "en": "tree",
+    "emoji": "🌳"
+  },
+  {
+    "id": "blume",
+    "article": "die",
+    "word": "Blume",
+    "en": "flower",
+    "emoji": "🌼"
+  },
+  {
+    "id": "buch",
+    "article": "das",
+    "word": "Buch",
+    "en": "book",
+    "emoji": "📖"
+  },
+  {
+    "id": "apfel",
+    "article": "der",
+    "word": "Apfel",
+    "en": "apple",
+    "emoji": "🍎"
+  },
+  {
+    "id": "banane",
+    "article": "die",
+    "word": "Banane",
+    "en": "banana",
+    "emoji": "🍌"
+  },
+  {
+    "id": "brot",
+    "article": "das",
+    "word": "Brot",
+    "en": "bread",
+    "emoji": "🍞"
+  },
+  {
+    "id": "tisch",
+    "article": "der",
+    "word": "Tisch",
+    "en": "table",
+    "emoji": "🪑"
+  },
+  {
+    "id": "lampe",
+    "article": "die",
+    "word": "Lampe",
+    "en": "lamp",
+    "emoji": "💡"
+  },
+  {
+    "id": "bett",
+    "article": "das",
+    "word": "Bett",
+    "en": "bed",
+    "emoji": "🛏️"
+  },
+  {
+    "id": "stuhl",
+    "article": "der",
+    "word": "Stuhl",
+    "en": "chair",
+    "emoji": "🪑"
+  },
+  {
+    "id": "tuer",
+    "article": "die",
+    "word": "Tür",
+    "en": "door",
+    "emoji": "🚪"
+  },
+  {
+    "id": "fenster",
+    "article": "das",
+    "word": "Fenster",
+    "en": "window",
+    "emoji": "🪟"
+  },
+  {
+    "id": "ball",
+    "article": "der",
+    "word": "Ball",
+    "en": "ball",
+    "emoji": "⚽"
+  },
+  {
+    "id": "uhr",
+    "article": "die",
+    "word": "Uhr",
+    "en": "clock",
+    "emoji": "🕒"
+  },
+  {
+    "id": "fahrrad",
+    "article": "das",
+    "word": "Fahrrad",
+    "en": "bicycle",
+    "emoji": "🚲"
+  },
+  {
+    "id": "fisch",
+    "article": "der",
+    "word": "Fisch",
+    "en": "fish",
+    "emoji": "🐟"
+  },
+  {
+    "id": "sonne",
+    "article": "die",
+    "word": "Sonne",
+    "en": "sun",
+    "emoji": "☀️"
+  },
+  {
+    "id": "auto",
+    "article": "das",
+    "word": "Auto",
+    "en": "car",
+    "emoji": "🚗"
+  },
+  {
+    "id": "vogel",
+    "article": "der",
+    "word": "Vogel",
+    "en": "bird",
+    "emoji": "🐦"
+  },
+  {
+    "id": "wolke",
+    "article": "die",
+    "word": "Wolke",
+    "en": "cloud",
+    "emoji": "☁️"
+  },
+  {
+    "id": "kind",
+    "article": "das",
+    "word": "Kind",
+    "en": "child",
+    "emoji": "🧒"
+  },
+  {
+    "id": "zug",
+    "article": "der",
+    "word": "Zug",
+    "en": "train",
+    "emoji": "🚆"
+  },
+  {
+    "id": "tasche",
+    "article": "die",
+    "word": "Tasche",
+    "en": "bag",
+    "emoji": "👜"
+  },
+  {
+    "id": "ei",
+    "article": "das",
+    "word": "Ei",
+    "en": "egg",
+    "emoji": "🥚"
+  },
+  {
+    "id": "mond",
+    "article": "der",
+    "word": "Mond",
+    "en": "moon",
+    "emoji": "🌙"
+  },
+  {
+    "id": "schule",
+    "article": "die",
+    "word": "Schule",
+    "en": "school",
+    "emoji": "🏫"
+  },
+  {
+    "id": "wasser",
+    "article": "das",
+    "word": "Wasser",
+    "en": "water",
+    "emoji": "💧"
+  },
+  {
+    "id": "stern",
+    "article": "der",
+    "word": "Stern",
+    "en": "star",
+    "emoji": "⭐"
+  },
+  {
+    "id": "strasse",
+    "article": "die",
+    "word": "Straße",
+    "en": "street",
+    "emoji": "🛣️"
+  },
+  {
+    "id": "telefon",
+    "article": "das",
+    "word": "Telefon",
+    "en": "telephone",
+    "emoji": "☎️"
+  },
+  {
+    "id": "garten",
+    "article": "der",
+    "word": "Garten",
+    "en": "garden",
+    "emoji": "🌱"
+  },
+  {
+    "id": "flasche",
+    "article": "die",
+    "word": "Flasche",
+    "en": "bottle",
+    "emoji": "🍶"
+  },
+  {
+    "id": "bild",
+    "article": "das",
+    "word": "Bild",
+    "en": "picture",
+    "emoji": "🖼️"
+  }
+]

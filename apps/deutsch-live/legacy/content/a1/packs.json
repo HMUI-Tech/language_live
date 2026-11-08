@@ -1,0 +1,462 @@
+{
+  "level": "A1",
+  "version": "0.1.0",
+  "packs": [
+    {
+      "slug": "vorstellen",
+      "title": "Sich vorstellen",
+      "title_en": "Introducing yourself",
+      "week": 1,
+      "items": [
+        {"de": "heißen", "pos": "verb", "en": "to be called", "ex": "Ich heiße Anna.", "ex_en": "My name is Anna."},
+        {"de": "wohnen", "pos": "verb", "en": "to live (reside)", "ex": "Ich wohne in Berlin.", "ex_en": "I live in Berlin."},
+        {"de": "kommen", "pos": "verb", "en": "to come", "ex": "Ich komme aus Spanien.", "ex_en": "I come from Spain."},
+        {"de": "sprechen", "pos": "verb", "en": "to speak", "ex": "Ich spreche ein bisschen Deutsch.", "ex_en": "I speak a little German."},
+        {"de": "arbeiten", "pos": "verb", "en": "to work", "ex": "Ich arbeite als Ingenieur.", "ex_en": "I work as an engineer."},
+        {"de": "buchstabieren", "pos": "verb", "en": "to spell", "ex": "Können Sie das bitte buchstabieren?", "ex_en": "Can you spell that, please?"},
+        {"de": "Name", "art": "der", "pl": "Namen", "pos": "noun", "en": "name", "ex": "Mein Name ist Tom.", "ex_en": "My name is Tom."},
+        {"de": "Land", "art": "das", "pl": "Länder", "pos": "noun", "en": "country", "ex": "Aus welchem Land kommst du?", "ex_en": "Which country are you from?"},
+        {"de": "Stadt", "art": "die", "pl": "Städte", "pos": "noun", "en": "city, town", "ex": "Die Stadt ist schön.", "ex_en": "The town is nice."},
+        {"de": "Sprache", "art": "die", "pl": "Sprachen", "pos": "noun", "en": "language", "ex": "Welche Sprachen sprichst du?", "ex_en": "Which languages do you speak?"},
+        {"de": "Beruf", "art": "der", "pl": "Berufe", "pos": "noun", "en": "job, profession", "ex": "Was sind Sie von Beruf?", "ex_en": "What do you do for a living?"},
+        {"de": "Adresse", "art": "die", "pl": "Adressen", "pos": "noun", "en": "address", "ex": "Wie ist Ihre Adresse?", "ex_en": "What is your address?"},
+        {"de": "Telefonnummer", "art": "die", "pl": "Telefonnummern", "pos": "noun", "en": "phone number", "ex": "Hast du meine Telefonnummer?", "ex_en": "Do you have my phone number?"},
+        {"de": "alt", "pos": "adj", "en": "old", "ex": "Wie alt bist du?", "ex_en": "How old are you?"},
+        {"de": "verheiratet", "pos": "adj", "en": "married", "ex": "Ich bin nicht verheiratet.", "ex_en": "I am not married."},
+        {"de": "Freut mich!", "pos": "phrase", "en": "Nice to meet you!", "ex": "Ich bin Lena. – Freut mich!", "ex_en": "I'm Lena. – Nice to meet you!"},
+        {"de": "Wie heißen Sie?", "pos": "phrase", "en": "What is your name? (formal)", "ex": "Guten Tag! Wie heißen Sie?", "ex_en": "Hello! What is your name?"},
+        {"de": "Woher kommst du?", "pos": "phrase", "en": "Where are you from? (informal)", "ex": "Woher kommst du? – Aus Italien.", "ex_en": "Where are you from? – From Italy."},
+        {"de": "Ich bin neu hier.", "pos": "phrase", "en": "I am new here.", "ex": "Hallo, ich bin neu hier.", "ex_en": "Hi, I am new here."},
+        {"de": "Wie bitte?", "pos": "phrase", "en": "Pardon? / Sorry?", "ex": "Wie bitte? Noch einmal, bitte.", "ex_en": "Pardon? Once more, please."}
+      ],
+      "dialogue": {
+        "setting": "Your first day at a language course. The person next to you starts talking.",
+        "steps": [
+          {"npc": "Hallo! Ich bin Jonas. Und du?", "npc_en": "Hi! I'm Jonas. And you?",
+           "options": [
+             {"de": "Ich heiße Sam. Freut mich!", "ok": true},
+             {"de": "Ich heißt Sam.", "ok": false, "why": "With ich the verb ends in -e: ich heiße."},
+             {"de": "Mein Name bin Sam.", "ok": false, "why": "Mein Name ist … (ist, not bin)."}
+           ]},
+          {"npc": "Freut mich auch! Woher kommst du?", "npc_en": "Nice to meet you too! Where are you from?",
+           "options": [
+             {"de": "Ich komme aus Kanada.", "ok": true},
+             {"de": "Ich komme von Kanada.", "ok": false, "why": "For countries and cities of origin use aus: aus Kanada."},
+             {"de": "Ich wohne aus Kanada.", "ok": false, "why": "wohnen means to live somewhere: Ich wohne in …"}
+           ]},
+          {"npc": "Cool! Und wo wohnst du jetzt?", "npc_en": "Cool! And where do you live now?",
+           "options": [
+             {"de": "Jetzt wohne ich in Hamburg.", "ok": true},
+             {"de": "Jetzt ich wohne in Hamburg.", "ok": false, "why": "The verb is always in position 2: Jetzt wohne ich …"},
+             {"de": "Jetzt wohne ich nach Hamburg.", "ok": false, "why": "nach is for direction. Living somewhere uses in."}
+           ]},
+          {"npc": "Was machst du beruflich?", "npc_en": "What do you do for work?",
+           "options": [
+             {"de": "Ich arbeite als Krankenpfleger.", "ok": true},
+             {"de": "Ich arbeite als ein Krankenpfleger.", "ok": false, "why": "No article after als for jobs: Ich arbeite als Krankenpfleger."},
+             {"de": "Ich bin von Beruf arbeiten.", "ok": false, "why": "Say: Ich bin Krankenpfleger von Beruf."}
+           ]}
+        ]
+      }
+    },
+    {
+      "slug": "zeit",
+      "title": "Uhrzeit und Termine",
+      "title_en": "Time and appointments",
+      "week": 1,
+      "items": [
+        {"de": "Uhr", "art": "die", "pl": "Uhren", "pos": "noun", "en": "clock; o'clock", "ex": "Es ist acht Uhr.", "ex_en": "It is eight o'clock."},
+        {"de": "Stunde", "art": "die", "pl": "Stunden", "pos": "noun", "en": "hour", "ex": "Der Kurs dauert eine Stunde.", "ex_en": "The course lasts one hour."},
+        {"de": "Minute", "art": "die", "pl": "Minuten", "pos": "noun", "en": "minute", "ex": "Der Bus kommt in fünf Minuten.", "ex_en": "The bus comes in five minutes."},
+        {"de": "Tag", "art": "der", "pl": "Tage", "pos": "noun", "en": "day", "ex": "Ich lerne jeden Tag.", "ex_en": "I study every day."},
+        {"de": "Woche", "art": "die", "pl": "Wochen", "pos": "noun", "en": "week", "ex": "Nächste Woche habe ich Urlaub.", "ex_en": "Next week I'm on holiday."},
+        {"de": "Monat", "art": "der", "pl": "Monate", "pos": "noun", "en": "month", "ex": "Ich bin seit einem Monat hier.", "ex_en": "I have been here for a month."},
+        {"de": "Jahr", "art": "das", "pl": "Jahre", "pos": "noun", "en": "year", "ex": "Ich bin 30 Jahre alt.", "ex_en": "I am 30 years old."},
+        {"de": "Wochenende", "art": "das", "pl": "Wochenenden", "pos": "noun", "en": "weekend", "ex": "Am Wochenende schlafe ich lange.", "ex_en": "At the weekend I sleep in."},
+        {"de": "Termin", "art": "der", "pl": "Termine", "pos": "noun", "en": "appointment", "ex": "Ich habe morgen einen Termin.", "ex_en": "I have an appointment tomorrow."},
+        {"de": "Viertel", "art": "das", "pl": "Viertel", "pos": "noun", "en": "quarter", "ex": "Es ist Viertel nach drei.", "ex_en": "It is a quarter past three."},
+        {"de": "heute", "pos": "adv", "en": "today", "ex": "Heute ist Montag.", "ex_en": "Today is Monday."},
+        {"de": "morgen", "pos": "adv", "en": "tomorrow", "ex": "Bis morgen!", "ex_en": "See you tomorrow!"},
+        {"de": "gestern", "pos": "adv", "en": "yesterday", "ex": "Gestern war ich müde.", "ex_en": "Yesterday I was tired."},
+        {"de": "früh", "pos": "adj", "en": "early", "ex": "Ich stehe früh auf.", "ex_en": "I get up early."},
+        {"de": "spät", "pos": "adj", "en": "late", "ex": "Es ist schon spät.", "ex_en": "It's already late."},
+        {"de": "halb", "pos": "adv", "en": "half (to the next hour)", "ex": "Es ist halb acht.", "ex_en": "It is half past seven (7:30)."},
+        {"de": "Wie spät ist es?", "pos": "phrase", "en": "What time is it?", "ex": "Entschuldigung, wie spät ist es?", "ex_en": "Excuse me, what time is it?"},
+        {"de": "Um wie viel Uhr?", "pos": "phrase", "en": "At what time?", "ex": "Um wie viel Uhr fängt der Film an?", "ex_en": "What time does the film start?"},
+        {"de": "Hast du morgen Zeit?", "pos": "phrase", "en": "Are you free tomorrow?", "ex": "Hast du morgen Zeit? Wir können Kaffee trinken.", "ex_en": "Are you free tomorrow? We can have coffee."},
+        {"de": "Bis später!", "pos": "phrase", "en": "See you later!", "ex": "Tschüss, bis später!", "ex_en": "Bye, see you later!"}
+      ],
+      "dialogue": {
+        "setting": "You call a doctor's practice to make an appointment.",
+        "steps": [
+          {"npc": "Praxis Dr. Weber, guten Tag. Was kann ich für Sie tun?", "npc_en": "Dr. Weber's practice, hello. What can I do for you?",
+           "options": [
+             {"de": "Guten Tag, ich brauche einen Termin.", "ok": true},
+             {"de": "Guten Tag, ich brauche ein Termin.", "ok": false, "why": "Termin is masculine (der). After brauchen it takes the accusative: einen Termin."},
+             {"de": "Hallo, ich will Termin.", "ok": false, "why": "Too blunt and missing the article: Ich brauche einen Termin."}
+           ]},
+          {"npc": "Geht es am Donnerstag um halb zehn?", "npc_en": "Does Thursday at half past nine work?",
+           "options": [
+             {"de": "Ja, um 9:30 Uhr passt gut.", "ok": true},
+             {"de": "Ja, um 10:30 Uhr passt gut.", "ok": false, "why": "halb zehn means half an hour BEFORE ten: 9:30."},
+             {"de": "Ja, am halb zehn passt gut.", "ok": false, "why": "Clock times use um: um halb zehn."}
+           ]},
+          {"npc": "Gut. Wie ist Ihr Name, bitte?", "npc_en": "Good. What is your name, please?",
+           "options": [
+             {"de": "Mein Name ist Sam Taylor.", "ok": true},
+             {"de": "Mein Name heißt Sam Taylor.", "ok": false, "why": "Either Ich heiße … or Mein Name ist …"},
+             {"de": "Ich bin Name Sam Taylor.", "ok": false, "why": "Say: Mein Name ist Sam Taylor."}
+           ]},
+          {"npc": "Also Donnerstag, 9:30 Uhr. Bis dann!", "npc_en": "So Thursday, 9:30. See you then!",
+           "options": [
+             {"de": "Vielen Dank, auf Wiederhören!", "ok": true},
+             {"de": "Danke, auf Wiedersehen bis!", "ok": false, "why": "On the phone Germans say auf Wiederhören (hear you again)."},
+             {"de": "Tschüss, bis gestern!", "ok": false, "why": "gestern means yesterday. Use bis Donnerstag or auf Wiederhören."}
+           ]}
+        ]
+      }
+    },
+    {
+      "slug": "baeckerei",
+      "title": "In der Bäckerei",
+      "title_en": "At the bakery",
+      "week": 2,
+      "items": [
+        {"de": "Brot", "art": "das", "pl": "Brote", "pos": "noun", "en": "bread, loaf", "ex": "Ein Vollkornbrot, bitte.", "ex_en": "A wholegrain loaf, please."},
+        {"de": "Brötchen", "art": "das", "pl": "Brötchen", "pos": "noun", "en": "bread roll", "ex": "Ich nehme vier Brötchen.", "ex_en": "I'll take four rolls."},
+        {"de": "Brezel", "art": "die", "pl": "Brezeln", "pos": "noun", "en": "pretzel", "ex": "Eine Brezel kostet 1,20 Euro.", "ex_en": "A pretzel costs 1.20 euros."},
+        {"de": "Kuchen", "art": "der", "pl": "Kuchen", "pos": "noun", "en": "cake", "ex": "Der Kuchen ist sehr lecker.", "ex_en": "The cake is very tasty."},
+        {"de": "Stück", "art": "das", "pl": "Stücke", "pos": "noun", "en": "piece", "ex": "Ein Stück Apfelkuchen, bitte.", "ex_en": "A piece of apple cake, please."},
+        {"de": "Kaffee", "art": "der", "pl": "Kaffees", "pos": "noun", "en": "coffee", "ex": "Einen Kaffee zum Mitnehmen, bitte.", "ex_en": "A coffee to go, please."},
+        {"de": "Karte", "art": "die", "pl": "Karten", "pos": "noun", "en": "card", "ex": "Kann ich mit Karte zahlen?", "ex_en": "Can I pay by card?"},
+        {"de": "Tüte", "art": "die", "pl": "Tüten", "pos": "noun", "en": "bag (paper or plastic)", "ex": "Brauchen Sie eine Tüte?", "ex_en": "Do you need a bag?"},
+        {"de": "Euro", "art": "der", "pl": "Euro", "pos": "noun", "en": "euro", "ex": "Das kostet zwei Euro.", "ex_en": "That costs two euros."},
+        {"de": "kosten", "pos": "verb", "en": "to cost", "ex": "Was kostet das?", "ex_en": "How much is that?"},
+        {"de": "zahlen", "pos": "verb", "en": "to pay", "ex": "Ich zahle bar.", "ex_en": "I'll pay cash."},
+        {"de": "nehmen", "pos": "verb", "en": "to take", "ex": "Ich nehme das Croissant.", "ex_en": "I'll take the croissant."},
+        {"de": "frisch", "pos": "adj", "en": "fresh", "ex": "Die Brötchen sind ganz frisch.", "ex_en": "The rolls are really fresh."},
+        {"de": "bar", "pos": "adv", "en": "in cash", "ex": "Zahlen Sie bar oder mit Karte?", "ex_en": "Are you paying cash or by card?"},
+        {"de": "Ich hätte gern …", "pos": "phrase", "en": "I would like …", "ex": "Ich hätte gern zwei Brötchen.", "ex_en": "I'd like two rolls."},
+        {"de": "Sonst noch etwas?", "pos": "phrase", "en": "Anything else?", "ex": "Sonst noch etwas? – Nein, danke.", "ex_en": "Anything else? – No, thanks."},
+        {"de": "Das war's.", "pos": "phrase", "en": "That's all.", "ex": "Das war's, danke.", "ex_en": "That's all, thanks."},
+        {"de": "Zum Mitnehmen oder hier essen?", "pos": "phrase", "en": "To take away or eat in?", "ex": "Zum Mitnehmen, bitte.", "ex_en": "To take away, please."},
+        {"de": "Das macht …", "pos": "phrase", "en": "That comes to …", "ex": "Das macht 3,50 Euro.", "ex_en": "That comes to 3.50 euros."},
+        {"de": "Stimmt so.", "pos": "phrase", "en": "Keep the change.", "ex": "Hier sind vier Euro. Stimmt so.", "ex_en": "Here's four euros. Keep the change."}
+      ],
+      "dialogue": {
+        "setting": "Saturday morning at a busy bakery. It's your turn.",
+        "steps": [
+          {"npc": "Guten Morgen! Was darf's sein?", "npc_en": "Good morning! What can I get you?",
+           "options": [
+             {"de": "Guten Morgen! Ich hätte gern drei Brötchen.", "ok": true},
+             {"de": "Guten Morgen! Ich hätte gern drei Brötchens.", "ok": false, "why": "Brötchen stays the same in the plural: drei Brötchen."},
+             {"de": "Morgen! Gib mir drei Brötchen.", "ok": false, "why": "Use Sie and a polite form with staff: Ich hätte gern …"}
+           ]},
+          {"npc": "Gerne. Sonst noch etwas?", "npc_en": "Sure. Anything else?",
+           "options": [
+             {"de": "Ja, ein Stück Käsekuchen, bitte.", "ok": true},
+             {"de": "Ja, eine Stück Käsekuchen, bitte.", "ok": false, "why": "Stück is neuter (das): ein Stück."},
+             {"de": "Ja, ein Stück von Käsekuchen, bitte.", "ok": false, "why": "No von needed: ein Stück Käsekuchen."}
+           ]},
+          {"npc": "Zum Mitnehmen oder hier essen?", "npc_en": "To take away or eat in?",
+           "options": [
+             {"de": "Zum Mitnehmen, bitte.", "ok": true},
+             {"de": "Für mitnehmen, bitte.", "ok": false, "why": "The fixed phrase is zum Mitnehmen."},
+             {"de": "Ich esse mitnehmen.", "ok": false, "why": "Say: Zum Mitnehmen, bitte."}
+           ]},
+          {"npc": "Das macht 5,40 Euro. Bar oder mit Karte?", "npc_en": "That's 5.40. Cash or card?",
+           "options": [
+             {"de": "Mit Karte, bitte.", "ok": true},
+             {"de": "Mit die Karte, bitte.", "ok": false, "why": "mit takes the dative, and here no article: mit Karte."},
+             {"de": "Durch Karte, bitte.", "ok": false, "why": "Paying by card is mit Karte."}
+           ]}
+        ]
+      }
+    },
+    {
+      "slug": "supermarkt",
+      "title": "Im Supermarkt",
+      "title_en": "At the supermarket",
+      "week": 2,
+      "items": [
+        {"de": "Milch", "art": "die", "pl": null, "pos": "noun", "en": "milk", "ex": "Wir brauchen Milch.", "ex_en": "We need milk."},
+        {"de": "Ei", "art": "das", "pl": "Eier", "pos": "noun", "en": "egg", "ex": "Ich kaufe sechs Eier.", "ex_en": "I'm buying six eggs."},
+        {"de": "Käse", "art": "der", "pl": "Käse", "pos": "noun", "en": "cheese", "ex": "Der Käse ist im Angebot.", "ex_en": "The cheese is on offer."},
+        {"de": "Obst", "art": "das", "pl": null, "pos": "noun", "en": "fruit", "ex": "Das Obst ist ganz hinten.", "ex_en": "The fruit is right at the back."},
+        {"de": "Gemüse", "art": "das", "pl": null, "pos": "noun", "en": "vegetables", "ex": "Ich esse viel Gemüse.", "ex_en": "I eat a lot of vegetables."},
+        {"de": "Apfel", "art": "der", "pl": "Äpfel", "pos": "noun", "en": "apple", "ex": "Ein Kilo Äpfel, bitte.", "ex_en": "A kilo of apples, please."},
+        {"de": "Kartoffel", "art": "die", "pl": "Kartoffeln", "pos": "noun", "en": "potato", "ex": "Die Kartoffeln sind aus Bayern.", "ex_en": "The potatoes are from Bavaria."},
+        {"de": "Flasche", "art": "die", "pl": "Flaschen", "pos": "noun", "en": "bottle", "ex": "Eine Flasche Wasser, bitte.", "ex_en": "A bottle of water, please."},
+        {"de": "Pfand", "art": "das", "pl": null, "pos": "noun", "en": "bottle deposit", "ex": "Auf der Flasche sind 25 Cent Pfand.", "ex_en": "There's a 25-cent deposit on the bottle."},
+        {"de": "Kasse", "art": "die", "pl": "Kassen", "pos": "noun", "en": "checkout, till", "ex": "Die Kasse drei ist offen.", "ex_en": "Checkout three is open."},
+        {"de": "Kassenbon", "art": "der", "pl": "Kassenbons", "pos": "noun", "en": "receipt", "ex": "Brauchen Sie den Kassenbon?", "ex_en": "Do you need the receipt?"},
+        {"de": "Angebot", "art": "das", "pl": "Angebote", "pos": "noun", "en": "special offer", "ex": "Butter ist diese Woche im Angebot.", "ex_en": "Butter is on offer this week."},
+        {"de": "Einkaufswagen", "art": "der", "pl": "Einkaufswagen", "pos": "noun", "en": "shopping trolley", "ex": "Für den Einkaufswagen brauche ich einen Euro.", "ex_en": "I need a euro for the trolley."},
+        {"de": "brauchen", "pos": "verb", "en": "to need", "ex": "Brauchst du noch etwas?", "ex_en": "Do you need anything else?"},
+        {"de": "suchen", "pos": "verb", "en": "to look for", "ex": "Ich suche Reis.", "ex_en": "I'm looking for rice."},
+        {"de": "kaufen", "pos": "verb", "en": "to buy", "ex": "Wo kaufst du Brot?", "ex_en": "Where do you buy bread?"},
+        {"de": "teuer", "pos": "adj", "en": "expensive", "ex": "Das ist zu teuer.", "ex_en": "That's too expensive."},
+        {"de": "billig", "pos": "adj", "en": "cheap", "ex": "Die Bananen sind heute billig.", "ex_en": "Bananas are cheap today."},
+        {"de": "Wo finde ich …?", "pos": "phrase", "en": "Where can I find …?", "ex": "Entschuldigung, wo finde ich Mehl?", "ex_en": "Excuse me, where can I find flour?"},
+        {"de": "Haben Sie eine Kundenkarte?", "pos": "phrase", "en": "Do you have a loyalty card?", "ex": "Haben Sie eine Kundenkarte? – Nein.", "ex_en": "Do you have a loyalty card? – No."}
+      ],
+      "dialogue": {
+        "setting": "You can't find something and ask a member of staff, then pay.",
+        "steps": [
+          {"npc": "Kann ich Ihnen helfen?", "npc_en": "Can I help you?",
+           "options": [
+             {"de": "Ja, bitte. Wo finde ich Eier?", "ok": true},
+             {"de": "Ja, bitte. Wo finde ich die Eis?", "ok": false, "why": "Ei → Eier in the plural. Eis means ice cream."},
+             {"de": "Ja. Wo ich finde Eier?", "ok": false, "why": "In W-questions the verb comes second: Wo finde ich …?"}
+           ]},
+          {"npc": "Die Eier sind neben der Milch, Gang vier.", "npc_en": "The eggs are next to the milk, aisle four.",
+           "options": [
+             {"de": "Super, vielen Dank!", "ok": true},
+             {"de": "Super, danke viel!", "ok": false, "why": "The fixed phrase is vielen Dank or danke schön."},
+             {"de": "Gut, bitte schön!", "ok": false, "why": "bitte schön answers thanks. Here you are the one thanking."}
+           ]},
+          {"npc": "So, das macht 12,80 Euro. Haben Sie eine Kundenkarte?", "npc_en": "That's 12.80. Do you have a loyalty card?",
+           "options": [
+             {"de": "Nein, leider nicht.", "ok": true},
+             {"de": "Nein, ich habe keinen Kundenkarte.", "ok": false, "why": "Kundenkarte is feminine: keine Kundenkarte."},
+             {"de": "Nein, ich habe nicht eine Kundenkarte.", "ok": false, "why": "Negate nouns with kein: keine Kundenkarte."}
+           ]},
+          {"npc": "Brauchen Sie den Kassenbon?", "npc_en": "Do you need the receipt?",
+           "options": [
+             {"de": "Nein, danke. Schönen Tag noch!", "ok": true},
+             {"de": "Nein, danke. Schöne Tag noch!", "ok": false, "why": "Schönen Tag noch! (accusative -en ending)."},
+             {"de": "Nein, ich brauche keine Kassenbon.", "ok": false, "why": "Kassenbon is masculine: keinen Kassenbon."}
+           ]}
+        ]
+      }
+    },
+    {
+      "slug": "familie",
+      "title": "Familie",
+      "title_en": "Family",
+      "week": 3,
+      "items": [
+        {"de": "Familie", "art": "die", "pl": "Familien", "pos": "noun", "en": "family", "ex": "Meine Familie wohnt in London.", "ex_en": "My family lives in London."},
+        {"de": "Eltern", "art": "die", "pl": null, "pos": "noun", "en": "parents (plural only)", "ex": "Meine Eltern besuchen mich.", "ex_en": "My parents are visiting me."},
+        {"de": "Mutter", "art": "die", "pl": "Mütter", "pos": "noun", "en": "mother", "ex": "Meine Mutter ist Lehrerin.", "ex_en": "My mother is a teacher."},
+        {"de": "Vater", "art": "der", "pl": "Väter", "pos": "noun", "en": "father", "ex": "Mein Vater kocht gern.", "ex_en": "My father likes cooking."},
+        {"de": "Bruder", "art": "der", "pl": "Brüder", "pos": "noun", "en": "brother", "ex": "Das ist mein Bruder.", "ex_en": "This is my brother."},
+        {"de": "Schwester", "art": "die", "pl": "Schwestern", "pos": "noun", "en": "sister", "ex": "Meine Schwester ist älter als ich.", "ex_en": "My sister is older than me."},
+        {"de": "Geschwister", "art": "die", "pl": null, "pos": "noun", "en": "siblings (plural only)", "ex": "Hast du Geschwister?", "ex_en": "Do you have siblings?"},
+        {"de": "Kind", "art": "das", "pl": "Kinder", "pos": "noun", "en": "child", "ex": "Sie haben zwei Kinder.", "ex_en": "They have two children."},
+        {"de": "Sohn", "art": "der", "pl": "Söhne", "pos": "noun", "en": "son", "ex": "Ihr Sohn ist fünf.", "ex_en": "Her son is five."},
+        {"de": "Tochter", "art": "die", "pl": "Töchter", "pos": "noun", "en": "daughter", "ex": "Seine Tochter studiert.", "ex_en": "His daughter is at university."},
+        {"de": "Mann", "art": "der", "pl": "Männer", "pos": "noun", "en": "man; husband", "ex": "Ihr Mann arbeitet bei Siemens.", "ex_en": "Her husband works at Siemens."},
+        {"de": "Frau", "art": "die", "pl": "Frauen", "pos": "noun", "en": "woman; wife", "ex": "Seine Frau kommt aus Polen.", "ex_en": "His wife is from Poland."},
+        {"de": "Oma", "art": "die", "pl": "Omas", "pos": "noun", "en": "grandma", "ex": "Am Sonntag besuchen wir Oma.", "ex_en": "On Sunday we visit Grandma."},
+        {"de": "Opa", "art": "der", "pl": "Opas", "pos": "noun", "en": "grandpa", "ex": "Mein Opa ist 80 Jahre alt.", "ex_en": "My grandpa is 80."},
+        {"de": "ledig", "pos": "adj", "en": "single (not married)", "ex": "Ich bin ledig.", "ex_en": "I am single."},
+        {"de": "haben", "pos": "verb", "en": "to have", "ex": "Ich habe einen Bruder.", "ex_en": "I have one brother."},
+        {"de": "besuchen", "pos": "verb", "en": "to visit", "ex": "Ich besuche meine Eltern.", "ex_en": "I'm visiting my parents."},
+        {"de": "Hast du Kinder?", "pos": "phrase", "en": "Do you have children?", "ex": "Hast du Kinder? – Ja, eine Tochter.", "ex_en": "Do you have kids? – Yes, a daughter."},
+        {"de": "Wie geht's deiner Familie?", "pos": "phrase", "en": "How is your family?", "ex": "Wie geht's deiner Familie? – Gut, danke!", "ex_en": "How's your family? – Fine, thanks!"},
+        {"de": "Das ist mein …", "pos": "phrase", "en": "This is my …", "ex": "Das ist mein Vater und das ist meine Mutter.", "ex_en": "This is my father and this is my mother."}
+      ],
+      "dialogue": {
+        "setting": "A colleague sees a photo on your phone during the lunch break.",
+        "steps": [
+          {"npc": "Oh, ein schönes Foto! Wer ist das?", "npc_en": "Oh, a nice photo! Who is that?",
+           "options": [
+             {"de": "Das ist meine Schwester.", "ok": true},
+             {"de": "Das ist mein Schwester.", "ok": false, "why": "Schwester is feminine: meine Schwester."},
+             {"de": "Er ist meine Schwester.", "ok": false, "why": "To introduce someone in a photo, use Das ist …"}
+           ]},
+          {"npc": "Hast du noch mehr Geschwister?", "npc_en": "Do you have more siblings?",
+           "options": [
+             {"de": "Ja, ich habe auch zwei Brüder.", "ok": true},
+             {"de": "Ja, ich habe auch zwei Bruder.", "ok": false, "why": "Plural of Bruder is Brüder (with umlaut)."},
+             {"de": "Ja, ich habe auch zwei Brüdern.", "ok": false, "why": "Brüdern is dative. After haben: zwei Brüder."}
+           ]},
+          {"npc": "Und wo wohnt deine Familie?", "npc_en": "And where does your family live?",
+           "options": [
+             {"de": "Meine Eltern wohnen in Manchester.", "ok": true},
+             {"de": "Meine Eltern wohnt in Manchester.", "ok": false, "why": "Eltern is plural, so the verb is plural: wohnen."},
+             {"de": "Mein Eltern wohnen in Manchester.", "ok": false, "why": "Plural takes meine: meine Eltern."}
+           ]},
+          {"npc": "Besuchst du sie oft?", "npc_en": "Do you visit them often?",
+           "options": [
+             {"de": "Leider nicht oft, nur zweimal im Jahr.", "ok": true},
+             {"de": "Leider nicht oft, nur zweimal in Jahr.", "ok": false, "why": "im Jahr (in + dem)."},
+             {"de": "Ich besuche oft nicht sie.", "ok": false, "why": "Word order: Ich besuche sie nicht oft."}
+           ]}
+        ]
+      }
+    },
+    {
+      "slug": "weg",
+      "title": "Nach dem Weg fragen",
+      "title_en": "Asking for directions",
+      "week": 3,
+      "items": [
+        {"de": "Weg", "art": "der", "pl": "Wege", "pos": "noun", "en": "way, path", "ex": "Kennen Sie den Weg zum Rathaus?", "ex_en": "Do you know the way to the town hall?"},
+        {"de": "Straße", "art": "die", "pl": "Straßen", "pos": "noun", "en": "street", "ex": "Ich wohne in der Goethestraße.", "ex_en": "I live on Goethestraße."},
+        {"de": "Bahnhof", "art": "der", "pl": "Bahnhöfe", "pos": "noun", "en": "train station", "ex": "Der Bahnhof ist nicht weit.", "ex_en": "The station isn't far."},
+        {"de": "Haltestelle", "art": "die", "pl": "Haltestellen", "pos": "noun", "en": "bus/tram stop", "ex": "Die Haltestelle ist an der Ecke.", "ex_en": "The stop is at the corner."},
+        {"de": "Ampel", "art": "die", "pl": "Ampeln", "pos": "noun", "en": "traffic light", "ex": "An der Ampel gehen Sie links.", "ex_en": "At the lights, go left."},
+        {"de": "Kreuzung", "art": "die", "pl": "Kreuzungen", "pos": "noun", "en": "crossroads", "ex": "Nach der Kreuzung kommt die Post.", "ex_en": "After the crossroads is the post office."},
+        {"de": "Ecke", "art": "die", "pl": "Ecken", "pos": "noun", "en": "corner", "ex": "Das Café ist gleich um die Ecke.", "ex_en": "The café is just around the corner."},
+        {"de": "links", "pos": "adv", "en": "left", "ex": "Dann gehen Sie links.", "ex_en": "Then go left."},
+        {"de": "rechts", "pos": "adv", "en": "right", "ex": "Die Apotheke ist rechts.", "ex_en": "The pharmacy is on the right."},
+        {"de": "geradeaus", "pos": "adv", "en": "straight on", "ex": "Immer geradeaus.", "ex_en": "Keep going straight."},
+        {"de": "weit", "pos": "adj", "en": "far", "ex": "Ist es weit?", "ex_en": "Is it far?"},
+        {"de": "nah", "pos": "adj", "en": "near", "ex": "Der Supermarkt ist ganz nah.", "ex_en": "The supermarket is very close."},
+        {"de": "gehen", "pos": "verb", "en": "to go (on foot)", "ex": "Wir gehen zu Fuß.", "ex_en": "We're walking."},
+        {"de": "fahren", "pos": "verb", "en": "to go (by vehicle), to drive", "ex": "Ich fahre mit dem Bus.", "ex_en": "I'm going by bus."},
+        {"de": "Entschuldigung, wo ist …?", "pos": "phrase", "en": "Excuse me, where is …?", "ex": "Entschuldigung, wo ist die Post?", "ex_en": "Excuse me, where is the post office?"},
+        {"de": "Wie komme ich zum …?", "pos": "phrase", "en": "How do I get to the …?", "ex": "Wie komme ich zum Bahnhof?", "ex_en": "How do I get to the station?"},
+        {"de": "Ist das weit von hier?", "pos": "phrase", "en": "Is that far from here?", "ex": "Ist das weit von hier? – Fünf Minuten zu Fuß.", "ex_en": "Is it far? – Five minutes on foot."},
+        {"de": "zu Fuß", "pos": "phrase", "en": "on foot", "ex": "Ich gehe zu Fuß zur Arbeit.", "ex_en": "I walk to work."},
+        {"de": "die zweite Straße rechts", "pos": "phrase", "en": "the second street on the right", "ex": "Nehmen Sie die zweite Straße rechts.", "ex_en": "Take the second street on the right."},
+        {"de": "Ich kenne mich hier nicht aus.", "pos": "phrase", "en": "I don't know my way around here.", "ex": "Tut mir leid, ich kenne mich hier nicht aus.", "ex_en": "Sorry, I don't know my way around here."}
+      ],
+      "dialogue": {
+        "setting": "You just arrived in a new town and need the train station.",
+        "steps": [
+          {"npc": "Ja, bitte?", "npc_en": "Yes?",
+           "options": [
+             {"de": "Entschuldigung, wie komme ich zum Bahnhof?", "ok": true},
+             {"de": "Entschuldigung, wie komme ich zur Bahnhof?", "ok": false, "why": "Bahnhof is masculine: zu + dem = zum Bahnhof."},
+             {"de": "Entschuldigung, wo komme ich Bahnhof?", "ok": false, "why": "Use Wie komme ich zum …? or Wo ist der …?"}
+           ]},
+          {"npc": "Gehen Sie hier geradeaus und an der Ampel links.", "npc_en": "Go straight on here and left at the lights.",
+           "options": [
+             {"de": "Also geradeaus und dann links. Ist das weit?", "ok": true},
+             {"de": "Also geradeaus und dann rechts. Ist das weit?", "ok": false, "why": "Listen again: an der Ampel links."},
+             {"de": "Also gerade aus und dann links. Ist es weit weg von?", "ok": false, "why": "geradeaus is one word, and weit weg von needs an object."}
+           ]},
+          {"npc": "Nein, das sind nur zehn Minuten zu Fuß.", "npc_en": "No, it's only ten minutes on foot.",
+           "options": [
+             {"de": "Super. Fährt auch ein Bus?", "ok": true},
+             {"de": "Super. Geht auch ein Bus?", "ok": false, "why": "Vehicles fahren: Fährt ein Bus?"},
+             {"de": "Super. Gibt es auch Bus?", "ok": false, "why": "Missing article: Gibt es auch einen Bus?"}
+           ]},
+          {"npc": "Ja, die Linie 3, die Haltestelle ist da drüben.", "npc_en": "Yes, line 3, the stop is over there.",
+           "options": [
+             {"de": "Vielen Dank für Ihre Hilfe!", "ok": true},
+             {"de": "Vielen Dank für deine Hilfe!", "ok": false, "why": "You used Sie with a stranger, so stay with Ihre."},
+             {"de": "Danke für helfen!", "ok": false, "why": "Use the noun: Danke für Ihre Hilfe!"}
+           ]}
+        ]
+      }
+    },
+    {
+      "slug": "tagesablauf",
+      "title": "Mein Tag",
+      "title_en": "My daily routine",
+      "week": 4,
+      "items": [
+        {"de": "aufstehen", "pos": "verb", "en": "to get up (separable)", "ex": "Ich stehe um sieben Uhr auf.", "ex_en": "I get up at seven."},
+        {"de": "frühstücken", "pos": "verb", "en": "to have breakfast", "ex": "Wir frühstücken zusammen.", "ex_en": "We have breakfast together."},
+        {"de": "duschen", "pos": "verb", "en": "to shower", "ex": "Ich dusche morgens.", "ex_en": "I shower in the mornings."},
+        {"de": "anfangen", "pos": "verb", "en": "to start (separable)", "ex": "Die Arbeit fängt um neun an.", "ex_en": "Work starts at nine."},
+        {"de": "einkaufen", "pos": "verb", "en": "to do the shopping (separable)", "ex": "Nach der Arbeit kaufe ich ein.", "ex_en": "After work I do the shopping."},
+        {"de": "kochen", "pos": "verb", "en": "to cook", "ex": "Heute koche ich Nudeln.", "ex_en": "Today I'm cooking pasta."},
+        {"de": "fernsehen", "pos": "verb", "en": "to watch TV (separable)", "ex": "Abends sehe ich fern.", "ex_en": "In the evening I watch TV."},
+        {"de": "schlafen", "pos": "verb", "en": "to sleep", "ex": "Ich schlafe acht Stunden.", "ex_en": "I sleep eight hours."},
+        {"de": "Pause", "art": "die", "pl": "Pausen", "pos": "noun", "en": "break", "ex": "Um zwölf mache ich Pause.", "ex_en": "At twelve I take a break."},
+        {"de": "Mittagessen", "art": "das", "pl": "Mittagessen", "pos": "noun", "en": "lunch", "ex": "Das Mittagessen in der Kantine ist gut.", "ex_en": "Lunch in the canteen is good."},
+        {"de": "Feierabend", "art": "der", "pl": "Feierabende", "pos": "noun", "en": "end of the workday", "ex": "Um fünf habe ich Feierabend.", "ex_en": "I finish work at five."},
+        {"de": "Morgen", "art": "der", "pl": "Morgen", "pos": "noun", "en": "morning", "ex": "Am Morgen trinke ich Tee.", "ex_en": "In the morning I drink tea."},
+        {"de": "Abend", "art": "der", "pl": "Abende", "pos": "noun", "en": "evening", "ex": "Am Abend lese ich.", "ex_en": "In the evening I read."},
+        {"de": "müde", "pos": "adj", "en": "tired", "ex": "Ich bin heute sehr müde.", "ex_en": "I'm very tired today."},
+        {"de": "immer", "pos": "adv", "en": "always", "ex": "Ich trinke immer Kaffee.", "ex_en": "I always drink coffee."},
+        {"de": "oft", "pos": "adv", "en": "often", "ex": "Wir kochen oft zusammen.", "ex_en": "We often cook together."},
+        {"de": "manchmal", "pos": "adv", "en": "sometimes", "ex": "Manchmal gehe ich joggen.", "ex_en": "Sometimes I go jogging."},
+        {"de": "Was machst du am Wochenende?", "pos": "phrase", "en": "What are you doing at the weekend?", "ex": "Was machst du am Wochenende? – Ich treffe Freunde.", "ex_en": "What are you doing this weekend? – I'm meeting friends."},
+        {"de": "Ich habe keine Zeit.", "pos": "phrase", "en": "I don't have time.", "ex": "Heute habe ich keine Zeit, morgen gern.", "ex_en": "Today I have no time, tomorrow gladly."},
+        {"de": "Schönen Feierabend!", "pos": "phrase", "en": "Have a nice evening (after work)!", "ex": "Tschüss, schönen Feierabend!", "ex_en": "Bye, enjoy your evening!"}
+      ],
+      "dialogue": {
+        "setting": "A new friend asks about your typical day.",
+        "steps": [
+          {"npc": "Wann stehst du normalerweise auf?", "npc_en": "When do you usually get up?",
+           "options": [
+             {"de": "Ich stehe um halb sieben auf.", "ok": true},
+             {"de": "Ich aufstehe um halb sieben.", "ok": false, "why": "aufstehen is separable: Ich stehe … auf."},
+             {"de": "Ich stehe auf um halb sieben.", "ok": false, "why": "The prefix auf goes to the end of the clause."}
+           ]},
+          {"npc": "Und wann fängt deine Arbeit an?", "npc_en": "And when does your work start?",
+           "options": [
+             {"de": "Meine Arbeit fängt um acht Uhr an.", "ok": true},
+             {"de": "Meine Arbeit anfängt um acht Uhr.", "ok": false, "why": "Separable: fängt … an."},
+             {"de": "Meine Arbeit fangt um acht Uhr an.", "ok": false, "why": "anfangen changes its vowel: es fängt."}
+           ]},
+          {"npc": "Was machst du nach dem Feierabend?", "npc_en": "What do you do after work?",
+           "options": [
+             {"de": "Ich kaufe ein und dann koche ich.", "ok": true},
+             {"de": "Ich kaufe ein und dann ich koche.", "ok": false, "why": "After dann the verb comes next: dann koche ich."},
+             {"de": "Ich einkaufe und dann koche ich.", "ok": false, "why": "einkaufen is separable: ich kaufe ein."}
+           ]},
+          {"npc": "Und am Wochenende?", "npc_en": "And at the weekend?",
+           "options": [
+             {"de": "Am Wochenende schlafe ich lange.", "ok": true},
+             {"de": "Am Wochenende ich schlafe lange.", "ok": false, "why": "Verb second: Am Wochenende schlafe ich …"},
+             {"de": "Im Wochenende schlafe ich lange.", "ok": false, "why": "The preposition is am: am Wochenende."}
+           ]}
+        ]
+      }
+    },
+    {
+      "slug": "cafe",
+      "title": "Im Café",
+      "title_en": "At the café",
+      "week": 4,
+      "items": [
+        {"de": "Speisekarte", "art": "die", "pl": "Speisekarten", "pos": "noun", "en": "menu", "ex": "Kann ich bitte die Speisekarte haben?", "ex_en": "Can I have the menu, please?"},
+        {"de": "Getränk", "art": "das", "pl": "Getränke", "pos": "noun", "en": "drink", "ex": "Was möchten Sie als Getränk?", "ex_en": "What would you like to drink?"},
+        {"de": "Tisch", "art": "der", "pl": "Tische", "pos": "noun", "en": "table", "ex": "Ein Tisch für zwei, bitte.", "ex_en": "A table for two, please."},
+        {"de": "Rechnung", "art": "die", "pl": "Rechnungen", "pos": "noun", "en": "bill", "ex": "Die Rechnung, bitte!", "ex_en": "The bill, please!"},
+        {"de": "Trinkgeld", "art": "das", "pl": "Trinkgelder", "pos": "noun", "en": "tip", "ex": "In Deutschland gibt man etwa zehn Prozent Trinkgeld.", "ex_en": "In Germany people tip about ten percent."},
+        {"de": "Suppe", "art": "die", "pl": "Suppen", "pos": "noun", "en": "soup", "ex": "Die Suppe des Tages ist Tomatensuppe.", "ex_en": "The soup of the day is tomato soup."},
+        {"de": "Kellner", "art": "der", "pl": "Kellner", "pos": "noun", "en": "waiter", "ex": "Der Kellner kommt gleich.", "ex_en": "The waiter is coming right away."},
+        {"de": "bestellen", "pos": "verb", "en": "to order", "ex": "Möchten Sie schon bestellen?", "ex_en": "Would you like to order now?"},
+        {"de": "möchten", "pos": "verb", "en": "would like", "ex": "Ich möchte einen Tee.", "ex_en": "I'd like a tea."},
+        {"de": "reservieren", "pos": "verb", "en": "to book, reserve", "ex": "Ich möchte einen Tisch reservieren.", "ex_en": "I'd like to book a table."},
+        {"de": "lecker", "pos": "adj", "en": "tasty", "ex": "Das war sehr lecker!", "ex_en": "That was very tasty!"},
+        {"de": "vegetarisch", "pos": "adj", "en": "vegetarian", "ex": "Haben Sie auch etwas Vegetarisches?", "ex_en": "Do you have anything vegetarian?"},
+        {"de": "satt", "pos": "adj", "en": "full (after eating)", "ex": "Danke, ich bin satt.", "ex_en": "Thanks, I'm full."},
+        {"de": "Ist hier noch frei?", "pos": "phrase", "en": "Is this seat free?", "ex": "Entschuldigung, ist hier noch frei?", "ex_en": "Excuse me, is this seat free?"},
+        {"de": "Ich nehme …", "pos": "phrase", "en": "I'll have …", "ex": "Ich nehme die Suppe und ein Wasser.", "ex_en": "I'll have the soup and a water."},
+        {"de": "Zusammen oder getrennt?", "pos": "phrase", "en": "Together or separately?", "ex": "Zusammen oder getrennt? – Getrennt, bitte.", "ex_en": "One bill or separate? – Separate, please."},
+        {"de": "Hat es geschmeckt?", "pos": "phrase", "en": "Did you enjoy your meal?", "ex": "Hat es geschmeckt? – Ja, sehr gut!", "ex_en": "Did you enjoy it? – Yes, very much!"},
+        {"de": "Machen Sie 20.", "pos": "phrase", "en": "Make it 20 (including tip).", "ex": "Das macht 18,40. – Machen Sie 20.", "ex_en": "That's 18.40. – Make it 20."},
+        {"de": "Noch einen Kaffee, bitte.", "pos": "phrase", "en": "Another coffee, please.", "ex": "Entschuldigung, noch einen Kaffee, bitte.", "ex_en": "Excuse me, another coffee, please."},
+        {"de": "Guten Appetit!", "pos": "phrase", "en": "Enjoy your meal!", "ex": "Hier ist Ihre Suppe. Guten Appetit!", "ex_en": "Here's your soup. Enjoy!"}
+      ],
+      "dialogue": {
+        "setting": "Lunch with a friend at a café. The waiter comes to your table.",
+        "steps": [
+          {"npc": "Hallo! Was darf ich Ihnen bringen?", "npc_en": "Hello! What can I bring you?",
+           "options": [
+             {"de": "Ich nehme die Tomatensuppe, bitte.", "ok": true},
+             {"de": "Ich nehme der Tomatensuppe, bitte.", "ok": false, "why": "nehmen takes the accusative. Suppe is feminine, so die stays die."},
+             {"de": "Ich bekomme gern Tomatensuppe sein.", "ok": false, "why": "Use Ich nehme … or Ich hätte gern …"}
+           ]},
+          {"npc": "Und was möchten Sie trinken?", "npc_en": "And what would you like to drink?",
+           "options": [
+             {"de": "Ein Wasser, bitte. Ohne Kohlensäure.", "ok": true},
+             {"de": "Eine Wasser, bitte.", "ok": false, "why": "Wasser is neuter: ein Wasser."},
+             {"de": "Ich möchte trinken ein Wasser.", "ok": false, "why": "The infinitive goes to the end: Ich möchte ein Wasser trinken."}
+           ]},
+          {"npc": "Hat es geschmeckt?", "npc_en": "Did you enjoy it?",
+           "options": [
+             {"de": "Ja, sehr lecker, danke! Die Rechnung, bitte.", "ok": true},
+             {"de": "Ja, es hat sehr geschmeckt lecker.", "ok": false, "why": "Say: Ja, es war sehr lecker or Ja, sehr gut."},
+             {"de": "Ja, die Rechnung bitte, schmeckt.", "ok": false, "why": "Answer the question first: Ja, sehr lecker!"}
+           ]},
+          {"npc": "Zusammen oder getrennt?", "npc_en": "Together or separately?",
+           "options": [
+             {"de": "Getrennt, bitte. Ich zahle die Suppe und das Wasser.", "ok": true},
+             {"de": "Getrennt, bitte. Ich zahle das Suppe und das Wasser.", "ok": false, "why": "Suppe is feminine: die Suppe."},
+             {"de": "Getrennt, bitte. Ich zahle der Suppe.", "ok": false, "why": "Accusative: die Suppe."}
+           ]}
+        ]
+      }
+    }
+  ]
+}

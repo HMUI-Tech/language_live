@@ -1,0 +1,15 @@
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import vm from 'node:vm';
+class Node{constructor(tag,attrs,children){this.tag=tag;this.attrs=attrs;this.children=children;}replaceChildren(...c){this.children=c;}click(){return this.attrs.onclick?.();}}
+const h=(t,a={},...c)=>new Node(t,a,c.flat(Infinity).filter(x=>x!==null&&x!==undefined&&x!==false));
+const text=n=>typeof n==='object'?n.children.map(text).join(' '):String(n);
+const all=n=>typeof n==='object'?[n,...n.children.flatMap(all)]:[];
+test('shop purchases, cosmetics and all five content rewards render and work',async()=>{const ctx={window:{scrollTo(){},print(){}},document:{documentElement:{lang:fs.readFileSync('public/learn.html','utf8').includes('Italian Live')?'it':'de'}},Blob:class{},URL:{createObjectURL(){return''},revokeObjectURL(){}},setTimeout};for(const f of ['play-core','reading-data','rewards-data','rewards-core','rewards-ui'])vm.runInNewContext(fs.readFileSync('public/'+f+'.js','utf8'),ctx);const C=ctx.DLRewardCore;ctx.DLRewardUI=ctx.window.DLRewardUI;let w=C.empty();w.earned=2000;const act=async e=>{w=C.apply(w,e,{day:'2026-11-05',words:ctx.DLPlayCore.WORDS,stories:ctx.DLReadingStories.concat(ctx.DLRewardStories)});return w;};const root=ctx.DLRewardUI.create({h,getWallet:()=>w,act,guest:true});const button=label=>{const n=all(root).find(n=>n.tag==='button'&&text(n)===label);assert(n,'button '+label);return n;};
+ for(const item of C.CATALOG){await button('Unlock · '+item.price+' coins').click();await button('Confirm: spend '+item.price+' coins').click();assert(w.owned.includes(item.id));}
+ await button('My collection').click();assert(text(root).includes('Your companion stays happy'));
+ const open=async id=>{await button('Shop').click();const article=all(root).find(n=>n.tag==='article'&&text(n).includes(C.CATALOG.find(x=>x.id===id).title));await all(article).find(n=>n.tag==='button'&&text(n)==='Open reward').click();};
+ await open('print');assert(text(root).includes('Word search'));assert(text(root).includes('Answer sheet'));await button('Another worksheet').click();
+ await open('personal');assert(text(root).includes('My practice workshop'));
+ await open('branch');assert(text(root).includes(ctx.document.documentElement.lang==='it'?'Un’avventura al parco':'Ein Abenteuer im Park'));const first=all(root).find(n=>n.tag==='button'&&text(n)===ctx.DLRewardAdventure.start.choices[0][0]);await first.click();assert(text(root).includes(ctx.DLRewardAdventure.pond.text));
+ await open('bonus');assert(text(root).includes('Three bonus mysteries'));await all(root).find(n=>n.tag==='button'&&text(n)==='Read').click();const s=ctx.DLRewardStories[0];for(let i=0;i<3;i++){const fields=all(root).filter(n=>n.tag==='fieldset');const inputs=all(fields[i]).filter(n=>n.tag==='input');inputs[s.questions[i].answer].attrs.onchange();}await button('Check all answers').click();assert.equal(w.reading[s.id],3);
+ await open('journey');assert(text(root).includes('Seven stages at your pace'));assert(!text(root).includes('[object Object]'));assert(!text(root).includes(' null'));
+});

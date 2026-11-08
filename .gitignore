@@ -1,0 +1,16 @@
+**/node_modules/
+**/dist/
+**/.next/
+**/.vinext/
+**/.wrangler/
+**/.sites-runtime/
+**/coverage/
+**/outputs/
+**/.env*
+!**/.env.example
+**/.dev.vars*
+**/*.pem
+**/*.key
+**/*.tsbuildinfo
+**/*.log
+.DS_Store
